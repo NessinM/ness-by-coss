@@ -2,8 +2,8 @@
 
 import { Radio as RadioPrimitive } from "@base-ui/react/radio";
 import { RadioGroup as RadioGroupPrimitive } from "@base-ui/react/radio-group";
-import { cn } from "@coss/ui/lib/utils";
 import type React from "react";
+import { cn } from "@coss/ui/lib/utils";
 
 export function RadioGroup({
   className,

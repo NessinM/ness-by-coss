@@ -1,8 +1,8 @@
 "use client";
 
 import { Collapsible as CollapsiblePrimitive } from "@base-ui/react/collapsible";
-import { cn } from "@coss/ui/lib/utils";
 import type React from "react";
+import { cn } from "@coss/ui/lib/utils";
 
 export function Collapsible({
   ...props

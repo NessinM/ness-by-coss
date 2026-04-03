@@ -1,8 +1,8 @@
 "use client";
 
 import { Form as FormPrimitive } from "@base-ui/react/form";
-import { cn } from "@coss/ui/lib/utils";
 import type React from "react";
+import { cn } from "@coss/ui/lib/utils";
 
 export function Form({
   className,

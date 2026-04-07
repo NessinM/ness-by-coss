@@ -3,11 +3,11 @@ export interface ReferenceLink {
   url: string;
 }
 
-export const MOCK_AI_RESPONSE = `I'd be happy to help you with billing information for [Cal.com](http://Cal.com)! Here's what you need to know about billing and costs:
+export const MOCK_AI_RESPONSE = `I'd be happy to help you with billing information for [creantly.com](http://creantly.com)! Here's what you need to know about billing and costs:
 
 ## Credit System Overview
 
-[Cal.com](http://Cal.com) uses a credit-based system for messaging (SMS/WhatsApp) and AI phone calls. Credits work as a flexible payment method where **1 credit = $0.01 USD**.
+[creantly.com](http://creantly.com) uses a credit-based system for messaging (SMS/WhatsApp) and AI phone calls. Credits work as a flexible payment method where **1 credit = $0.01 USD**.
 
 ## Credit Allocations by Plan
 
@@ -39,77 +39,77 @@ export const MOCK_AI_RESPONSE = `I'd be happy to help you with billing informati
 
 ## Paid Bookings
 
-For collecting payments from clients, [Cal.com](http://Cal.com) integrates with Stripe. You can set up paid event types to receive payments when someone books with you.
+For collecting payments from clients, [creantly.com](http://creantly.com) integrates with Stripe. You can set up paid event types to receive payments when someone books with you.
 
 Would you like more details about any specific aspect of billing, such as setting up paid bookings or purchasing additional credits?`;
 
 export const MOCK_REFERENCE_LINKS: ReferenceLink[] = [
   {
     title: "Organizations (Enterprise)",
-    url: "https://cal.com/help/billing-and-usage/messaging-credits#organizations-enterprise",
+    url: "https://creantly.com/help/billing-and-usage/messaging-credits#organizations-enterprise",
   },
   {
     title: "Free Users",
-    url: "https://cal.com/help/billing-and-usage/messaging-credits#free-users",
+    url: "https://creantly.com/help/billing-and-usage/messaging-credits#free-users",
   },
   {
     title: "Credit System",
-    url: "https://cal.com/help/billing-and-usage/messaging-credits#credit-system",
+    url: "https://creantly.com/help/billing-and-usage/messaging-credits#credit-system",
   },
   {
     title: "How Many Credits Do You Get?",
-    url: "https://cal.com/help/workflows/credits#how-many-credits-do-you-get",
+    url: "https://creantly.com/help/workflows/credits#how-many-credits-do-you-get",
   },
   {
     title: "Segment-Based Billing",
-    url: "https://cal.com/help/billing-and-usage/messaging-credits#segment-based-billing",
+    url: "https://creantly.com/help/billing-and-usage/messaging-credits#segment-based-billing",
   },
   {
     title: "Team Plan",
-    url: "https://cal.com/help/billing-and-usage/messaging-credits#team-plan",
+    url: "https://creantly.com/help/billing-and-usage/messaging-credits#team-plan",
   },
   {
     title: "How to set up an event type to receive payments",
-    url: "https://cal.com/help/event-types/how-to-receive-payments#how-to-set-up-an-event-type-to-receive-payments",
+    url: "https://creantly.com/help/event-types/how-to-receive-payments#how-to-set-up-an-event-type-to-receive-payments",
   },
   {
     title: "Cal.ai",
-    url: "https://cal.com/help/billing-and-usage/messaging-credits#calai",
+    url: "https://creantly.com/help/billing-and-usage/messaging-credits#calai",
   },
   {
     title: "How does pricing work for Cal.ai? What is the cost per minute?",
-    url: "https://cal.com/help/cal-ai/cal-ai-help#how-does-pricing-work-for-calai-what-is-the-cost-per-minute",
+    url: "https://creantly.com/help/cal-ai/cal-ai-help#how-does-pricing-work-for-calai-what-is-the-cost-per-minute",
   },
   {
     title: "Overview of Credits",
-    url: "https://cal.com/help/billing-and-usage/messaging-credits#overview-of-credits",
+    url: "https://creantly.com/help/billing-and-usage/messaging-credits#overview-of-credits",
   },
   {
     title: "Multiple Field Connections",
-    url: "https://cal.com/help/routing/connect-routing-form-to-booking-questions#multiple-field-connections",
+    url: "https://creantly.com/help/routing/connect-routing-form-to-booking-questions#multiple-field-connections",
   },
   {
     title: "Paid Bookings",
-    url: "https://cal.com/help/bookings/paid-bookings#paid-bookings",
+    url: "https://creantly.com/help/bookings/paid-bookings#paid-bookings",
   },
   {
     title: "🌍 Other Countries",
-    url: "https://cal.com/help/billing-and-usage/messaging-credits#-other-countries",
+    url: "https://creantly.com/help/billing-and-usage/messaging-credits#-other-countries",
   },
   {
     title: "Create your account",
-    url: "https://cal.com/help/quick-start/create-account#create-your-account",
+    url: "https://creantly.com/help/quick-start/create-account#create-your-account",
   },
   {
     title: "The Solution: Matching Identifiers",
-    url: "https://cal.com/help/routing/connect-routing-form-to-booking-questions#the-solution-matching-identifiers",
+    url: "https://creantly.com/help/routing/connect-routing-form-to-booking-questions#the-solution-matching-identifiers",
   },
   {
     title: "Step 2: Create a Matching Booking Question",
-    url: "https://cal.com/help/routing/connect-routing-form-to-booking-questions#step-2-create-a-matching-booking-question",
+    url: "https://creantly.com/help/routing/connect-routing-form-to-booking-questions#step-2-create-a-matching-booking-question",
   },
   {
     title: "Booking Question Configuration",
-    url: "https://cal.com/help/routing/connect-routing-form-to-booking-questions#booking-question-configuration",
+    url: "https://creantly.com/help/routing/connect-routing-form-to-booking-questions#booking-question-configuration",
   },
 ];

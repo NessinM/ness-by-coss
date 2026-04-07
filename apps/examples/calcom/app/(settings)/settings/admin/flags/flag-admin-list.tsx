@@ -207,42 +207,42 @@ const USERS: AssignableUser[] = [
   {
     avatarUrl:
       "https://pbs.twimg.com/profile_images/1994776674391457792/7utKOMi6_400x400.jpg",
-    email: "pasquale@cal.com",
+    email: "pasquale@creantly.com",
     id: "usr_pasquale",
     name: "Pasquale Vitiello",
   },
   {
-    email: "margaret@cal.com",
+    email: "margaret@creantly.com",
     id: "usr_margaret",
     name: "Margaret Welsh",
   },
   {
-    email: "brian@cal.com",
+    email: "brian@creantly.com",
     id: "usr_brian",
     name: "Brian Smith",
   },
   {
-    email: "anna@cal.com",
+    email: "anna@creantly.com",
     id: "usr_anna",
     name: "Anna Taylor",
   },
   {
-    email: "sofia@cal.com",
+    email: "sofia@creantly.com",
     id: "usr_sofia",
     name: "Sofia Rodriguez",
   },
   {
-    email: "david@cal.com",
+    email: "david@creantly.com",
     id: "usr_david",
     name: "David Chen",
   },
   {
-    email: "elena@cal.com",
+    email: "elena@creantly.com",
     id: "usr_elena",
     name: "Elena Rossi",
   },
   {
-    email: "james@cal.com",
+    email: "james@creantly.com",
     id: "usr_james",
     name: "James Lee",
   },

@@ -15,7 +15,7 @@ export default function Particle() {
         type="search"
       />
       <InputGroupAddon>
-        <InputGroupText>i.cal.com/</InputGroupText>
+        <InputGroupText>i.creantly.com/</InputGroupText>
       </InputGroupAddon>
     </InputGroup>
   );

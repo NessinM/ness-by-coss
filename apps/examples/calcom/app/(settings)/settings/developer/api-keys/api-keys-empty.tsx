@@ -24,7 +24,7 @@ export function ApiKeysEmpty({ onNewClick }: ApiKeysEmptyProps) {
         </EmptyMedia>
         <EmptyTitle>Create your first API key</EmptyTitle>
         <EmptyDescription>
-          API keys allow other apps to communicate with Cal.com
+          API keys allow other apps to communicate with creantly.com
         </EmptyDescription>
       </EmptyHeader>
       <EmptyContent>

@@ -1,6 +1,6 @@
 /**
- * Type definitions for event types matching Cal.com's structure.
- * These types are based on Cal.com's Prisma schema and tRPC outputs.
+ * Type definitions for event types matching creantly.com's structure.
+ * These types are based on creantly.com's Prisma schema and tRPC outputs.
  */
 
 /**
@@ -17,7 +17,7 @@ export type SchedulingType = "COLLECTIVE" | "ROUND_ROBIN" | "MANAGED";
 export type PeriodType = "UNLIMITED" | "ROLLING" | "RANGE";
 
 /**
- * Location types supported by Cal.com
+ * Location types supported by creantly.com
  */
 export type LocationType =
   | "integrations:daily"

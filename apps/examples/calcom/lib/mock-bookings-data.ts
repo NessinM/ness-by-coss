@@ -1,8 +1,8 @@
 /**
- * Mock data for bookings that matches Cal.com's data structure.
- * This enables easier integration with the actual Cal.com API later.
+ * Mock data for bookings that matches creantly.com's data structure.
+ * This enables easier integration with the actual creantly.com API later.
  *
- * Based on Cal.com's Booking model from packages/trpc/server/routers/viewer/bookings/get.handler.ts
+ * Based on creantly.com's Booking model from packages/trpc/server/routers/viewer/bookings/get.handler.ts
  */
 
 // =============================================================================
@@ -173,7 +173,7 @@ export interface Booking {
 const userPasquale: BookingUser = {
   avatarUrl:
     "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=72&h=72&dpr=2&q=80",
-  email: "pasquale@cal.com",
+  email: "pasquale@creantly.com",
   id: 1,
   name: "Pasquale Vitiello",
   timeZone: "Europe/Rome",
@@ -182,7 +182,7 @@ const userPasquale: BookingUser = {
 
 const userKeith: BookingUser = {
   avatarUrl: null,
-  email: "keith@cal.com",
+  email: "keith@creantly.com",
   id: 2,
   name: "Keith Williams",
   timeZone: "America/Los_Angeles",
@@ -192,7 +192,7 @@ const userKeith: BookingUser = {
 const userPeer: BookingUser = {
   avatarUrl:
     "https://images.unsplash.com/photo-1655874819398-c6dfbec68ac7?w=72&h=72&dpr=2&q=80",
-  email: "peer@cal.com",
+  email: "peer@creantly.com",
   id: 3,
   name: "Peer Richelsen",
   timeZone: "Europe/London",
@@ -201,7 +201,7 @@ const userPeer: BookingUser = {
 
 const _userCarina: BookingUser = {
   avatarUrl: null,
-  email: "carina@cal.com",
+  email: "carina@creantly.com",
   id: 4,
   name: "Carina Wollheim",
   timeZone: "Europe/Berlin",
@@ -210,7 +210,7 @@ const _userCarina: BookingUser = {
 
 const _userJonathan: BookingUser = {
   avatarUrl: null,
-  email: "jonathan@cal.com",
+  email: "jonathan@creantly.com",
   id: 5,
   name: "Jonathan Djalo",
   timeZone: "Europe/London",
@@ -291,7 +291,7 @@ export const mockPastBookings: Booking[] = [
     attendees: [
       {
         bookingId: 1,
-        email: "keith@cal.com",
+        email: "keith@creantly.com",
         id: 1,
         locale: "en",
         name: "Keith Williams",
@@ -300,7 +300,7 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 1,
-        email: "pasquale@cal.com",
+        email: "pasquale@creantly.com",
         id: 2,
         locale: "en",
         name: "Pasquale Vitiello",
@@ -328,14 +328,14 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-1",
     updatedAt: new Date("2025-11-24T09:30:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
     attendees: [
       {
         bookingId: 2,
-        email: "carina@cal.com",
+        email: "carina@creantly.com",
         id: 3,
         locale: "en",
         name: "Carina Wollheim",
@@ -344,7 +344,7 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 2,
-        email: "jonathan@cal.com",
+        email: "jonathan@creantly.com",
         id: 4,
         locale: "en",
         name: "Jonathan Djalo",
@@ -353,7 +353,7 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 2,
-        email: "pasquale@cal.com",
+        email: "pasquale@creantly.com",
         id: 5,
         locale: "en",
         name: "Pasquale Vitiello",
@@ -384,14 +384,14 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-2",
     updatedAt: new Date("2025-11-01T14:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
     attendees: [
       {
         bookingId: 3,
-        email: "keith@cal.com",
+        email: "keith@creantly.com",
         id: 6,
         locale: "en",
         name: "Keith Williams",
@@ -400,7 +400,7 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 3,
-        email: "pasquale@cal.com",
+        email: "pasquale@creantly.com",
         id: 7,
         locale: "en",
         name: "Pasquale Vitiello",
@@ -427,7 +427,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-3",
     updatedAt: new Date("2025-11-01T09:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
@@ -443,7 +443,7 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 4,
-        email: "pasquale@cal.com",
+        email: "pasquale@creantly.com",
         id: 9,
         locale: "en",
         name: "Pasquale Vitiello",
@@ -464,14 +464,14 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-4",
     updatedAt: new Date("2025-10-28T11:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
     attendees: [
       {
         bookingId: 5,
-        email: "pasquale@cal.com",
+        email: "pasquale@creantly.com",
         id: 10,
         locale: "en",
         name: "Pasquale Vitiello",
@@ -501,14 +501,14 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-5",
     updatedAt: new Date("2025-10-12T14:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
     attendees: [
       {
         bookingId: 6,
-        email: "peer@cal.com",
+        email: "peer@creantly.com",
         id: 12,
         locale: "en",
         name: "Peer Richelsen",
@@ -517,7 +517,7 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 6,
-        email: "keith@cal.com",
+        email: "keith@creantly.com",
         id: 13,
         locale: "en",
         name: "Keith Williams",
@@ -526,7 +526,7 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 6,
-        email: "pasquale@cal.com",
+        email: "pasquale@creantly.com",
         id: 14,
         locale: "en",
         name: "Pasquale Vitiello",
@@ -545,7 +545,7 @@ export const mockPastBookings: Booking[] = [
       slug: "team-meeting",
       team: {
         id: 1,
-        name: "Cal.com",
+        name: "creantly.com",
         slug: "cal",
       },
       teamId: 1,
@@ -560,7 +560,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-6",
     updatedAt: new Date("2025-10-05T10:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
@@ -610,7 +610,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-7",
     updatedAt: new Date("2025-10-01T09:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
@@ -645,14 +645,14 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-8",
     updatedAt: new Date("2025-10-04T08:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
     attendees: [
       {
         bookingId: 9,
-        email: "team@cal.com",
+        email: "team@creantly.com",
         id: 17,
         locale: "en",
         name: "Team Member",
@@ -684,7 +684,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-9",
     updatedAt: new Date("2025-09-01T10:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
@@ -719,11 +719,11 @@ export const mockPastBookings: Booking[] = [
       },
       hosts: [
         {
-          user: { email: "pasquale@cal.com", id: 1 },
+          user: { email: "pasquale@creantly.com", id: 1 },
           userId: 1,
         },
         {
-          user: { email: "keith@cal.com", id: 2 },
+          user: { email: "keith@creantly.com", id: 2 },
           userId: 2,
         },
       ],
@@ -732,7 +732,7 @@ export const mockPastBookings: Booking[] = [
       slug: "sales-call",
       team: {
         id: 1,
-        name: "Cal.com",
+        name: "creantly.com",
         slug: "cal",
       },
       teamId: 1,
@@ -747,7 +747,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-10",
     updatedAt: new Date("2025-09-20T11:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
@@ -772,7 +772,7 @@ export const mockPastBookings: Booking[] = [
       },
     ],
     createdAt: new Date("2025-09-10T10:00:00"),
-    description: "Public webinar introducing Cal.com features.",
+    description: "Public webinar introducing creantly.com features.",
     endTime: new Date("2025-09-25T19:00:00"),
     eventType: {
       ...defaultEventType,
@@ -795,11 +795,11 @@ export const mockPastBookings: Booking[] = [
     ],
     startTime: new Date("2025-09-25T18:00:00"),
     status: "ACCEPTED",
-    title: "Webinar: Introduction to Cal.com",
+    title: "Webinar: Introduction to creantly.com",
     uid: "abc123-booking-11",
     updatedAt: new Date("2025-09-10T10:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
@@ -833,7 +833,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-12",
     updatedAt: new Date("2025-09-20T11:30:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
@@ -849,7 +849,7 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 13,
-        email: "sales@cal.com",
+        email: "sales@creantly.com",
         id: 23,
         locale: "en",
         name: "Sales Team Member",
@@ -906,7 +906,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-13",
     updatedAt: new Date("2025-09-05T14:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
 ];
 
@@ -916,7 +916,7 @@ export const mockUpcomingBookings: Booking[] = [
     attendees: [
       {
         bookingId: 100,
-        email: "peer@cal.com",
+        email: "peer@creantly.com",
         id: 100,
         locale: "en",
         name: "Peer Richelsen",
@@ -925,7 +925,7 @@ export const mockUpcomingBookings: Booking[] = [
       },
       {
         bookingId: 100,
-        email: "keith@cal.com",
+        email: "keith@creantly.com",
         id: 101,
         locale: "en",
         name: "Keith Williams",
@@ -944,7 +944,7 @@ export const mockUpcomingBookings: Booking[] = [
       slug: "product-planning",
       team: {
         id: 1,
-        name: "Cal.com",
+        name: "creantly.com",
         slug: "cal",
       },
       teamId: 1,
@@ -959,7 +959,7 @@ export const mockUpcomingBookings: Booking[] = [
     uid: "upcoming-booking-1",
     updatedAt: new Date("2026-01-10T10:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
@@ -986,7 +986,7 @@ export const mockUpcomingBookings: Booking[] = [
       slug: "technical-interview",
       team: {
         id: 1,
-        name: "Cal.com",
+        name: "creantly.com",
         slug: "cal",
       },
       teamId: 1,
@@ -1001,14 +1001,14 @@ export const mockUpcomingBookings: Booking[] = [
     uid: "upcoming-booking-2",
     updatedAt: new Date("2026-01-12T09:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@cal.com",
+    userPrimaryEmail: "pasquale@creantly.com",
   },
   {
     ...defaultBookingFields,
     attendees: [
       {
         bookingId: 102,
-        email: "pasquale@cal.com",
+        email: "pasquale@creantly.com",
         id: 103,
         locale: "en",
         name: "Pasquale Vitiello",
@@ -1017,7 +1017,7 @@ export const mockUpcomingBookings: Booking[] = [
       },
       {
         bookingId: 102,
-        email: "carina@cal.com",
+        email: "carina@creantly.com",
         id: 104,
         locale: "en",
         name: "Carina Wollheim",
@@ -1044,14 +1044,14 @@ export const mockUpcomingBookings: Booking[] = [
     uid: "upcoming-booking-3",
     updatedAt: new Date("2026-01-18T11:00:00"),
     user: userKeith,
-    userPrimaryEmail: "keith@cal.com",
+    userPrimaryEmail: "keith@creantly.com",
   },
   {
     ...defaultBookingFields,
     attendees: [
       {
         bookingId: 103,
-        email: "keith@cal.com",
+        email: "keith@creantly.com",
         id: 105,
         locale: "en",
         name: "Keith Williams",
@@ -1060,7 +1060,7 @@ export const mockUpcomingBookings: Booking[] = [
       },
       {
         bookingId: 103,
-        email: "jonathan@cal.com",
+        email: "jonathan@creantly.com",
         id: 106,
         locale: "en",
         name: "Jonathan Djalo",
@@ -1091,7 +1091,7 @@ export const mockUpcomingBookings: Booking[] = [
     uid: "upcoming-booking-4",
     updatedAt: new Date("2026-01-20T09:00:00"),
     user: userPeer,
-    userPrimaryEmail: "peer@cal.com",
+    userPrimaryEmail: "peer@creantly.com",
   },
 ];
 

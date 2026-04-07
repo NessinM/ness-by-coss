@@ -43,7 +43,7 @@ export function WebhooksEmpty({
           <EmptyTitle>Create your first webhook</EmptyTitle>
           <EmptyDescription>
             With webhooks you can receive meeting data in real-time when
-            something happens in Cal.com.
+            something happens in creantly.com.
           </EmptyDescription>
         </EmptyHeader>
         <EmptyContent>

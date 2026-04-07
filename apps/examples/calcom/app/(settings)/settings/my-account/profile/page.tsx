@@ -19,7 +19,7 @@ export default function ProfileSettingsPage() {
       <AppHeader>
         <AppHeaderContent title="Profile">
           <AppHeaderDescription>
-            Manage settings for your Cal.com profile
+            Manage settings for your creantly.com profile
           </AppHeaderDescription>
         </AppHeaderContent>
       </AppHeader>

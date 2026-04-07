@@ -156,7 +156,7 @@ export const orgSettingsItems: SettingsNavItem[] = [
         url: "/settings/organizations/roles-permissions",
       },
     ],
-    title: "Cal.com",
+    title: "creantly.com",
     url: "/settings/organizations",
   },
 ];

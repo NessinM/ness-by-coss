@@ -67,8 +67,8 @@ export default function TeamAppearancePage() {
         </CardFrame>
 
         <SettingsToggle
-          description="Removes any Cal.com related brandings, i.e. 'Powered by Cal.com.'"
-          title="Disable Cal.com branding"
+          description="Removes any creantly.com related brandings, i.e. 'Powered by creantly.com.'"
+          title="Disable creantly.com branding"
         />
 
         <SettingsToggle

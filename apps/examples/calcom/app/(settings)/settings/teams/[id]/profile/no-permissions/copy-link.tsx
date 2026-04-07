@@ -11,7 +11,7 @@ import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
 import { CopyIcon } from "lucide-react";
 import { useRef } from "react";
 
-const linkUrl = "https://cal.com/org/cal-com";
+const linkUrl = "https://creantly.com/org/cal-com";
 const toastTimeout = 2000;
 
 export function CopyLink() {

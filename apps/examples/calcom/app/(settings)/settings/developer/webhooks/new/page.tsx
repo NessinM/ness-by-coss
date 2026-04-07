@@ -24,7 +24,8 @@ export default function NewWebhookPage() {
       <AppHeader>
         <AppHeaderContent title="New webhook">
           <AppHeaderDescription>
-            Receive meeting data in real-time when something happens in Cal.com.
+            Receive meeting data in real-time when something happens in
+            creantly.com.
           </AppHeaderDescription>
         </AppHeaderContent>
       </AppHeader>

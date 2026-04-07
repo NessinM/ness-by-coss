@@ -84,7 +84,8 @@ export function ApiKeysPageContent() {
       <AppHeader>
         <AppHeaderContent title="API Keys">
           <AppHeaderDescription>
-            Create and manage API keys for authenticating with the Cal.com API
+            Create and manage API keys for authenticating with the creantly.com
+            API
           </AppHeaderDescription>
         </AppHeaderContent>
         {hasApiKeys && (

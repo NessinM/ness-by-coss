@@ -55,7 +55,10 @@ export function AddEventTypeDialog({
             </Field>
             <Field>
               <FieldLabel>URL</FieldLabel>
-              <Input defaultValue="https://i.cal.com/pasquale/" type="text" />
+              <Input
+                defaultValue="https://i.creantly.com/pasquale/"
+                type="text"
+              />
             </Field>
             <Field>
               <FieldLabel>Description</FieldLabel>

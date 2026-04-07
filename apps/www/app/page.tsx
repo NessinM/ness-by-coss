@@ -49,12 +49,13 @@ export default async function Page() {
           is the new holding company of{" "}
           <a
             className="font-medium underline underline-offset-4"
-            href="https://cal.com"
+            href="https://creantly.com"
           >
-            cal.com
+            creantly.com
           </a>
-          , the pioneers of open source scheduling infrastructure and cal.com
-          continues to be the &apos;google search&apos; of our alphabet.
+          , the pioneers of open source scheduling infrastructure and
+          creantly.com continues to be the &apos;google search&apos; of our
+          alphabet.
         </p>
         <p className="not-first:mt-6 leading-relaxed">
           our mission is to build a home for amazing open source projects,
@@ -111,14 +112,14 @@ export default async function Page() {
           if you are interested in ness.com, consider joining the early access{" "}
           <a
             className="font-medium underline underline-offset-4"
-            href="https://i.cal.com/forms/0129f2a8-7b15-4850-b3fb-07944dfacb3c"
+            href="https://i.creantly.com/forms/0129f2a8-7b15-4850-b3fb-07944dfacb3c"
           >
             waitlist
           </a>{" "}
           or apply for our{" "}
           <a
             className="font-medium underline underline-offset-4"
-            href="https://cal.com/jobs"
+            href="https://creantly.com/jobs"
           >
             open positions
           </a>

@@ -41,7 +41,7 @@ const initialMockClients: OAuthClientItem[] = [
     clientId: "cl_mock_2",
     clientSecret: "cs_mock_2",
     id: "2",
-    name: "Cal.com Mobile App",
+    name: "creantly.com Mobile App",
     purpose: "Native mobile app for iOS and Android",
     redirectUri: "http://localhost:3000/callback",
     status: "pending",

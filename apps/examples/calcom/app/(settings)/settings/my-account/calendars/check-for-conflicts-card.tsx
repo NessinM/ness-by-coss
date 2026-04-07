@@ -40,7 +40,7 @@ import {
 } from "@/components/list-item";
 
 const GOOGLE_CALENDAR_ICON =
-  "https://app.cal.com/app-store/googlecalendar/icon.svg";
+  "https://app.creantly.com/app-store/googlecalendar/icon.svg";
 
 const CONFLICT_INSTRUCTION =
   "Toggle the calendars you want to check for conflicts to prevent double bookings.";
@@ -48,10 +48,10 @@ const CONFLICT_INSTRUCTION =
 const calendarAccounts = [
   {
     calendars: [
-      { label: "example@cal.com", value: "example" },
+      { label: "example@creantly.com", value: "example" },
       { label: "Team", value: "team" },
     ],
-    email: "example@cal.com",
+    email: "example@creantly.com",
     showMenu: false,
   },
   {

@@ -91,7 +91,7 @@ interface EmailItem {
 }
 
 const emails: EmailItem[] = [
-  { email: "pasquale@cal.com", isPrimary: true, isVerified: true },
+  { email: "pasquale@creantly.com", isPrimary: true, isVerified: true },
   { email: "test@sfsfd.com", isPrimary: false, isVerified: false },
 ];
 
@@ -127,7 +127,7 @@ export function ProfileFields() {
             <FieldLabel>Username</FieldLabel>
             <InputGroup className="opacity-100! has-disabled:cursor-not-allowed has-disabled:bg-muted has-disabled:text-muted-foreground has-disabled:*:cursor-not-allowed">
               <InputGroupAddon>
-                <InputGroupText>i.cal.com/</InputGroupText>
+                <InputGroupText>i.creantly.com/</InputGroupText>
               </InputGroupAddon>
               <InputGroupInput
                 aria-label="Set your URL"
@@ -142,7 +142,7 @@ export function ProfileFields() {
                       <Button
                         aria-label="Copy URL"
                         onClick={() =>
-                          copyToClipboard("https://i.cal.com/pasquale")
+                          copyToClipboard("https://i.creantly.com/pasquale")
                         }
                         size="icon-xs"
                         variant="ghost"
@@ -159,7 +159,7 @@ export function ProfileFields() {
             </InputGroup>
             <FieldDescription>
               Tip: You can add a &apos;+&apos; between usernames (e.g.
-              cal.com/anna+brian) to meet with multiple people
+              creantly.com/anna+brian) to meet with multiple people
             </FieldDescription>
           </Field>
 

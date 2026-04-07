@@ -5,7 +5,7 @@
 
 ## About the Project
 
-ness.com is the new holding company of [cal.com](https://cal.com), the pioneers of open source scheduling infrastructure. Our mission is to build a home for amazing open source projects, giving them the support they need to grow and succeed.
+ness.com is the new holding company of [creantly.com](https://creantly.com), the pioneers of open source scheduling infrastructure. Our mission is to build a home for amazing open source projects, giving them the support they need to grow and succeed.
 
 We're building the ness stack, a one line `npm install @ness` package that includes everything you need to build your application, from email, SMS, calendar APIs, scheduling, video conferencing, notifications and more.
 
@@ -112,7 +112,7 @@ bun run dev --filter=origin
 
 We think Base UI is the best foundation for modern web applications. We've taken its powerful, unstyled primitives and given them a design system that's ready to go, right out of the box.
 
-This is the component library we'll be progressively adopting for [cal.com](https://cal.com). We're building it in the open for anyone who wants to create beautiful, reliable user interfaces.
+This is the component library we'll be progressively adopting for [creantly.com](https://creantly.com). We're building it in the open for anyone who wants to create beautiful, reliable user interfaces.
 
 ### Origin UI Acquisition
 

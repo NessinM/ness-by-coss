@@ -31,11 +31,11 @@ const DOCUMENT_SECTIONS = [
   {
     documents: [
       {
-        description: "View and download the DPA for Cal.com",
+        description: "View and download the DPA for creantly.com",
         id: "dpa",
         name: "Data protection agreement",
         restricted: false,
-        url: "https://go.cal.com/dpa",
+        url: "https://go.creantly.com/dpa",
       },
     ],
     title: "Data privacy",

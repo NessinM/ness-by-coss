@@ -116,13 +116,6 @@ export default async function Page() {
           >
             waitlist
           </a>{" "}
-          or apply for our{" "}
-          <a
-            className="font-medium underline underline-offset-4"
-            href="https://creantly.com/jobs"
-          >
-            open positions
-          </a>
           .
         </p>
         <p className="not-first:mt-6 leading-relaxed">best,</p>

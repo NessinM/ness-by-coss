@@ -1,4 +1,4 @@
-# coss Input
+# ness Input
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/input
+npx shadcn@latest add @ness/input
 ```
 
 Manual deps from docs:
@@ -32,7 +32,7 @@ import { Input } from "@/components/ui/input"
 Always set `type` explicitly on `Input` (`text`, `email`, `password`, `search`, `file`, etc.). Do not rely on browser defaults.
 For form fields, prefer wrapping `Input` with `Field` + `FieldLabel` + `FieldError` instead of standalone usage.
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

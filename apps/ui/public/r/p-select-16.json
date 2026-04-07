@@ -3,7 +3,7 @@
   "name": "p-select-16",
   "description": "Select with left text label",
   "registryDependencies": [
-    "@coss/select"
+    "@ness/select"
   ],
   "files": [
     {

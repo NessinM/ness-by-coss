@@ -3,12 +3,12 @@
   "name": "p-checkbox-group-5",
   "description": "Checkbox group form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/checkbox",
-    "@coss/checkbox-group",
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/form"
+    "@ness/button",
+    "@ness/checkbox",
+    "@ness/checkbox-group",
+    "@ness/field",
+    "@ness/fieldset",
+    "@ness/form"
   ],
   "files": [
     {

@@ -6,17 +6,17 @@
     "@tanstack/react-table"
   ],
   "registryDependencies": [
-    "https://coss.com/origin/r/alert-dialog.json",
-    "https://coss.com/origin/r/badge.json",
-    "https://coss.com/origin/r/button.json",
-    "https://coss.com/origin/r/checkbox.json",
-    "https://coss.com/origin/r/dropdown-menu.json",
-    "https://coss.com/origin/r/input.json",
-    "https://coss.com/origin/r/label.json",
-    "https://coss.com/origin/r/pagination.json",
-    "https://coss.com/origin/r/popover.json",
-    "https://coss.com/origin/r/select.json",
-    "https://coss.com/origin/r/table.json"
+    "https://ness.com/origin/r/alert-dialog.json",
+    "https://ness.com/origin/r/badge.json",
+    "https://ness.com/origin/r/button.json",
+    "https://ness.com/origin/r/checkbox.json",
+    "https://ness.com/origin/r/dropdown-menu.json",
+    "https://ness.com/origin/r/input.json",
+    "https://ness.com/origin/r/label.json",
+    "https://ness.com/origin/r/pagination.json",
+    "https://ness.com/origin/r/popover.json",
+    "https://ness.com/origin/r/select.json",
+    "https://ness.com/origin/r/table.json"
   ],
   "files": [
     {

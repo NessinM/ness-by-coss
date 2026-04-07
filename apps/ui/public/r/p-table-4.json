@@ -7,13 +7,13 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/button",
-    "@coss/checkbox",
-    "@coss/frame",
-    "@coss/pagination",
-    "@coss/select",
-    "@coss/table"
+    "@ness/badge",
+    "@ness/button",
+    "@ness/checkbox",
+    "@ness/frame",
+    "@ness/pagination",
+    "@ness/select",
+    "@ness/table"
   ],
   "files": [
     {

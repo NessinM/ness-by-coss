@@ -3,11 +3,11 @@
   "name": "p-dialog-1",
   "description": "Dialog with form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/dialog",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input"
+    "@ness/button",
+    "@ness/dialog",
+    "@ness/field",
+    "@ness/form",
+    "@ness/input"
   ],
   "files": [
     {

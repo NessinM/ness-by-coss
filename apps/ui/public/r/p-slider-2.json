@@ -3,8 +3,8 @@
   "name": "p-slider-2",
   "description": "Slider with label and value",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/slider"
+    "@ness/field",
+    "@ness/slider"
   ],
   "files": [
     {

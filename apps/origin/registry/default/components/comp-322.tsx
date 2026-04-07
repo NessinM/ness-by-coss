@@ -23,7 +23,7 @@ export default function Component() {
             <a className="text-foreground hover:underline" href="#">
               tutorials
             </a>
-            , read coss.com&lsquo;s{" "}
+            , read ness.com&lsquo;s{" "}
             <a className="text-foreground hover:underline" href="#">
               documentation
             </a>
@@ -38,7 +38,7 @@ export default function Component() {
           <Textarea
             aria-label="Send feedback"
             id="feedback"
-            placeholder="How can we improve coss.com?"
+            placeholder="How can we improve ness.com?"
           />
           <div className="flex flex-col sm:flex-row sm:justify-end">
             <Button type="button">Send feedback</Button>

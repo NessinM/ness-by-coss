@@ -3,7 +3,7 @@
   "name": "p-slider-10",
   "description": "Range slider with collision behavior swap",
   "registryDependencies": [
-    "@coss/slider"
+    "@ness/slider"
   ],
   "files": [
     {

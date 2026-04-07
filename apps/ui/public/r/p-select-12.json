@@ -3,7 +3,7 @@
   "name": "p-select-12",
   "description": "Select with disabled items",
   "registryDependencies": [
-    "@coss/select"
+    "@ness/select"
   ],
   "files": [
     {

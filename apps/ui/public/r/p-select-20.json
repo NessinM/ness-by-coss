@@ -3,8 +3,8 @@
   "name": "p-select-20",
   "description": "Rich select with avatars and usernames",
   "registryDependencies": [
-    "@coss/avatar",
-    "@coss/select"
+    "@ness/avatar",
+    "@ness/select"
   ],
   "files": [
     {

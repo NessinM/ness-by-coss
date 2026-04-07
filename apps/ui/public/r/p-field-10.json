@@ -3,8 +3,8 @@
   "name": "p-field-10",
   "description": "Field with textarea",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/textarea"
+    "@ness/field",
+    "@ness/textarea"
   ],
   "files": [
     {

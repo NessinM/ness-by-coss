@@ -3,7 +3,7 @@
   "name": "p-alert-1",
   "description": "Basic alert",
   "registryDependencies": [
-    "@coss/alert"
+    "@ness/alert"
   ],
   "files": [
     {

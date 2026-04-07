@@ -3,8 +3,8 @@
   "name": "p-field-11",
   "description": "Field with select",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/select"
+    "@ness/field",
+    "@ness/select"
   ],
   "files": [
     {

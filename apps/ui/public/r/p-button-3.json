@@ -3,7 +3,7 @@
   "name": "p-button-3",
   "description": "Secondary button",
   "registryDependencies": [
-    "@coss/button"
+    "@ness/button"
   ],
   "files": [
     {

@@ -3,8 +3,8 @@
   "name": "p-drawer-2",
   "description": "Bottom drawer without drag bar",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/drawer"
+    "@ness/button",
+    "@ness/drawer"
   ],
   "files": [
     {

@@ -1,4 +1,4 @@
-# coss Group
+# ness Group
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/group
+npx shadcn@latest add @ness/group
 ```
 
 Manual deps from docs:
@@ -34,7 +34,7 @@ import { Group, GroupSeparator } from "@/components/ui/group"
 </Group>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

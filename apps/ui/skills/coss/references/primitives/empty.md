@@ -1,4 +1,4 @@
-# coss Empty
+# ness Empty
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/empty
+npx shadcn@latest add @ness/empty
 ```
 
 Manual deps from docs:
@@ -47,7 +47,7 @@ import {
 </Empty>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

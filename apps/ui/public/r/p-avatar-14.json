@@ -3,7 +3,7 @@
   "name": "p-avatar-14",
   "description": "Large overlapping avatar group",
   "registryDependencies": [
-    "@coss/avatar"
+    "@ness/avatar"
   ],
   "files": [
     {

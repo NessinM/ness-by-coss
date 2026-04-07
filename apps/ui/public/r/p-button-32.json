@@ -3,8 +3,8 @@
   "name": "p-button-32",
   "description": "Button with notification badge",
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/button"
+    "@ness/badge",
+    "@ness/button"
   ],
   "files": [
     {

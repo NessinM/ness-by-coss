@@ -3,7 +3,7 @@
   "name": "p-input-5",
   "description": "File input",
   "registryDependencies": [
-    "@coss/input"
+    "@ness/input"
   ],
   "files": [
     {

@@ -1,45 +1,45 @@
-import { CodeBlock } from "@coss/ui/shared/code-block";
+import { CodeBlock } from "@ness/ui/shared/code-block";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "coss.com calendar",
+  title: "ness.com calendar",
 };
 
 export default function Page() {
-  const initialization = `import { coss } from '@coss';
+  const initialization = `import { ness } from '@ness';
 
-coss.calendar.init({
-  apiKey: process.env.COSS_KEY,
+ness.calendar.init({
+  apiKey: process.env.ness_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const authorization = `// Generate an OAuth link for Google Calendar
-const authUrl = coss.calendar.auth.getAuthUrl({
+const authUrl = ness.calendar.auth.getAuthUrl({
   provider: 'google',
   redirectUri: 'https://yourapp.com/callback',
 });
 
 // Exchange authorization code for access tokens
-await coss.calendar.auth.exchangeCode({
+await ness.calendar.auth.exchangeCode({
   provider: 'google',
   code: 'authorization_code_here',
   redirectUri: 'https://yourapp.com/callback',
 });`;
 
   const calendars = `// List calendars
-await coss.calendar.calendars.list({
+await ness.calendar.calendars.list({
   provider: 'google',
 });
 
 // Retrieve a calendar
-await coss.calendar.calendars.retrieve({
+await ness.calendar.calendars.retrieve({
   provider: 'google',
   calendarId: 'primary',
 });`;
 
   const events = `// Create an event
-await coss.calendar.events.create({
+await ness.calendar.events.create({
   provider: 'google',
   calendarId: 'primary',
   event: {
@@ -51,13 +51,13 @@ await coss.calendar.events.create({
 });
 
 // List events
-await coss.calendar.events.list({
+await ness.calendar.events.list({
   provider: 'google',
   calendarId: 'primary',
 });
 
 // Update an event
-await coss.calendar.events.update({
+await ness.calendar.events.update({
   provider: 'google',
   calendarId: 'primary',
   eventId: 'event_abc123',
@@ -67,29 +67,29 @@ await coss.calendar.events.update({
 });
 
 // Delete an event
-await coss.calendar.events.delete({
+await ness.calendar.events.delete({
   provider: 'google',
   calendarId: 'primary',
   eventId: 'event_abc123',
 });`;
 
   const webhooks = `// Webhook events
-coss.calendar.webhooks.on('event.created', (event) => {
+ness.calendar.webhooks.on('event.created', (event) => {
   console.log('Event created:', event.data);
 });
 
-coss.calendar.webhooks.on('event.updated', (event) => {
+ness.calendar.webhooks.on('event.updated', (event) => {
   console.log('Event updated:', event.data);
 });
 
-coss.calendar.webhooks.on('event.deleted', (event) => {
+ness.calendar.webhooks.on('event.deleted', (event) => {
   console.log('Event deleted:', event.data);
 });`;
 
   const utilities = `// Validate webhook signature
-const isValid = coss.calendar.utils.verifySignature({
+const isValid = ness.calendar.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['coss-calendar-signature'],
+  signature: req.headers['ness-calendar-signature'],
   secret: 'whsec_calendar_123',
 });`;
 

@@ -1,4 +1,4 @@
-# coss Progress
+# ness Progress
 
 ## When to use
 
@@ -13,7 +13,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/progress
+npx shadcn@latest add @ness/progress
 ```
 
 Manual deps from docs:
@@ -38,7 +38,7 @@ import {
 <Progress value={40} />
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

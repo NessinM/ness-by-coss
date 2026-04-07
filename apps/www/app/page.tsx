@@ -1,14 +1,14 @@
-import { CodeBlock } from "@coss/ui/shared/code-block";
-import { PageHeader, PageHeaderHeading } from "@coss/ui/shared/page-header";
+import { CodeBlock } from "@ness/ui/shared/code-block";
+import { PageHeader, PageHeaderHeading } from "@ness/ui/shared/page-header";
 
 export default async function Page() {
   const code = `"dependencies": {
-  "@coss/auth": "1.18.6",
-  "@coss/video": "1.18.6",
-  "@coss/calendar": "1.18.6",
-  "@coss/mail": "1.18.6",
-  "@coss/sms": "1.18.6",
-  "@coss/payments": "1.18.6"
+  "@ness/auth": "1.18.6",
+  "@ness/video": "1.18.6",
+  "@ness/calendar": "1.18.6",
+  "@ness/mail": "1.18.6",
+  "@ness/sms": "1.18.6",
+  "@ness/payments": "1.18.6"
 },`;
 
   return (
@@ -34,7 +34,7 @@ export default async function Page() {
           but building and maintaining open source is not easy. for open source
           to thrive, we need a sustainable model. that&apos;s where{" "}
           <strong className="font-medium">
-            commercial open source software (coss)
+            commercial open source software (ness)
           </strong>{" "}
           can come in: one of the best ways to create open, future-proof
           software while ensuring long-term success.
@@ -42,9 +42,9 @@ export default async function Page() {
         <p className="not-first:mt-6 leading-relaxed">
           <a
             className="font-medium underline underline-offset-4"
-            href="https://coss.com"
+            href="https://ness.com"
           >
-            coss.com
+            ness.com
           </a>{" "}
           is the new holding company of{" "}
           <a
@@ -61,9 +61,9 @@ export default async function Page() {
           giving them the support they need to grow and succeed.
         </p>
         <p className="not-first:mt-6 leading-relaxed">
-          for developers we are building the coss stack, a one line{" "}
+          for developers we are building the ness stack, a one line{" "}
           <code className="relative z-10 inline-block px-[0.3rem] py-[0.2rem] font-mono text-primary-foreground text-sm outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-primary">
-            npm install @coss
+            npm install @ness
           </code>{" "}
           package that includes everything you need to build your application,
           from email, sms, calendar APIs, scheduling, video conferencing,
@@ -79,7 +79,7 @@ export default async function Page() {
         />
 
         <p className="not-first:mt-6 leading-relaxed">
-          to achieve that, we are partnering up with the best-in-class coss
+          to achieve that, we are partnering up with the best-in-class ness
           companies in the space to offer a unified infrastructure API, react
           package and a single{" "}
           <code className="relative z-10 px-[0.3rem] py-[0.2rem] font-mono text-[.8125rem] outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-muted">
@@ -87,7 +87,7 @@ export default async function Page() {
           </code>{" "}
           environment key:{" "}
           <code className="relative z-10 px-[0.3rem] py-[0.2rem] font-mono text-primary-foreground text-sm outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-primary">
-            COSS_KEY=ITSTIMETOBUILD
+            ness_KEY=ITSTIMETOBUILD
           </code>
         </p>
         <p className="not-first:mt-6 leading-relaxed">
@@ -99,16 +99,16 @@ export default async function Page() {
           let us run the infrastructure, so you can focus on writing code.
         </p>
         <p className="not-first:mt-6 leading-relaxed">
-          open source is the future. and with coss, we&apos;re making sure that
+          open source is the future. and with ness, we&apos;re making sure that
           future is bright.
         </p>
         <p className="not-first:mt-6 leading-relaxed">
           and who knows… maybe one day you can purchase{" "}
-          <strong className="font-medium">$COSS</strong> on your favourite{" "}
+          <strong className="font-medium">$ness</strong> on your favourite{" "}
           <span className="line-through">stack</span> stock exchange.
         </p>
         <p className="not-first:mt-6 leading-relaxed">
-          if you are interested in coss.com, consider joining the early access{" "}
+          if you are interested in ness.com, consider joining the early access{" "}
           <a
             className="font-medium underline underline-offset-4"
             href="https://i.cal.com/forms/0129f2a8-7b15-4850-b3fb-07944dfacb3c"

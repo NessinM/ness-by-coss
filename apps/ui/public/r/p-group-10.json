@@ -3,8 +3,8 @@
   "name": "p-group-10",
   "description": "Nested groups",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group"
+    "@ness/button",
+    "@ness/group"
   ],
   "files": [
     {

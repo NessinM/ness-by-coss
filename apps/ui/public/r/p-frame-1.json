@@ -3,7 +3,7 @@
   "name": "p-frame-1",
   "description": "Basic frame",
   "registryDependencies": [
-    "@coss/frame"
+    "@ness/frame"
   ],
   "files": [
     {

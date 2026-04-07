@@ -3,7 +3,7 @@
   "name": "p-input-2",
   "description": "Small input",
   "registryDependencies": [
-    "@coss/input"
+    "@ness/input"
   ],
   "files": [
     {

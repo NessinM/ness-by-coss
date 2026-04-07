@@ -3,8 +3,8 @@
   "name": "p-button-28",
   "description": "Button with avatar",
   "registryDependencies": [
-    "@coss/avatar",
-    "@coss/button"
+    "@ness/avatar",
+    "@ness/button"
   ],
   "files": [
     {

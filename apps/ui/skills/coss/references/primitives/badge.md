@@ -1,4 +1,4 @@
-# coss Badge
+# ness Badge
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/badge
+npx shadcn@latest add @ness/badge
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Badge } from "@/components/ui/badge"
 <Badge>Badge</Badge>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

@@ -3,11 +3,11 @@
   "name": "p-radio-group-5",
   "description": "Radio group in form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/form",
-    "@coss/radio-group"
+    "@ness/button",
+    "@ness/field",
+    "@ness/fieldset",
+    "@ness/form",
+    "@ness/radio-group"
   ],
   "files": [
     {

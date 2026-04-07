@@ -3,7 +3,7 @@
   "name": "p-progress-2",
   "description": "Progress with label and value",
   "registryDependencies": [
-    "@coss/progress"
+    "@ness/progress"
   ],
   "files": [
     {

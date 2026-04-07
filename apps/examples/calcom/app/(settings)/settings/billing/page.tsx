@@ -1,10 +1,10 @@
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Card,
   CardFrameDescription,
   CardFrameTitle,
   CardPanel,
-} from "@coss/ui/components/card";
+} from "@ness/ui/components/card";
 import { ExternalLinkIcon } from "lucide-react";
 import Link from "next/link";
 import {

@@ -6,8 +6,8 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/tabs"
+    "@ness/badge",
+    "@ness/tabs"
   ],
   "files": [
     {

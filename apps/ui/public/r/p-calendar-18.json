@@ -6,9 +6,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/calendar",
-    "@coss/field",
-    "@coss/input-group"
+    "@ness/calendar",
+    "@ness/field",
+    "@ness/input-group"
   ],
   "files": [
     {

@@ -1,4 +1,4 @@
-# coss Toggle Group
+# ness Toggle Group
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/toggle-group
+npx shadcn@latest add @ness/toggle-group
 ```
 
 Manual deps from docs:
@@ -33,7 +33,7 @@ import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
 </ToggleGroup>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

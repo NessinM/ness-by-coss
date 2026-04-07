@@ -1,4 +1,4 @@
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Card,
   CardFrame,
@@ -6,7 +6,7 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@coss/ui/components/card";
+} from "@ness/ui/components/card";
 import { PlusIcon } from "lucide-react";
 import { CalendarsDemoForm } from "./calendars-demo-form";
 import { CheckForConflictsCard } from "./check-for-conflicts-card";

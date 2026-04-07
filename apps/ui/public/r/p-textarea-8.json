@@ -3,8 +3,8 @@
   "name": "p-textarea-8",
   "description": "Textarea with optional label",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/textarea"
+    "@ness/label",
+    "@ness/textarea"
   ],
   "files": [
     {

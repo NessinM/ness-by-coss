@@ -6,11 +6,11 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/card",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input"
+    "@ness/button",
+    "@ness/card",
+    "@ness/field",
+    "@ness/form",
+    "@ness/input"
   ],
   "files": [
     {

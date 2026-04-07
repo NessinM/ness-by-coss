@@ -3,9 +3,9 @@
   "name": "p-dialog-2",
   "description": "Dialog opened from menu",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/dialog",
-    "@coss/menu"
+    "@ness/button",
+    "@ness/dialog",
+    "@ness/menu"
   ],
   "files": [
     {

@@ -3,9 +3,9 @@
   "name": "p-group-19",
   "description": "Group with input and select",
   "registryDependencies": [
-    "@coss/group",
-    "@coss/input",
-    "@coss/select"
+    "@ness/group",
+    "@ness/input",
+    "@ness/select"
   ],
   "files": [
     {

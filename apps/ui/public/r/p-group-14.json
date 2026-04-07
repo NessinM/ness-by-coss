@@ -3,10 +3,10 @@
   "name": "p-group-14",
   "description": "Group with select",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/number-field",
-    "@coss/select"
+    "@ness/button",
+    "@ness/group",
+    "@ness/number-field",
+    "@ness/select"
   ],
   "files": [
     {

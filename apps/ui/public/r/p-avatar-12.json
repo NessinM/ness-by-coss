@@ -3,7 +3,7 @@
   "name": "p-avatar-12",
   "description": "Avatar with verified badge",
   "registryDependencies": [
-    "@coss/avatar"
+    "@ness/avatar"
   ],
   "files": [
     {

@@ -2,8 +2,8 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@coss/ui/components/avatar";
-import { Button } from "@coss/ui/components/button";
+} from "@ness/ui/components/avatar";
+import { Button } from "@ness/ui/components/button";
 import {
   Menu,
   MenuGroup,
@@ -11,7 +11,7 @@ import {
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@coss/ui/components/menu";
+} from "@ness/ui/components/menu";
 import { PlusIcon } from "lucide-react";
 
 export type CreateForOption = {

@@ -1,4 +1,4 @@
-# coss Textarea
+# ness Textarea
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/textarea
+npx shadcn@latest add @ness/textarea
 ```
 
 Manual deps from docs:
@@ -32,7 +32,7 @@ import { Textarea } from "@/components/ui/textarea"
 For form fields, prefer wrapping `Textarea` with `Field` + `FieldLabel` + `FieldError` so labels, validation, and errors stay semantically linked.
 `Textarea` already wraps Base UI `Field.Control` internally, so it works as a form control directly inside `Field` (no need to manually use `FieldControl` + `render` just to mount a textarea).
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

@@ -3,9 +3,9 @@
   "name": "p-input-9",
   "description": "Password input with toggle visibility",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/input-group",
-    "@coss/tooltip"
+    "@ness/button",
+    "@ness/input-group",
+    "@ness/tooltip"
   ],
   "files": [
     {

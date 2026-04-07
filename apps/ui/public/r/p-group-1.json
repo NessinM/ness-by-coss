@@ -3,9 +3,9 @@
   "name": "p-group-1",
   "description": "Basic group",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/menu"
+    "@ness/button",
+    "@ness/group",
+    "@ness/menu"
   ],
   "files": [
     {

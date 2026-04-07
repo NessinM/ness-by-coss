@@ -3,8 +3,8 @@
   "name": "p-input-16",
   "description": "Input group with end loading spinner",
   "registryDependencies": [
-    "@coss/input-group",
-    "@coss/spinner"
+    "@ness/input-group",
+    "@ness/spinner"
   ],
   "files": [
     {

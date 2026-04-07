@@ -57,7 +57,7 @@ export default function Component() {
                 <Textarea
                   aria-label="Send feedback"
                   id="feedback"
-                  placeholder="How can we improve coss.com?"
+                  placeholder="How can we improve ness.com?"
                 />
               </div>
             </div>

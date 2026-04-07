@@ -3,8 +3,8 @@
   "name": "p-field-8",
   "description": "Field with combobox",
   "registryDependencies": [
-    "@coss/combobox",
-    "@coss/field"
+    "@ness/combobox",
+    "@ness/field"
   ],
   "files": [
     {

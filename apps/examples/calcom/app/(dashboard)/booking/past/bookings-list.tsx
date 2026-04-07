@@ -1,29 +1,29 @@
 "use client";
 
-import { Badge } from "@coss/ui/components/badge";
-import { Button } from "@coss/ui/components/button";
+import { Badge } from "@ness/ui/components/badge";
+import { Button } from "@ness/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameFooter,
   CardPanel,
-} from "@coss/ui/components/card";
+} from "@ness/ui/components/card";
 import {
   Pagination,
   PaginationContent,
   PaginationItem,
   PaginationNext,
   PaginationPrevious,
-} from "@coss/ui/components/pagination";
+} from "@ness/ui/components/pagination";
 import {
   Select,
   SelectItem,
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@coss/ui/components/select";
-import { TooltipProvider } from "@coss/ui/components/tooltip";
-import { cn } from "@coss/ui/lib/utils";
+} from "@ness/ui/components/select";
+import { TooltipProvider } from "@ness/ui/components/tooltip";
+import { cn } from "@ness/ui/lib/utils";
 import {
   BanknoteIcon,
   CircleDashedIcon,

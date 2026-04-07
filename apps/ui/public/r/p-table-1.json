@@ -3,8 +3,8 @@
   "name": "p-table-1",
   "description": "Basic table",
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/table"
+    "@ness/badge",
+    "@ness/table"
   ],
   "files": [
     {

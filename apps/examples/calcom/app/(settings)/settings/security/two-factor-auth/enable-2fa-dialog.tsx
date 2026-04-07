@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Dialog,
   DialogClose,
@@ -10,19 +10,19 @@ import {
   DialogPanel,
   DialogPopup,
   DialogTitle,
-} from "@coss/ui/components/dialog";
-import { Field, FieldDescription, FieldLabel } from "@coss/ui/components/field";
-import { Input } from "@coss/ui/components/input";
+} from "@ness/ui/components/dialog";
+import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
+import { Input } from "@ness/ui/components/input";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@coss/ui/components/input-group";
+} from "@ness/ui/components/input-group";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@coss/ui/components/tooltip";
+} from "@ness/ui/components/tooltip";
 import { EyeIcon, EyeOffIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 

@@ -3,10 +3,10 @@
   "name": "p-textarea-6",
   "description": "Textarea in form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/form",
-    "@coss/textarea"
+    "@ness/button",
+    "@ness/field",
+    "@ness/form",
+    "@ness/textarea"
   ],
   "files": [
     {

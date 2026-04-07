@@ -1,4 +1,4 @@
-# coss Avatar
+# ness Avatar
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/avatar
+npx shadcn@latest add @ness/avatar
 ```
 
 Manual deps from docs:
@@ -32,7 +32,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 </Avatar>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

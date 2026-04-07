@@ -3,8 +3,8 @@
   "name": "p-radio-group-4",
   "description": "Radio group card",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/radio-group"
+    "@ness/label",
+    "@ness/radio-group"
   ],
   "files": [
     {

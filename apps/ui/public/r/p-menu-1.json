@@ -3,8 +3,8 @@
   "name": "p-menu-1",
   "description": "Basic menu",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/menu"
+    "@ness/button",
+    "@ness/menu"
   ],
   "files": [
     {

@@ -1,4 +1,4 @@
-# coss Toggle
+# ness Toggle
 
 ## When to use
 
@@ -13,7 +13,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/toggle
+npx shadcn@latest add @ness/toggle
 ```
 
 Manual deps from docs:
@@ -34,7 +34,7 @@ import { Toggle } from "@/components/ui/toggle"
 <Toggle>Toggle</Toggle>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

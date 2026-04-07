@@ -1,4 +1,4 @@
-# coss Scroll Area
+# ness Scroll Area
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/scroll-area
+npx shadcn@latest add @ness/scroll-area
 ```
 
 Manual deps from docs:
@@ -40,7 +40,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 </ScrollArea>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

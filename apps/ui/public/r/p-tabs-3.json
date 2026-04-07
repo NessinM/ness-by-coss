@@ -3,7 +3,7 @@
   "name": "p-tabs-3",
   "description": "Vertical tabs",
   "registryDependencies": [
-    "@coss/tabs"
+    "@ness/tabs"
   ],
   "files": [
     {

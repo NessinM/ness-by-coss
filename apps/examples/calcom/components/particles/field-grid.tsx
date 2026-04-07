@@ -1,4 +1,4 @@
-import { cn } from "@coss/ui/lib/utils";
+import { cn } from "@ness/ui/lib/utils";
 import type { JSX } from "react";
 
 function FieldGrid({

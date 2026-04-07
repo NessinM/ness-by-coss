@@ -1,7 +1,7 @@
 import "./globals.css";
 
-import { fontHeading, fontMono, fontSans } from "@coss/ui/fonts";
-import { ThemeProvider } from "@coss/ui/shared/theme-provider";
+import { fontHeading, fontMono, fontSans } from "@ness/ui/fonts";
+import { ThemeProvider } from "@ness/ui/shared/theme-provider";
 import type { Metadata } from "next";
 import {
   AnchoredToastProvider,
@@ -11,10 +11,10 @@ import { SiteHeader } from "@/components/site-header";
 
 export const metadata: Metadata = {
   description:
-    "coss ui is a collection of accessible, and composable React components. Built on top of Base UI and styled with Tailwind CSS,",
-  metadataBase: new URL("https://coss.com"),
+    "ness ui is a collection of accessible, and composable React components. Built on top of Base UI and styled with Tailwind CSS,",
+  metadataBase: new URL("https://ness.com"),
   title:
-    "coss ui - A new, modern UI component library built on top of Base UI. Built for developers and AI.",
+    "ness ui - A new, modern UI component library built on top of Base UI. Built for developers and AI.",
 };
 
 export default function RootLayout({

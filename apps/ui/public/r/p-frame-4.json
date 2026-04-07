@@ -3,8 +3,8 @@
   "name": "p-frame-4",
   "description": "Frame with multiple stacked panels",
   "registryDependencies": [
-    "@coss/frame",
-    "@coss/separator"
+    "@ness/frame",
+    "@ness/separator"
   ],
   "files": [
     {

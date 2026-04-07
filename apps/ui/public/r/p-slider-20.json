@@ -3,7 +3,7 @@
   "name": "p-slider-20",
   "description": "Equalizer with vertical sliders",
   "registryDependencies": [
-    "@coss/slider"
+    "@ness/slider"
   ],
   "files": [
     {

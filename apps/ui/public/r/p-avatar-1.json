@@ -3,7 +3,7 @@
   "name": "p-avatar-1",
   "description": "Avatar with image and fallback",
   "registryDependencies": [
-    "@coss/avatar"
+    "@ness/avatar"
   ],
   "files": [
     {

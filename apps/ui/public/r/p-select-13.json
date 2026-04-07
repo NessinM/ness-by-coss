@@ -3,7 +3,7 @@
   "name": "p-select-13",
   "description": "Timezone select",
   "registryDependencies": [
-    "@coss/select"
+    "@ness/select"
   ],
   "files": [
     {

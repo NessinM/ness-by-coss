@@ -3,7 +3,7 @@
   "name": "p-textarea-4",
   "description": "Disabled textarea",
   "registryDependencies": [
-    "@coss/textarea"
+    "@ness/textarea"
   ],
   "files": [
     {

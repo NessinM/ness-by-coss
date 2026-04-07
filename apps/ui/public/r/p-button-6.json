@@ -3,7 +3,7 @@
   "name": "p-button-6",
   "description": "Ghost button",
   "registryDependencies": [
-    "@coss/button"
+    "@ness/button"
   ],
   "files": [
     {

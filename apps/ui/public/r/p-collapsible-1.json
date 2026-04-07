@@ -6,7 +6,7 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/collapsible"
+    "@ness/collapsible"
   ],
   "files": [
     {

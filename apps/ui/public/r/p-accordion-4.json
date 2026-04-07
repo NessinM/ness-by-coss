@@ -3,8 +3,8 @@
   "name": "p-accordion-4",
   "description": "Controlled accordion",
   "registryDependencies": [
-    "@coss/accordion",
-    "@coss/button"
+    "@ness/accordion",
+    "@ness/button"
   ],
   "files": [
     {

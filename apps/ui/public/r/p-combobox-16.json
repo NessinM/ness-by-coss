@@ -3,7 +3,7 @@
   "name": "p-combobox-16",
   "description": "Timezone combobox",
   "registryDependencies": [
-    "@coss/combobox"
+    "@ness/combobox"
   ],
   "files": [
     {

@@ -3,13 +3,13 @@
   "name": "p-drawer-12",
   "description": "Responsive edit profile: dialog on desktop, drawer on mobile",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/dialog",
-    "@coss/drawer",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input",
-    "@coss/use-media-query"
+    "@ness/button",
+    "@ness/dialog",
+    "@ness/drawer",
+    "@ness/field",
+    "@ness/form",
+    "@ness/input",
+    "@ness/use-media-query"
   ],
   "files": [
     {

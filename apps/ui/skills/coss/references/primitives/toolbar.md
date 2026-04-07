@@ -1,4 +1,4 @@
-# coss Toolbar
+# ness Toolbar
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/toolbar
+npx shadcn@latest add @ness/toolbar
 ```
 
 Manual deps from docs:
@@ -51,7 +51,7 @@ import {
 </Toolbar>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 - **Part composition via `render`**: use `ToolbarButton render={<ToggleGroupItem ... />}` or `render={<Button ... />}` instead of re-implementing button behavior.
 - **Grouped layout**: use `ToolbarGroup` boundaries with `ToolbarSeparator` between logical command clusters.

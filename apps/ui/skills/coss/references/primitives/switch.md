@@ -1,4 +1,4 @@
-# coss Switch
+# ness Switch
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/switch
+npx shadcn@latest add @ness/switch
 ```
 
 Manual deps from docs:
@@ -38,7 +38,7 @@ import { Switch } from "@/components/ui/switch"
 </Label>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

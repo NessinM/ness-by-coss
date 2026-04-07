@@ -3,9 +3,9 @@
   "name": "p-group-20",
   "description": "Group with input and text button",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/input"
+    "@ness/button",
+    "@ness/group",
+    "@ness/input"
   ],
   "files": [
     {

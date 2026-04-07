@@ -3,8 +3,8 @@
   "name": "p-pagination-2",
   "description": "Pagination with previous and next buttons only",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/pagination"
+    "@ness/button",
+    "@ness/pagination"
   ],
   "files": [
     {

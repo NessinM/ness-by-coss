@@ -3,7 +3,7 @@
   "name": "p-input-group-24",
   "description": "Input group with character counter",
   "registryDependencies": [
-    "@coss/input-group"
+    "@ness/input-group"
   ],
   "files": [
     {

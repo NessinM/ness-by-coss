@@ -1,4 +1,4 @@
-# coss Input Otp
+# ness Input Otp
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/input-otp
+npx shadcn@latest add @ness/input-otp
 ```
 
 Manual deps from docs:
@@ -46,7 +46,7 @@ import {
 </InputOTP>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

@@ -3,9 +3,9 @@
   "name": "p-toast-8",
   "description": "Anchored toast",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/spinner",
-    "@coss/toast"
+    "@ness/button",
+    "@ness/spinner",
+    "@ness/toast"
   ],
   "files": [
     {

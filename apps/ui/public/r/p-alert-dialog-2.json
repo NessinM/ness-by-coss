@@ -3,8 +3,8 @@
   "name": "p-alert-dialog-2",
   "description": "Alert dialog with bare footer",
   "registryDependencies": [
-    "@coss/alert-dialog",
-    "@coss/button"
+    "@ness/alert-dialog",
+    "@ness/button"
   ],
   "files": [
     {

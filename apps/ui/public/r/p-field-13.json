@@ -3,10 +3,10 @@
   "name": "p-field-13",
   "description": "Field with checkbox group",
   "registryDependencies": [
-    "@coss/checkbox",
-    "@coss/checkbox-group",
-    "@coss/field",
-    "@coss/fieldset"
+    "@ness/checkbox",
+    "@ness/checkbox-group",
+    "@ness/field",
+    "@ness/fieldset"
   ],
   "files": [
     {

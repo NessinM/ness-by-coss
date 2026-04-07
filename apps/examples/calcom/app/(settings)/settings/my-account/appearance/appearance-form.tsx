@@ -1,7 +1,7 @@
 "use client";
 
-import { Field } from "@coss/ui/components/field";
-import { Fieldset } from "@coss/ui/components/fieldset";
+import { Field } from "@ness/ui/components/field";
+import { Fieldset } from "@ness/ui/components/fieldset";
 import { ImageRadioOption } from "@/components/particles";
 
 const themeItems = [

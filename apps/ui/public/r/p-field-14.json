@@ -3,9 +3,9 @@
   "name": "p-field-14",
   "description": "Field with radio group",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/radio-group"
+    "@ness/field",
+    "@ness/fieldset",
+    "@ness/radio-group"
   ],
   "files": [
     {

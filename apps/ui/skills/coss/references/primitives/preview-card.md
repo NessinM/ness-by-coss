@@ -1,4 +1,4 @@
-# coss Preview Card
+# ness Preview Card
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/preview-card
+npx shadcn@latest add @ness/preview-card
 ```
 
 Manual deps from docs:
@@ -37,7 +37,7 @@ import {
 </PreviewCard>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

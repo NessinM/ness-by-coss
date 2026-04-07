@@ -3,7 +3,7 @@
   "name": "p-combobox-15",
   "description": "Pill-shaped combobox",
   "registryDependencies": [
-    "@coss/combobox"
+    "@ness/combobox"
   ],
   "files": [
     {

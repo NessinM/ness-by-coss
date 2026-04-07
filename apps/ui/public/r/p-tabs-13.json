@@ -6,8 +6,8 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/tabs",
-    "@coss/tooltip"
+    "@ness/tabs",
+    "@ness/tooltip"
   ],
   "files": [
     {

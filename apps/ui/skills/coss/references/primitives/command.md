@@ -1,4 +1,4 @@
-# coss Command
+# ness Command
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/command
+npx shadcn@latest add @ness/command
 ```
 
 Manual deps from docs:
@@ -76,7 +76,7 @@ const items = [
 </CommandDialog>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

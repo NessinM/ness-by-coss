@@ -3,9 +3,9 @@
   "name": "p-tooltip-4",
   "description": "Vertical group with animated tooltip",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/tooltip"
+    "@ness/button",
+    "@ness/group",
+    "@ness/tooltip"
   ],
   "files": [
     {

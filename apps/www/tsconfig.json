@@ -10,7 +10,7 @@
     ]
   },
   "exclude": ["node_modules"],
-  "extends": "@coss/typescript-config/nextjs.json",
+  "extends": "@ness/typescript-config/nextjs.json",
   "include": [
     "**/*.ts",
     "**/*.tsx",

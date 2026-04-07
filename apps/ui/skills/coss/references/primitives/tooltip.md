@@ -1,4 +1,4 @@
-# coss Tooltip
+# ness Tooltip
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/tooltip
+npx shadcn@latest add @ness/tooltip
 ```
 
 Manual deps from docs:
@@ -46,7 +46,7 @@ import {
 </Tooltip>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

@@ -1,12 +1,12 @@
 "use client";
 
-import { Avatar, AvatarFallback } from "@coss/ui/components/avatar";
-import { Button } from "@coss/ui/components/button";
-import { Field, FieldDescription, FieldLabel } from "@coss/ui/components/field";
-import { Input } from "@coss/ui/components/input";
-import { Label } from "@coss/ui/components/label";
-import { Switch } from "@coss/ui/components/switch";
-import { Textarea } from "@coss/ui/components/textarea";
+import { Avatar, AvatarFallback } from "@ness/ui/components/avatar";
+import { Button } from "@ness/ui/components/button";
+import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
+import { Input } from "@ness/ui/components/input";
+import { Label } from "@ness/ui/components/label";
+import { Switch } from "@ness/ui/components/switch";
+import { Textarea } from "@ness/ui/components/textarea";
 import { KeyIcon } from "lucide-react";
 
 export interface OAuthClientFormDefaults {

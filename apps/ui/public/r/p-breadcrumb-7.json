@@ -6,8 +6,8 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/breadcrumb",
-    "@coss/select"
+    "@ness/breadcrumb",
+    "@ness/select"
   ],
   "files": [
     {

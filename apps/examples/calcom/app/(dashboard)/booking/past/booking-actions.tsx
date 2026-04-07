@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Menu,
   MenuGroup,
@@ -9,13 +9,13 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@coss/ui/components/menu";
-import { Skeleton } from "@coss/ui/components/skeleton";
+} from "@ness/ui/components/menu";
+import { Skeleton } from "@ness/ui/components/skeleton";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@coss/ui/components/tooltip";
+} from "@ness/ui/components/tooltip";
 import {
   CalendarClockIcon,
   EllipsisIcon,

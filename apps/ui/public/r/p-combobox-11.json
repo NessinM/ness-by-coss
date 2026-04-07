@@ -3,10 +3,10 @@
   "name": "p-combobox-11",
   "description": "Combobox form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/combobox",
-    "@coss/field",
-    "@coss/form"
+    "@ness/button",
+    "@ness/combobox",
+    "@ness/field",
+    "@ness/form"
   ],
   "files": [
     {

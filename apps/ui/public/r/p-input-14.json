@@ -3,8 +3,8 @@
   "name": "p-input-14",
   "description": "Input with optional label",
   "registryDependencies": [
-    "@coss/input",
-    "@coss/label"
+    "@ness/input",
+    "@ness/label"
   ],
   "files": [
     {

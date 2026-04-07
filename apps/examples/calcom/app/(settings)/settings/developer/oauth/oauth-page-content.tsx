@@ -8,9 +8,9 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@coss/ui/components/alert-dialog";
-import { Button } from "@coss/ui/components/button";
-import { Card, CardPanel } from "@coss/ui/components/card";
+} from "@ness/ui/components/alert-dialog";
+import { Button } from "@ness/ui/components/button";
+import { Card, CardPanel } from "@ness/ui/components/card";
 import { PlusIcon } from "lucide-react";
 import { useState } from "react";
 import { EditOAuthClientDialog } from "./edit-oauth-client-dialog";

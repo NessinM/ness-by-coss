@@ -3,8 +3,8 @@
   "name": "p-tooltip-3",
   "description": "Toggle group animated tooltip",
   "registryDependencies": [
-    "@coss/toggle-group",
-    "@coss/tooltip"
+    "@ness/toggle-group",
+    "@ness/tooltip"
   ],
   "files": [
     {

@@ -3,7 +3,7 @@
   "name": "p-input-group-13",
   "description": "Small input group",
   "registryDependencies": [
-    "@coss/input-group"
+    "@ness/input-group"
   ],
   "files": [
     {

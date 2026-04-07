@@ -3,7 +3,7 @@
   "name": "p-autocomplete-4",
   "description": "Large autocomplete",
   "registryDependencies": [
-    "@coss/autocomplete"
+    "@ness/autocomplete"
   ],
   "files": [
     {

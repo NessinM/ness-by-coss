@@ -7,17 +7,17 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/button",
-    "@coss/card",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input",
-    "@coss/label",
-    "@coss/select",
-    "@coss/separator",
-    "@coss/spinner",
-    "@coss/tabs"
+    "@ness/badge",
+    "@ness/button",
+    "@ness/card",
+    "@ness/field",
+    "@ness/form",
+    "@ness/input",
+    "@ness/label",
+    "@ness/select",
+    "@ness/separator",
+    "@ness/spinner",
+    "@ness/tabs"
   ],
   "files": [
     {

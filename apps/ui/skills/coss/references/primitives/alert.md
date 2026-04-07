@@ -1,4 +1,4 @@
-# coss Alert
+# ness Alert
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/alert
+npx shadcn@latest add @ness/alert
 ```
 
 Manual deps from docs:
@@ -40,7 +40,7 @@ import { Alert, AlertAction, AlertDescription, AlertTitle } from "@/components/u
 </Alert>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

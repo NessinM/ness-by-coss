@@ -3,7 +3,7 @@
   "name": "p-toggle-2",
   "description": "Toggle with outline",
   "registryDependencies": [
-    "@coss/toggle"
+    "@ness/toggle"
   ],
   "files": [
     {

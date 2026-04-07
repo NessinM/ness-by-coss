@@ -11,7 +11,7 @@ export default function Component() {
         I agree to the{" "}
         <a
           className="underline"
-          href="https://coss.com/origin"
+          href="https://ness.com/origin"
           rel="noreferrer"
           target="_blank"
         >

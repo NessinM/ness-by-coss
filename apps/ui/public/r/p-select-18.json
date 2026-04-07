@@ -3,7 +3,7 @@
   "name": "p-select-18",
   "description": "Select with description in options only",
   "registryDependencies": [
-    "@coss/select"
+    "@ness/select"
   ],
   "files": [
     {

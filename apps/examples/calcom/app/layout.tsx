@@ -3,17 +3,17 @@ import "./globals.css";
 import {
   AnchoredToastProvider,
   ToastProvider,
-} from "@coss/ui/components/toast";
-import { fontHeading, fontMono, fontSans } from "@coss/ui/fonts";
-import { ThemeProvider } from "@coss/ui/shared/theme-provider";
+} from "@ness/ui/components/toast";
+import { fontHeading, fontMono, fontSans } from "@ness/ui/fonts";
+import { ThemeProvider } from "@ness/ui/shared/theme-provider";
 import type { Metadata } from "next";
 import { AppCommand } from "@/components/app/app-command";
 import { DebugProvider } from "@/components/debug-context";
 
 export const metadata: Metadata = {
-  description: "coss.com - the everything but AI company",
-  metadataBase: new URL("https://coss.com"),
-  title: "coss.com",
+  description: "ness.com - the everything but AI company",
+  metadataBase: new URL("https://ness.com"),
+  title: "ness.com",
 };
 
 export default function RootLayout({

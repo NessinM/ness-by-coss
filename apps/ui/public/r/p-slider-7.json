@@ -3,7 +3,7 @@
   "name": "p-slider-7",
   "description": "Range slider",
   "registryDependencies": [
-    "@coss/slider"
+    "@ness/slider"
   ],
   "files": [
     {

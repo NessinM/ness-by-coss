@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Card,
   CardFrame,
@@ -9,15 +9,15 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@coss/ui/components/card";
-import { Field, FieldDescription, FieldLabel } from "@coss/ui/components/field";
+} from "@ness/ui/components/card";
+import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
 import {
   Select,
   SelectItem,
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@coss/ui/components/select";
+} from "@ness/ui/components/select";
 import { useState } from "react";
 import {
   AppHeader,

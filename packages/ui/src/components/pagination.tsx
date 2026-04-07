@@ -8,8 +8,8 @@ import {
   MoreHorizontalIcon,
 } from "lucide-react";
 import type * as React from "react";
-import { cn } from "@coss/ui/lib/utils";
-import { type Button, buttonVariants } from "@coss/ui/components/button";
+import { cn } from "@ness/ui/lib/utils";
+import { type Button, buttonVariants } from "@ness/ui/components/button";
 
 export function Pagination({
   className,

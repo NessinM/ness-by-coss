@@ -3,8 +3,8 @@
   "name": "comp-315",
   "type": "registry:component",
   "registryDependencies": [
-    "https://coss.com/origin/r/button.json",
-    "https://coss.com/origin/r/dialog.json"
+    "https://ness.com/origin/r/button.json",
+    "https://ness.com/origin/r/dialog.json"
   ],
   "files": [
     {

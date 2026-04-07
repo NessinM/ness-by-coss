@@ -4,9 +4,9 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@coss/ui/components/avatar";
-import { Badge } from "@coss/ui/components/badge";
-import { Button, buttonVariants } from "@coss/ui/components/button";
+} from "@ness/ui/components/avatar";
+import { Badge } from "@ness/ui/components/badge";
+import { Button, buttonVariants } from "@ness/ui/components/button";
 import {
   Combobox,
   ComboboxEmpty,
@@ -15,8 +15,8 @@ import {
   ComboboxList,
   ComboboxPopup,
   ComboboxTrigger,
-} from "@coss/ui/components/combobox";
-import { Group, GroupSeparator, GroupText } from "@coss/ui/components/group";
+} from "@ness/ui/components/combobox";
+import { Group, GroupSeparator, GroupText } from "@ness/ui/components/group";
 import {
   Menu,
   MenuGroup,
@@ -25,9 +25,9 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@coss/ui/components/menu";
-import { Separator } from "@coss/ui/components/separator";
-import { cn } from "@coss/ui/lib/utils";
+} from "@ness/ui/components/menu";
+import { Separator } from "@ness/ui/components/separator";
+import { cn } from "@ness/ui/lib/utils";
 import {
   ChevronsUpDownIcon,
   CopyIcon,

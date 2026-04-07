@@ -1,4 +1,4 @@
-# coss Number Field
+# ness Number Field
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/number-field
+npx shadcn@latest add @ness/number-field
 ```
 
 Manual deps from docs:
@@ -45,7 +45,7 @@ import {
 
 For form-bound numeric inputs, prefer wrapping `NumberField` with `Field` + `FieldLabel` + `FieldError` instead of standalone usage.
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

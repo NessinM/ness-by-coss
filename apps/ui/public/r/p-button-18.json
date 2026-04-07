@@ -3,8 +3,8 @@
   "name": "p-button-18",
   "description": "Custom loading button with manual Spinner",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/spinner"
+    "@ness/button",
+    "@ness/spinner"
   ],
   "files": [
     {

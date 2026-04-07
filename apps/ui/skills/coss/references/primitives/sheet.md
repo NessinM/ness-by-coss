@@ -1,4 +1,4 @@
-# coss Sheet
+# ness Sheet
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/sheet
+npx shadcn@latest add @ness/sheet
 ```
 
 Manual deps from docs:
@@ -60,7 +60,7 @@ import {
 </Sheet>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

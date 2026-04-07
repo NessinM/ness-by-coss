@@ -1,4 +1,4 @@
-# coss Sidebar
+# ness Sidebar
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/sidebar
+npx shadcn@latest add @ness/sidebar
 ```
 
 Manual deps from docs:
@@ -64,7 +64,7 @@ import {
 </SidebarProvider>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 
@@ -112,7 +112,7 @@ Key composition rules:
 - Wrap app with `SidebarProvider` at the layout level.
 - Use `SidebarContent` (not "SidebarPanel") as the scrollable body between header/footer.
 - Navigation items use `SidebarMenu` > `SidebarMenuItem` > `SidebarMenuButton`.
-- For link items, use `render` composition: `<SidebarMenuButton render={<a href="..." />}>`. Do not use `asChild` -- sidebar follows the same `render` pattern as all other coss primitives.
+- For link items, use `render` composition: `<SidebarMenuButton render={<a href="..." />}>`. Do not use `asChild` -- sidebar follows the same `render` pattern as all other ness primitives.
 - Use `SidebarTrigger` for the collapse/expand toggle.
 - Use `SidebarInset` for the main content area next to the sidebar.
 - `SidebarRail` adds a slim hover-to-expand rail in collapsed state.

@@ -1,8 +1,8 @@
 "use client";
 
-import { Field, FieldLabel } from "@coss/ui/components/field";
-import { Switch } from "@coss/ui/components/switch";
-import { toastManager } from "@coss/ui/components/toast";
+import { Field, FieldLabel } from "@ness/ui/components/field";
+import { Switch } from "@ness/ui/components/switch";
+import { toastManager } from "@ness/ui/components/toast";
 import { useState } from "react";
 
 export function PushNotificationsToggle() {

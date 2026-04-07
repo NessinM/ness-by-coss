@@ -1,4 +1,4 @@
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import { ArrowLeftIcon } from "lucide-react";
 import Link from "next/link";
 import type * as React from "react";

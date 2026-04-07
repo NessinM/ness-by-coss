@@ -1,4 +1,4 @@
-# coss Calendar
+# ness Calendar
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/calendar
+npx shadcn@latest add @ness/calendar
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Calendar } from "@/components/ui/calendar"
 <Calendar mode="single" />
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

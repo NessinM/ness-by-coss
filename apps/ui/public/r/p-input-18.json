@@ -3,8 +3,8 @@
   "name": "p-input-18",
   "description": "Input with characters remaining counter",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/input"
+    "@ness/field",
+    "@ness/input"
   ],
   "files": [
     {

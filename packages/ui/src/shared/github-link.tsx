@@ -1,8 +1,8 @@
-import { Button } from "@coss/ui/components/button";
-import { Skeleton } from "@coss/ui/components/skeleton";
-import { siteConfig } from "@coss/ui/lib/config";
 import { GithubIcon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
+import { Button } from "@ness/ui/components/button";
+import { Skeleton } from "@ness/ui/components/skeleton";
+import { siteConfig } from "@ness/ui/lib/config";
 import Link from "next/link";
 import * as React from "react";
 
@@ -28,7 +28,7 @@ export function GitHubLink() {
 
 export async function StarsCount() {
   try {
-    const data = await fetch("https://api.github.com/repos/cosscom/coss", {
+    const data = await fetch("https://api.github.com/repos/nesscom/ness", {
       next: { revalidate: 86400 }, // Cache for 1 day (86400 seconds)
     });
 

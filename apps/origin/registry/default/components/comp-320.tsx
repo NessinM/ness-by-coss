@@ -16,7 +16,7 @@ import {
 import { Input } from "@/registry/default/ui/input";
 import { Label } from "@/registry/default/ui/label";
 
-const PROJECT_NAME = "coss-ui";
+const PROJECT_NAME = "ness-ui";
 
 export default function Component() {
   const id = useId();
@@ -41,7 +41,7 @@ export default function Component() {
             </DialogTitle>
             <DialogDescription className="sm:text-center">
               This action cannot be undone. To confirm, please enter the project
-              name <span className="text-foreground">coss-ui</span>.
+              name <span className="text-foreground">ness-ui</span>.
             </DialogDescription>
           </DialogHeader>
         </div>
@@ -52,7 +52,7 @@ export default function Component() {
             <Input
               id={id}
               onChange={(e) => setInputValue(e.target.value)}
-              placeholder="Type coss-ui to confirm"
+              placeholder="Type ness-ui to confirm"
               type="text"
               value={inputValue}
             />

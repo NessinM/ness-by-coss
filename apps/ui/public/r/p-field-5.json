@@ -3,8 +3,8 @@
   "name": "p-field-5",
   "description": "Show field validity state",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/input"
+    "@ness/field",
+    "@ness/input"
   ],
   "files": [
     {

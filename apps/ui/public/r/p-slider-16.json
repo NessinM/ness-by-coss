@@ -3,8 +3,8 @@
   "name": "p-slider-16",
   "description": "Emoji rating slider",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/slider"
+    "@ness/field",
+    "@ness/slider"
   ],
   "files": [
     {

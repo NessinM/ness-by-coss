@@ -3,7 +3,7 @@
   "name": "p-select-17",
   "description": "Select with country flags",
   "registryDependencies": [
-    "@coss/select"
+    "@ness/select"
   ],
   "files": [
     {

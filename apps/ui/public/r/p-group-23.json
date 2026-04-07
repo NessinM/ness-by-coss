@@ -3,11 +3,11 @@
   "name": "p-group-23",
   "description": "Group with filter label, combobox multi-select, and remove button",
   "registryDependencies": [
-    "@coss/avatar",
-    "@coss/badge",
-    "@coss/button",
-    "@coss/combobox",
-    "@coss/group"
+    "@ness/avatar",
+    "@ness/badge",
+    "@ness/button",
+    "@ness/combobox",
+    "@ness/group"
   ],
   "files": [
     {

@@ -1,4 +1,4 @@
-import { transformers } from "@coss/ui/lib/highlight-code";
+import { transformers } from "@ness/ui/lib/highlight-code";
 import {
   defineConfig,
   defineDocs,

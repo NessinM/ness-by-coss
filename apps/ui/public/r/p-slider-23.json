@@ -3,11 +3,11 @@
   "name": "p-slider-23",
   "description": "Slider in form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/form",
-    "@coss/slider"
+    "@ness/button",
+    "@ness/field",
+    "@ness/fieldset",
+    "@ness/form",
+    "@ness/slider"
   ],
   "files": [
     {

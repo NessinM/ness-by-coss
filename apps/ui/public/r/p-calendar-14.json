@@ -3,8 +3,8 @@
   "name": "p-calendar-14",
   "description": "Calendar without arrow navigation (dropdown only)",
   "registryDependencies": [
-    "@coss/calendar",
-    "@coss/select"
+    "@ness/calendar",
+    "@ness/select"
   ],
   "files": [
     {

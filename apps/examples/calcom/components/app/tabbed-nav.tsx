@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@coss/ui/lib/utils";
+import { cn } from "@ness/ui/lib/utils";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import type * as React from "react";

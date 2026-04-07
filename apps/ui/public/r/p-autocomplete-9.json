@@ -3,7 +3,7 @@
   "name": "p-autocomplete-9",
   "description": "Autocomplete with trigger and clear buttons",
   "registryDependencies": [
-    "@coss/autocomplete"
+    "@ness/autocomplete"
   ],
   "files": [
     {

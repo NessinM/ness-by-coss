@@ -4,12 +4,12 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@coss/ui/components/avatar";
+} from "@ness/ui/components/avatar";
 import {
   Collapsible,
   CollapsiblePanel,
   CollapsibleTrigger,
-} from "@coss/ui/components/collapsible";
+} from "@ness/ui/components/collapsible";
 import {
   ChevronRightIcon,
   ExternalLinkIcon,

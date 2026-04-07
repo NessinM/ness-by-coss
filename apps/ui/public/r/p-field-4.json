@@ -3,8 +3,8 @@
   "name": "p-field-4",
   "description": "Field showing validation error",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/input"
+    "@ness/field",
+    "@ness/input"
   ],
   "files": [
     {

@@ -3,7 +3,7 @@
   "name": "p-select-4",
   "description": "Disabled select",
   "registryDependencies": [
-    "@coss/select"
+    "@ness/select"
   ],
   "files": [
     {

@@ -8,7 +8,7 @@
           "options": {
             "groups": [
               [":PACKAGE_WITH_PROTOCOL:", ":PACKAGE:"],
-              ["@/registry/**", "@coss/**", "@calcom/**"],
+              ["@/registry/**", "@ness/**", "@calcom/**"],
               ["@lib/**", "@components/**", "@server/**", "@trpc/**"],
               ":PATH:"
             ]

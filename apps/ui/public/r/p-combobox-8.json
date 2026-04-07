@@ -3,7 +3,7 @@
   "name": "p-combobox-8",
   "description": "Combobox with grouped items",
   "registryDependencies": [
-    "@coss/combobox"
+    "@ness/combobox"
   ],
   "files": [
     {

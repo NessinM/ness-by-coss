@@ -3,7 +3,7 @@
   "name": "p-button-34",
   "description": "Button with animated status dot",
   "registryDependencies": [
-    "@coss/button"
+    "@ness/button"
   ],
   "files": [
     {

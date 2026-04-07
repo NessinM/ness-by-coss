@@ -3,7 +3,7 @@
   "name": "p-autocomplete-6",
   "description": "Autocomplete autofilling the input with the highlighted item",
   "registryDependencies": [
-    "@coss/autocomplete"
+    "@ness/autocomplete"
   ],
   "files": [
     {

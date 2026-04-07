@@ -5,7 +5,7 @@
     "@base-ui/react"
   ],
   "registryDependencies": [
-    "@coss/label"
+    "@ness/label"
   ],
   "files": [
     {

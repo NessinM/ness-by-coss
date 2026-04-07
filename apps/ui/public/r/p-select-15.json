@@ -3,7 +3,7 @@
   "name": "p-select-15",
   "description": "Pill-shaped select trigger",
   "registryDependencies": [
-    "@coss/select"
+    "@ness/select"
   ],
   "files": [
     {

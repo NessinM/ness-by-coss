@@ -3,8 +3,8 @@
   "name": "p-input-group-6",
   "description": "Input group with number field",
   "registryDependencies": [
-    "@coss/input-group",
-    "@coss/number-field"
+    "@ness/input-group",
+    "@ness/number-field"
   ],
   "files": [
     {

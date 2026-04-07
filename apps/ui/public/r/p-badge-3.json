@@ -3,7 +3,7 @@
   "name": "p-badge-3",
   "description": "Secondary badge",
   "registryDependencies": [
-    "@coss/badge"
+    "@ness/badge"
   ],
   "files": [
     {

@@ -6,15 +6,15 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/autocomplete",
-    "@coss/button",
-    "@coss/command",
-    "@coss/empty",
-    "@coss/input",
-    "@coss/kbd",
-    "@coss/scroll-area",
-    "@coss/skeleton",
-    "@coss/spinner"
+    "@ness/autocomplete",
+    "@ness/button",
+    "@ness/command",
+    "@ness/empty",
+    "@ness/input",
+    "@ness/kbd",
+    "@ness/scroll-area",
+    "@ness/skeleton",
+    "@ness/spinner"
   ],
   "files": [
     {

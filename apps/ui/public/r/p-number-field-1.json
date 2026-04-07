@@ -3,7 +3,7 @@
   "name": "p-number-field-1",
   "description": "Basic number field",
   "registryDependencies": [
-    "@coss/number-field"
+    "@ness/number-field"
   ],
   "files": [
     {

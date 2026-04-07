@@ -3,8 +3,8 @@
   "name": "p-autocomplete-12",
   "description": "Autocomplete with async items loading",
   "registryDependencies": [
-    "@coss/autocomplete",
-    "@coss/spinner"
+    "@ness/autocomplete",
+    "@ness/spinner"
   ],
   "files": [
     {

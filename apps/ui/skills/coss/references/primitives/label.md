@@ -1,4 +1,4 @@
-# coss Label
+# ness Label
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/label
+npx shadcn@latest add @ness/label
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Label } from "@/components/ui/label"
 <Label htmlFor="email">Email</Label>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

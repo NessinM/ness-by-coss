@@ -4,16 +4,16 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@coss/ui/components/avatar";
-import { Badge } from "@coss/ui/components/badge";
-import { Button } from "@coss/ui/components/button";
+} from "@ness/ui/components/avatar";
+import { Badge } from "@ness/ui/components/badge";
+import { Button } from "@ness/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@coss/ui/components/card";
+} from "@ness/ui/components/card";
 import {
   Menu,
   MenuCheckboxItem,
@@ -22,13 +22,13 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@coss/ui/components/menu";
-import { Switch } from "@coss/ui/components/switch";
+} from "@ness/ui/components/menu";
+import { Switch } from "@ness/ui/components/switch";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@coss/ui/components/tooltip";
+} from "@ness/ui/components/tooltip";
 import { EllipsisIcon, PencilIcon, TrashIcon, WebhookIcon } from "lucide-react";
 import { useState } from "react";
 import {

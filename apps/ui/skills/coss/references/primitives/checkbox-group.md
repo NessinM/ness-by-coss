@@ -1,4 +1,4 @@
-# coss Checkbox Group
+# ness Checkbox Group
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/checkbox-group
+npx shadcn@latest add @ness/checkbox-group
 ```
 
 Manual deps from docs:
@@ -45,7 +45,7 @@ import { CheckboxGroup } from "@/components/ui/checkbox-group"
 
 For form-bound option groups, prefer `Field` + `Fieldset` composition so legend, labels, and errors are grouped correctly.
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

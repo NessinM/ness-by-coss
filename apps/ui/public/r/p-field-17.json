@@ -3,8 +3,8 @@
   "name": "p-field-17",
   "description": "Field with number field",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/number-field"
+    "@ness/field",
+    "@ness/number-field"
   ],
   "files": [
     {

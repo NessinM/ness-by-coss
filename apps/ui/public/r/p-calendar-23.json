@@ -6,7 +6,7 @@
     "date-fns"
   ],
   "registryDependencies": [
-    "@coss/calendar"
+    "@ness/calendar"
   ],
   "files": [
     {

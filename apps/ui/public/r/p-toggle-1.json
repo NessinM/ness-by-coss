@@ -3,7 +3,7 @@
   "name": "p-toggle-1",
   "description": "Basic toggle",
   "registryDependencies": [
-    "@coss/toggle"
+    "@ness/toggle"
   ],
   "files": [
     {

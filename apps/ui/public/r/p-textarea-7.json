@@ -3,8 +3,8 @@
   "name": "p-textarea-7",
   "description": "Textarea with label and required indicator",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/textarea"
+    "@ness/label",
+    "@ness/textarea"
   ],
   "files": [
     {

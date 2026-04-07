@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Empty,
   EmptyContent,
@@ -8,7 +8,7 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@coss/ui/components/empty";
+} from "@ness/ui/components/empty";
 import { KeyIcon, PlusIcon } from "lucide-react";
 
 interface OAuthEmptyProps {

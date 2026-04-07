@@ -3,7 +3,7 @@
   "name": "p-number-field-2",
   "description": "Small number field",
   "registryDependencies": [
-    "@coss/number-field"
+    "@ness/number-field"
   ],
   "files": [
     {

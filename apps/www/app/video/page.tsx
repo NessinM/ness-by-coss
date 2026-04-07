@@ -1,21 +1,21 @@
-import { CodeBlock } from "@coss/ui/shared/code-block";
+import { CodeBlock } from "@ness/ui/shared/code-block";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "coss.com video",
+  title: "ness.com video",
 };
 
 export default function Page() {
-  const initialization = `import { coss } from '@coss';
+  const initialization = `import { ness } from '@ness';
 
-coss.video.init({
-  apiKey: process.env.COSS_KEY,
+ness.video.init({
+  apiKey: process.env.ness_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const rooms = `// Create a room
-await coss.video.rooms.create({
+await ness.video.rooms.create({
   name: 'team-sync-0422',
   privacy: 'private',
   config: {
@@ -26,21 +26,21 @@ await coss.video.rooms.create({
 });
 
 // List rooms
-await coss.video.rooms.list();
+await ness.video.rooms.list();
 
 // Retrieve room details
-await coss.video.rooms.retrieve('team-sync-0422');
+await ness.video.rooms.retrieve('team-sync-0422');
 
 // Update room settings
-await coss.video.rooms.update('team-sync-0422', {
+await ness.video.rooms.update('team-sync-0422', {
   config: { enableRecording: true },
 });
 
 // Delete a room
-await coss.video.rooms.delete('team-sync-0422');`;
+await ness.video.rooms.delete('team-sync-0422');`;
 
   const tokens = `// Generate a join token
-const token = await coss.video.tokens.create({
+const token = await ness.video.tokens.create({
   roomName: 'team-sync-0422',
   userId: 'user_abc123',
   role: 'host',
@@ -48,38 +48,38 @@ const token = await coss.video.tokens.create({
 });`;
 
   const participants = `// List participants
-await coss.video.participants.list('team-sync-0422');
+await ness.video.participants.list('team-sync-0422');
 
 // Kick a participant
-await coss.video.participants.remove('team-sync-0422', 'user_abc123');
+await ness.video.participants.remove('team-sync-0422', 'user_abc123');
 
 // Get participant history
-await coss.video.participants.history({
+await ness.video.participants.history({
   roomName: 'team-sync-0422',
   userId: 'user_abc123',
 });`;
 
   const recordings = `// Start recording
-await coss.video.recordings.start('team-sync-0422');
+await ness.video.recordings.start('team-sync-0422');
 
 // Stop recording
-await coss.video.recordings.stop('team-sync-0422');
+await ness.video.recordings.stop('team-sync-0422');
 
 // List past recordings
-await coss.video.recordings.list();
+await ness.video.recordings.list();
 
 // Retrieve a recording
-await coss.video.recordings.retrieve('rec_abc123');
+await ness.video.recordings.retrieve('rec_abc123');
 
 // Delete a recording
-await coss.video.recordings.delete('rec_abc123');`;
+await ness.video.recordings.delete('rec_abc123');`;
 
   const webhooks = `// Webhook events
-coss.video.webhooks.on('room.started', (event) => {
+ness.video.webhooks.on('room.started', (event) => {
   console.log(\`Room started: \${event.data.roomName}\`);
 });
 
-coss.video.webhooks.on('participant.joined', (event) => {
+ness.video.webhooks.on('participant.joined', (event) => {
   const { userId, roomName } = event.data;
   console.log(\`\${userId} joined \${roomName}\`);
 });
@@ -88,14 +88,14 @@ coss.video.webhooks.on('participant.joined', (event) => {
 // room.ended, participant.left, recording.started, recording.stopped`;
 
   const utilities = `// Validate webhook signature
-const isValid = coss.video.utils.verifySignature({
+const isValid = ness.video.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['coss-video-signature'],
+  signature: req.headers['ness-video-signature'],
   secret: 'whsec_video_123',
 });`;
 
   const bonus = `// Generate a meeting URL
-const meetingUrl = coss.video.utils.generateJoinUrl({
+const meetingUrl = ness.video.utils.generateJoinUrl({
   roomName: 'team-sync-0422',
   token,
 });`;

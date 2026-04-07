@@ -3,8 +3,8 @@
   "name": "p-toast-2",
   "description": "Toast with status",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/toast"
+    "@ness/button",
+    "@ness/toast"
   ],
   "files": [
     {

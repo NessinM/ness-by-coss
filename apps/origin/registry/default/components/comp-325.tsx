@@ -37,7 +37,7 @@ export default function Component() {
           </div>
           <DialogHeader>
             <DialogTitle className="sm:text-center">
-              Sign up coss.com
+              Sign up ness.com
             </DialogTitle>
             <DialogDescription className="sm:text-center">
               We just need a few details to get you started.

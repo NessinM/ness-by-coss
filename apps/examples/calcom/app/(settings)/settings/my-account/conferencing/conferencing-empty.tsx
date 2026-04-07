@@ -8,9 +8,9 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@coss/ui/components/alert-dialog";
-import { Badge } from "@coss/ui/components/badge";
-import { Button } from "@coss/ui/components/button";
+} from "@ness/ui/components/alert-dialog";
+import { Badge } from "@ness/ui/components/badge";
+import { Button } from "@ness/ui/components/button";
 import {
   Empty,
   EmptyContent,
@@ -18,18 +18,18 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@coss/ui/components/empty";
+} from "@ness/ui/components/empty";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@coss/ui/components/menu";
+} from "@ness/ui/components/menu";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@coss/ui/components/tooltip";
+} from "@ness/ui/components/tooltip";
 import { EllipsisIcon, PencilIcon, Trash2Icon, VideoIcon } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";

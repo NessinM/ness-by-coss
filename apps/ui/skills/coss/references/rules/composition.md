@@ -1,12 +1,12 @@
-# Composition Rules (coss)
+# Composition Rules (ness)
 
-Use this when composing complex UI from coss primitives and particles.
+Use this when composing complex UI from ness primitives and particles.
 
 ## Core Rules
 
 - Prefer composing existing primitives over custom wrappers with duplicated behavior.
 - For trigger-based primitives (Dialog, Menu, Select, Popover, Tooltip), follow each primitive's documented trigger/content hierarchy and composition API; do not mix patterns across components.
-- Use coss/Base UI trigger APIs consistently (typically `render`-based composition).
+- Use ness/Base UI trigger APIs consistently (typically `render`-based composition).
 - Use complete sub-structures where required (for example title/description regions in dialogs where relevant).
 
 ## Patterns
@@ -38,5 +38,5 @@ Use this when composing complex UI from coss primitives and particles.
 ## Anti-patterns
 
 - Building bespoke dropdown/dialog behavior instead of using primitives.
-- Mixing APIs from other ecosystems (`asChild`-only mental model) without checking coss equivalents.
+- Mixing APIs from other ecosystems (`asChild`-only mental model) without checking ness equivalents.
 - Omitting key subcomponents that preserve accessibility and layout conventions.

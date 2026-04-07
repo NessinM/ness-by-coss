@@ -3,7 +3,7 @@
   "name": "p-progress-1",
   "description": "Basic progress bar",
   "registryDependencies": [
-    "@coss/progress"
+    "@ness/progress"
   ],
   "files": [
     {

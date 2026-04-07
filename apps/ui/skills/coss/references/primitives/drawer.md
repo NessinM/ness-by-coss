@@ -1,4 +1,4 @@
-# coss Drawer
+# ness Drawer
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/drawer
+npx shadcn@latest add @ness/drawer
 ```
 
 Manual deps from docs:
@@ -68,7 +68,7 @@ import {
 </Drawer>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

@@ -3,9 +3,9 @@
   "name": "p-group-22",
   "description": "Group with two number inputs for range",
   "registryDependencies": [
-    "@coss/group",
-    "@coss/label",
-    "@coss/number-field"
+    "@ness/group",
+    "@ness/label",
+    "@ness/number-field"
   ],
   "files": [
     {

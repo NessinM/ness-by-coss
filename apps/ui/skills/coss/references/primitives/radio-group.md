@@ -1,4 +1,4 @@
-# coss Radio Group
+# ness Radio Group
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/radio-group
+npx shadcn@latest add @ness/radio-group
 ```
 
 Manual deps from docs:
@@ -48,7 +48,7 @@ import { Radio, RadioGroup } from "@/components/ui/radio-group"
 
 For form-bound single-choice groups, prefer `Field` + `Fieldset` composition to keep legend and validation semantics consistent.
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

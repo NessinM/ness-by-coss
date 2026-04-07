@@ -3,8 +3,8 @@
   "name": "p-slider-12",
   "description": "Slider with input",
   "registryDependencies": [
-    "@coss/number-field",
-    "@coss/slider"
+    "@ness/number-field",
+    "@ness/slider"
   ],
   "files": [
     {

@@ -3,10 +3,10 @@
   "name": "p-group-11",
   "description": "Group with popup",
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/button",
-    "@coss/group",
-    "@coss/popover"
+    "@ness/badge",
+    "@ness/button",
+    "@ness/group",
+    "@ness/popover"
   ],
   "files": [
     {

@@ -3,7 +3,7 @@
   "name": "p-combobox-9",
   "description": "Combobox with multiple selection",
   "registryDependencies": [
-    "@coss/combobox"
+    "@ness/combobox"
   ],
   "files": [
     {

@@ -3,9 +3,9 @@
   "name": "p-group-6",
   "description": "Group with default button",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/menu"
+    "@ness/button",
+    "@ness/group",
+    "@ness/menu"
   ],
   "files": [
     {

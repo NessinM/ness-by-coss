@@ -3,7 +3,7 @@
   "name": "p-autocomplete-3",
   "description": "Small autocomplete",
   "registryDependencies": [
-    "@coss/autocomplete"
+    "@ness/autocomplete"
   ],
   "files": [
     {

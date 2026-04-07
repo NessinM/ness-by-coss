@@ -3,7 +3,7 @@
   "name": "p-slider-18",
   "description": "Vertical range slider",
   "registryDependencies": [
-    "@coss/slider"
+    "@ness/slider"
   ],
   "files": [
     {

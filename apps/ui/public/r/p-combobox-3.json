@@ -3,7 +3,7 @@
   "name": "p-combobox-3",
   "description": "Small combobox",
   "registryDependencies": [
-    "@coss/combobox"
+    "@ness/combobox"
   ],
   "files": [
     {

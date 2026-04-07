@@ -3,8 +3,8 @@
   "name": "p-combobox-18",
   "description": "Combobox with select trigger",
   "registryDependencies": [
-    "@coss/combobox",
-    "@coss/select"
+    "@ness/combobox",
+    "@ness/select"
   ],
   "files": [
     {

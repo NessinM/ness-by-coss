@@ -3,16 +3,16 @@ import { categories } from "@/config/components";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const home = {
-    url: "https://coss.com/origin",
+    url: "https://ness.com/origin",
   };
   const search = {
-    url: "https://coss.com/origin/search",
+    url: "https://ness.com/origin/search",
   };
   const easings = {
-    url: "https://coss.com/origin/easings",
+    url: "https://ness.com/origin/easings",
   };
   const categoryPages = categories.map((category) => ({
-    url: `https://coss.com/origin/${category.slug}`,
+    url: `https://ness.com/origin/${category.slug}`,
   }));
 
   return [home, ...categoryPages, search, easings];

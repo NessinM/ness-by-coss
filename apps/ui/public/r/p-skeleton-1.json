@@ -3,9 +3,9 @@
   "name": "p-skeleton-1",
   "description": "Basic skeleton",
   "registryDependencies": [
-    "@coss/avatar",
-    "@coss/button",
-    "@coss/skeleton"
+    "@ness/avatar",
+    "@ness/button",
+    "@ness/skeleton"
   ],
   "files": [
     {

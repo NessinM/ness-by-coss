@@ -3,7 +3,7 @@
   "name": "p-input-15",
   "description": "Input with custom border and background",
   "registryDependencies": [
-    "@coss/input"
+    "@ness/input"
   ],
   "files": [
     {

@@ -15,10 +15,10 @@ import {
 const items = [
   {
     content:
-      "coss ui focuses on developer experience and performance. Built with TypeScript, it offers excellent type safety, follows accessibility standards, and provides comprehensive documentation with regular updates.",
+      "ness ui focuses on developer experience and performance. Built with TypeScript, it offers excellent type safety, follows accessibility standards, and provides comprehensive documentation with regular updates.",
     icon: CommandIcon,
     id: "1",
-    title: "What makes coss ui different?",
+    title: "What makes ness ui different?",
   },
   {
     content:
@@ -32,7 +32,7 @@ const items = [
       "Yes, with tree-shaking, code splitting, and minimal runtime overhead. Most components are under 5KB gzipped.",
     icon: ZapIcon,
     id: "3",
-    title: "Is coss ui optimized for performance?",
+    title: "Is ness ui optimized for performance?",
   },
   {
     content:

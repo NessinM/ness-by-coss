@@ -3,8 +3,8 @@
   "name": "p-number-field-5",
   "description": "Number field with label",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/number-field"
+    "@ness/label",
+    "@ness/number-field"
   ],
   "files": [
     {

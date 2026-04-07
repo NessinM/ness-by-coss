@@ -1,4 +1,4 @@
-# coss Field
+# ness Field
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/field
+npx shadcn@latest add @ness/field
 ```
 
 Manual deps from docs:
@@ -46,7 +46,7 @@ import { Input } from "@/components/ui/input"
 </Field>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

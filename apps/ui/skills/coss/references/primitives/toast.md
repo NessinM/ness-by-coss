@@ -1,10 +1,10 @@
-# coss Toast
+# ness Toast
 
 ## Architecture note
 
-- coss toast is built on Base UI toast primitives, not shadcn Sonner internals.
+- ness toast is built on Base UI toast primitives, not shadcn Sonner internals.
 - Do not assume Sonner-style APIs/options map 1:1.
-- This is not Sonner's `toast()` + `<Toaster />` API model; use `toastManager` / `anchoredToastManager` with coss providers.
+- This is not Sonner's `toast()` + `<Toaster />` API model; use `toastManager` / `anchoredToastManager` with ness providers.
 
 ## When to use
 
@@ -20,7 +20,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/toast
+npx shadcn@latest add @ness/toast
 ```
 
 Manual deps:
@@ -65,7 +65,7 @@ toastManager.add({
 })
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 - **Stacked notifications**: use `toastManager.add(...)` for global app feedback with typed variants and optional actions.
 - **Anchored notifications**: use `anchoredToastManager.add(...)` with `positionerProps.anchor` for contextual, element-tied toasts.

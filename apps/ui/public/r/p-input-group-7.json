@@ -6,9 +6,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/input-group",
-    "@coss/popover"
+    "@ness/button",
+    "@ness/input-group",
+    "@ness/popover"
   ],
   "files": [
     {

@@ -3,8 +3,8 @@
   "name": "p-drawer-3",
   "description": "Drawer with close button",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/drawer"
+    "@ness/button",
+    "@ness/drawer"
   ],
   "files": [
     {

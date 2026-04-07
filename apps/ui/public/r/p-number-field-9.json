@@ -3,7 +3,7 @@
   "name": "p-number-field-9",
   "description": "Number field with step",
   "registryDependencies": [
-    "@coss/number-field"
+    "@ness/number-field"
   ],
   "files": [
     {

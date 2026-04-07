@@ -3,8 +3,8 @@
   "name": "p-menu-2",
   "description": "Menu with hover",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/menu"
+    "@ness/button",
+    "@ness/menu"
   ],
   "files": [
     {

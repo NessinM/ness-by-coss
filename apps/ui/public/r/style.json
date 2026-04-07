@@ -2,7 +2,7 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "extends": "none",
   "name": "style",
-  "description": "Complete coss theme: colors, sidebar, fonts, and base styles. Use with `npx shadcn init @coss/style` for full project setup.",
+  "description": "Complete ness theme: colors, sidebar, fonts, and base styles. Use with `npx shadcn init @ness/style` for full project setup.",
   "dependencies": [
     "@base-ui/react",
     "class-variance-authority",
@@ -13,8 +13,8 @@
   ],
   "registryDependencies": [
     "utils",
-    "@coss/ui",
-    "@coss/fonts"
+    "@ness/ui",
+    "@ness/fonts"
   ],
   "cssVars": {
     "theme": {

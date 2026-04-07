@@ -6,8 +6,8 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/combobox",
-    "@coss/select"
+    "@ness/combobox",
+    "@ness/select"
   ],
   "files": [
     {

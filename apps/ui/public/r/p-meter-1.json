@@ -3,7 +3,7 @@
   "name": "p-meter-1",
   "description": "Basic meter",
   "registryDependencies": [
-    "@coss/meter"
+    "@ness/meter"
   ],
   "files": [
     {

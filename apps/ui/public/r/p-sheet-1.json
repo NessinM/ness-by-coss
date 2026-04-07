@@ -3,11 +3,11 @@
   "name": "p-sheet-1",
   "description": "Basic sheet",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input",
-    "@coss/sheet"
+    "@ness/button",
+    "@ness/field",
+    "@ness/form",
+    "@ness/input",
+    "@ness/sheet"
   ],
   "files": [
     {

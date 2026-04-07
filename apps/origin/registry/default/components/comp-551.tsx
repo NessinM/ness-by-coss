@@ -35,21 +35,21 @@ const initialFiles = [
     name: "document.pdf",
     size: 528737,
     type: "application/pdf",
-    url: "https://coss.com/origin",
+    url: "https://ness.com/origin",
   },
   {
     id: "intro.zip-1744638436563-8u5xuls",
     name: "intro.zip",
     size: 252873,
     type: "application/zip",
-    url: "https://coss.com/origin",
+    url: "https://ness.com/origin",
   },
   {
     id: "conclusion.xlsx-1744638436563-8u5xuls",
     name: "conclusion.xlsx",
     size: 352873,
     type: "application/xlsx",
-    url: "https://coss.com/origin",
+    url: "https://ness.com/origin",
   },
 ];
 
@@ -245,7 +245,7 @@ export default function Component() {
         Multiple files uploader w/ table ∙{" "}
         <a
           className="underline hover:text-foreground"
-          href="https://github.com/cosscom/coss/blob/main/apps/origin/docs/use-file-upload.md"
+          href="https://github.com/nesscom/ness/blob/main/apps/origin/docs/use-file-upload.md"
         >
           API
         </a>

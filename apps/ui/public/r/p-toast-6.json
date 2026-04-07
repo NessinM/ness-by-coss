@@ -3,8 +3,8 @@
   "name": "p-toast-6",
   "description": "Toast with varying heights",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/toast"
+    "@ness/button",
+    "@ness/toast"
   ],
   "files": [
     {

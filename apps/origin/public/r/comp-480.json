@@ -6,9 +6,9 @@
     "@tanstack/react-table"
   ],
   "registryDependencies": [
-    "https://coss.com/origin/r/button.json",
-    "https://coss.com/origin/r/dropdown-menu.json",
-    "https://coss.com/origin/r/table.json"
+    "https://ness.com/origin/r/button.json",
+    "https://ness.com/origin/r/dropdown-menu.json",
+    "https://ness.com/origin/r/table.json"
   ],
   "files": [
     {

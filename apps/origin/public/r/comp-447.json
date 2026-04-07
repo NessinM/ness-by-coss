@@ -3,8 +3,8 @@
   "name": "comp-447",
   "type": "registry:component",
   "registryDependencies": [
-    "https://coss.com/origin/r/breadcrumb.json",
-    "https://coss.com/origin/r/dropdown-menu.json"
+    "https://ness.com/origin/r/breadcrumb.json",
+    "https://ness.com/origin/r/dropdown-menu.json"
   ],
   "files": [
     {

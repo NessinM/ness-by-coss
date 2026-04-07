@@ -3,7 +3,7 @@
   "name": "p-tabs-1",
   "description": "Basic tabs",
   "registryDependencies": [
-    "@coss/tabs"
+    "@ness/tabs"
   ],
   "files": [
     {

@@ -6,9 +6,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/slider"
+    "@ness/button",
+    "@ness/field",
+    "@ness/slider"
   ],
   "files": [
     {

@@ -3,12 +3,12 @@
   "name": "p-dialog-4",
   "description": "Dialog with close confirmation",
   "registryDependencies": [
-    "@coss/alert-dialog",
-    "@coss/button",
-    "@coss/dialog",
-    "@coss/field",
-    "@coss/form",
-    "@coss/textarea"
+    "@ness/alert-dialog",
+    "@ness/button",
+    "@ness/dialog",
+    "@ness/field",
+    "@ness/form",
+    "@ness/textarea"
   ],
   "files": [
     {

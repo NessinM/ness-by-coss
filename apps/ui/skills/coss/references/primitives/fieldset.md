@@ -1,4 +1,4 @@
-# coss Fieldset
+# ness Fieldset
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/fieldset
+npx shadcn@latest add @ness/fieldset
 ```
 
 Manual deps from docs:
@@ -31,7 +31,7 @@ import { Fieldset, FieldsetLegend } from "@/components/ui/fieldset"
 </Fieldset>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

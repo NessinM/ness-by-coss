@@ -3,9 +3,9 @@
   "name": "p-input-7",
   "description": "Input with button using Group",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/input"
+    "@ness/button",
+    "@ness/group",
+    "@ness/input"
   ],
   "files": [
     {

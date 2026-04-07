@@ -6,9 +6,9 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@coss/ui/components/card";
-import { Skeleton } from "@coss/ui/components/skeleton";
-import { Switch } from "@coss/ui/components/switch";
+} from "@ness/ui/components/card";
+import { Skeleton } from "@ness/ui/components/skeleton";
+import { Switch } from "@ness/ui/components/switch";
 import type * as React from "react";
 
 interface SettingsToggleProps {

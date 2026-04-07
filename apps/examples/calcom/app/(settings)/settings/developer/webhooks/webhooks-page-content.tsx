@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import { ChevronDownIcon } from "lucide-react";
 import { useState } from "react";
 import type { WebhookItem } from "./webhooks-list-content";

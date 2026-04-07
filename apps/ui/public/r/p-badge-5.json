@@ -3,7 +3,7 @@
   "name": "p-badge-5",
   "description": "Info badge",
   "registryDependencies": [
-    "@coss/badge"
+    "@ness/badge"
   ],
   "files": [
     {

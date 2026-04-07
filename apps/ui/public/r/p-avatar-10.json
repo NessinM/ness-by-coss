@@ -3,8 +3,8 @@
   "name": "p-avatar-10",
   "description": "Avatar with notification badge",
   "registryDependencies": [
-    "@coss/avatar",
-    "@coss/badge"
+    "@ness/avatar",
+    "@ness/badge"
   ],
   "files": [
     {

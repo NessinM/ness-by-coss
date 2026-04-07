@@ -1,4 +1,4 @@
-# coss Kbd
+# ness Kbd
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/kbd
+npx shadcn@latest add @ness/kbd
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Kbd, KbdGroup } from "@/components/ui/kbd"
 <Kbd>K</Kbd>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

@@ -3,7 +3,7 @@
   "name": "p-textarea-10",
   "description": "Read-only textarea",
   "registryDependencies": [
-    "@coss/textarea"
+    "@ness/textarea"
   ],
   "files": [
     {

@@ -3,7 +3,7 @@
   "name": "p-calendar-12",
   "description": "Calendar with week numbers",
   "registryDependencies": [
-    "@coss/calendar"
+    "@ness/calendar"
   ],
   "files": [
     {

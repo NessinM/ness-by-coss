@@ -3,7 +3,7 @@
   "name": "p-textarea-9",
   "description": "Textarea with custom border and background",
   "registryDependencies": [
-    "@coss/textarea"
+    "@ness/textarea"
   ],
   "files": [
     {

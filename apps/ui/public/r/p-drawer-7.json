@@ -3,8 +3,8 @@
   "name": "p-drawer-7",
   "description": "Nested bottom drawers with centered content",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/drawer"
+    "@ness/button",
+    "@ness/drawer"
   ],
   "files": [
     {

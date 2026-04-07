@@ -3,9 +3,9 @@
   "name": "p-input-10",
   "description": "Input group mimicking a URL bar",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/input-group",
-    "@coss/popover"
+    "@ness/button",
+    "@ness/input-group",
+    "@ness/popover"
   ],
   "files": [
     {

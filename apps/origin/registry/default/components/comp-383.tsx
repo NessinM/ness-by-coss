@@ -60,7 +60,7 @@ const initialNotifications = [
     action: "mentioned you in",
     id: 6,
     image: "/origin/avatar-80-06.jpg",
-    target: "coss.com open graph image",
+    target: "ness.com open graph image",
     timestamp: "2 weeks ago",
     unread: false,
     user: "Miky Derya",

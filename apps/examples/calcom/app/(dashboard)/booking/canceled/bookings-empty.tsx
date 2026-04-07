@@ -6,7 +6,7 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@coss/ui/components/empty";
+} from "@ness/ui/components/empty";
 import { CalendarIcon } from "lucide-react";
 import { BookingsListSkeleton } from "../booking-skeleton";
 import { useLoadingState } from "@/hooks/use-loading-state";

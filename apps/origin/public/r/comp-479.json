@@ -6,7 +6,7 @@
     "@tanstack/react-table"
   ],
   "registryDependencies": [
-    "https://coss.com/origin/r/table.json"
+    "https://ness.com/origin/r/table.json"
   ],
   "files": [
     {

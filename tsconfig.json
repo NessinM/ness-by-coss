@@ -2,7 +2,6 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
     "esModuleInterop": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
@@ -10,13 +9,13 @@
     "moduleResolution": "bundler",
     "noEmit": true,
     "paths": {
-      "@coss/ui/*": ["packages/ui/src/*"]
+      "@ness/ui/*": ["packages/ui/src/*"]
     },
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext"
   },
-  "display": "coss",
+  "display": "ness",
   "exclude": ["node_modules", "dist"],
   "references": [{ "path": "packages/ui" }]
 }

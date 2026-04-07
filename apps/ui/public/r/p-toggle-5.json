@@ -3,7 +3,7 @@
   "name": "p-toggle-5",
   "description": "Large toggle",
   "registryDependencies": [
-    "@coss/toggle"
+    "@ness/toggle"
   ],
   "files": [
     {

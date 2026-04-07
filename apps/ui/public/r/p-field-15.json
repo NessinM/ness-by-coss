@@ -3,8 +3,8 @@
   "name": "p-field-15",
   "description": "Field with toggle switch",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/switch"
+    "@ness/field",
+    "@ness/switch"
   ],
   "files": [
     {

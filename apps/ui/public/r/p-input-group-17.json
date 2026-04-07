@@ -3,10 +3,10 @@
   "name": "p-input-group-17",
   "description": "Input group with textarea",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/input-group",
-    "@coss/menu",
-    "@coss/tooltip"
+    "@ness/button",
+    "@ness/input-group",
+    "@ness/menu",
+    "@ness/tooltip"
   ],
   "files": [
     {

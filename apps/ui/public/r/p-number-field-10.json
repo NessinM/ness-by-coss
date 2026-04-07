@@ -6,10 +6,10 @@
     "zod"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/form",
-    "@coss/number-field"
+    "@ness/button",
+    "@ness/field",
+    "@ness/form",
+    "@ness/number-field"
   ],
   "files": [
     {

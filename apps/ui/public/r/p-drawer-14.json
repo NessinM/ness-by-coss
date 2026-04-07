@@ -3,8 +3,8 @@
   "name": "p-drawer-14",
   "description": "Left drawer with swipe area",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/drawer"
+    "@ness/button",
+    "@ness/drawer"
   ],
   "files": [
     {

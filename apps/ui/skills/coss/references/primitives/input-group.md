@@ -1,4 +1,4 @@
-# coss Input Group
+# ness Input Group
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/input-group
+npx shadcn@latest add @ness/input-group
 ```
 
 Manual deps:
@@ -43,7 +43,7 @@ import {
 
 `InputGroupAddon` must be after `InputGroupInput`/`InputGroupTextarea` in DOM order for proper focus behavior.
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

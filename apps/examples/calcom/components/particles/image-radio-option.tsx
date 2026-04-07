@@ -1,7 +1,7 @@
 "use client";
 
-import { FieldItem, FieldLabel } from "@coss/ui/components/field";
-import { Radio, RadioGroup } from "@coss/ui/components/radio-group";
+import { FieldItem, FieldLabel } from "@ness/ui/components/field";
+import { Radio, RadioGroup } from "@ness/ui/components/radio-group";
 import Image from "next/image";
 import type { JSX } from "react";
 

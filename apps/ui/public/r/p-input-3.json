@@ -3,7 +3,7 @@
   "name": "p-input-3",
   "description": "Large input",
   "registryDependencies": [
-    "@coss/input"
+    "@ness/input"
   ],
   "files": [
     {

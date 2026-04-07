@@ -1,4 +1,4 @@
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Card,
   CardFrame,
@@ -7,7 +7,7 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@coss/ui/components/card";
+} from "@ness/ui/components/card";
 import { ActivityIcon } from "lucide-react";
 import Link from "next/link";
 import { NewWebhookFormFields } from "./new-webhook-form-fields";

@@ -1,4 +1,4 @@
-# coss Collapsible
+# ness Collapsible
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/collapsible
+npx shadcn@latest add @ness/collapsible
 ```
 
 Manual deps from docs:
@@ -38,7 +38,7 @@ import {
 </Collapsible>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

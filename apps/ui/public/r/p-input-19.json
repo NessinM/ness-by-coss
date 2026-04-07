@@ -3,7 +3,7 @@
   "name": "p-input-19",
   "description": "Pill-shaped input",
   "registryDependencies": [
-    "@coss/input"
+    "@ness/input"
   ],
   "files": [
     {

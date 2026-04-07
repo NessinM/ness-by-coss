@@ -3,9 +3,9 @@
   "name": "p-checkbox-group-2",
   "description": "Checkbox group with disabled items",
   "registryDependencies": [
-    "@coss/checkbox",
-    "@coss/checkbox-group",
-    "@coss/label"
+    "@ness/checkbox",
+    "@ness/checkbox-group",
+    "@ness/label"
   ],
   "files": [
     {

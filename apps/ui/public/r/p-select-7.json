@@ -3,7 +3,7 @@
   "name": "p-select-7",
   "description": "Multiple select",
   "registryDependencies": [
-    "@coss/select"
+    "@ness/select"
   ],
   "files": [
     {

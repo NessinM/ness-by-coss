@@ -1,4 +1,4 @@
-# coss Checkbox
+# ness Checkbox
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/checkbox
+npx shadcn@latest add @ness/checkbox
 ```
 
 Manual deps from docs:
@@ -38,7 +38,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 </Label>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

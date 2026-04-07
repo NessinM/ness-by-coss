@@ -1,4 +1,4 @@
-# coss Button
+# ness Button
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/button
+npx shadcn@latest add @ness/button
 ```
 
 Manual deps from docs:
@@ -31,7 +31,7 @@ import { Button } from "@/components/ui/button"
 
 `Button` defaults to `type="button"` when rendered as the native button part. In form flows, set `type` explicitly (`button` / `submit` / `reset`) to match intent, especially when using `render` composition.
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

@@ -5,9 +5,9 @@ import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { XIcon } from "lucide-react";
 import type React from "react";
-import { cn } from "@coss/ui/lib/utils";
-import { Button } from "@coss/ui/components/button";
-import { ScrollArea } from "@coss/ui/components/scroll-area";
+import { cn } from "@ness/ui/lib/utils";
+import { Button } from "@ness/ui/components/button";
+import { ScrollArea } from "@ness/ui/components/scroll-area";
 
 export const Sheet: typeof SheetPrimitive.Root = SheetPrimitive.Root;
 

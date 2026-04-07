@@ -3,7 +3,7 @@
   "name": "p-calendar-4",
   "description": "Calendar with month/year dropdown navigation",
   "registryDependencies": [
-    "@coss/calendar"
+    "@ness/calendar"
   ],
   "files": [
     {

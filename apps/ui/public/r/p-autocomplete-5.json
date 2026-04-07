@@ -3,8 +3,8 @@
   "name": "p-autocomplete-5",
   "description": "Autocomplete with label",
   "registryDependencies": [
-    "@coss/autocomplete",
-    "@coss/label"
+    "@ness/autocomplete",
+    "@ness/label"
   ],
   "files": [
     {

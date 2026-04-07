@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Dialog,
   DialogClose,
@@ -11,21 +11,21 @@ import {
   DialogPopup,
   DialogTitle,
   DialogTrigger,
-} from "@coss/ui/components/dialog";
-import { Field, FieldLabel } from "@coss/ui/components/field";
-import { Form } from "@coss/ui/components/form";
-import { Input } from "@coss/ui/components/input";
+} from "@ness/ui/components/dialog";
+import { Field, FieldLabel } from "@ness/ui/components/field";
+import { Form } from "@ness/ui/components/form";
+import { Input } from "@ness/ui/components/input";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupText,
   InputGroupTextarea,
-} from "@coss/ui/components/input-group";
+} from "@ness/ui/components/input-group";
 import {
   NumberField,
   NumberFieldInput,
-} from "@coss/ui/components/number-field";
-import { Toggle } from "@coss/ui/components/toggle";
+} from "@ness/ui/components/number-field";
+import { Toggle } from "@ness/ui/components/toggle";
 import { BoldIcon, ItalicIcon } from "lucide-react";
 
 export function AddEventTypeDialog({

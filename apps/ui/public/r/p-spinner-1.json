@@ -3,7 +3,7 @@
   "name": "p-spinner-1",
   "description": "Basic spinner",
   "registryDependencies": [
-    "@coss/spinner"
+    "@ness/spinner"
   ],
   "files": [
     {

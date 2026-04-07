@@ -6,9 +6,9 @@
     "@tanstack/react-table"
   ],
   "registryDependencies": [
-    "https://coss.com/origin/r/badge.json",
-    "https://coss.com/origin/r/checkbox.json",
-    "https://coss.com/origin/r/table.json"
+    "https://ness.com/origin/r/badge.json",
+    "https://ness.com/origin/r/checkbox.json",
+    "https://ness.com/origin/r/table.json"
   ],
   "files": [
     {

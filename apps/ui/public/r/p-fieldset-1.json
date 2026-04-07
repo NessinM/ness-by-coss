@@ -3,9 +3,9 @@
   "name": "p-fieldset-1",
   "description": "Fieldset with multiple fields",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/input"
+    "@ness/field",
+    "@ness/fieldset",
+    "@ness/input"
   ],
   "files": [
     {

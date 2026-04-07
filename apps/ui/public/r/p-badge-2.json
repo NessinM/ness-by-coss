@@ -3,7 +3,7 @@
   "name": "p-badge-2",
   "description": "Outline badge",
   "registryDependencies": [
-    "@coss/badge"
+    "@ness/badge"
   ],
   "files": [
     {

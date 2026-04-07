@@ -3,7 +3,7 @@
   "name": "p-pagination-1",
   "description": "Pagination example",
   "registryDependencies": [
-    "@coss/pagination"
+    "@ness/pagination"
   ],
   "files": [
     {

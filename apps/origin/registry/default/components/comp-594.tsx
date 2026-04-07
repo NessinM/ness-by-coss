@@ -3,7 +3,7 @@ import AppToggle from "@/registry/default/components/navbar-components/app-toggl
 import TeamSwitcher from "@/registry/default/components/navbar-components/team-switcher";
 import { Button } from "@/registry/default/ui/button";
 
-const teams = ["Acme Inc.", "coss.com", "Junon"];
+const teams = ["Acme Inc.", "ness.com", "Junon"];
 
 export default function Component() {
   return (

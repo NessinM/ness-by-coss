@@ -1,19 +1,19 @@
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@coss/ui/components/card";
-import { Field, FieldDescription } from "@coss/ui/components/field";
-import { Group } from "@coss/ui/components/group";
+} from "@ness/ui/components/card";
+import { Field, FieldDescription } from "@ness/ui/components/field";
+import { Group } from "@ness/ui/components/group";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
   InputGroupText,
-} from "@coss/ui/components/input-group";
+} from "@ness/ui/components/input-group";
 import {
   AppHeader,
   AppHeaderContent,

@@ -1,5 +1,5 @@
 import type * as React from "react";
-import { cn } from "@coss/ui/lib/utils";
+import { cn } from "@ness/ui/lib/utils";
 
 export function Frame({
   className,

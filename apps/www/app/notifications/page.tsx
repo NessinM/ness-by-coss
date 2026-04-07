@@ -1,21 +1,21 @@
-import { CodeBlock } from "@coss/ui/shared/code-block";
+import { CodeBlock } from "@ness/ui/shared/code-block";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "coss.com notifications",
+  title: "ness.com notifications",
 };
 
 export default function Page() {
-  const initialization = `import { coss } from '@coss';
+  const initialization = `import { ness } from '@ness';
 
-coss.notifications.init({
-  apiKey: process.env.COSS_KEY,
+ness.notifications.init({
+  apiKey: process.env.ness_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const subscribers = `// Create a subscriber
-await coss.notifications.subscribers.create({
+await ness.notifications.subscribers.create({
   subscriberId: 'user_abc123',
   email: 'jane@example.com',
   phone: '+15551234567',
@@ -24,10 +24,10 @@ await coss.notifications.subscribers.create({
 });
 
 // Retrieve a subscriber
-await coss.notifications.subscribers.retrieve('user_abc123');`;
+await ness.notifications.subscribers.retrieve('user_abc123');`;
 
   const workflows = `// Trigger a notification workflow
-await coss.notifications.workflows.trigger({
+await ness.notifications.workflows.trigger({
   name: 'welcome_message',
   to: {
     subscriberId: 'user_abc123',
@@ -38,9 +38,9 @@ await coss.notifications.workflows.trigger({
 });`;
 
   const webhookVerification = `// Validate webhook signature
-const isValid = coss.notifications.utils.verifySignature({
+const isValid = ness.notifications.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['x-coss-signature'],
+  signature: req.headers['x-ness-signature'],
   secret: 'whsec_notifications_123',
 });`;
 

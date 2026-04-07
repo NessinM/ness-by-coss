@@ -3,8 +3,8 @@
   "name": "p-field-16",
   "description": "Field with slider",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/slider"
+    "@ness/field",
+    "@ness/slider"
   ],
   "files": [
     {

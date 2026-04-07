@@ -3,7 +3,7 @@
   "name": "p-button-11",
   "description": "Extra-large button",
   "registryDependencies": [
-    "@coss/button"
+    "@ness/button"
   ],
   "files": [
     {

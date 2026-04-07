@@ -3,7 +3,7 @@
   "name": "p-avatar-2",
   "description": "Fallback-only avatar",
   "registryDependencies": [
-    "@coss/avatar"
+    "@ness/avatar"
   ],
   "files": [
     {

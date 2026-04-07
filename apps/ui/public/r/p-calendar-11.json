@@ -3,7 +3,7 @@
   "name": "p-calendar-11",
   "description": "Calendar with right-aligned navigation",
   "registryDependencies": [
-    "@coss/calendar"
+    "@ness/calendar"
   ],
   "files": [
     {

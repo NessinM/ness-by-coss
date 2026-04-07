@@ -1,4 +1,4 @@
-# coss Breadcrumb
+# ness Breadcrumb
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/breadcrumb
+npx shadcn@latest add @ness/breadcrumb
 ```
 
 Manual deps from docs:
@@ -54,7 +54,7 @@ import {
 </Breadcrumb>
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

@@ -22,7 +22,7 @@ export default function Component() {
         <DropdownMenuLabel className="flex flex-col">
           <span>Signed in as</span>
           <span className="font-normal text-foreground text-xs">
-            k.kennedy@coss.com
+            k.kennedy@ness.com
           </span>
         </DropdownMenuLabel>
         <DropdownMenuSeparator />

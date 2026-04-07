@@ -5,25 +5,25 @@ import { useRender } from "@base-ui/react/use-render";
 import { cva, type VariantProps } from "class-variance-authority";
 import { PanelLeftIcon } from "lucide-react";
 import * as React from "react";
-import { useMediaQuery } from "@coss/ui/hooks/use-media-query";
-import { cn } from "@coss/ui/lib/utils";
-import { Button } from "@coss/ui/components/button";
-import { Input } from "@coss/ui/components/input";
-import { ScrollArea } from "@coss/ui/components/scroll-area";
-import { Separator } from "@coss/ui/components/separator";
+import { useMediaQuery } from "@ness/ui/hooks/use-media-query";
+import { cn } from "@ness/ui/lib/utils";
+import { Button } from "@ness/ui/components/button";
+import { Input } from "@ness/ui/components/input";
+import { ScrollArea } from "@ness/ui/components/scroll-area";
+import { Separator } from "@ness/ui/components/separator";
 import {
   Sheet,
   SheetDescription,
   SheetHeader,
   SheetPopup,
   SheetTitle,
-} from "@coss/ui/components/sheet";
-import { Skeleton } from "@coss/ui/components/skeleton";
+} from "@ness/ui/components/sheet";
+import { Skeleton } from "@ness/ui/components/skeleton";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@coss/ui/components/tooltip";
+} from "@ness/ui/components/tooltip";
 
 const SIDEBAR_COOKIE_NAME: string = "sidebar_state";
 const SIDEBAR_COOKIE_MAX_AGE: number = 60 * 60 * 24 * 7;

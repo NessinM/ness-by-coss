@@ -1,6 +1,6 @@
-# coss CLI Reference (Focused)
+# ness CLI Reference (Focused)
 
-Use this guide when installing, previewing, or discovering coss components via the shadcn CLI.
+Use this guide when installing, previewing, or discovering ness components via the shadcn CLI.
 
 ## CLI Safety Rules
 
@@ -10,46 +10,46 @@ Use this guide when installing, previewing, or discovering coss components via t
   - `bunx --bun shadcn@latest ...`
 - Do not invent flags. Use only documented CLI flags.
 
-## Core Commands for coss Usage
+## Core Commands for ness Usage
 
 ### Recommended bootstrap paths
 
 ```bash
 # New projects (recommended — includes Inter + Geist Mono fonts + full theme)
-npx shadcn@latest init @coss/style
+npx shadcn@latest init @ness/style
 
 # Existing projects - all primitives
-npx shadcn@latest add @coss/ui
+npx shadcn@latest add @ness/ui
 
 # Existing projects - full theme setup
-npx shadcn@latest add @coss/style
+npx shadcn@latest add @ness/style
 
 # Existing projects - primitives + color tokens
-npx shadcn@latest add @coss/ui @coss/colors-neutral
+npx shadcn@latest add @ness/ui @ness/colors-neutral
 ```
 
-`@coss/style` automatically installs `@coss/fonts` (Inter for `--font-sans` and `--font-heading`, Geist Mono for `--font-mono`), which configures all three font variables in `layout.tsx`. No manual font wiring needed.
+`@ness/style` automatically installs `@ness/fonts` (Inter for `--font-sans` and `--font-heading`, Geist Mono for `--font-mono`), which configures all three font variables in `layout.tsx`. No manual font wiring needed.
 
 ### `add` (primary)
 
 ```bash
-shadcn add @coss/<component>
+shadcn add @ness/<component>
 ```
 
 Examples:
 
 ```bash
-npx shadcn@latest add @coss/dialog
-npx shadcn@latest add @coss/select
-npx shadcn@latest add @coss/toast
+npx shadcn@latest add @ness/dialog
+npx shadcn@latest add @ness/select
+npx shadcn@latest add @ness/toast
 ```
 
 ### `add` preview mode (recommended)
 
 ```bash
-npx shadcn@latest add @coss/dialog --dry-run
-npx shadcn@latest add @coss/dialog --diff
-npx shadcn@latest add @coss/dialog --view
+npx shadcn@latest add @ness/dialog --dry-run
+npx shadcn@latest add @ness/dialog --diff
+npx shadcn@latest add @ness/dialog --view
 ```
 
 Use preview mode when:
@@ -61,8 +61,8 @@ Use preview mode when:
 ### Optional discovery helpers (use when available)
 
 ```bash
-npx shadcn@latest search @coss -q "dialog"
-npx shadcn@latest view @coss/dialog
+npx shadcn@latest search @ness -q "dialog"
+npx shadcn@latest view @ness/dialog
 npx shadcn@latest docs dialog
 npx shadcn@latest info --json
 ```
@@ -71,19 +71,19 @@ If these are unsupported in the environment, use fallback sources below.
 
 ## Discovery Fallback Matrix
 
-### Inside the coss repo (preferred)
+### Inside the ness repo (preferred)
 
 - `apps/ui/registry/registry-particles.ts`
-  - `https://github.com/cosscom/coss/blob/main/apps/ui/registry/registry-particles.ts`
+  - `https://github.com/nesscom/ness/blob/main/apps/ui/registry/registry-particles.ts`
 - `apps/ui/registry.json`
-  - `https://github.com/cosscom/coss/blob/main/apps/ui/registry.json`
+  - `https://github.com/nesscom/ness/blob/main/apps/ui/registry.json`
 - `apps/ui/content/docs/components/*.mdx`
-  - `https://github.com/cosscom/coss/tree/main/apps/ui/content/docs/components`
+  - `https://github.com/nesscom/ness/tree/main/apps/ui/content/docs/components`
 
-### Outside the coss repo
+### Outside the ness repo
 
-- coss particles catalog: `https://coss.com/ui/particles`
-- coss docs catalog: `https://coss.com/ui/`
+- ness particles catalog: `https://ness.com/ui/particles`
+- ness docs catalog: `https://ness.com/ui/`
 
 ## Manual Install Path
 
@@ -98,7 +98,7 @@ When users explicitly request manual setup:
 Important:
 
 - CLI setup usually wires required theme tokens automatically.
-- Manual setup must include required additional tokens (`destructive-foreground`, `info`, `success`, `warning` families) from coss styling docs when relevant.
+- Manual setup must include required additional tokens (`destructive-foreground`, `info`, `success`, `warning` families) from ness styling docs when relevant.
 
 ## Quick Output Checklist
 
@@ -107,4 +107,4 @@ Before returning CLI guidance:
 1. runner and command are valid for the user's package manager
 2. flags are documented and intentional
 3. fallback source is provided if CLI discovery commands are unavailable
-4. resulting usage guidance matches coss docs and particles patterns
+4. resulting usage guidance matches ness docs and particles patterns

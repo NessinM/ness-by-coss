@@ -3,8 +3,8 @@
   "name": "p-tooltip-1",
   "description": "Basic tooltip",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/tooltip"
+    "@ness/button",
+    "@ness/tooltip"
   ],
   "files": [
     {

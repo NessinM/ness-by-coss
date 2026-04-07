@@ -2,7 +2,7 @@ import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@coss/ui/components/input-group";
+} from "@ness/ui/components/input-group";
 import { PlusIcon, SearchIcon } from "lucide-react";
 import { AddEventTypeDialog } from "./add-event-type-dialog";
 import { EventTypesList } from "./event-types-list";

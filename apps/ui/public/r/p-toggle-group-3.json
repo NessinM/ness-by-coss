@@ -3,7 +3,7 @@
   "name": "p-toggle-group-3",
   "description": "Large toggle group",
   "registryDependencies": [
-    "@coss/toggle-group"
+    "@ness/toggle-group"
   ],
   "files": [
     {

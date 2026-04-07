@@ -3,7 +3,7 @@
   "name": "p-tabs-5",
   "description": "Tabs with full rounded triggers",
   "registryDependencies": [
-    "@coss/tabs"
+    "@ness/tabs"
   ],
   "files": [
     {

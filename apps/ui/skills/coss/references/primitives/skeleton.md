@@ -1,4 +1,4 @@
-# coss Skeleton
+# ness Skeleton
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/skeleton
+npx shadcn@latest add @ness/skeleton
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Skeleton } from "@/components/ui/skeleton"
 <Skeleton className="size-10 rounded-full" />
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

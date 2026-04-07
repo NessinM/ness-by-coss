@@ -114,7 +114,7 @@ export default function Component() {
           <div className="relative">
             <Input
               className="pe-9"
-              defaultValue="https://coss.com/ui/refer/87689"
+              defaultValue="https://ness.com/ui/refer/87689"
               id={id}
               readOnly
               ref={inputRef}

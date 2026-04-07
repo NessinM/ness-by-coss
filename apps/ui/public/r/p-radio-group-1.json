@@ -3,8 +3,8 @@
   "name": "p-radio-group-1",
   "description": "Basic radio group",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/radio-group"
+    "@ness/label",
+    "@ness/radio-group"
   ],
   "files": [
     {

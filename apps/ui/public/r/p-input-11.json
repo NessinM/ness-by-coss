@@ -3,8 +3,8 @@
   "name": "p-input-11",
   "description": "Input group with keyboard shortcut",
   "registryDependencies": [
-    "@coss/input-group",
-    "@coss/kbd"
+    "@ness/input-group",
+    "@ness/kbd"
   ],
   "files": [
     {

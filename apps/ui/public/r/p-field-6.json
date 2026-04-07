@@ -3,9 +3,9 @@
   "name": "p-field-6",
   "description": "Input group with field",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/input-group"
+    "@ness/button",
+    "@ness/field",
+    "@ness/input-group"
   ],
   "files": [
     {

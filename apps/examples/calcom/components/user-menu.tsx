@@ -4,7 +4,7 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@coss/ui/components/avatar";
+} from "@ness/ui/components/avatar";
 import {
   Menu,
   MenuGroup,
@@ -13,8 +13,8 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@coss/ui/components/menu";
-import { useMediaQuery } from "@coss/ui/hooks/use-media-query";
+} from "@ness/ui/components/menu";
+import { useMediaQuery } from "@ness/ui/hooks/use-media-query";
 import {
   GaugeIcon,
   LogOutIcon,

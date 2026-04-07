@@ -3,7 +3,7 @@
   "name": "p-autocomplete-11",
   "description": "Autocomplete with limited number of results",
   "registryDependencies": [
-    "@coss/autocomplete"
+    "@ness/autocomplete"
   ],
   "files": [
     {

@@ -3,8 +3,8 @@
   "name": "p-drawer-4",
   "description": "Inset variant drawers for all four positions",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/drawer"
+    "@ness/button",
+    "@ness/drawer"
   ],
   "files": [
     {

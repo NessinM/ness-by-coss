@@ -1,22 +1,22 @@
-![coss.com](https://github.com/user-attachments/assets/56dfe7f7-85b7-44ee-b89a-1c30c5c4a156)
+![ness.com](https://github.com/user-attachments/assets/56dfe7f7-85b7-44ee-b89a-1c30c5c4a156)
 
-<h3 align="center">coss.com (formerly Origin UI)</h3>
+<h3 align="center">ness.com (formerly Origin UI)</h3>
 <p align="center">The <strong>everything but AI</strong> company.</p>
 
 ## About the Project
 
-coss.com is the new holding company of [cal.com](https://cal.com), the pioneers of open source scheduling infrastructure. Our mission is to build a home for amazing open source projects, giving them the support they need to grow and succeed.
+ness.com is the new holding company of [cal.com](https://cal.com), the pioneers of open source scheduling infrastructure. Our mission is to build a home for amazing open source projects, giving them the support they need to grow and succeed.
 
-We're building the coss stack, a one line `npm install @coss` package that includes everything you need to build your application, from email, SMS, calendar APIs, scheduling, video conferencing, notifications and more.
+We're building the ness stack, a one line `npm install @ness` package that includes everything you need to build your application, from email, SMS, calendar APIs, scheduling, video conferencing, notifications and more.
 
 ## Repository Overview
 
-This repository contains multiple products and applications that make up the coss.com ecosystem:
+This repository contains multiple products and applications that make up the ness.com ecosystem:
 
 ### Apps and Packages
 
-- **`apps/www/`** - Main coss.com website
-- **`apps/ui/`** - coss ui component library and documentation
+- **`apps/www/`** - Main ness.com website
+- **`apps/ui/`** - ness ui component library and documentation
 - **`apps/origin/`** - Legacy Origin UI components (pre-acquisition)
 - **`packages/ui/`** - Shared UI components package
 - **`packages/typescript-config/`** - TypeScript configurations
@@ -39,7 +39,7 @@ For local development, create a `.env.local` file in each of the app directories
     ```sh
     # apps/www/.env.local
     NEXT_PUBLIC_APP_URL=http://localhost:3000
-    NEXT_PUBLIC_COSS_UI_URL=http://localhost:4000/ui
+    NEXT_PUBLIC_ness_UI_URL=http://localhost:4000/ui
     ```
 
 2.  **`ui` app**
@@ -49,7 +49,7 @@ For local development, create a `.env.local` file in each of the app directories
     ```sh
     # apps/ui/.env.local
     NEXT_PUBLIC_APP_URL=http://localhost:4000/ui
-    NEXT_PUBLIC_COSS_URL=http://localhost:3000
+    NEXT_PUBLIC_ness_URL=http://localhost:3000
     NEXT_PUBLIC_ORIGIN_URL=http://localhost:4001
     ```
 
@@ -60,8 +60,8 @@ For local development, create a `.env.local` file in each of the app directories
     ```sh
     # apps/origin/.env.local
     NEXT_PUBLIC_APP_URL=http://localhost:4001/origin
-    NEXT_PUBLIC_COSS_URL=http://localhost:3000
-    NEXT_PUBLIC_COSS_UI_URL=http://localhost:4000/ui
+    NEXT_PUBLIC_ness_URL=http://localhost:3000
+    NEXT_PUBLIC_ness_UI_URL=http://localhost:4000/ui
     ```
 
 > [!NOTE]
@@ -106,9 +106,9 @@ bun run dev --filter=ui
 bun run dev --filter=origin
 ```
 
-## coss ui
+## ness ui
 
-**coss ui** is a collection of beautifully designed, accessible, and composable components for your React apps. Built on top of [Base UI](https://base-ui.com/) and styled with [Tailwind CSS](https://tailwindcss.com/), it's designed for you to copy, paste, and own.
+**ness ui** is a collection of beautifully designed, accessible, and composable components for your React apps. Built on top of [Base UI](https://base-ui.com/) and styled with [Tailwind CSS](https://tailwindcss.com/), it's designed for you to copy, paste, and own.
 
 We think Base UI is the best foundation for modern web applications. We've taken its powerful, unstyled primitives and given them a design system that's ready to go, right out of the box.
 
@@ -116,9 +116,9 @@ This is the component library we'll be progressively adopting for [cal.com](http
 
 ### Origin UI Acquisition
 
-This repository also includes the **Origin UI** components as a legacy snapshot. Origin UI was a pre-acquisition collection of Radix-based, shadcn-style components that remains available for use, but with limited support and maintenance. Active development now focuses on the new [Particles](https://coss.com/ui/particles) components built on the coss ui primitives.
+This repository also includes the **Origin UI** components as a legacy snapshot. Origin UI was a pre-acquisition collection of Radix-based, shadcn-style components that remains available for use, but with limited support and maintenance. Active development now focuses on the new [Particles](https://ness.com/ui/particles) components built on the ness ui primitives.
 
-### Contributing to coss ui
+### Contributing to ness ui
 
 We're always looking for contributors to help improve our UI components. Whether it's a bug report, a new feature, or a documentation update, we appreciate your help.
 

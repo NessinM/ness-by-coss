@@ -1,72 +1,72 @@
-import { CodeBlock } from "@coss/ui/shared/code-block";
+import { CodeBlock } from "@ness/ui/shared/code-block";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "coss.com auth",
+  title: "ness.com auth",
 };
 
 export default function Page() {
-  const initialization = `import { coss } from '@coss';
+  const initialization = `import { ness } from '@ness';
 
-coss.auth.init({
-  apiKey: process.env.COSS_KEY,
+ness.auth.init({
+  apiKey: process.env.ness_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const users = `// Register a new user
-await coss.auth.users.register({
+await ness.auth.users.register({
   email: 'jane@example.com',
   password: 'securePassword123',
 });
 
 // Log in a user
-await coss.auth.users.login({
+await ness.auth.users.login({
   email: 'jane@example.com',
   password: 'securePassword123',
 });
 
 // Retrieve user profile
-await coss.auth.users.retrieve('user_abc123');
+await ness.auth.users.retrieve('user_abc123');
 
 // Update user profile
-await coss.auth.users.update('user_abc123', {
+await ness.auth.users.update('user_abc123', {
   name: 'Jane Doe',
 });
 
 // Delete user
-await coss.auth.users.delete('user_abc123');`;
+await ness.auth.users.delete('user_abc123');`;
 
   const sessions = `// Validate session token
-const session = await coss.auth.sessions.validate('session_token_123');
+const session = await ness.auth.sessions.validate('session_token_123');
 
 // Log out
-await coss.auth.sessions.logout('session_token_123');`;
+await ness.auth.sessions.logout('session_token_123');`;
 
   const passwordReset = `// Request password reset email
-await coss.auth.passwords.requestReset({
+await ness.auth.passwords.requestReset({
   email: 'jane@example.com',
 });
 
 // Confirm password reset
-await coss.auth.passwords.confirmReset({
+await ness.auth.passwords.confirmReset({
   token: 'reset_token_123',
   newPassword: 'newSecurePassword456',
 });`;
 
   const webhooks = `// Webhook events
-coss.auth.webhooks.on('user.registered', (event) => {
+ness.auth.webhooks.on('user.registered', (event) => {
   console.log('New user registered:', event.data);
 });
 
-coss.auth.webhooks.on('user.deleted', (event) => {
+ness.auth.webhooks.on('user.deleted', (event) => {
   console.log('User deleted:', event.data);
 });`;
 
   const utilities = `// Validate webhook signature
-const isValid = coss.auth.utils.verifySignature({
+const isValid = ness.auth.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['coss-auth-signature'],
+  signature: req.headers['ness-auth-signature'],
   secret: 'whsec_auth_123',
 });`;
 

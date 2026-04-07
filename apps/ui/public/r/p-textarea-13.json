@@ -3,7 +3,7 @@
   "name": "p-textarea-13",
   "description": "Shorter textarea with fixed height",
   "registryDependencies": [
-    "@coss/textarea"
+    "@ness/textarea"
   ],
   "files": [
     {

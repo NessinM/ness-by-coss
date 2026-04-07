@@ -3,7 +3,7 @@
   "name": "p-frame-3",
   "description": "Frame with multiple separated panels",
   "registryDependencies": [
-    "@coss/frame"
+    "@ness/frame"
   ],
   "files": [
     {

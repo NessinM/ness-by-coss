@@ -1,6 +1,6 @@
-import { Card, CardFrame, CardPanel } from "@coss/ui/components/card";
-import { FrameFooter } from "@coss/ui/components/frame";
-import { Skeleton } from "@coss/ui/components/skeleton";
+import { Card, CardFrame, CardPanel } from "@ness/ui/components/card";
+import { FrameFooter } from "@ness/ui/components/frame";
+import { Skeleton } from "@ness/ui/components/skeleton";
 import { BookingActionsSkeleton } from "./past/booking-actions";
 import {
   ListItem,

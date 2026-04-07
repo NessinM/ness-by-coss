@@ -4,24 +4,24 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@coss/ui/components/avatar";
-import { Button } from "@coss/ui/components/button";
-import { Field, FieldDescription, FieldLabel } from "@coss/ui/components/field";
+} from "@ness/ui/components/avatar";
+import { Button } from "@ness/ui/components/button";
+import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
   InputGroupText,
   InputGroupTextarea,
-} from "@coss/ui/components/input-group";
-import { Label } from "@coss/ui/components/label";
-import { Toggle } from "@coss/ui/components/toggle";
+} from "@ness/ui/components/input-group";
+import { Label } from "@ness/ui/components/label";
+import { Toggle } from "@ness/ui/components/toggle";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@coss/ui/components/tooltip";
-import { useCopyToClipboard } from "@coss/ui/hooks/use-copy-to-clipboard";
+} from "@ness/ui/components/tooltip";
+import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
 import {
   BoldIcon,
   CheckIcon,

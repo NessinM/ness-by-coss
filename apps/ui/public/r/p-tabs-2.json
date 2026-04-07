@@ -3,7 +3,7 @@
   "name": "p-tabs-2",
   "description": "Tabs with underline",
   "registryDependencies": [
-    "@coss/tabs"
+    "@ness/tabs"
   ],
   "files": [
     {

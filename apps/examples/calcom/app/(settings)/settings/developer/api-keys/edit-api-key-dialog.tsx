@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Dialog,
   DialogClose,
@@ -9,10 +9,10 @@ import {
   DialogPanel,
   DialogPopup,
   DialogTitle,
-} from "@coss/ui/components/dialog";
-import { Field, FieldLabel } from "@coss/ui/components/field";
-import { Form } from "@coss/ui/components/form";
-import { Input } from "@coss/ui/components/input";
+} from "@ness/ui/components/dialog";
+import { Field, FieldLabel } from "@ness/ui/components/field";
+import { Form } from "@ness/ui/components/form";
+import { Input } from "@ness/ui/components/input";
 import type { ApiKeyItem } from "./api-keys-list";
 
 interface EditApiKeyDialogProps {

@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
-import { Group, GroupSeparator } from "@coss/ui/components/group";
+import { Button } from "@ness/ui/components/button";
+import { Group, GroupSeparator } from "@ness/ui/components/group";
 import {
   Menu,
   MenuCheckboxItem,
@@ -10,14 +10,14 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@coss/ui/components/menu";
-import { Skeleton } from "@coss/ui/components/skeleton";
-import { Switch } from "@coss/ui/components/switch";
+} from "@ness/ui/components/menu";
+import { Skeleton } from "@ness/ui/components/skeleton";
+import { Switch } from "@ness/ui/components/switch";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@coss/ui/components/tooltip";
+} from "@ness/ui/components/tooltip";
 import {
   CodeIcon,
   CopyIcon,

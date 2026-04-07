@@ -7,9 +7,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/calendar",
-    "@coss/popover",
-    "@coss/select"
+    "@ness/calendar",
+    "@ness/popover",
+    "@ness/select"
   ],
   "files": [
     {

@@ -3,7 +3,7 @@
   "name": "p-badge-17",
   "description": "Status badge - Pending",
   "registryDependencies": [
-    "@coss/badge"
+    "@ness/badge"
   ],
   "files": [
     {

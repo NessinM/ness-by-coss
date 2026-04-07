@@ -1,4 +1,4 @@
-import { Card, CardFrame, CardPanel } from "@coss/ui/components/card";
+import { Card, CardFrame, CardPanel } from "@ness/ui/components/card";
 import { CopyLink } from "./copy-link";
 import {
   AppHeader,

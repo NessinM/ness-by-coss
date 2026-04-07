@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Combobox,
   ComboboxEmpty,
@@ -10,10 +10,10 @@ import {
   ComboboxPopup,
   ComboboxTrigger,
   ComboboxValue,
-} from "@coss/ui/components/combobox";
-import { Field, FieldDescription, FieldLabel } from "@coss/ui/components/field";
-import { Fieldset, FieldsetLegend } from "@coss/ui/components/fieldset";
-import { Label } from "@coss/ui/components/label";
+} from "@ness/ui/components/combobox";
+import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
+import { Fieldset, FieldsetLegend } from "@ness/ui/components/fieldset";
+import { Label } from "@ness/ui/components/label";
 import {
   Select,
   SelectButton,
@@ -21,7 +21,7 @@ import {
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@coss/ui/components/select";
+} from "@ness/ui/components/select";
 import { CalendarIcon, SearchIcon } from "lucide-react";
 import { useMemo } from "react";
 import { FieldGrid, FieldGridRow } from "@/components/particles/field-grid";

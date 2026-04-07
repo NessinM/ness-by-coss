@@ -3,7 +3,7 @@
   "name": "p-textarea-2",
   "description": "Small textarea",
   "registryDependencies": [
-    "@coss/textarea"
+    "@ness/textarea"
   ],
   "files": [
     {

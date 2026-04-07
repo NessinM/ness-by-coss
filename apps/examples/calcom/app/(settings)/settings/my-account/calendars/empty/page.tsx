@@ -1,5 +1,5 @@
-import { Button } from "@coss/ui/components/button";
-import { Card, CardFrame, CardPanel } from "@coss/ui/components/card";
+import { Button } from "@ness/ui/components/button";
+import { Card, CardFrame, CardPanel } from "@ness/ui/components/card";
 import { PlusIcon } from "lucide-react";
 import { CalendarsEmpty } from "../calendars-empty";
 import {

@@ -3,7 +3,7 @@
   "name": "p-button-2",
   "description": "Outline button",
   "registryDependencies": [
-    "@coss/button"
+    "@ness/button"
   ],
   "files": [
     {

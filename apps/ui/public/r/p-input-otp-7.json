@@ -3,8 +3,8 @@
   "name": "p-input-otp-7",
   "description": "OTP input with auto validation",
   "registryDependencies": [
-    "@coss/input-otp",
-    "@coss/label"
+    "@ness/input-otp",
+    "@ness/label"
   ],
   "files": [
     {

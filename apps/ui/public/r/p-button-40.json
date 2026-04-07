@@ -6,11 +6,11 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/spinner",
-    "@coss/toast",
-    "@coss/tooltip"
+    "@ness/button",
+    "@ness/group",
+    "@ness/spinner",
+    "@ness/toast",
+    "@ness/tooltip"
   ],
   "files": [
     {

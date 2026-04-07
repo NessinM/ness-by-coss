@@ -1,17 +1,17 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
-import { Field, FieldLabel } from "@coss/ui/components/field";
+import { Button } from "@ness/ui/components/button";
+import { Field, FieldLabel } from "@ness/ui/components/field";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@coss/ui/components/input-group";
+} from "@ness/ui/components/input-group";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@coss/ui/components/tooltip";
+} from "@ness/ui/components/tooltip";
 import { EyeIcon, EyeOffIcon } from "lucide-react";
 import { useState } from "react";
 import { FieldGrid, FieldGridRow } from "@/components/particles/field-grid";

@@ -3,7 +3,7 @@
   "name": "p-input-otp-2",
   "description": "Large OTP input",
   "registryDependencies": [
-    "@coss/input-otp"
+    "@ness/input-otp"
   ],
   "files": [
     {

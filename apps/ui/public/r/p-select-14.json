@@ -3,7 +3,7 @@
   "name": "p-select-14",
   "description": "Status select with colored dot",
   "registryDependencies": [
-    "@coss/select"
+    "@ness/select"
   ],
   "files": [
     {

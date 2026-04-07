@@ -1,10 +1,10 @@
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameFooter,
   CardPanel,
-} from "@coss/ui/components/card";
+} from "@ness/ui/components/card";
 import { PasswordFormFields } from "./password-form";
 import {
   AppHeader,

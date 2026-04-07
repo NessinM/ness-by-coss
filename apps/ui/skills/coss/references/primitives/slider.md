@@ -1,4 +1,4 @@
-# coss Slider
+# ness Slider
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/slider
+npx shadcn@latest add @ness/slider
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Slider, SliderValue } from "@/components/ui/slider"
 <Slider aria-label="Volume" defaultValue={40} max={100} min={0} />
 ```
 
-## Patterns from coss particles
+## Patterns from ness particles
 
 ### Key patterns
 

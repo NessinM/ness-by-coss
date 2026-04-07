@@ -3,10 +3,10 @@
   "name": "p-group-12",
   "description": "Group with input group",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/input-group",
-    "@coss/tooltip"
+    "@ness/button",
+    "@ness/group",
+    "@ness/input-group",
+    "@ness/tooltip"
   ],
   "files": [
     {

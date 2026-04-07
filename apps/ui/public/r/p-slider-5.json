@@ -3,7 +3,7 @@
   "name": "p-slider-5",
   "description": "Slider with ticks",
   "registryDependencies": [
-    "@coss/slider"
+    "@ness/slider"
   ],
   "files": [
     {

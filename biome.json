@@ -8,7 +8,7 @@
           "options": {
             "groups": [
               [":PACKAGE_WITH_PROTOCOL:", ":PACKAGE:"],
-              ["@/registry/**", "@ness/**", "@calcom/**"],
+              ["@/registry/**", "@ness/**", "@creantly/**"],
               ["@lib/**", "@components/**", "@server/**", "@trpc/**"],
               ":PATH:"
             ]
@@ -108,7 +108,7 @@
         "apps/ui/registry/default/hooks/**",
         "apps/ui/registry/default/lib/**",
         "apps/ui/registry/default/ui/**",
-        "apps/examples/calcom/components/**"
+        "apps/examples/creantly/components/**"
       ],
       "linter": {
         "rules": {

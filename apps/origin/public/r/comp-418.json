@@ -3,7 +3,7 @@
   "name": "comp-418",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/badge.json"
+    "https://creantly.com/origin/r/badge.json"
   ],
   "files": [
     {

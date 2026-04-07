@@ -3,7 +3,7 @@
   "name": "p-scroll-area-5",
   "description": "Horizontal scroll area with scrollbar gutter",
   "registryDependencies": [
-    "@ness/scroll-area"
+    "@creantly/scroll-area"
   ],
   "files": [
     {

@@ -1,14 +1,14 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
-import { EmptyMedia } from "@ness/ui/components/empty";
+} from "@creantly/ui/components/card";
+import { EmptyMedia } from "@creantly/ui/components/empty";
 import { DownloadIcon, FileTextIcon, LockIcon } from "lucide-react";
 import {
   ListItem,
@@ -31,11 +31,11 @@ const DOCUMENT_SECTIONS = [
   {
     documents: [
       {
-        description: "View and download the DPA for creantly.com",
+        description: "View and download the DPA for hookra.com",
         id: "dpa",
         name: "Data protection agreement",
         restricted: false,
-        url: "https://go.creantly.com/dpa",
+        url: "https://go.hookra.com/dpa",
       },
     ],
     title: "Data privacy",

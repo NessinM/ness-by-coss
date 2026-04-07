@@ -14,7 +14,7 @@
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
-    "@ness/typescript-config": "workspace:*",
+    "@creantly/typescript-config": "workspace:*",
     "@tailwindcss/postcss": "^4.1.17",
     "@turbo/gen": "^2.6.1",
     "@types/node": "^24.10.1",
@@ -36,7 +36,7 @@
     "./shared/*": "./src/shared/*.tsx"
   },
   "license": "AGPL-3.0-or-later",
-  "name": "@ness/ui",
+  "name": "@creantly/ui",
   "peerDependencies": {
     "next": "^16.0.0",
     "react": "^19.2.0"

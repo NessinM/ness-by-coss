@@ -3,7 +3,7 @@
   "name": "p-pagination-1",
   "description": "Pagination example",
   "registryDependencies": [
-    "@ness/pagination"
+    "@creantly/pagination"
   ],
   "files": [
     {

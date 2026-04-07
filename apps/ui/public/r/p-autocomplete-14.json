@@ -3,7 +3,7 @@
   "name": "p-autocomplete-14",
   "description": "Autocomplete form",
   "registryDependencies": [
-    "@ness/autocomplete"
+    "@creantly/autocomplete"
   ],
   "files": [
     {

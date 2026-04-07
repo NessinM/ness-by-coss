@@ -1,14 +1,14 @@
 "use client";
 
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+import { Badge } from "@creantly/ui/components/badge";
+import { Button } from "@creantly/ui/components/button";
 import {
   Card,
   CardFrameDescription,
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
+} from "@creantly/ui/components/card";
 import { useState } from "react";
 import { Disable2FADialog } from "./disable-2fa-dialog";
 import { Enable2FADialog } from "./enable-2fa-dialog";

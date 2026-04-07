@@ -3,8 +3,8 @@
   "name": "p-calendar-13",
   "description": "Calendar with year-only combobox dropdown",
   "registryDependencies": [
-    "@ness/calendar",
-    "@ness/combobox"
+    "@creantly/calendar",
+    "@creantly/combobox"
   ],
   "files": [
     {

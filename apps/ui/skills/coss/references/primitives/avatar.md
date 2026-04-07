@@ -1,4 +1,4 @@
-# ness Avatar
+# creantly Avatar
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/avatar
+npx shadcn@latest add @creantly/avatar
 ```
 
 Manual deps from docs:
@@ -32,7 +32,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 </Avatar>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

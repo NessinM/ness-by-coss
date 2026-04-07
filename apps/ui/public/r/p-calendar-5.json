@@ -3,8 +3,8 @@
   "name": "p-calendar-5",
   "description": "Calendar with custom Select dropdown for month/year",
   "registryDependencies": [
-    "@ness/calendar",
-    "@ness/select"
+    "@creantly/calendar",
+    "@creantly/select"
   ],
   "files": [
     {

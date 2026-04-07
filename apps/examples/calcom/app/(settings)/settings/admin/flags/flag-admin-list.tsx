@@ -4,16 +4,16 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@ness/ui/components/avatar";
-import { Button } from "@ness/ui/components/button";
+} from "@creantly/ui/components/avatar";
+import { Button } from "@creantly/ui/components/button";
 import {
   Collapsible,
   CollapsiblePanel,
   CollapsibleTrigger,
-} from "@ness/ui/components/collapsible";
-import { Frame, FrameHeader, FramePanel } from "@ness/ui/components/frame";
-import { Input } from "@ness/ui/components/input";
-import { Label } from "@ness/ui/components/label";
+} from "@creantly/ui/components/collapsible";
+import { Frame, FrameHeader, FramePanel } from "@creantly/ui/components/frame";
+import { Input } from "@creantly/ui/components/input";
+import { Label } from "@creantly/ui/components/label";
 import {
   Sheet,
   SheetClose,
@@ -23,14 +23,14 @@ import {
   SheetPanel,
   SheetPopup,
   SheetTitle,
-} from "@ness/ui/components/sheet";
-import { Switch } from "@ness/ui/components/switch";
-import { toastManager } from "@ness/ui/components/toast";
+} from "@creantly/ui/components/sheet";
+import { Switch } from "@creantly/ui/components/switch";
+import { toastManager } from "@creantly/ui/components/toast";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
+} from "@creantly/ui/components/tooltip";
 import { ChevronDownIcon, UsersIcon } from "lucide-react";
 import { useMemo, useState } from "react";
 import {
@@ -207,42 +207,42 @@ const USERS: AssignableUser[] = [
   {
     avatarUrl:
       "https://pbs.twimg.com/profile_images/1994776674391457792/7utKOMi6_400x400.jpg",
-    email: "pasquale@creantly.com",
+    email: "pasquale@hookra.com",
     id: "usr_pasquale",
     name: "Pasquale Vitiello",
   },
   {
-    email: "margaret@creantly.com",
+    email: "margaret@hookra.com",
     id: "usr_margaret",
     name: "Margaret Welsh",
   },
   {
-    email: "brian@creantly.com",
+    email: "brian@hookra.com",
     id: "usr_brian",
     name: "Brian Smith",
   },
   {
-    email: "anna@creantly.com",
+    email: "anna@hookra.com",
     id: "usr_anna",
     name: "Anna Taylor",
   },
   {
-    email: "sofia@creantly.com",
+    email: "sofia@hookra.com",
     id: "usr_sofia",
     name: "Sofia Rodriguez",
   },
   {
-    email: "david@creantly.com",
+    email: "david@hookra.com",
     id: "usr_david",
     name: "David Chen",
   },
   {
-    email: "elena@creantly.com",
+    email: "elena@hookra.com",
     id: "usr_elena",
     name: "Elena Rossi",
   },
   {
-    email: "james@creantly.com",
+    email: "james@hookra.com",
     id: "usr_james",
     name: "James Lee",
   },

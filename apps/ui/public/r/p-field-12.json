@@ -3,8 +3,8 @@
   "name": "p-field-12",
   "description": "Field with checkbox",
   "registryDependencies": [
-    "@ness/checkbox",
-    "@ness/field"
+    "@creantly/checkbox",
+    "@creantly/field"
   ],
   "files": [
     {

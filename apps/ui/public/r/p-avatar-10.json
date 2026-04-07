@@ -3,8 +3,8 @@
   "name": "p-avatar-10",
   "description": "Avatar with notification badge",
   "registryDependencies": [
-    "@ness/avatar",
-    "@ness/badge"
+    "@creantly/avatar",
+    "@creantly/badge"
   ],
   "files": [
     {

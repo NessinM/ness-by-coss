@@ -1,5 +1,5 @@
-import { CopyButton } from "@ness/ui/shared/copy-button";
-import { getIconForLanguageExtension } from "@ness/ui/shared/icons";
+import { CopyButton } from "@creantly/ui/shared/copy-button";
+import { getIconForLanguageExtension } from "@creantly/ui/shared/icons";
 import { InfoIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

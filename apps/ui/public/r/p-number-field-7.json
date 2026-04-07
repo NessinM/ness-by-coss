@@ -3,7 +3,7 @@
   "name": "p-number-field-7",
   "description": "Number field with range",
   "registryDependencies": [
-    "@ness/number-field"
+    "@creantly/number-field"
   ],
   "files": [
     {

@@ -3,7 +3,7 @@
   "name": "comp-365",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/hover-card.json"
+    "https://creantly.com/origin/r/hover-card.json"
   ],
   "files": [
     {

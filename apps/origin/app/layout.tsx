@@ -30,9 +30,9 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   description:
     "An extensive collection of copy-and-paste components for quickly building app UIs. Free, open-source, and ready to drop into your projects.",
-  metadataBase: new URL("https://ness.com"),
+  metadataBase: new URL("https://creantly.com"),
   title:
-    "ness.com origin - Beautiful UI components built with Tailwind CSS and React",
+    "creantly.com origin - Beautiful UI components built with Tailwind CSS and React",
 };
 
 export default function RootLayout({

@@ -6,10 +6,10 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/button",
-    "@ness/drawer",
-    "@ness/menu",
-    "@ness/use-media-query"
+    "@creantly/button",
+    "@creantly/drawer",
+    "@creantly/menu",
+    "@creantly/use-media-query"
   ],
   "files": [
     {

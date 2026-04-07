@@ -3,7 +3,7 @@
   "name": "p-progress-2",
   "description": "Progress with label and value",
   "registryDependencies": [
-    "@ness/progress"
+    "@creantly/progress"
   ],
   "files": [
     {

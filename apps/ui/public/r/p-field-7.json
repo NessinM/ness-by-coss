@@ -3,8 +3,8 @@
   "name": "p-field-7",
   "description": "Field with autocomplete",
   "registryDependencies": [
-    "@ness/autocomplete",
-    "@ness/field"
+    "@creantly/autocomplete",
+    "@creantly/field"
   ],
   "files": [
     {

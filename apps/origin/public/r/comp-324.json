@@ -6,8 +6,8 @@
     "input-otp"
   ],
   "registryDependencies": [
-    "https://ness.com/origin/r/button.json",
-    "https://ness.com/origin/r/dialog.json"
+    "https://creantly.com/origin/r/button.json",
+    "https://creantly.com/origin/r/dialog.json"
   ],
   "files": [
     {

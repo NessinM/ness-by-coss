@@ -1,28 +1,28 @@
 "use client";
 
-import { Field } from "@ness/ui/components/field";
-import { Fieldset } from "@ness/ui/components/fieldset";
+import { Field } from "@creantly/ui/components/field";
+import { Fieldset } from "@creantly/ui/components/fieldset";
 import {
   ToggleGroup,
   ToggleGroupItem,
   ToggleGroupSeparator,
-} from "@ness/ui/components/toggle-group";
+} from "@creantly/ui/components/toggle-group";
 import { useCallback, useState } from "react";
 import { ImageCheckboxOption } from "@/components/particles";
 
 const layoutItems = [
   {
-    imageSrc: "https://app.creantly.com/theme-light.svg",
+    imageSrc: "https://app.hookra.com/theme-light.svg",
     label: "Month",
     value: "month",
   },
   {
-    imageSrc: "https://app.creantly.com/theme-light.svg",
+    imageSrc: "https://app.hookra.com/theme-light.svg",
     label: "Weekly",
     value: "weekly",
   },
   {
-    imageSrc: "https://app.creantly.com/theme-light.svg",
+    imageSrc: "https://app.hookra.com/theme-light.svg",
     label: "Column",
     value: "column",
   },

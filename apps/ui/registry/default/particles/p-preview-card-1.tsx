@@ -10,12 +10,12 @@ export default function Particle() {
   return (
     <PreviewCard>
       <PreviewCardTrigger render={<Button variant="ghost" />}>
-        ness.com/ui
+        creantly.com/ui
       </PreviewCardTrigger>
       <PreviewCardPopup>
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-1">
-            <h4 className="font-medium text-sm">ness.com/ui</h4>
+            <h4 className="font-medium text-sm">creantly.com/ui</h4>
             <p className="text-muted-foreground text-sm">
               Beautifully designed components that you can copy and paste into
               your apps.

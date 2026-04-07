@@ -1,7 +1,7 @@
 export const appConfig = {
   description:
     "A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.",
-  name: "ness ui",
+  name: "creantly ui",
   navItems: [
     {
       href: "/docs",
@@ -12,6 +12,6 @@ export const appConfig = {
       label: "Particles",
     },
   ],
-  ogImage: "https://ness.com/og.jpg",
-  url: "https://ness.com/ui",
+  ogImage: "https://creantly.com/og.jpg",
+  url: "https://creantly.com/ui",
 };

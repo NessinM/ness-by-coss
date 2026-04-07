@@ -1,59 +1,59 @@
-import { CodeBlock } from "@ness/ui/shared/code-block";
+import { CodeBlock } from "@creantly/ui/shared/code-block";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "ness.com sms",
+  title: "creantly.com sms",
 };
 
 export default function Page() {
-  const initialization = `import { ness } from '@ness';
+  const initialization = `import { creantly } from '@creantly';
 
-ness.sms.init({
-  apiKey: process.env.NESS_KEY,
+creantly.sms.init({
+  apiKey: process.env.CREANTLY_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const sendingMessages = `// Send an SMS message
-await ness.sms.messages.send({
+await creantly.sms.messages.send({
   to: '+15551234567',
   from: '+15559876543',
   body: 'Your verification code is 123456',
 });`;
 
   const messages = `// Retrieve a message
-await ness.sms.messages.retrieve('msg_abc123');
+await creantly.sms.messages.retrieve('msg_abc123');
 
 // List sent messages
-await ness.sms.messages.list({
+await creantly.sms.messages.list({
   to: '+15551234567',
 });`;
 
   const phoneNumbers = `// Buy a new phone number
-await ness.sms.numbers.purchase({
+await creantly.sms.numbers.purchase({
   country: 'US',
   areaCode: '415',
 });
 
 // List owned numbers
-await ness.sms.numbers.list();
+await creantly.sms.numbers.list();
 
 // Release a phone number
-await ness.sms.numbers.release('+15559876543');`;
+await creantly.sms.numbers.release('+15559876543');`;
 
   const webhooks = `// Webhook events
-ness.sms.webhooks.on('message.delivered', (event) => {
+creantly.sms.webhooks.on('message.delivered', (event) => {
   console.log('Message delivered:', event.data);
 });
 
-ness.sms.webhooks.on('message.failed', (event) => {
+creantly.sms.webhooks.on('message.failed', (event) => {
   console.log('Message failed:', event.data);
 });`;
 
   const utilities = `// Validate webhook signature
-const isValid = ness.sms.utils.verifySignature({
+const isValid = creantly.sms.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['ness-sms-signature'],
+  signature: req.headers['creantly-sms-signature'],
   secret: 'whsec_sms_123',
 });`;
 

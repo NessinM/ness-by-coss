@@ -1,11 +1,11 @@
 export const siteConfig = {
-	description: "ness.com - the everything but AI company.",
+	description: "creantly.com - the everything but AI company.",
 	links: {
-		github: "https://github.com/nesscom/ness",
-		twitter: "https://x.com/NESS_com",
+		github: "https://github.com/NessinM/creantly",
+		twitter: "https://x.com/CREANTLYcom",
 	},
-	name: "ness.com",
-	ogImage: "https://ness.com/og.jpg",
+	name: "creantly.com",
+	ogImage: "https://creantly.com/og.jpg",
 	products: [
 		{
 			href: "/",
@@ -52,5 +52,5 @@ export const siteConfig = {
 			upcoming: true,
 		},
 	],
-	url: "https://ness.com",
+	url: "https://creantly.com",
 };

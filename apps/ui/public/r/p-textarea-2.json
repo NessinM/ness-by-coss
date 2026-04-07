@@ -3,7 +3,7 @@
   "name": "p-textarea-2",
   "description": "Small textarea",
   "registryDependencies": [
-    "@ness/textarea"
+    "@creantly/textarea"
   ],
   "files": [
     {

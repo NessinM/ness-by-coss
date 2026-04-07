@@ -69,7 +69,7 @@ export default function Component() {
         Basic image uploader ∙{" "}
         <a
           className="underline hover:text-foreground"
-          href="https://github.com/nesscom/ness/blob/main/apps/origin/docs/use-file-upload.md"
+          href="https://github.com/NessinM/creantly/blob/main/apps/origin/docs/use-file-upload.md"
         >
           Docs
         </a>

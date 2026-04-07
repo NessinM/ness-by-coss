@@ -8,9 +8,9 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@ness/ui/components/alert-dialog";
-import { Button } from "@ness/ui/components/button";
-import { Card, CardPanel } from "@ness/ui/components/card";
+} from "@creantly/ui/components/alert-dialog";
+import { Button } from "@creantly/ui/components/button";
+import { Card, CardPanel } from "@creantly/ui/components/card";
 import { PlusIcon } from "lucide-react";
 import { useState } from "react";
 import { EditOAuthClientDialog } from "./edit-oauth-client-dialog";
@@ -41,7 +41,7 @@ const initialMockClients: OAuthClientItem[] = [
     clientId: "cl_mock_2",
     clientSecret: "cs_mock_2",
     id: "2",
-    name: "creantly.com Mobile App",
+    name: "hookra.com Mobile App",
     purpose: "Native mobile app for iOS and Android",
     redirectUri: "http://localhost:3000/callback",
     status: "pending",

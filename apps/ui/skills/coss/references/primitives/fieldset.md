@@ -1,4 +1,4 @@
-# ness Fieldset
+# creantly Fieldset
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/fieldset
+npx shadcn@latest add @creantly/fieldset
 ```
 
 Manual deps from docs:
@@ -31,7 +31,7 @@ import { Fieldset, FieldsetLegend } from "@/components/ui/fieldset"
 </Fieldset>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

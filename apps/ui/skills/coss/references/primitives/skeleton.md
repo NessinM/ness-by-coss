@@ -1,4 +1,4 @@
-# ness Skeleton
+# creantly Skeleton
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/skeleton
+npx shadcn@latest add @creantly/skeleton
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Skeleton } from "@/components/ui/skeleton"
 <Skeleton className="size-10 rounded-full" />
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

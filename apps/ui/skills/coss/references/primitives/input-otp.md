@@ -1,4 +1,4 @@
-# ness Input Otp
+# creantly Input Otp
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/input-otp
+npx shadcn@latest add @creantly/input-otp
 ```
 
 Manual deps from docs:
@@ -46,7 +46,7 @@ import {
 </InputOTP>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

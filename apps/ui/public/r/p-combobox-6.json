@@ -3,7 +3,7 @@
   "name": "p-combobox-6",
   "description": "Combobox auto highlighting the first option",
   "registryDependencies": [
-    "@ness/combobox"
+    "@creantly/combobox"
   ],
   "files": [
     {

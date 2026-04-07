@@ -3,7 +3,7 @@
   "name": "p-select-3",
   "description": "Large select",
   "registryDependencies": [
-    "@ness/select"
+    "@creantly/select"
   ],
   "files": [
     {

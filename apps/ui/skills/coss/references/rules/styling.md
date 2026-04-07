@@ -1,6 +1,6 @@
-# Styling Rules (ness)
+# Styling Rules (creantly)
 
-Use this guide when writing or updating ness primitives, particles, and docs examples.
+Use this guide when writing or updating creantly primitives, particles, and docs examples.
 
 ## Core Rules
 
@@ -11,10 +11,10 @@ Use this guide when writing or updating ness primitives, particles, and docs exa
 - Use `cn()` for conditional class composition.
 - Avoid redundant classes that defaults already cover (for example `border-border` when border color is already inherited).
 - Before adding layout classes, check whether the target part already provides that layout.
-- Use Tailwind v4 syntax and conventions in ness examples and snippets.
-- **Do not replace `--alpha()` with `color-mix()` or `rgba()`.** `--alpha()` is a valid Tailwind v4 theme function used throughout ness token definitions (e.g. `--alpha(var(--color-black) / 8%)`). It is processed by Tailwind at build time — it is not invalid CSS.
+- Use Tailwind v4 syntax and conventions in creantly examples and snippets.
+- **Do not replace `--alpha()` with `color-mix()` or `rgba()`.** `--alpha()` is a valid Tailwind v4 theme function used throughout creantly token definitions (e.g. `--alpha(var(--color-black) / 8%)`). It is processed by Tailwind at build time — it is not invalid CSS.
 
-## ness-specific Expectations
+## creantly-specific Expectations
 
 - Do not use numeric icon `size` props; prefer inherited sizing or `size-*` utility classes.
 - For icons, default to `aria-hidden="true"` when icon is decorative/redundant; do not hide icons that carry unique semantic meaning.
@@ -27,14 +27,14 @@ Use this guide when writing or updating ness primitives, particles, and docs exa
 
 Apply this section only when the task touches global theme/layout setup (not normal component usage edits).
 
-- Preserve ness token architecture. Do not replace ness semantic variables with ad-hoc color classes/tokens.
+- Preserve creantly token architecture. Do not replace creantly semantic variables with ad-hoc color classes/tokens.
 - When providing manual theme setup, include complete token blocks and variable mappings; avoid partial copy/paste snippets that break variable chains.
 - For Base UI portal layering, keep an isolated application root wrapper (for example `isolate` on the root container).
 - For iOS Safari compatibility, ensure `body` has `position: relative` when configuring global layout for portaled backdrops.
 
 ### Font variable contract
 
-ness components use three CSS custom properties for typography:
+creantly components use three CSS custom properties for typography:
 
 | Variable | Used by | Default fallback |
 |---|---|---|
@@ -42,9 +42,9 @@ ness components use three CSS custom properties for typography:
 | `--font-mono` | `<code>`, `<kbd>`, `<pre>`, code blocks | `ui-monospace, monospace` |
 | `--font-heading` | Dialog/AlertDialog titles, headings | Defaults to Inter (same as `--font-sans`) |
 
-**CLI setup (recommended):** `npx shadcn@latest init @ness/style` automatically installs `@ness/fonts` — Inter for `--font-sans` and `--font-heading`, Geist Mono for `--font-mono` — via `registry:font` items and configures them in `layout.tsx`.
+**CLI setup (recommended):** `npx shadcn@latest init @creantly/style` automatically installs `@creantly/fonts` — Inter for `--font-sans` and `--font-heading`, Geist Mono for `--font-mono` — via `registry:font` items and configures them in `layout.tsx`.
 
-**Manual / custom font setup:** When using `next/font`, the `variable` option must match ness expectations exactly:
+**Manual / custom font setup:** When using `next/font`, the `variable` option must match creantly expectations exactly:
 
 ```tsx
 const inter = Inter({ variable: "--font-sans", subsets: ["latin"] });
@@ -52,7 +52,7 @@ const interHeading = Inter({ variable: "--font-heading", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-mono", subsets: ["latin"] });
 ```
 
-**Common pitfall:** Next.js starters default to `--font-geist-sans` and `--font-geist-mono`, which do not match ness's `--font-sans` / `--font-mono`. Fonts will silently fall back to system UI. Always rename the variables or remap them.
+**Common pitfall:** Next.js starters default to `--font-geist-sans` and `--font-geist-mono`, which do not match creantly's `--font-sans` / `--font-mono`. Fonts will silently fall back to system UI. Always rename the variables or remap them.
 
 ## Do / Don't
 
@@ -93,6 +93,6 @@ border: "color-mix(in srgb, var(--color-black) 8%, transparent)"
 
 1. Any raw color classes that should be semantic?
 2. Any duplicate layout/style logic already handled by a primitive?
-3. Any icon sizing/opacities violating ness conventions?
+3. Any icon sizing/opacities violating creantly conventions?
 4. Any decorative interactive icons missing `aria-hidden="true"`?
 5. Any use of `group` that should be replaced with `in-*` + `data-slot`?

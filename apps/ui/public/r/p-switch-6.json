@@ -3,7 +3,7 @@
   "name": "p-switch-6",
   "description": "Custom size switch",
   "registryDependencies": [
-    "@ness/switch"
+    "@creantly/switch"
   ],
   "files": [
     {

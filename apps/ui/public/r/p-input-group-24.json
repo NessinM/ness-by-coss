@@ -3,7 +3,7 @@
   "name": "p-input-group-24",
   "description": "Input group with character counter",
   "registryDependencies": [
-    "@ness/input-group"
+    "@creantly/input-group"
   ],
   "files": [
     {

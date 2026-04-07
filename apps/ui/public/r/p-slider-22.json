@@ -3,10 +3,10 @@
   "name": "p-slider-22",
   "description": "Price slider with histogram",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/input-group",
-    "@ness/number-field",
-    "@ness/slider"
+    "@creantly/button",
+    "@creantly/input-group",
+    "@creantly/number-field",
+    "@creantly/slider"
   ],
   "files": [
     {

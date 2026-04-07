@@ -1,4 +1,4 @@
-import { Label } from "@ness/ui/components/label";
+import { Label } from "@creantly/ui/components/label";
 
 export function WebhookTestSection() {
   return (

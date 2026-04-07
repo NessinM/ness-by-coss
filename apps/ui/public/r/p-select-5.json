@@ -3,7 +3,7 @@
   "name": "p-select-5",
   "description": "Select without item alignment",
   "registryDependencies": [
-    "@ness/select"
+    "@creantly/select"
   ],
   "files": [
     {

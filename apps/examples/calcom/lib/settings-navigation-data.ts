@@ -156,7 +156,7 @@ export const orgSettingsItems: SettingsNavItem[] = [
         url: "/settings/organizations/roles-permissions",
       },
     ],
-    title: "creantly.com",
+    title: "hookra.com",
     url: "/settings/organizations",
   },
 ];

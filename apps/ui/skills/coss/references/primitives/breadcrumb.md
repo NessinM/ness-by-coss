@@ -1,4 +1,4 @@
-# ness Breadcrumb
+# creantly Breadcrumb
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/breadcrumb
+npx shadcn@latest add @creantly/breadcrumb
 ```
 
 Manual deps from docs:
@@ -54,7 +54,7 @@ import {
 </Breadcrumb>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

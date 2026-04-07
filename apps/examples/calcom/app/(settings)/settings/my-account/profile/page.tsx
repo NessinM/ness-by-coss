@@ -1,10 +1,10 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameFooter,
   CardPanel,
-} from "@ness/ui/components/card";
+} from "@creantly/ui/components/card";
 import { ProfileFields } from "./profile-form";
 import {
   AppHeader,
@@ -19,7 +19,7 @@ export default function ProfileSettingsPage() {
       <AppHeader>
         <AppHeaderContent title="Profile">
           <AppHeaderDescription>
-            Manage settings for your creantly.com profile
+            Manage settings for your hookra.com profile
           </AppHeaderDescription>
         </AppHeaderContent>
       </AppHeader>

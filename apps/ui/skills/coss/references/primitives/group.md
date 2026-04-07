@@ -1,4 +1,4 @@
-# ness Group
+# creantly Group
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/group
+npx shadcn@latest add @creantly/group
 ```
 
 Manual deps from docs:
@@ -34,7 +34,7 @@ import { Group, GroupSeparator } from "@/components/ui/group"
 </Group>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

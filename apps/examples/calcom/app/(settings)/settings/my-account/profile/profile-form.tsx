@@ -4,33 +4,37 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@ness/ui/components/avatar";
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
-import { Fieldset, FieldsetLegend } from "@ness/ui/components/fieldset";
-import { Input } from "@ness/ui/components/input";
+} from "@creantly/ui/components/avatar";
+import { Badge } from "@creantly/ui/components/badge";
+import { Button } from "@creantly/ui/components/button";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@creantly/ui/components/field";
+import { Fieldset, FieldsetLegend } from "@creantly/ui/components/fieldset";
+import { Input } from "@creantly/ui/components/input";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
   InputGroupText,
   InputGroupTextarea,
-} from "@ness/ui/components/input-group";
-import { Label } from "@ness/ui/components/label";
+} from "@creantly/ui/components/input-group";
+import { Label } from "@creantly/ui/components/label";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
-import { Toggle } from "@ness/ui/components/toggle";
+} from "@creantly/ui/components/menu";
+import { Toggle } from "@creantly/ui/components/toggle";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
-import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
+} from "@creantly/ui/components/tooltip";
+import { useCopyToClipboard } from "@creantly/ui/hooks/use-copy-to-clipboard";
 import {
   BoldIcon,
   CheckIcon,
@@ -91,7 +95,7 @@ interface EmailItem {
 }
 
 const emails: EmailItem[] = [
-  { email: "pasquale@creantly.com", isPrimary: true, isVerified: true },
+  { email: "pasquale@hookra.com", isPrimary: true, isVerified: true },
   { email: "test@sfsfd.com", isPrimary: false, isVerified: false },
 ];
 
@@ -127,7 +131,7 @@ export function ProfileFields() {
             <FieldLabel>Username</FieldLabel>
             <InputGroup className="opacity-100! has-disabled:cursor-not-allowed has-disabled:bg-muted has-disabled:text-muted-foreground has-disabled:*:cursor-not-allowed">
               <InputGroupAddon>
-                <InputGroupText>i.creantly.com/</InputGroupText>
+                <InputGroupText>i.hookra.com/</InputGroupText>
               </InputGroupAddon>
               <InputGroupInput
                 aria-label="Set your URL"
@@ -142,7 +146,7 @@ export function ProfileFields() {
                       <Button
                         aria-label="Copy URL"
                         onClick={() =>
-                          copyToClipboard("https://i.creantly.com/pasquale")
+                          copyToClipboard("https://i.hookra.com/pasquale")
                         }
                         size="icon-xs"
                         variant="ghost"
@@ -159,7 +163,7 @@ export function ProfileFields() {
             </InputGroup>
             <FieldDescription>
               Tip: You can add a &apos;+&apos; between usernames (e.g.
-              creantly.com/anna+brian) to meet with multiple people
+              hookra.com/anna+brian) to meet with multiple people
             </FieldDescription>
           </Field>
 

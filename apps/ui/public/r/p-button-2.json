@@ -3,7 +3,7 @@
   "name": "p-button-2",
   "description": "Outline button",
   "registryDependencies": [
-    "@ness/button"
+    "@creantly/button"
   ],
   "files": [
     {

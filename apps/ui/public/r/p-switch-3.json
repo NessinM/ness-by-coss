@@ -3,8 +3,8 @@
   "name": "p-switch-3",
   "description": "Switch with description",
   "registryDependencies": [
-    "@ness/label",
-    "@ness/switch"
+    "@creantly/label",
+    "@creantly/switch"
   ],
   "files": [
     {

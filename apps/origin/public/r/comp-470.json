@@ -3,7 +3,7 @@
   "name": "comp-470",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/table.json"
+    "https://creantly.com/origin/r/table.json"
   ],
   "files": [
     {

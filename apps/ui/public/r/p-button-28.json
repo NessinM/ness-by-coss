@@ -3,8 +3,8 @@
   "name": "p-button-28",
   "description": "Button with avatar",
   "registryDependencies": [
-    "@ness/avatar",
-    "@ness/button"
+    "@creantly/avatar",
+    "@creantly/button"
   ],
   "files": [
     {

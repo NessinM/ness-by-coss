@@ -3,7 +3,7 @@
   "name": "p-select-22",
   "description": "Select with custom border and background",
   "registryDependencies": [
-    "@ness/select"
+    "@creantly/select"
   ],
   "files": [
     {

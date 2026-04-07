@@ -3,10 +3,10 @@
   "name": "p-field-13",
   "description": "Field with checkbox group",
   "registryDependencies": [
-    "@ness/checkbox",
-    "@ness/checkbox-group",
-    "@ness/field",
-    "@ness/fieldset"
+    "@creantly/checkbox",
+    "@creantly/checkbox-group",
+    "@creantly/field",
+    "@creantly/fieldset"
   ],
   "files": [
     {

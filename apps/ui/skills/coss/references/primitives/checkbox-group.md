@@ -1,4 +1,4 @@
-# ness Checkbox Group
+# creantly Checkbox Group
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/checkbox-group
+npx shadcn@latest add @creantly/checkbox-group
 ```
 
 Manual deps from docs:
@@ -45,7 +45,7 @@ import { CheckboxGroup } from "@/components/ui/checkbox-group"
 
 For form-bound option groups, prefer `Field` + `Fieldset` composition so legend, labels, and errors are grouped correctly.
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

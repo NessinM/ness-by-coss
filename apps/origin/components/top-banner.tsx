@@ -1,7 +1,7 @@
 import { ArrowUpRightIcon } from "lucide-react";
 
 export default function TopBanner() {
-  const gatewayOrigin = process.env.NEXT_PUBLIC_NESS_UI_URL || "";
+  const gatewayOrigin = process.env.NEXT_PUBLIC_CREANTLYUI_URL || "";
   const gatewayHome = gatewayOrigin ? `${gatewayOrigin}/` : "/";
 
   return (
@@ -15,7 +15,7 @@ export default function TopBanner() {
         >
           <span className="inline-flex items-center gap-1">
             <span className="decoration-muted-foreground underline-offset-4 group-hover:underline">
-              ness.com <span className="text-muted-foreground">ui</span>
+              creantly.com <span className="text-muted-foreground">ui</span>
             </span>{" "}
             <ArrowUpRightIcon className="size-4 opacity-60 transition-all group-hover:rotate-45 group-hover:opacity-100" />
           </span>

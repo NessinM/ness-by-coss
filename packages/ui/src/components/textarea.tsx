@@ -3,7 +3,7 @@
 import { Field as FieldPrimitive } from "@base-ui/react/field";
 import { mergeProps } from "@base-ui/react/merge-props";
 import type * as React from "react";
-import { cn } from "@ness/ui/lib/utils";
+import { cn } from "@creantly/ui/lib/utils";
 
 export type TextareaProps = React.ComponentPropsWithoutRef<"textarea"> &
   React.RefAttributes<HTMLTextAreaElement> & {

@@ -2,17 +2,17 @@
 >
 > - This app is a preserved, pre-acquisition version of Origin UI (Radix-based, shadcn-style).
 > - It remains available for use, but support and maintenance are limited.
-> - Active development now focuses on the new [Particles](https://ness.com/ui/particles) components built on the [ness ui](https://ness.com/ui/docs) primitives.
+> - Active development now focuses on the new [Particles](https://creantly.com/ui/particles) components built on the [creantly ui](https://creantly.com/ui/docs) primitives.
 
-# ness.com origin (formerly Origin UI)
+# creantly.com origin (formerly Origin UI)
 
 **Beautiful UI components built with Tailwind CSS and React.**
 
 This is an extensive collection of copy-and-paste components for quickly building app UIs. It includes hundreds of components and is constantly updated with new designs.
 
-**Demo** → [https://ness.com/origin](https://ness.com/origin)
+**Demo** → [https://creantly.com/origin](https://creantly.com/origin)
 
-![ness.com origin](https://github.com/user-attachments/assets/a6428743-1628-4498-8b45-7000e30bdc24)
+![creantly.com origin](https://github.com/user-attachments/assets/a6428743-1628-4498-8b45-7000e30bdc24)
 
 ## Getting Started
 

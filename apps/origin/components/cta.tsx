@@ -8,7 +8,7 @@ export default function Cta() {
       </h2>
       <Button asChild className="rounded-full">
         <a
-          href="https://github.com/nesscom/ness/discussions/categories/suggestions"
+          href="https://github.com/NessinM/creantly/discussions/categories/suggestions"
           rel="noreferrer"
           target="_blank"
         >

@@ -8,9 +8,9 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@ness/ui/components/alert-dialog";
-import { Button } from "@ness/ui/components/button";
-import { Card, CardPanel } from "@ness/ui/components/card";
+} from "@creantly/ui/components/alert-dialog";
+import { Button } from "@creantly/ui/components/button";
+import { Card, CardPanel } from "@creantly/ui/components/card";
 import { PlusIcon } from "lucide-react";
 import { useState } from "react";
 import { ApiKeysEmpty } from "./api-keys-empty";
@@ -84,7 +84,7 @@ export function ApiKeysPageContent() {
       <AppHeader>
         <AppHeaderContent title="API Keys">
           <AppHeaderDescription>
-            Create and manage API keys for authenticating with the creantly.com
+            Create and manage API keys for authenticating with the hookra.com
             API
           </AppHeaderDescription>
         </AppHeaderContent>

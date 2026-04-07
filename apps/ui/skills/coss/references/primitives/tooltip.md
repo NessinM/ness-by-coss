@@ -1,4 +1,4 @@
-# ness Tooltip
+# creantly Tooltip
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/tooltip
+npx shadcn@latest add @creantly/tooltip
 ```
 
 Manual deps from docs:
@@ -46,7 +46,7 @@ import {
 </Tooltip>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

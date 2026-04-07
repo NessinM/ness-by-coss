@@ -3,8 +3,8 @@
   "name": "p-input-group-6",
   "description": "Input group with number field",
   "registryDependencies": [
-    "@ness/input-group",
-    "@ness/number-field"
+    "@creantly/input-group",
+    "@creantly/number-field"
   ],
   "files": [
     {

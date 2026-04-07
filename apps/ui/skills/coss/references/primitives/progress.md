@@ -1,4 +1,4 @@
-# ness Progress
+# creantly Progress
 
 ## When to use
 
@@ -13,7 +13,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/progress
+npx shadcn@latest add @creantly/progress
 ```
 
 Manual deps from docs:
@@ -38,7 +38,7 @@ import {
 <Progress value={40} />
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

@@ -3,7 +3,7 @@
   "name": "p-autocomplete-2",
   "description": "Disabled autocomplete",
   "registryDependencies": [
-    "@ness/autocomplete"
+    "@creantly/autocomplete"
   ],
   "files": [
     {

@@ -1,4 +1,4 @@
-# ness Dialog
+# creantly Dialog
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/dialog
+npx shadcn@latest add @creantly/dialog
 ```
 
 Manual deps from docs:
@@ -57,7 +57,7 @@ import {
 </Dialog>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 - **Section structure invariant**: keep `DialogHeader`, `DialogPanel`, and `DialogFooter` as direct sections in `DialogPopup` to preserve built-in layout/styling behavior.
 - **Form in dialog**: wrap with `<Form className="contents">` so header/panel/footer remain direct dialog sections while still supporting submit behavior.
@@ -78,7 +78,7 @@ import {
 - Putting large body content outside `DialogPanel` when scrolling is needed.
 - Missing explicit button `type` inside dialog forms/actions.
 - Using uncontrolled dialog patterns when the flow requires cross-component state coordination.
-- Using non-ness composition APIs without verifying docs.
+- Using non-creantly composition APIs without verifying docs.
 
 ## Useful particle references
 

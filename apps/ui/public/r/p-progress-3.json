@@ -3,7 +3,7 @@
   "name": "p-progress-3",
   "description": "Progress with formatted value",
   "registryDependencies": [
-    "@ness/progress"
+    "@creantly/progress"
   ],
   "files": [
     {

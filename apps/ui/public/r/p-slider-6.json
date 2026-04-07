@@ -3,7 +3,7 @@
   "name": "p-slider-6",
   "description": "Slider with labels above",
   "registryDependencies": [
-    "@ness/slider"
+    "@creantly/slider"
   ],
   "files": [
     {

@@ -3,8 +3,8 @@
   "name": "p-menu-9",
   "description": "Menu with checkbox items as switches",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/menu"
+    "@creantly/button",
+    "@creantly/menu"
   ],
   "files": [
     {

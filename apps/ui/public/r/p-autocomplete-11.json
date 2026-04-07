@@ -3,7 +3,7 @@
   "name": "p-autocomplete-11",
   "description": "Autocomplete with limited number of results",
   "registryDependencies": [
-    "@ness/autocomplete"
+    "@creantly/autocomplete"
   ],
   "files": [
     {

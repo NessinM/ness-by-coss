@@ -3,7 +3,7 @@
   "name": "p-kbd-1",
   "description": "Keyboard shortcuts display",
   "registryDependencies": [
-    "@ness/kbd"
+    "@creantly/kbd"
   ],
   "files": [
     {

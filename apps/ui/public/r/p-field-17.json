@@ -3,8 +3,8 @@
   "name": "p-field-17",
   "description": "Field with number field",
   "registryDependencies": [
-    "@ness/field",
-    "@ness/number-field"
+    "@creantly/field",
+    "@creantly/number-field"
   ],
   "files": [
     {

@@ -1,30 +1,30 @@
-import { CodeBlock } from "@ness/ui/shared/code-block";
+import { CodeBlock } from "@creantly/ui/shared/code-block";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "ness.com scheduling",
+  title: "creantly.com scheduling",
 };
 
 export default function Page() {
-  const initialization = `import { ness } from '@ness';
+  const initialization = `import { creantly } from '@creantly';
 
-ness.scheduling.init({
-  apiKey: process.env.NESS_KEY,
+creantly.scheduling.init({
+  apiKey: process.env.CREANTLY_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const users = `// Create a user
-await ness.scheduling.users.create({
+await creantly.scheduling.users.create({
   email: 'jane@example.com',
   name: 'Jane Doe',
 });
 
 // Retrieve a user
-await ness.scheduling.users.retrieve('user_abc123');`;
+await creantly.scheduling.users.retrieve('user_abc123');`;
 
   const schedules = `// Create a schedule
-await ness.scheduling.schedules.create({
+await creantly.scheduling.schedules.create({
   userId: 'user_abc123',
   availability: [
     {
@@ -37,10 +37,10 @@ await ness.scheduling.schedules.create({
 });
 
 // Retrieve schedules
-await ness.scheduling.schedules.list({ userId: 'user_abc123' });`;
+await creantly.scheduling.schedules.list({ userId: 'user_abc123' });`;
 
   const eventTypes = `// Create an event type
-await ness.scheduling.eventTypes.create({
+await creantly.scheduling.eventTypes.create({
   userId: 'user_abc123',
   name: 'Consultation',
   duration: 30,
@@ -48,10 +48,10 @@ await ness.scheduling.eventTypes.create({
 });
 
 // Retrieve event types
-await ness.scheduling.eventTypes.list({ userId: 'user_abc123' });`;
+await creantly.scheduling.eventTypes.list({ userId: 'user_abc123' });`;
 
   const bookings = `// Create a booking
-await ness.scheduling.bookings.create({
+await creantly.scheduling.bookings.create({
   eventTypeId: 'eventType_abc123',
   attendee: {
     name: 'John Smith',
@@ -61,21 +61,21 @@ await ness.scheduling.bookings.create({
 });
 
 // Retrieve bookings
-await ness.scheduling.bookings.list({ userId: 'user_abc123' });`;
+await creantly.scheduling.bookings.list({ userId: 'user_abc123' });`;
 
   const webhooks = `// Webhook events
-ness.scheduling.webhooks.on('booking.created', (event) => {
+creantly.scheduling.webhooks.on('booking.created', (event) => {
   console.log('New booking:', event.data);
 });
 
-ness.scheduling.webhooks.on('booking.cancelled', (event) => {
+creantly.scheduling.webhooks.on('booking.cancelled', (event) => {
   console.log('Booking cancelled:', event.data);
 });`;
 
   const utilities = `// Validate webhook signature
-const isValid = ness.scheduling.utils.verifySignature({
+const isValid = creantly.scheduling.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['ness-scheduling-signature'],
+  signature: req.headers['creantly-scheduling-signature'],
   secret: 'whsec_scheduling_123',
 });`;
 

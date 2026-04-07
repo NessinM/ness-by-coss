@@ -3,11 +3,11 @@
   "name": "p-dialog-1",
   "description": "Dialog with form",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/dialog",
-    "@ness/field",
-    "@ness/form",
-    "@ness/input"
+    "@creantly/button",
+    "@creantly/dialog",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input"
   ],
   "files": [
     {

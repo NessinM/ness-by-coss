@@ -3,8 +3,8 @@
   "name": "p-menu-3",
   "description": "Menu with checkbox",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/menu"
+    "@creantly/button",
+    "@creantly/menu"
   ],
   "files": [
     {

@@ -1,20 +1,20 @@
-# ness vs shadcn/Radix assumptions
+# creantly vs shadcn/Radix assumptions
 
 Use this guide when adapting snippets that were originally written with shadcn/Radix mental models.
 
 ## Core idea
 
-ness is close to shadcn ergonomically, but its primitives and composition model are aligned to Base UI patterns.
+creantly is close to shadcn ergonomically, but its primitives and composition model are aligned to Base UI patterns.
 
 ## High-impact differences
 
 - Do not assume every shadcn pattern translates 1:1.
-- Verify trigger and popup composition from ness docs before coding.
-- Apply `asChild` -> `render` only on ness parts that explicitly support `render`.
-- Prefer ness component names and exports as documented (`DialogPopup`, `MenuPopup`, `SelectPopup`, etc.).
-- Some legacy aliases may exist, but primary ness names should be preferred in new examples.
-- Prefer styled ness exports by default (for example `Slider`, `SliderValue`) and use `*Primitive` only for advanced/custom composition.
-- When only Base UI helpers are needed (`useRender`, `mergeProps`, `CSPProvider`, `DirectionProvider`), prefer `@ness/ui/base-ui/*` re-exports over direct `@base-ui/react` dependency.
+- Verify trigger and popup composition from creantly docs before coding.
+- Apply `asChild` -> `render` only on creantly parts that explicitly support `render`.
+- Prefer creantly component names and exports as documented (`DialogPopup`, `MenuPopup`, `SelectPopup`, etc.).
+- Some legacy aliases may exist, but primary creantly names should be preferred in new examples.
+- Prefer styled creantly exports by default (for example `Slider`, `SliderValue`) and use `*Primitive` only for advanced/custom composition.
+- When only Base UI helpers are needed (`useRender`, `mergeProps`, `CSPProvider`, `DirectionProvider`), prefer `@creantly/ui/base-ui/*` re-exports over direct `@base-ui/react` dependency.
 - For Select migration, replace children-only option derivation with an `items`-first pattern where possible, then map options consistently in `SelectPopup`.
 
 ## Practical migration examples
@@ -31,7 +31,7 @@ Use these snippets as fast conversion templates when migrating shadcn/Radix code
 ```
 
 ```tsx
-// ness/Base UI
+// creantly/Base UI
 <DialogTrigger render={<Button variant="outline" />}>Open</DialogTrigger>
 ```
 
@@ -43,7 +43,7 @@ Use these snippets as fast conversion templates when migrating shadcn/Radix code
 ```
 
 ```tsx
-// ness/Base UI
+// creantly/Base UI
 <MenuItem onClick={handleOpen}>Open</MenuItem>
 ```
 
@@ -63,7 +63,7 @@ Use these snippets as fast conversion templates when migrating shadcn/Radix code
 ```
 
 ```tsx
-// ness/Base UI
+// creantly/Base UI
 const items = [
   { label: "Next.js", value: "next" },
   { label: "Vite", value: "vite" },
@@ -94,14 +94,14 @@ const items = [
 ```
 
 ```tsx
-// ness/Base UI
+// creantly/Base UI
 <ToggleGroup defaultValue={["daily"]}>
   <ToggleGroupItem value="daily">Daily</ToggleGroupItem>
   <ToggleGroupItem value="weekly">Weekly</ToggleGroupItem>
 </ToggleGroup>
 ```
 
-### Slider: scalar single-value usage in ness
+### Slider: scalar single-value usage in creantly
 
 ```tsx
 // shadcn/Radix
@@ -109,11 +109,11 @@ const items = [
 ```
 
 ```tsx
-// ness/Base UI
+// creantly/Base UI
 <Slider defaultValue={50} max={100} step={1} />
 ```
 
-### Accordion: `type/collapsible` -> ness defaults
+### Accordion: `type/collapsible` -> creantly defaults
 
 ```tsx
 // shadcn/Radix
@@ -123,7 +123,7 @@ const items = [
 ```
 
 ```tsx
-// ness/Base UI
+// creantly/Base UI
 <Accordion defaultValue={["item-1"]}>
   <AccordionItem value="item-1">...</AccordionItem>
 </Accordion>
@@ -131,10 +131,10 @@ const items = [
 
 ## Migration checklist
 
-1. Confirm the exact ness imports from docs.
+1. Confirm the exact creantly imports from docs.
 2. Confirm child structure requirements (trigger/header/panel/footer/items/groups).
-3. Confirm prop names and semantics from the ness docs page.
-4. Validate with at least one ness particle example.
+3. Confirm prop names and semantics from the creantly docs page.
+4. Validate with at least one creantly particle example.
 
 ## Per-component migration notes
 

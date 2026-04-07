@@ -3,7 +3,7 @@
   "name": "p-avatar-3",
   "description": "Avatars with different sizes",
   "registryDependencies": [
-    "@ness/avatar"
+    "@creantly/avatar"
   ],
   "files": [
     {

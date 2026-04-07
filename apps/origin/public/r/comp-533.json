@@ -3,7 +3,7 @@
   "name": "comp-533",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/timeline.json"
+    "https://creantly.com/origin/r/timeline.json"
   ],
   "files": [
     {

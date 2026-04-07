@@ -3,7 +3,7 @@
   "name": "p-scroll-area-3",
   "description": "Scroll area with both directions",
   "registryDependencies": [
-    "@ness/scroll-area"
+    "@creantly/scroll-area"
   ],
   "files": [
     {

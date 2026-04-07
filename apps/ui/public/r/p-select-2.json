@@ -3,7 +3,7 @@
   "name": "p-select-2",
   "description": "Small select",
   "registryDependencies": [
-    "@ness/select"
+    "@creantly/select"
   ],
   "files": [
     {

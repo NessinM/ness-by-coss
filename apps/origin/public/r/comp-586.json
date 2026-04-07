@@ -3,10 +3,10 @@
   "name": "comp-586",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/avatar.json",
-    "https://ness.com/origin/r/button.json",
-    "https://ness.com/origin/r/dropdown-menu.json",
-    "https://ness.com/origin/r/input.json"
+    "https://creantly.com/origin/r/avatar.json",
+    "https://creantly.com/origin/r/button.json",
+    "https://creantly.com/origin/r/dropdown-menu.json",
+    "https://creantly.com/origin/r/input.json"
   ],
   "files": [
     {

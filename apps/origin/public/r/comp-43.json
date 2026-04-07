@@ -8,8 +8,8 @@
     "@internationalized/date"
   ],
   "registryDependencies": [
-    "https://ness.com/origin/r/calendar-rac.json",
-    "https://ness.com/origin/r/datefield-rac.json"
+    "https://creantly.com/origin/r/calendar-rac.json",
+    "https://creantly.com/origin/r/datefield-rac.json"
   ],
   "files": [
     {

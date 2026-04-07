@@ -10,9 +10,9 @@
     "@tanstack/react-table"
   ],
   "registryDependencies": [
-    "https://ness.com/origin/r/button.json",
-    "https://ness.com/origin/r/dropdown-menu.json",
-    "https://ness.com/origin/r/table.json"
+    "https://creantly.com/origin/r/button.json",
+    "https://creantly.com/origin/r/dropdown-menu.json",
+    "https://creantly.com/origin/r/table.json"
   ],
   "files": [
     {

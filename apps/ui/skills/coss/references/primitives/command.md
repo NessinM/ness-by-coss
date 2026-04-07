@@ -1,4 +1,4 @@
-# ness Command
+# creantly Command
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/command
+npx shadcn@latest add @creantly/command
 ```
 
 Manual deps from docs:
@@ -76,7 +76,7 @@ const items = [
 </CommandDialog>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

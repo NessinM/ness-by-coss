@@ -1,11 +1,11 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Collapsible,
   CollapsiblePanel,
   CollapsibleTrigger,
-} from "@ness/ui/components/collapsible";
+} from "@creantly/ui/components/collapsible";
 import {
   Combobox,
   ComboboxChip,
@@ -16,25 +16,29 @@ import {
   ComboboxList,
   ComboboxPopup,
   ComboboxValue,
-} from "@ness/ui/components/combobox";
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
-import { Group, GroupSeparator } from "@ness/ui/components/group";
-import { Input } from "@ness/ui/components/input";
+} from "@creantly/ui/components/combobox";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@creantly/ui/components/field";
+import { Group, GroupSeparator } from "@creantly/ui/components/group";
+import { Input } from "@creantly/ui/components/input";
 import {
   NumberField,
   NumberFieldGroup,
   NumberFieldInput,
-} from "@ness/ui/components/number-field";
-import { ScrollArea } from "@ness/ui/components/scroll-area";
+} from "@creantly/ui/components/number-field";
+import { ScrollArea } from "@creantly/ui/components/scroll-area";
 import {
   Select,
   SelectItem,
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@ness/ui/components/select";
-import { Switch } from "@ness/ui/components/switch";
-import { Textarea } from "@ness/ui/components/textarea";
+} from "@creantly/ui/components/select";
+import { Switch } from "@creantly/ui/components/switch";
+import { Textarea } from "@creantly/ui/components/textarea";
 import { ExternalLinkIcon } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";

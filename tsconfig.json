@@ -9,13 +9,13 @@
     "moduleResolution": "bundler",
     "noEmit": true,
     "paths": {
-      "@ness/ui/*": ["packages/ui/src/*"]
+      "@creantly/ui/*": ["packages/ui/src/*"]
     },
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext"
   },
-  "display": "ness",
+  "display": "creantly",
   "exclude": ["node_modules", "dist"],
   "references": [{ "path": "packages/ui" }]
 }

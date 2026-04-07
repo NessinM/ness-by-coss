@@ -1,5 +1,6 @@
 "use client";
 
+import { CommandPanel } from "@creantly/ui/components/command";
 import {
   ArrowTurnBackwardIcon,
   Atom01Icon,
@@ -7,7 +8,6 @@ import {
   Search01Icon,
 } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
-import { CommandPanel } from "@ness/ui/components/command";
 import Link from "next/link";
 import type { ComponentProps } from "react";
 import * as React from "react";
@@ -116,7 +116,7 @@ export function CommandMenu({
       if (item.isComponent) {
         const componentName = item.url.split("/").pop();
         setSelectedType("component");
-        const registryItem = `@ness/${componentName}`;
+        const registryItem = `@creantly/${componentName}`;
         let cmd: string;
         switch (packageManager) {
           case "pnpm":

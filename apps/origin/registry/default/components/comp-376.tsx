@@ -40,7 +40,7 @@ export default function Component() {
               Keith Kennedy
             </span>
             <span className="truncate font-normal text-muted-foreground text-xs">
-              k.kennedy@ness.com
+              k.kennedy@creantly.com
             </span>
           </div>
         </DropdownMenuLabel>

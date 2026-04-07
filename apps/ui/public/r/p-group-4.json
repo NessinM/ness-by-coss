@@ -3,9 +3,9 @@
   "name": "p-group-4",
   "description": "Large group",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/group",
-    "@ness/menu"
+    "@creantly/button",
+    "@creantly/group",
+    "@creantly/menu"
   ],
   "files": [
     {

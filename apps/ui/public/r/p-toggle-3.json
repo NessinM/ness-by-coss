@@ -6,7 +6,7 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/toggle"
+    "@creantly/toggle"
   ],
   "files": [
     {

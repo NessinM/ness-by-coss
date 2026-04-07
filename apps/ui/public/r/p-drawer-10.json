@@ -3,11 +3,11 @@
   "name": "p-drawer-10",
   "description": "Edit profile form with default and bare footer variants",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/drawer",
-    "@ness/field",
-    "@ness/form",
-    "@ness/input"
+    "@creantly/button",
+    "@creantly/drawer",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input"
   ],
   "files": [
     {

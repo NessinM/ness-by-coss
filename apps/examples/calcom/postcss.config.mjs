@@ -1,3 +1,3 @@
-import { postcssConfig } from "@ness/ui/postcss.config";
+import { postcssConfig } from "@creantly/ui/postcss.config";
 
 export default postcssConfig;

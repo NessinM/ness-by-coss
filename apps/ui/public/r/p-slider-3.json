@@ -3,7 +3,7 @@
   "name": "p-slider-3",
   "description": "Disabled slider",
   "registryDependencies": [
-    "@ness/slider"
+    "@creantly/slider"
   ],
   "files": [
     {

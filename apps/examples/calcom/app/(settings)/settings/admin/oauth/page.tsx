@@ -6,14 +6,14 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
+} from "@creantly/ui/components/card";
 import {
   Empty,
   EmptyDescription,
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@ness/ui/components/empty";
+} from "@creantly/ui/components/empty";
 import { KeyRoundIcon } from "lucide-react";
 import {
   type OAuthClientItem,

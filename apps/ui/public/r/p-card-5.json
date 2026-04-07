@@ -3,12 +3,12 @@
   "name": "p-card-5",
   "description": "Framed card with header",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/card",
-    "@ness/field",
-    "@ness/form",
-    "@ness/input",
-    "@ness/select"
+    "@creantly/button",
+    "@creantly/card",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input",
+    "@creantly/select"
   ],
   "files": [
     {

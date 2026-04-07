@@ -1,4 +1,4 @@
-# ness Table
+# creantly Table
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/table
+npx shadcn@latest add @creantly/table
 ```
 
 Manual deps from docs:
@@ -51,12 +51,12 @@ import {
 </Table>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 - **Semantic baseline**: start with `TableHeader`/`TableBody`/`TableRow`/`TableHead`/`TableCell`, then add `TableCaption` and `TableFooter` as needed.
 - **Framed surfaces**: wrap table in `Frame` for bordered app-surface presentation (`p-table-2` and advanced variants).
 - **Status-rich rows**: combine `Badge` and decorative dots/icons for state columns while keeping text primary.
-- **Interactive data grids**: pair ness table parts with TanStack Table (`flexRender`, row models, selection state) for sorting/pagination/selection.
+- **Interactive data grids**: pair creantly table parts with TanStack Table (`flexRender`, row models, selection state) for sorting/pagination/selection.
 - **No-results state**: always render an explicit empty-state row with `colSpan` matching visible columns.
 - **Fixed layout control**: use `className="table-fixed"` and column width styles when predictable column sizing is required.
 

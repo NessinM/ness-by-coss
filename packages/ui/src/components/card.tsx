@@ -3,7 +3,7 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import type React from "react";
-import { cn } from "@ness/ui/lib/utils";
+import { cn } from "@creantly/ui/lib/utils";
 
 export function Card({
   className,

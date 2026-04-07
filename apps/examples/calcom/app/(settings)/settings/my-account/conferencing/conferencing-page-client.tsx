@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
-import { Card, CardPanel } from "@ness/ui/components/card";
+import { Button } from "@creantly/ui/components/button";
+import { Card, CardPanel } from "@creantly/ui/components/card";
 import { PlusIcon } from "lucide-react";
 import { useState } from "react";
 import {

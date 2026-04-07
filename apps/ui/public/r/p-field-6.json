@@ -3,9 +3,9 @@
   "name": "p-field-6",
   "description": "Input group with field",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/field",
-    "@ness/input-group"
+    "@creantly/button",
+    "@creantly/field",
+    "@creantly/input-group"
   ],
   "files": [
     {

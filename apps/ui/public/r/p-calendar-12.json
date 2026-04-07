@@ -3,7 +3,7 @@
   "name": "p-calendar-12",
   "description": "Calendar with week numbers",
   "registryDependencies": [
-    "@ness/calendar"
+    "@creantly/calendar"
   ],
   "files": [
     {

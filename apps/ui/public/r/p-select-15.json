@@ -3,7 +3,7 @@
   "name": "p-select-15",
   "description": "Pill-shaped select trigger",
   "registryDependencies": [
-    "@ness/select"
+    "@creantly/select"
   ],
   "files": [
     {

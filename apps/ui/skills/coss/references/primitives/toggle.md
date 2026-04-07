@@ -1,4 +1,4 @@
-# ness Toggle
+# creantly Toggle
 
 ## When to use
 
@@ -13,7 +13,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/toggle
+npx shadcn@latest add @creantly/toggle
 ```
 
 Manual deps from docs:
@@ -34,7 +34,7 @@ import { Toggle } from "@/components/ui/toggle"
 <Toggle>Toggle</Toggle>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

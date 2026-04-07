@@ -3,7 +3,7 @@
   "name": "p-input-group-1",
   "description": "Basic input group",
   "registryDependencies": [
-    "@ness/input-group"
+    "@creantly/input-group"
   ],
   "files": [
     {

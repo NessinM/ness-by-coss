@@ -1,10 +1,10 @@
-# Contributing to ness ui
+# Contributing to creantly ui
 
-Thank you for your interest in contributing to ness ui! This guide will help you understand how to contribute components and particles to our design system.
+Thank you for your interest in contributing to creantly ui! This guide will help you understand how to contribute components and particles to our design system.
 
 ## Overview
 
-**ness ui** consists of two main types of components:
+**creantly ui** consists of two main types of components:
 
 1. **UI Components** - Core reusable components (`Button`, `Input`, etc.)
 2. **Particles** - Composite components that use or combine multiple UI components
@@ -69,7 +69,7 @@ Add your particle to `registry/registry-particles.ts`:
   description: "Button group with cancel and save actions",
   files: [{ path: "particles/p-button-8.tsx", type: "registry:block" }],
   name: "p-button-8",
-  registryDependencies: ["@ness/button"],
+  registryDependencies: ["@creantly/button"],
   type: "registry:block",
 }
 ```
@@ -78,7 +78,7 @@ Add your particle to `registry/registry-particles.ts`:
 - `name`: The particle id (e.g., `p-button-8`)
 - `description`: Concise but descriptive (displays on particles page)
 - `type`: Always `"registry:block"`
-- `registryDependencies`: Array of UI components used (e.g., `["@ness/button"]`, `["@ness/input", "@ness/label"]`)
+- `registryDependencies`: Array of UI components used (e.g., `["@creantly/button"]`, `["@creantly/input", "@creantly/label"]`)
 - `dependencies`: External npm package dependencies if needed (e.g., `["lucide-react"]`)
 - `files`: Array with one file object:
   - `path`: `"particles/p-button-8.tsx"`
@@ -172,7 +172,7 @@ The `registry:build` command will:
 
 ### Dependencies
 - Be accurate with `dependencies` and `registryDependencies` - these are used for installation
-- `registryDependencies` should reference `@ness/*` package names
+- `registryDependencies` should reference `@creantly/*` package names
 - `dependencies` should list external npm packages (e.g., `["lucide-react"]`)
 
 ### Numbering
@@ -187,4 +187,4 @@ The `registry:build` command will:
 - Review `registry-categories.ts` for valid category names
 - Ask questions in our community channels
 
-Thank you for contributing to ness ui! 🎉
+Thank you for contributing to creantly ui! 🎉

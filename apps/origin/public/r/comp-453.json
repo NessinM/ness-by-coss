@@ -3,8 +3,8 @@
   "name": "comp-453",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/breadcrumb.json",
-    "https://ness.com/origin/r/select.json"
+    "https://creantly.com/origin/r/breadcrumb.json",
+    "https://creantly.com/origin/r/select.json"
   ],
   "files": [
     {

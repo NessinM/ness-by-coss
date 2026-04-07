@@ -1,11 +1,11 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   CardFrame,
   CardFrameDescription,
   CardFrameFooter,
   CardFrameHeader,
   CardFrameTitle,
-} from "@ness/ui/components/card";
+} from "@creantly/ui/components/card";
 import type { JSX } from "react";
 
 interface DangerZoneProps {

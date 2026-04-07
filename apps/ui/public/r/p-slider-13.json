@@ -3,8 +3,8 @@
   "name": "p-slider-13",
   "description": "Range slider with inputs",
   "registryDependencies": [
-    "@ness/number-field",
-    "@ness/slider"
+    "@creantly/number-field",
+    "@creantly/slider"
   ],
   "files": [
     {

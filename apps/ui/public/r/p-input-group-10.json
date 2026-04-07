@@ -3,8 +3,8 @@
   "name": "p-input-group-10",
   "description": "Input group with badge",
   "registryDependencies": [
-    "@ness/badge",
-    "@ness/input-group"
+    "@creantly/badge",
+    "@creantly/input-group"
   ],
   "files": [
     {

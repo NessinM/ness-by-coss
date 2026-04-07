@@ -3,8 +3,8 @@
   "name": "p-drawer-1",
   "description": "Simple bottom drawer with close button",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/drawer"
+    "@creantly/button",
+    "@creantly/drawer"
   ],
   "files": [
     {

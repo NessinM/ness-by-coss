@@ -3,8 +3,8 @@
   "name": "p-button-18",
   "description": "Custom loading button with manual Spinner",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/spinner"
+    "@creantly/button",
+    "@creantly/spinner"
   ],
   "files": [
     {

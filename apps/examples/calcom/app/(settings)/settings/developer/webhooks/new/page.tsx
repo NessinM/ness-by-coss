@@ -1,4 +1,4 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Card,
   CardFrame,
@@ -7,7 +7,7 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
+} from "@creantly/ui/components/card";
 import { ActivityIcon } from "lucide-react";
 import Link from "next/link";
 import { NewWebhookFormFields } from "./new-webhook-form-fields";
@@ -25,7 +25,7 @@ export default function NewWebhookPage() {
         <AppHeaderContent title="New webhook">
           <AppHeaderDescription>
             Receive meeting data in real-time when something happens in
-            creantly.com.
+            hookra.com.
           </AppHeaderDescription>
         </AppHeaderContent>
       </AppHeader>

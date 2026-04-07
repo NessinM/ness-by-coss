@@ -3,7 +3,7 @@
   "name": "p-button-10",
   "description": "Large button",
   "registryDependencies": [
-    "@ness/button"
+    "@creantly/button"
   ],
   "files": [
     {

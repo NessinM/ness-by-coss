@@ -3,7 +3,7 @@
   "name": "p-toggle-group-4",
   "description": "Toggle group with outline",
   "registryDependencies": [
-    "@ness/toggle-group"
+    "@creantly/toggle-group"
   ],
   "files": [
     {

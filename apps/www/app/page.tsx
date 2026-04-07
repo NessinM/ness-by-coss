@@ -1,14 +1,14 @@
-import { CodeBlock } from "@ness/ui/shared/code-block";
-import { PageHeader, PageHeaderHeading } from "@ness/ui/shared/page-header";
+import { CodeBlock } from "@creantly/ui/shared/code-block";
+import { PageHeader, PageHeaderHeading } from "@creantly/ui/shared/page-header";
 
 export default async function Page() {
   const code = `"dependencies": {
-  "@ness/auth": "1.18.6",
-  "@ness/video": "1.18.6",
-  "@ness/calendar": "1.18.6",
-  "@ness/mail": "1.18.6",
-  "@ness/sms": "1.18.6",
-  "@ness/payments": "1.18.6"
+  "@creantly/auth": "1.18.6",
+  "@creantly/video": "1.18.6",
+  "@creantly/calendar": "1.18.6",
+  "@creantly/mail": "1.18.6",
+  "@creantly/sms": "1.18.6",
+  "@creantly/payments": "1.18.6"
 },`;
 
   return (
@@ -34,7 +34,7 @@ export default async function Page() {
           but building and maintaining open source is not easy. for open source
           to thrive, we need a sustainable model. that&apos;s where{" "}
           <strong className="font-medium">
-            commercial open source software (ness)
+            commercial open source software (creantly)
           </strong>{" "}
           can come in: one of the best ways to create open, future-proof
           software while ensuring long-term success.
@@ -42,29 +42,28 @@ export default async function Page() {
         <p className="not-first:mt-6 leading-relaxed">
           <a
             className="font-medium underline underline-offset-4"
-            href="https://ness.com"
+            href="https://creantly.com"
           >
-            ness.com
+            creantly.com
           </a>{" "}
           is the new holding company of{" "}
           <a
             className="font-medium underline underline-offset-4"
-            href="https://creantly.com"
+            href="https://hookra.com"
           >
-            creantly.com
+            hookra.com
           </a>
-          , the pioneers of open source scheduling infrastructure and
-          creantly.com continues to be the &apos;google search&apos; of our
-          alphabet.
+          , the pioneers of open source scheduling infrastructure and hookra.com
+          continues to be the &apos;google search&apos; of our alphabet.
         </p>
         <p className="not-first:mt-6 leading-relaxed">
           our mission is to build a home for amazing open source projects,
           giving them the support they need to grow and succeed.
         </p>
         <p className="not-first:mt-6 leading-relaxed">
-          for developers we are building the ness stack, a one line{" "}
+          for developers we are building the creantly stack, a one line{" "}
           <code className="relative z-10 inline-block px-[0.3rem] py-[0.2rem] font-mono text-primary-foreground text-sm outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-primary">
-            npm install @ness
+            npm install @creantly
           </code>{" "}
           package that includes everything you need to build your application,
           from email, sms, calendar APIs, scheduling, video conferencing,
@@ -80,7 +79,7 @@ export default async function Page() {
         />
 
         <p className="not-first:mt-6 leading-relaxed">
-          to achieve that, we are partnering up with the best-in-class ness
+          to achieve that, we are partnering up with the best-in-class creantly
           companies in the space to offer a unified infrastructure API, react
           package and a single{" "}
           <code className="relative z-10 px-[0.3rem] py-[0.2rem] font-mono text-[.8125rem] outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-muted">
@@ -88,7 +87,7 @@ export default async function Page() {
           </code>{" "}
           environment key:{" "}
           <code className="relative z-10 px-[0.3rem] py-[0.2rem] font-mono text-primary-foreground text-sm outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-primary">
-            NESS_KEY=ITSTIMETOBUILD
+            CREANTLY_KEY=ITSTIMETOBUILD
           </code>
         </p>
         <p className="not-first:mt-6 leading-relaxed">
@@ -100,19 +99,20 @@ export default async function Page() {
           let us run the infrastructure, so you can focus on writing code.
         </p>
         <p className="not-first:mt-6 leading-relaxed">
-          open source is the future. and with ness, we&apos;re making sure that
-          future is bright.
+          open source is the future. and with creantly, we&apos;re making sure
+          that future is bright.
         </p>
         <p className="not-first:mt-6 leading-relaxed">
           and who knows… maybe one day you can purchase{" "}
-          <strong className="font-medium">$ness</strong> on your favourite{" "}
+          <strong className="font-medium">$creantly</strong> on your favourite{" "}
           <span className="line-through">stack</span> stock exchange.
         </p>
         <p className="not-first:mt-6 leading-relaxed">
-          if you are interested in ness.com, consider joining the early access{" "}
+          if you are interested in creantly.com, consider joining the early
+          access{" "}
           <a
             className="font-medium underline underline-offset-4"
-            href="https://i.creantly.com/forms/0129f2a8-7b15-4850-b3fb-07944dfacb3c"
+            href="https://i.hookra.com/forms/0129f2a8-7b15-4850-b3fb-07944dfacb3c"
           >
             waitlist
           </a>{" "}

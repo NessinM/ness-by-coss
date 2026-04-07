@@ -3,9 +3,9 @@
   "name": "p-group-3",
   "description": "Small group",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/group",
-    "@ness/menu"
+    "@creantly/button",
+    "@creantly/group",
+    "@creantly/menu"
   ],
   "files": [
     {

@@ -1,6 +1,6 @@
-import { Card, CardFrame, CardPanel } from "@ness/ui/components/card";
-import { FrameFooter } from "@ness/ui/components/frame";
-import { Skeleton } from "@ness/ui/components/skeleton";
+import { Card, CardFrame, CardPanel } from "@creantly/ui/components/card";
+import { FrameFooter } from "@creantly/ui/components/frame";
+import { Skeleton } from "@creantly/ui/components/skeleton";
 import { BookingActionsSkeleton } from "./past/booking-actions";
 import {
   ListItem,

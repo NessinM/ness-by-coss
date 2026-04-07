@@ -3,8 +3,8 @@
   "name": "comp-298",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/button.json",
-    "https://ness.com/origin/r/toast.json"
+    "https://creantly.com/origin/r/button.json",
+    "https://creantly.com/origin/r/toast.json"
   ],
   "files": [
     {

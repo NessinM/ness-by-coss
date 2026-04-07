@@ -81,24 +81,24 @@ async function copyRegistryTrees() {
 function rewriteImports(code: string): string {
   let result = code;
   // Rewrite paths according to rules
-  // "@/lib/*"        → "@ness/ui/lib/*"
-  // "@/hooks/*"      → "@ness/ui/hooks/*"
-  // "@/registry/default/ui/*" → "@ness/ui/components/*"
-  // "@/registry/default/hooks/*" → "@ness/ui/hooks/*"
-  // "@/registry/default/lib/*" → "@ness/ui/lib/*"
-  result = result.replace(/(["'])@\/lib\//g, "$1@ness/ui/lib/");
-  result = result.replace(/(["'])@\/hooks\//g, "$1@ness/ui/hooks/");
+  // "@/lib/*"        → "@creantly/ui/lib/*"
+  // "@/hooks/*"      → "@creantly/ui/hooks/*"
+  // "@/registry/default/ui/*" → "@creantly/ui/components/*"
+  // "@/registry/default/hooks/*" → "@creantly/ui/hooks/*"
+  // "@/registry/default/lib/*" → "@creantly/ui/lib/*"
+  result = result.replace(/(["'])@\/lib\//g, "$1@creantly/ui/lib/");
+  result = result.replace(/(["'])@\/hooks\//g, "$1@creantly/ui/hooks/");
   result = result.replace(
     /(["'])@\/registry\/default\/ui\//g,
-    "$1@ness/ui/components/",
+    "$1@creantly/ui/components/",
   );
   result = result.replace(
     /(["'])@\/registry\/default\/hooks\//g,
-    "$1@ness/ui/hooks/",
+    "$1@creantly/ui/hooks/",
   );
   result = result.replace(
     /(["'])@\/registry\/default\/lib\//g,
-    "$1@ness/ui/lib/",
+    "$1@creantly/ui/lib/",
   );
   return result;
 }

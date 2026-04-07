@@ -3,7 +3,7 @@
   "name": "p-accordion-3",
   "description": "Accordion allowing multiple panels open",
   "registryDependencies": [
-    "@ness/accordion"
+    "@creantly/accordion"
   ],
   "files": [
     {

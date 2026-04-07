@@ -2,7 +2,7 @@
 
 import { Meter as MeterPrimitive } from "@base-ui/react/meter";
 import type React from "react";
-import { cn } from "@ness/ui/lib/utils";
+import { cn } from "@creantly/ui/lib/utils";
 
 export function Meter({
   className,

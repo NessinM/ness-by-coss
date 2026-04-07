@@ -258,7 +258,7 @@ export default function Component() {
         Mixed content w/ card ∙{" "}
         <a
           className="underline hover:text-foreground"
-          href="https://github.com/nesscom/ness/blob/main/apps/origin/docs/use-file-upload.md"
+          href="https://github.com/NessinM/creantly/blob/main/apps/origin/docs/use-file-upload.md"
         >
           API
         </a>

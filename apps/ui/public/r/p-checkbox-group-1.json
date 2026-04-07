@@ -3,9 +3,9 @@
   "name": "p-checkbox-group-1",
   "description": "Basic checkbox group",
   "registryDependencies": [
-    "@ness/checkbox",
-    "@ness/checkbox-group",
-    "@ness/label"
+    "@creantly/checkbox",
+    "@creantly/checkbox-group",
+    "@creantly/label"
   ],
   "files": [
     {

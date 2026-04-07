@@ -1,45 +1,45 @@
-import { CodeBlock } from "@ness/ui/shared/code-block";
+import { CodeBlock } from "@creantly/ui/shared/code-block";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "ness.com calendar",
+  title: "creantly.com calendar",
 };
 
 export default function Page() {
-  const initialization = `import { ness } from '@ness';
+  const initialization = `import { creantly } from '@creantly';
 
-ness.calendar.init({
-  apiKey: process.env.NESS_KEY,
+creantly.calendar.init({
+  apiKey: process.env.CREANTLY_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const authorization = `// Generate an OAuth link for Google Calendar
-const authUrl = ness.calendar.auth.getAuthUrl({
+const authUrl = creantly.calendar.auth.getAuthUrl({
   provider: 'google',
   redirectUri: 'https://yourapp.com/callback',
 });
 
 // Exchange authorization code for access tokens
-await ness.calendar.auth.exchangeCode({
+await creantly.calendar.auth.exchangeCode({
   provider: 'google',
   code: 'authorization_code_here',
   redirectUri: 'https://yourapp.com/callback',
 });`;
 
   const calendars = `// List calendars
-await ness.calendar.calendars.list({
+await creantly.calendar.calendars.list({
   provider: 'google',
 });
 
 // Retrieve a calendar
-await ness.calendar.calendars.retrieve({
+await creantly.calendar.calendars.retrieve({
   provider: 'google',
   calendarId: 'primary',
 });`;
 
   const events = `// Create an event
-await ness.calendar.events.create({
+await creantly.calendar.events.create({
   provider: 'google',
   calendarId: 'primary',
   event: {
@@ -51,13 +51,13 @@ await ness.calendar.events.create({
 });
 
 // List events
-await ness.calendar.events.list({
+await creantly.calendar.events.list({
   provider: 'google',
   calendarId: 'primary',
 });
 
 // Update an event
-await ness.calendar.events.update({
+await creantly.calendar.events.update({
   provider: 'google',
   calendarId: 'primary',
   eventId: 'event_abc123',
@@ -67,29 +67,29 @@ await ness.calendar.events.update({
 });
 
 // Delete an event
-await ness.calendar.events.delete({
+await creantly.calendar.events.delete({
   provider: 'google',
   calendarId: 'primary',
   eventId: 'event_abc123',
 });`;
 
   const webhooks = `// Webhook events
-ness.calendar.webhooks.on('event.created', (event) => {
+creantly.calendar.webhooks.on('event.created', (event) => {
   console.log('Event created:', event.data);
 });
 
-ness.calendar.webhooks.on('event.updated', (event) => {
+creantly.calendar.webhooks.on('event.updated', (event) => {
   console.log('Event updated:', event.data);
 });
 
-ness.calendar.webhooks.on('event.deleted', (event) => {
+creantly.calendar.webhooks.on('event.deleted', (event) => {
   console.log('Event deleted:', event.data);
 });`;
 
   const utilities = `// Validate webhook signature
-const isValid = ness.calendar.utils.verifySignature({
+const isValid = creantly.calendar.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['ness-calendar-signature'],
+  signature: req.headers['creantly-calendar-signature'],
   secret: 'whsec_calendar_123',
 });`;
 

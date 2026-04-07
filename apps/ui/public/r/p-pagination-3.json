@@ -3,9 +3,9 @@
   "name": "p-pagination-3",
   "description": "Pagination with select, and previous and next buttons",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/pagination",
-    "@ness/select"
+    "@creantly/button",
+    "@creantly/pagination",
+    "@creantly/select"
   ],
   "files": [
     {

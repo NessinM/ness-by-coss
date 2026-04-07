@@ -1,10 +1,10 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameFooter,
   CardPanel,
-} from "@ness/ui/components/card";
+} from "@creantly/ui/components/card";
 import { GeneralSettingsFields } from "./general-settings-form";
 import {
   AppHeader,

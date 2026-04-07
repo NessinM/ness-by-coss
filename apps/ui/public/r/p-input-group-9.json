@@ -3,8 +3,8 @@
   "name": "p-input-group-9",
   "description": "Input group with button",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/input-group"
+    "@creantly/button",
+    "@creantly/input-group"
   ],
   "files": [
     {

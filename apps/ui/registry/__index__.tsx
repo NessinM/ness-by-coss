@@ -65,7 +65,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/input","@ness/scroll-area"],
+    registryDependencies: ["@creantly/input","@creantly/scroll-area"],
     files: [{
       path: "registry/default/ui/autocomplete.tsx",
       type: "registry:ui",
@@ -137,7 +137,7 @@ export const Index: Record<string, any> = {
     name: "button",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/spinner"],
+    registryDependencies: ["@creantly/spinner"],
     files: [{
       path: "registry/default/ui/button.tsx",
       type: "registry:ui",
@@ -245,7 +245,7 @@ export const Index: Record<string, any> = {
     name: "combobox",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/input","@ness/scroll-area"],
+    registryDependencies: ["@creantly/input","@creantly/scroll-area"],
     files: [{
       path: "registry/default/ui/combobox.tsx",
       type: "registry:ui",
@@ -263,7 +263,7 @@ export const Index: Record<string, any> = {
     name: "command",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/ui/command.tsx",
       type: "registry:ui",
@@ -281,7 +281,7 @@ export const Index: Record<string, any> = {
     name: "dialog",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/button","@ness/scroll-area"],
+    registryDependencies: ["@creantly/button","@creantly/scroll-area"],
     files: [{
       path: "registry/default/ui/dialog.tsx",
       type: "registry:ui",
@@ -299,7 +299,7 @@ export const Index: Record<string, any> = {
     name: "drawer",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/button","@ness/scroll-area"],
+    registryDependencies: ["@creantly/button","@creantly/scroll-area"],
     files: [{
       path: "registry/default/ui/drawer.tsx",
       type: "registry:ui",
@@ -407,7 +407,7 @@ export const Index: Record<string, any> = {
     name: "group",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/separator"],
+    registryDependencies: ["@creantly/separator"],
     files: [{
       path: "registry/default/ui/group.tsx",
       type: "registry:ui",
@@ -443,7 +443,7 @@ export const Index: Record<string, any> = {
     name: "input-otp",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/separator"],
+    registryDependencies: ["@creantly/separator"],
     files: [{
       path: "registry/default/ui/input-otp.tsx",
       type: "registry:ui",
@@ -461,7 +461,7 @@ export const Index: Record<string, any> = {
     name: "input-group",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/input","@ness/textarea"],
+    registryDependencies: ["@creantly/input","@creantly/textarea"],
     files: [{
       path: "registry/default/ui/input-group.tsx",
       type: "registry:ui",
@@ -551,7 +551,7 @@ export const Index: Record<string, any> = {
     name: "number-field",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/label"],
+    registryDependencies: ["@creantly/label"],
     files: [{
       path: "registry/default/ui/number-field.tsx",
       type: "registry:ui",
@@ -569,7 +569,7 @@ export const Index: Record<string, any> = {
     name: "pagination",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/ui/pagination.tsx",
       type: "registry:ui",
@@ -713,7 +713,7 @@ export const Index: Record<string, any> = {
     name: "sheet",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/button","@ness/scroll-area"],
+    registryDependencies: ["@creantly/button","@creantly/scroll-area"],
     files: [{
       path: "registry/default/ui/sheet.tsx",
       type: "registry:ui",
@@ -731,7 +731,7 @@ export const Index: Record<string, any> = {
     name: "sidebar",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/button","@ness/input","@ness/scroll-area","@ness/separator","@ness/sheet","@ness/skeleton","@ness/tooltip","@ness/use-media-query","@ness/utils"],
+    registryDependencies: ["@creantly/button","@creantly/input","@creantly/scroll-area","@creantly/separator","@creantly/sheet","@creantly/skeleton","@creantly/tooltip","@creantly/use-media-query","@creantly/utils"],
     files: [{
       path: "registry/default/ui/sidebar.tsx",
       type: "registry:ui",
@@ -875,7 +875,7 @@ export const Index: Record<string, any> = {
     name: "toast",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/ui/toast.tsx",
       type: "registry:ui",
@@ -911,7 +911,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/separator","@ness/toggle"],
+    registryDependencies: ["@creantly/separator","@creantly/toggle"],
     files: [{
       path: "registry/default/ui/toggle-group.tsx",
       type: "registry:ui",
@@ -965,7 +965,7 @@ export const Index: Record<string, any> = {
     name: "p-accordion-1",
     description: "Basic accordion",
     type: "registry:block",
-    registryDependencies: ["@ness/accordion"],
+    registryDependencies: ["@creantly/accordion"],
     files: [{
       path: "registry/default/particles/p-accordion-1.tsx",
       type: "registry:block",
@@ -983,7 +983,7 @@ export const Index: Record<string, any> = {
     name: "p-accordion-2",
     description: "Accordion with one panel open",
     type: "registry:block",
-    registryDependencies: ["@ness/accordion"],
+    registryDependencies: ["@creantly/accordion"],
     files: [{
       path: "registry/default/particles/p-accordion-2.tsx",
       type: "registry:block",
@@ -1001,7 +1001,7 @@ export const Index: Record<string, any> = {
     name: "p-accordion-3",
     description: "Accordion allowing multiple panels open",
     type: "registry:block",
-    registryDependencies: ["@ness/accordion"],
+    registryDependencies: ["@creantly/accordion"],
     files: [{
       path: "registry/default/particles/p-accordion-3.tsx",
       type: "registry:block",
@@ -1019,7 +1019,7 @@ export const Index: Record<string, any> = {
     name: "p-accordion-4",
     description: "Controlled accordion",
     type: "registry:block",
-    registryDependencies: ["@ness/accordion","@ness/button"],
+    registryDependencies: ["@creantly/accordion","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-accordion-4.tsx",
       type: "registry:block",
@@ -1037,7 +1037,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-1",
     description: "Basic alert",
     type: "registry:block",
-    registryDependencies: ["@ness/alert"],
+    registryDependencies: ["@creantly/alert"],
     files: [{
       path: "registry/default/particles/p-alert-1.tsx",
       type: "registry:block",
@@ -1055,7 +1055,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-2",
     description: "Alert with icon",
     type: "registry:block",
-    registryDependencies: ["@ness/alert"],
+    registryDependencies: ["@creantly/alert"],
     files: [{
       path: "registry/default/particles/p-alert-2.tsx",
       type: "registry:block",
@@ -1073,7 +1073,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-3",
     description: "Alert with icon and action buttons",
     type: "registry:block",
-    registryDependencies: ["@ness/alert","@ness/button"],
+    registryDependencies: ["@creantly/alert","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-alert-3.tsx",
       type: "registry:block",
@@ -1091,7 +1091,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-4",
     description: "Info alert",
     type: "registry:block",
-    registryDependencies: ["@ness/alert"],
+    registryDependencies: ["@creantly/alert"],
     files: [{
       path: "registry/default/particles/p-alert-4.tsx",
       type: "registry:block",
@@ -1109,7 +1109,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-5",
     description: "Success alert",
     type: "registry:block",
-    registryDependencies: ["@ness/alert"],
+    registryDependencies: ["@creantly/alert"],
     files: [{
       path: "registry/default/particles/p-alert-5.tsx",
       type: "registry:block",
@@ -1127,7 +1127,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-6",
     description: "Warning alert",
     type: "registry:block",
-    registryDependencies: ["@ness/alert"],
+    registryDependencies: ["@creantly/alert"],
     files: [{
       path: "registry/default/particles/p-alert-6.tsx",
       type: "registry:block",
@@ -1145,7 +1145,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-7",
     description: "Error alert",
     type: "registry:block",
-    registryDependencies: ["@ness/alert"],
+    registryDependencies: ["@creantly/alert"],
     files: [{
       path: "registry/default/particles/p-alert-7.tsx",
       type: "registry:block",
@@ -1163,7 +1163,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-dialog-1",
     description: "Alert dialog",
     type: "registry:block",
-    registryDependencies: ["@ness/alert-dialog","@ness/button"],
+    registryDependencies: ["@creantly/alert-dialog","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-alert-dialog-1.tsx",
       type: "registry:block",
@@ -1181,7 +1181,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-dialog-2",
     description: "Alert dialog with bare footer",
     type: "registry:block",
-    registryDependencies: ["@ness/alert-dialog","@ness/button"],
+    registryDependencies: ["@creantly/alert-dialog","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-alert-dialog-2.tsx",
       type: "registry:block",
@@ -1199,7 +1199,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-1",
     description: "Basic autocomplete",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-1.tsx",
       type: "registry:block",
@@ -1217,7 +1217,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-2",
     description: "Disabled autocomplete",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-2.tsx",
       type: "registry:block",
@@ -1235,7 +1235,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-3",
     description: "Small autocomplete",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-3.tsx",
       type: "registry:block",
@@ -1253,7 +1253,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-4",
     description: "Large autocomplete",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-4.tsx",
       type: "registry:block",
@@ -1271,7 +1271,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-5",
     description: "Autocomplete with label",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete","@ness/label"],
+    registryDependencies: ["@creantly/autocomplete","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-autocomplete-5.tsx",
       type: "registry:block",
@@ -1289,7 +1289,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-6",
     description: "Autocomplete autofilling the input with the highlighted item",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-6.tsx",
       type: "registry:block",
@@ -1307,7 +1307,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-7",
     description: "Autocomplete auto highlighting the first option",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-7.tsx",
       type: "registry:block",
@@ -1325,7 +1325,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-8",
     description: "Autocomplete with clear button",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-8.tsx",
       type: "registry:block",
@@ -1343,7 +1343,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-9",
     description: "Autocomplete with trigger and clear buttons",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-9.tsx",
       type: "registry:block",
@@ -1361,7 +1361,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-10",
     description: "Autocomplete with grouped items",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-10.tsx",
       type: "registry:block",
@@ -1379,7 +1379,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-11",
     description: "Autocomplete with limited number of results",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-11.tsx",
       type: "registry:block",
@@ -1397,7 +1397,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-12",
     description: "Autocomplete with async items loading",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete","@ness/spinner"],
+    registryDependencies: ["@creantly/autocomplete","@creantly/spinner"],
     files: [{
       path: "registry/default/particles/p-autocomplete-12.tsx",
       type: "registry:block",
@@ -1415,7 +1415,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-13",
     description: "Autocomplete form",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete","@ness/button","@ness/field","@ness/form"],
+    registryDependencies: ["@creantly/autocomplete","@creantly/button","@creantly/field","@creantly/form"],
     files: [{
       path: "registry/default/particles/p-autocomplete-13.tsx",
       type: "registry:block",
@@ -1433,7 +1433,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-14",
     description: "Autocomplete form",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-14.tsx",
       type: "registry:block",
@@ -1451,7 +1451,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-15",
     description: "Pill-shaped autocomplete",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete"],
+    registryDependencies: ["@creantly/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-15.tsx",
       type: "registry:block",
@@ -1469,7 +1469,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-1",
     description: "Avatar with image and fallback",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-1.tsx",
       type: "registry:block",
@@ -1487,7 +1487,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-2",
     description: "Fallback-only avatar",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-2.tsx",
       type: "registry:block",
@@ -1505,7 +1505,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-3",
     description: "Avatars with different sizes",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-3.tsx",
       type: "registry:block",
@@ -1523,7 +1523,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-4",
     description: "Avatars with different radii",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-4.tsx",
       type: "registry:block",
@@ -1541,7 +1541,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-5",
     description: "Overlapping avatar group",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-5.tsx",
       type: "registry:block",
@@ -1559,7 +1559,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-6",
     description: "Avatar with user icon fallback",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-6.tsx",
       type: "registry:block",
@@ -1577,7 +1577,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-7",
     description: "Avatar with emerald status dot",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-7.tsx",
       type: "registry:block",
@@ -1595,7 +1595,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-8",
     description: "Avatar with muted status dot",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-8.tsx",
       type: "registry:block",
@@ -1613,7 +1613,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-9",
     description: "Rounded avatar with top-right emerald status",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-9.tsx",
       type: "registry:block",
@@ -1631,7 +1631,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-10",
     description: "Avatar with notification badge",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar","@ness/badge"],
+    registryDependencies: ["@creantly/avatar","@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-avatar-10.tsx",
       type: "registry:block",
@@ -1649,7 +1649,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-11",
     description: "Rounded avatar with notification badge",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar","@ness/badge"],
+    registryDependencies: ["@creantly/avatar","@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-avatar-11.tsx",
       type: "registry:block",
@@ -1667,7 +1667,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-12",
     description: "Avatar with verified badge",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-12.tsx",
       type: "registry:block",
@@ -1685,7 +1685,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-13",
     description: "Small overlapping avatar group",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-13.tsx",
       type: "registry:block",
@@ -1703,7 +1703,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-14",
     description: "Large overlapping avatar group",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar"],
+    registryDependencies: ["@creantly/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-14.tsx",
       type: "registry:block",
@@ -1721,7 +1721,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-1",
     description: "Basic badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-1.tsx",
       type: "registry:block",
@@ -1739,7 +1739,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-2",
     description: "Outline badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-2.tsx",
       type: "registry:block",
@@ -1757,7 +1757,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-3",
     description: "Secondary badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-3.tsx",
       type: "registry:block",
@@ -1775,7 +1775,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-4",
     description: "Destructive badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-4.tsx",
       type: "registry:block",
@@ -1793,7 +1793,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-5",
     description: "Info badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-5.tsx",
       type: "registry:block",
@@ -1811,7 +1811,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-6",
     description: "Success badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-6.tsx",
       type: "registry:block",
@@ -1829,7 +1829,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-7",
     description: "Warning badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-7.tsx",
       type: "registry:block",
@@ -1847,7 +1847,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-8",
     description: "Error badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-8.tsx",
       type: "registry:block",
@@ -1865,7 +1865,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-9",
     description: "Small badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-9.tsx",
       type: "registry:block",
@@ -1883,7 +1883,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-10",
     description: "Large badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-10.tsx",
       type: "registry:block",
@@ -1901,7 +1901,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-11",
     description: "Badge with icon",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-11.tsx",
       type: "registry:block",
@@ -1919,7 +1919,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-12",
     description: "Badge with link",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-12.tsx",
       type: "registry:block",
@@ -1937,7 +1937,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-13",
     description: "Badge with count",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-13.tsx",
       type: "registry:block",
@@ -1955,7 +1955,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-14",
     description: "Full rounded badge (pill)",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-14.tsx",
       type: "registry:block",
@@ -1973,7 +1973,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-15",
     description: "Badge with number after text",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-15.tsx",
       type: "registry:block",
@@ -1991,7 +1991,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-16",
     description: "Status badge - Paid",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-16.tsx",
       type: "registry:block",
@@ -2009,7 +2009,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-17",
     description: "Status badge - Pending",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-17.tsx",
       type: "registry:block",
@@ -2027,7 +2027,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-18",
     description: "Status badge - Failed",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-18.tsx",
       type: "registry:block",
@@ -2045,7 +2045,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-19",
     description: "Selectable badge with checkbox",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/checkbox"],
+    registryDependencies: ["@creantly/badge","@creantly/checkbox"],
     files: [{
       path: "registry/default/particles/p-badge-19.tsx",
       type: "registry:block",
@@ -2063,7 +2063,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-20",
     description: "Removable badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge"],
+    registryDependencies: ["@creantly/badge"],
     files: [{
       path: "registry/default/particles/p-badge-20.tsx",
       type: "registry:block",
@@ -2081,7 +2081,7 @@ export const Index: Record<string, any> = {
     name: "p-breadcrumb-1",
     description: "Breadcrumb with menu example",
     type: "registry:block",
-    registryDependencies: ["@ness/breadcrumb","@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/breadcrumb","@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-breadcrumb-1.tsx",
       type: "registry:block",
@@ -2099,7 +2099,7 @@ export const Index: Record<string, any> = {
     name: "p-breadcrumb-2",
     description: "Breadcrumb with custom separator",
     type: "registry:block",
-    registryDependencies: ["@ness/breadcrumb"],
+    registryDependencies: ["@creantly/breadcrumb"],
     files: [{
       path: "registry/default/particles/p-breadcrumb-2.tsx",
       type: "registry:block",
@@ -2117,7 +2117,7 @@ export const Index: Record<string, any> = {
     name: "p-breadcrumb-3",
     description: "Breadcrumb with home icon for home link only",
     type: "registry:block",
-    registryDependencies: ["@ness/breadcrumb"],
+    registryDependencies: ["@creantly/breadcrumb"],
     files: [{
       path: "registry/default/particles/p-breadcrumb-3.tsx",
       type: "registry:block",
@@ -2135,7 +2135,7 @@ export const Index: Record<string, any> = {
     name: "p-breadcrumb-4",
     description: "Breadcrumb with folders icon menu",
     type: "registry:block",
-    registryDependencies: ["@ness/breadcrumb","@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/breadcrumb","@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-breadcrumb-4.tsx",
       type: "registry:block",
@@ -2153,7 +2153,7 @@ export const Index: Record<string, any> = {
     name: "p-breadcrumb-5",
     description: "Breadcrumb with icons before text",
     type: "registry:block",
-    registryDependencies: ["@ness/breadcrumb"],
+    registryDependencies: ["@creantly/breadcrumb"],
     files: [{
       path: "registry/default/particles/p-breadcrumb-5.tsx",
       type: "registry:block",
@@ -2171,7 +2171,7 @@ export const Index: Record<string, any> = {
     name: "p-breadcrumb-6",
     description: "Breadcrumb with dot separators",
     type: "registry:block",
-    registryDependencies: ["@ness/breadcrumb"],
+    registryDependencies: ["@creantly/breadcrumb"],
     files: [{
       path: "registry/default/particles/p-breadcrumb-6.tsx",
       type: "registry:block",
@@ -2189,7 +2189,7 @@ export const Index: Record<string, any> = {
     name: "p-breadcrumb-7",
     description: "Breadcrumb with select dropdown",
     type: "registry:block",
-    registryDependencies: ["@ness/breadcrumb","@ness/select"],
+    registryDependencies: ["@creantly/breadcrumb","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-breadcrumb-7.tsx",
       type: "registry:block",
@@ -2207,7 +2207,7 @@ export const Index: Record<string, any> = {
     name: "p-button-1",
     description: "Default button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-1.tsx",
       type: "registry:block",
@@ -2225,7 +2225,7 @@ export const Index: Record<string, any> = {
     name: "p-button-2",
     description: "Outline button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-2.tsx",
       type: "registry:block",
@@ -2243,7 +2243,7 @@ export const Index: Record<string, any> = {
     name: "p-button-3",
     description: "Secondary button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-3.tsx",
       type: "registry:block",
@@ -2261,7 +2261,7 @@ export const Index: Record<string, any> = {
     name: "p-button-4",
     description: "Destructive button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-4.tsx",
       type: "registry:block",
@@ -2279,7 +2279,7 @@ export const Index: Record<string, any> = {
     name: "p-button-5",
     description: "Destructive outline button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-5.tsx",
       type: "registry:block",
@@ -2297,7 +2297,7 @@ export const Index: Record<string, any> = {
     name: "p-button-6",
     description: "Ghost button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-6.tsx",
       type: "registry:block",
@@ -2315,7 +2315,7 @@ export const Index: Record<string, any> = {
     name: "p-button-7",
     description: "Link button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-7.tsx",
       type: "registry:block",
@@ -2333,7 +2333,7 @@ export const Index: Record<string, any> = {
     name: "p-button-8",
     description: "Extra-small button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-8.tsx",
       type: "registry:block",
@@ -2351,7 +2351,7 @@ export const Index: Record<string, any> = {
     name: "p-button-9",
     description: "Small button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-9.tsx",
       type: "registry:block",
@@ -2369,7 +2369,7 @@ export const Index: Record<string, any> = {
     name: "p-button-10",
     description: "Large button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-10.tsx",
       type: "registry:block",
@@ -2387,7 +2387,7 @@ export const Index: Record<string, any> = {
     name: "p-button-11",
     description: "Extra-large button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-11.tsx",
       type: "registry:block",
@@ -2405,7 +2405,7 @@ export const Index: Record<string, any> = {
     name: "p-button-12",
     description: "Disabled button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-12.tsx",
       type: "registry:block",
@@ -2423,7 +2423,7 @@ export const Index: Record<string, any> = {
     name: "p-button-13",
     description: "Icon button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-13.tsx",
       type: "registry:block",
@@ -2441,7 +2441,7 @@ export const Index: Record<string, any> = {
     name: "p-button-14",
     description: "Small icon button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-14.tsx",
       type: "registry:block",
@@ -2459,7 +2459,7 @@ export const Index: Record<string, any> = {
     name: "p-button-15",
     description: "Large icon button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-15.tsx",
       type: "registry:block",
@@ -2477,7 +2477,7 @@ export const Index: Record<string, any> = {
     name: "p-button-16",
     description: "Button with icon",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-16.tsx",
       type: "registry:block",
@@ -2495,7 +2495,7 @@ export const Index: Record<string, any> = {
     name: "p-button-17",
     description: "Link rendered as button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-17.tsx",
       type: "registry:block",
@@ -2513,7 +2513,7 @@ export const Index: Record<string, any> = {
     name: "p-button-41",
     description: "Button using the built-in loading prop",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-41.tsx",
       type: "registry:block",
@@ -2531,7 +2531,7 @@ export const Index: Record<string, any> = {
     name: "p-button-18",
     description: "Custom loading button with manual Spinner",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/spinner"],
+    registryDependencies: ["@creantly/button","@creantly/spinner"],
     files: [{
       path: "registry/default/particles/p-button-18.tsx",
       type: "registry:block",
@@ -2549,7 +2549,7 @@ export const Index: Record<string, any> = {
     name: "p-button-19",
     description: "Expandable show more/less toggle button",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-19.tsx",
       type: "registry:block",
@@ -2567,7 +2567,7 @@ export const Index: Record<string, any> = {
     name: "p-button-20",
     description: "Back link button with chevron",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-20.tsx",
       type: "registry:block",
@@ -2585,7 +2585,7 @@ export const Index: Record<string, any> = {
     name: "p-button-21",
     description: "Card-style button with heading and description",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-21.tsx",
       type: "registry:block",
@@ -2603,7 +2603,7 @@ export const Index: Record<string, any> = {
     name: "p-button-22",
     description: "Directional pad control buttons",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-22.tsx",
       type: "registry:block",
@@ -2621,7 +2621,7 @@ export const Index: Record<string, any> = {
     name: "p-button-23",
     description: "Outline like button with count",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-23.tsx",
       type: "registry:block",
@@ -2639,7 +2639,7 @@ export const Index: Record<string, any> = {
     name: "p-button-24",
     description: "Social login icon buttons",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-24.tsx",
       type: "registry:block",
@@ -2657,7 +2657,7 @@ export const Index: Record<string, any> = {
     name: "p-button-26",
     description: "Star button with count badge",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-26.tsx",
       type: "registry:block",
@@ -2675,7 +2675,7 @@ export const Index: Record<string, any> = {
     name: "p-button-27",
     description: "Button group with QR code icon and sign in",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group"],
+    registryDependencies: ["@creantly/button","@creantly/group"],
     files: [{
       path: "registry/default/particles/p-button-27.tsx",
       type: "registry:block",
@@ -2693,7 +2693,7 @@ export const Index: Record<string, any> = {
     name: "p-button-28",
     description: "Button with avatar",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar","@ness/button"],
+    registryDependencies: ["@creantly/avatar","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-28.tsx",
       type: "registry:block",
@@ -2711,7 +2711,7 @@ export const Index: Record<string, any> = {
     name: "p-button-29",
     description: "Pill-shaped button with rounded-full styling",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-29.tsx",
       type: "registry:block",
@@ -2729,7 +2729,7 @@ export const Index: Record<string, any> = {
     name: "p-button-30",
     description: "Button with animated arrow on hover",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-30.tsx",
       type: "registry:block",
@@ -2747,7 +2747,7 @@ export const Index: Record<string, any> = {
     name: "p-button-31",
     description: "Button with keyboard shortcut indicator",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/kbd"],
+    registryDependencies: ["@creantly/button","@creantly/kbd"],
     files: [{
       path: "registry/default/particles/p-button-31.tsx",
       type: "registry:block",
@@ -2765,7 +2765,7 @@ export const Index: Record<string, any> = {
     name: "p-button-32",
     description: "Button with notification badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/button"],
+    registryDependencies: ["@creantly/badge","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-32.tsx",
       type: "registry:block",
@@ -2783,7 +2783,7 @@ export const Index: Record<string, any> = {
     name: "p-button-33",
     description: "Paired buttons (Cancel/Save)",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-33.tsx",
       type: "registry:block",
@@ -2801,7 +2801,7 @@ export const Index: Record<string, any> = {
     name: "p-button-34",
     description: "Button with animated status dot",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-34.tsx",
       type: "registry:block",
@@ -2819,7 +2819,7 @@ export const Index: Record<string, any> = {
     name: "p-button-35",
     description: "Icon-only copy button with feedback",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-35.tsx",
       type: "registry:block",
@@ -2837,7 +2837,7 @@ export const Index: Record<string, any> = {
     name: "p-button-36",
     description: "Copy button with feedback",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-36.tsx",
       type: "registry:block",
@@ -2855,7 +2855,7 @@ export const Index: Record<string, any> = {
     name: "p-button-37",
     description: "Rotating icon button (FAB-style toggle)",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-37.tsx",
       type: "registry:block",
@@ -2873,7 +2873,7 @@ export const Index: Record<string, any> = {
     name: "p-button-39",
     description: "Hamburger menu button with animated icon",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-39.tsx",
       type: "registry:block",
@@ -2891,7 +2891,7 @@ export const Index: Record<string, any> = {
     name: "p-button-40",
     description: "Download button with progress and cancel action",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/spinner","@ness/toast","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/spinner","@creantly/toast","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-button-40.tsx",
       type: "registry:block",
@@ -2909,7 +2909,7 @@ export const Index: Record<string, any> = {
     name: "p-button-38",
     description: "Social login buttons (Google, X, GitHub)",
     type: "registry:block",
-    registryDependencies: ["@ness/button"],
+    registryDependencies: ["@creantly/button"],
     files: [{
       path: "registry/default/particles/p-button-38.tsx",
       type: "registry:block",
@@ -2927,7 +2927,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-1",
     description: "Basic calendar",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-1.tsx",
       type: "registry:block",
@@ -2945,7 +2945,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-3",
     description: "Calendar with date range selection",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-3.tsx",
       type: "registry:block",
@@ -2963,7 +2963,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-4",
     description: "Calendar with month/year dropdown navigation",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-4.tsx",
       type: "registry:block",
@@ -2981,7 +2981,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-5",
     description: "Calendar with custom Select dropdown for month/year",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/select"],
+    registryDependencies: ["@creantly/calendar","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-calendar-5.tsx",
       type: "registry:block",
@@ -2999,7 +2999,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-6",
     description: "Calendar with Combobox dropdown for month/year",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/combobox"],
+    registryDependencies: ["@creantly/calendar","@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-calendar-6.tsx",
       type: "registry:block",
@@ -3017,7 +3017,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-7",
     description: "Calendar with disabled dates",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-7.tsx",
       type: "registry:block",
@@ -3035,7 +3035,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-8",
     description: "Calendar with multiple date selection",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-8.tsx",
       type: "registry:block",
@@ -3053,7 +3053,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-2",
     description: "Calendar with custom cell size",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-2.tsx",
       type: "registry:block",
@@ -3071,7 +3071,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-9",
     description: "Calendar with rounded day buttons",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-9.tsx",
       type: "registry:block",
@@ -3089,7 +3089,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-10",
     description: "Calendar with rounded range selection style",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-10.tsx",
       type: "registry:block",
@@ -3107,7 +3107,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-11",
     description: "Calendar with right-aligned navigation",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-11.tsx",
       type: "registry:block",
@@ -3125,7 +3125,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-12",
     description: "Calendar with week numbers",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-12.tsx",
       type: "registry:block",
@@ -3143,7 +3143,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-13",
     description: "Calendar with year-only combobox dropdown",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/combobox"],
+    registryDependencies: ["@creantly/calendar","@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-calendar-13.tsx",
       type: "registry:block",
@@ -3161,7 +3161,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-14",
     description: "Calendar without arrow navigation (dropdown only)",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/select"],
+    registryDependencies: ["@creantly/calendar","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-calendar-14.tsx",
       type: "registry:block",
@@ -3179,7 +3179,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-15",
     description: "Calendar with current month button",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/button"],
+    registryDependencies: ["@creantly/calendar","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-calendar-15.tsx",
       type: "registry:block",
@@ -3197,7 +3197,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-16",
     description: "Calendar with today button",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/button"],
+    registryDependencies: ["@creantly/calendar","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-calendar-16.tsx",
       type: "registry:block",
@@ -3215,7 +3215,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-17",
     description: "Calendar with date input",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/field","@ness/input-group"],
+    registryDependencies: ["@creantly/calendar","@creantly/field","@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-calendar-17.tsx",
       type: "registry:block",
@@ -3233,7 +3233,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-18",
     description: "Calendar with time input",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/field","@ness/input-group"],
+    registryDependencies: ["@creantly/calendar","@creantly/field","@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-calendar-18.tsx",
       type: "registry:block",
@@ -3251,7 +3251,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-19",
     description: "Calendar with time slots (appointment picker)",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/scroll-area","@ness/toggle","@ness/toggle-group"],
+    registryDependencies: ["@creantly/calendar","@creantly/scroll-area","@creantly/toggle","@creantly/toggle-group"],
     files: [{
       path: "registry/default/particles/p-calendar-19.tsx",
       type: "registry:block",
@@ -3269,7 +3269,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-20",
     description: "Calendar with date presets",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/button"],
+    registryDependencies: ["@creantly/calendar","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-calendar-20.tsx",
       type: "registry:block",
@@ -3287,7 +3287,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-21",
     description: "Range calendar with date presets",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/button"],
+    registryDependencies: ["@creantly/calendar","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-calendar-21.tsx",
       type: "registry:block",
@@ -3305,7 +3305,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-22",
     description: "Two months calendar",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-22.tsx",
       type: "registry:block",
@@ -3323,7 +3323,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-23",
     description: "Three months calendar",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-23.tsx",
       type: "registry:block",
@@ -3341,7 +3341,7 @@ export const Index: Record<string, any> = {
     name: "p-calendar-24",
     description: "Pricing calendar with custom day buttons",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar"],
+    registryDependencies: ["@creantly/calendar"],
     files: [{
       path: "registry/default/particles/p-calendar-24.tsx",
       type: "registry:block",
@@ -3359,7 +3359,7 @@ export const Index: Record<string, any> = {
     name: "p-date-picker-1",
     description: "Basic date picker",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/popover","@ness/button"],
+    registryDependencies: ["@creantly/calendar","@creantly/popover","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-date-picker-1.tsx",
       type: "registry:block",
@@ -3377,7 +3377,7 @@ export const Index: Record<string, any> = {
     name: "p-date-picker-2",
     description: "Date range picker",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/popover","@ness/button"],
+    registryDependencies: ["@creantly/calendar","@creantly/popover","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-date-picker-2.tsx",
       type: "registry:block",
@@ -3395,7 +3395,7 @@ export const Index: Record<string, any> = {
     name: "p-date-picker-9",
     description: "Two months calendar with range date",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/popover","@ness/button"],
+    registryDependencies: ["@creantly/calendar","@creantly/popover","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-date-picker-9.tsx",
       type: "registry:block",
@@ -3413,7 +3413,7 @@ export const Index: Record<string, any> = {
     name: "p-date-picker-3",
     description: "Date picker with field and dropdown navigation",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/calendar","@ness/combobox","@ness/field","@ness/popover"],
+    registryDependencies: ["@creantly/button","@creantly/calendar","@creantly/combobox","@creantly/field","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-date-picker-3.tsx",
       type: "registry:block",
@@ -3431,7 +3431,7 @@ export const Index: Record<string, any> = {
     name: "p-date-picker-4",
     description: "Date picker with presets",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/calendar","@ness/popover"],
+    registryDependencies: ["@creantly/button","@creantly/calendar","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-date-picker-4.tsx",
       type: "registry:block",
@@ -3449,7 +3449,7 @@ export const Index: Record<string, any> = {
     name: "p-date-picker-5",
     description: "Date picker with input",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/calendar","@ness/input-group","@ness/popover"],
+    registryDependencies: ["@creantly/button","@creantly/calendar","@creantly/input-group","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-date-picker-5.tsx",
       type: "registry:block",
@@ -3467,7 +3467,7 @@ export const Index: Record<string, any> = {
     name: "p-date-picker-6",
     description: "Date picker that closes on select",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/popover","@ness/button"],
+    registryDependencies: ["@creantly/calendar","@creantly/popover","@creantly/button"],
     files: [{
       path: "registry/default/particles/p-date-picker-6.tsx",
       type: "registry:block",
@@ -3485,7 +3485,7 @@ export const Index: Record<string, any> = {
     name: "p-date-picker-7",
     description: "Multiple dates picker",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/button","@ness/calendar","@ness/popover"],
+    registryDependencies: ["@creantly/badge","@creantly/button","@creantly/calendar","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-date-picker-7.tsx",
       type: "registry:block",
@@ -3503,7 +3503,7 @@ export const Index: Record<string, any> = {
     name: "p-date-picker-8",
     description: "Date picker with select-like trigger",
     type: "registry:block",
-    registryDependencies: ["@ness/calendar","@ness/popover","@ness/select"],
+    registryDependencies: ["@creantly/calendar","@creantly/popover","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-date-picker-8.tsx",
       type: "registry:block",
@@ -3521,7 +3521,7 @@ export const Index: Record<string, any> = {
     name: "p-card-1",
     description: "A basic card with header and footer",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/field","@ness/form","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/field","@creantly/form","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-card-1.tsx",
       type: "registry:block",
@@ -3539,7 +3539,7 @@ export const Index: Record<string, any> = {
     name: "p-card-2",
     description: "Authentication card with actions",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/field","@ness/form","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/field","@creantly/form","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-card-2.tsx",
       type: "registry:block",
@@ -3557,7 +3557,7 @@ export const Index: Record<string, any> = {
     name: "p-card-3",
     description: "Authentication card with separators",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/field","@ness/form","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/field","@creantly/form","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-card-3.tsx",
       type: "registry:block",
@@ -3575,7 +3575,7 @@ export const Index: Record<string, any> = {
     name: "p-card-4",
     description: "Framed card with footer",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/field","@ness/form","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/field","@creantly/form","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-card-4.tsx",
       type: "registry:block",
@@ -3593,7 +3593,7 @@ export const Index: Record<string, any> = {
     name: "p-card-5",
     description: "Framed card with header",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/field","@ness/form","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/field","@creantly/form","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-card-5.tsx",
       type: "registry:block",
@@ -3611,7 +3611,7 @@ export const Index: Record<string, any> = {
     name: "p-card-6",
     description: "Framed card with header and footer",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/field","@ness/form","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/field","@creantly/form","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-card-6.tsx",
       type: "registry:block",
@@ -3629,7 +3629,7 @@ export const Index: Record<string, any> = {
     name: "p-card-7",
     description: "Framed card with no rounded bottom",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/field","@ness/form","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/field","@creantly/form","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-card-7.tsx",
       type: "registry:block",
@@ -3647,7 +3647,7 @@ export const Index: Record<string, any> = {
     name: "p-card-8",
     description: "Card within a frame and footer",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/field","@ness/form","@ness/frame","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/field","@creantly/form","@creantly/frame","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-card-8.tsx",
       type: "registry:block",
@@ -3665,7 +3665,7 @@ export const Index: Record<string, any> = {
     name: "p-card-9",
     description: "Card within a frame and footer",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/field","@ness/form","@ness/frame","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/field","@creantly/form","@creantly/frame","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-card-9.tsx",
       type: "registry:block",
@@ -3683,7 +3683,7 @@ export const Index: Record<string, any> = {
     name: "p-card-10",
     description: "Card within a frame with header and footer",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/field","@ness/form","@ness/frame","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/field","@creantly/form","@creantly/frame","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-card-10.tsx",
       type: "registry:block",
@@ -3701,7 +3701,7 @@ export const Index: Record<string, any> = {
     name: "p-card-11",
     description: "CardFrame with header action",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/card","@ness/empty"],
+    registryDependencies: ["@creantly/button","@creantly/card","@creantly/empty"],
     files: [{
       path: "registry/default/particles/p-card-11.tsx",
       type: "registry:block",
@@ -3719,7 +3719,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-1",
     description: "Basic checkbox",
     type: "registry:block",
-    registryDependencies: ["@ness/checkbox","@ness/label"],
+    registryDependencies: ["@creantly/checkbox","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-1.tsx",
       type: "registry:block",
@@ -3737,7 +3737,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-2",
     description: "Disabled checkbox",
     type: "registry:block",
-    registryDependencies: ["@ness/checkbox","@ness/label"],
+    registryDependencies: ["@creantly/checkbox","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-2.tsx",
       type: "registry:block",
@@ -3755,7 +3755,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-3",
     description: "Checkbox with description",
     type: "registry:block",
-    registryDependencies: ["@ness/checkbox","@ness/label"],
+    registryDependencies: ["@creantly/checkbox","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-3.tsx",
       type: "registry:block",
@@ -3773,7 +3773,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-4",
     description: "Card-style checkbox",
     type: "registry:block",
-    registryDependencies: ["@ness/checkbox","@ness/label"],
+    registryDependencies: ["@creantly/checkbox","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-4.tsx",
       type: "registry:block",
@@ -3791,7 +3791,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-5",
     description: "Checkbox form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/checkbox","@ness/field","@ness/form"],
+    registryDependencies: ["@creantly/button","@creantly/checkbox","@creantly/field","@creantly/form"],
     files: [{
       path: "registry/default/particles/p-checkbox-5.tsx",
       type: "registry:block",
@@ -3809,7 +3809,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-group-1",
     description: "Basic checkbox group",
     type: "registry:block",
-    registryDependencies: ["@ness/checkbox","@ness/checkbox-group","@ness/label"],
+    registryDependencies: ["@creantly/checkbox","@creantly/checkbox-group","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-group-1.tsx",
       type: "registry:block",
@@ -3827,7 +3827,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-group-2",
     description: "Checkbox group with disabled items",
     type: "registry:block",
-    registryDependencies: ["@ness/checkbox","@ness/checkbox-group","@ness/label"],
+    registryDependencies: ["@creantly/checkbox","@creantly/checkbox-group","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-group-2.tsx",
       type: "registry:block",
@@ -3845,7 +3845,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-group-3",
     description: "Checkbox group with parent checkbox",
     type: "registry:block",
-    registryDependencies: ["@ness/checkbox","@ness/checkbox-group","@ness/label"],
+    registryDependencies: ["@creantly/checkbox","@creantly/checkbox-group","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-group-3.tsx",
       type: "registry:block",
@@ -3863,7 +3863,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-group-4",
     description: "Nested checkbox group with parent",
     type: "registry:block",
-    registryDependencies: ["@ness/checkbox","@ness/checkbox-group","@ness/label"],
+    registryDependencies: ["@creantly/checkbox","@creantly/checkbox-group","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-group-4.tsx",
       type: "registry:block",
@@ -3881,7 +3881,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-group-5",
     description: "Checkbox group form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/checkbox","@ness/checkbox-group","@ness/field","@ness/fieldset","@ness/form"],
+    registryDependencies: ["@creantly/button","@creantly/checkbox","@creantly/checkbox-group","@creantly/field","@creantly/fieldset","@creantly/form"],
     files: [{
       path: "registry/default/particles/p-checkbox-group-5.tsx",
       type: "registry:block",
@@ -3899,7 +3899,7 @@ export const Index: Record<string, any> = {
     name: "p-collapsible-1",
     description: "Basic collapsible",
     type: "registry:block",
-    registryDependencies: ["@ness/collapsible"],
+    registryDependencies: ["@creantly/collapsible"],
     files: [{
       path: "registry/default/particles/p-collapsible-1.tsx",
       type: "registry:block",
@@ -3917,7 +3917,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-1",
     description: "Basic combobox",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-1.tsx",
       type: "registry:block",
@@ -3935,7 +3935,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-2",
     description: "Disabled combobox",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-2.tsx",
       type: "registry:block",
@@ -3953,7 +3953,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-3",
     description: "Small combobox",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-3.tsx",
       type: "registry:block",
@@ -3971,7 +3971,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-4",
     description: "Large combobox",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-4.tsx",
       type: "registry:block",
@@ -3989,7 +3989,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-5",
     description: "Combobox with label",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox","@ness/label"],
+    registryDependencies: ["@creantly/combobox","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-combobox-5.tsx",
       type: "registry:block",
@@ -4007,7 +4007,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-6",
     description: "Combobox auto highlighting the first option",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-6.tsx",
       type: "registry:block",
@@ -4025,7 +4025,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-7",
     description: "Combobox with clear button",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-7.tsx",
       type: "registry:block",
@@ -4043,7 +4043,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-8",
     description: "Combobox with grouped items",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-8.tsx",
       type: "registry:block",
@@ -4061,7 +4061,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-9",
     description: "Combobox with multiple selection",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-9.tsx",
       type: "registry:block",
@@ -4079,7 +4079,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-10",
     description: "Combobox with input inside popup",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/combobox"],
+    registryDependencies: ["@creantly/button","@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-10.tsx",
       type: "registry:block",
@@ -4097,7 +4097,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-11",
     description: "Combobox form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/combobox","@ness/field","@ness/form"],
+    registryDependencies: ["@creantly/button","@creantly/combobox","@creantly/field","@creantly/form"],
     files: [{
       path: "registry/default/particles/p-combobox-11.tsx",
       type: "registry:block",
@@ -4115,7 +4115,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-12",
     description: "Combobox multiple form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/combobox","@ness/field","@ness/form"],
+    registryDependencies: ["@creantly/button","@creantly/combobox","@creantly/field","@creantly/form"],
     files: [{
       path: "registry/default/particles/p-combobox-12.tsx",
       type: "registry:block",
@@ -4133,7 +4133,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-13",
     description: "Combobox with start addon",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-13.tsx",
       type: "registry:block",
@@ -4151,7 +4151,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-14",
     description: "Combobox multiple with start addon",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-14.tsx",
       type: "registry:block",
@@ -4169,7 +4169,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-15",
     description: "Pill-shaped combobox",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-15.tsx",
       type: "registry:block",
@@ -4187,7 +4187,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-16",
     description: "Timezone combobox",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox"],
+    registryDependencies: ["@creantly/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-16.tsx",
       type: "registry:block",
@@ -4205,7 +4205,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-17",
     description: "Timezone combobox with search input",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox","@ness/select"],
+    registryDependencies: ["@creantly/combobox","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-combobox-17.tsx",
       type: "registry:block",
@@ -4223,7 +4223,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-18",
     description: "Combobox with select trigger",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox","@ness/select"],
+    registryDependencies: ["@creantly/combobox","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-combobox-18.tsx",
       type: "registry:block",
@@ -4241,7 +4241,7 @@ export const Index: Record<string, any> = {
     name: "p-command-1",
     description: "Command palette with dialog",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/command","@ness/kbd"],
+    registryDependencies: ["@creantly/button","@creantly/command","@creantly/kbd"],
     files: [{
       path: "registry/default/particles/p-command-1.tsx",
       type: "registry:block",
@@ -4259,7 +4259,7 @@ export const Index: Record<string, any> = {
     name: "p-command-2",
     description: "Command palette with AI assistant",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete","@ness/button","@ness/command","@ness/empty","@ness/input","@ness/kbd","@ness/scroll-area","@ness/skeleton","@ness/spinner"],
+    registryDependencies: ["@creantly/autocomplete","@creantly/button","@creantly/command","@creantly/empty","@creantly/input","@creantly/kbd","@creantly/scroll-area","@creantly/skeleton","@creantly/spinner"],
     files: [{
       path: "registry/default/particles/p-command-2.tsx",
       type: "registry:block",
@@ -4277,7 +4277,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-1",
     description: "Dialog with form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/dialog","@ness/field","@ness/form","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/dialog","@creantly/field","@creantly/form","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-dialog-1.tsx",
       type: "registry:block",
@@ -4295,7 +4295,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-6",
     description: "Dialog with bare footer",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/dialog","@ness/field","@ness/form","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/dialog","@creantly/field","@creantly/form","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-dialog-6.tsx",
       type: "registry:block",
@@ -4313,7 +4313,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-2",
     description: "Dialog opened from menu",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/dialog","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/dialog","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-dialog-2.tsx",
       type: "registry:block",
@@ -4331,7 +4331,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-3",
     description: "Nested dialogs",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/dialog","@ness/field","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/dialog","@creantly/field","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-dialog-3.tsx",
       type: "registry:block",
@@ -4349,7 +4349,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-4",
     description: "Dialog with close confirmation",
     type: "registry:block",
-    registryDependencies: ["@ness/alert-dialog","@ness/button","@ness/dialog","@ness/field","@ness/form","@ness/textarea"],
+    registryDependencies: ["@creantly/alert-dialog","@creantly/button","@creantly/dialog","@creantly/field","@creantly/form","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-dialog-4.tsx",
       type: "registry:block",
@@ -4367,7 +4367,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-5",
     description: "Dialog with long content",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/dialog"],
+    registryDependencies: ["@creantly/button","@creantly/dialog"],
     files: [{
       path: "registry/default/particles/p-dialog-5.tsx",
       type: "registry:block",
@@ -4385,7 +4385,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-1",
     description: "Simple bottom drawer with close button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer"],
+    registryDependencies: ["@creantly/button","@creantly/drawer"],
     files: [{
       path: "registry/default/particles/p-drawer-1.tsx",
       type: "registry:block",
@@ -4403,7 +4403,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-2",
     description: "Bottom drawer without drag bar",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer"],
+    registryDependencies: ["@creantly/button","@creantly/drawer"],
     files: [{
       path: "registry/default/particles/p-drawer-2.tsx",
       type: "registry:block",
@@ -4421,7 +4421,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-3",
     description: "Drawer with close button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer"],
+    registryDependencies: ["@creantly/button","@creantly/drawer"],
     files: [{
       path: "registry/default/particles/p-drawer-3.tsx",
       type: "registry:block",
@@ -4439,7 +4439,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-4",
     description: "Inset variant drawers for all four positions",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer"],
+    registryDependencies: ["@creantly/button","@creantly/drawer"],
     files: [{
       path: "registry/default/particles/p-drawer-4.tsx",
       type: "registry:block",
@@ -4457,7 +4457,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-5",
     description: "Straight variant drawers for all four positions",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer"],
+    registryDependencies: ["@creantly/button","@creantly/drawer"],
     files: [{
       path: "registry/default/particles/p-drawer-5.tsx",
       type: "registry:block",
@@ -4475,7 +4475,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-6",
     description: "Scrollable content with terms and conditions",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer"],
+    registryDependencies: ["@creantly/button","@creantly/drawer"],
     files: [{
       path: "registry/default/particles/p-drawer-6.tsx",
       type: "registry:block",
@@ -4493,7 +4493,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-7",
     description: "Nested bottom drawers with centered content",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer"],
+    registryDependencies: ["@creantly/button","@creantly/drawer"],
     files: [{
       path: "registry/default/particles/p-drawer-7.tsx",
       type: "registry:block",
@@ -4511,7 +4511,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-8",
     description: "Nested right drawers with inset variant",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer","@ness/field","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/drawer","@creantly/field","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-drawer-8.tsx",
       type: "registry:block",
@@ -4529,7 +4529,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-9",
     description: "Bottom drawer with snap points",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer"],
+    registryDependencies: ["@creantly/button","@creantly/drawer"],
     files: [{
       path: "registry/default/particles/p-drawer-9.tsx",
       type: "registry:block",
@@ -4547,7 +4547,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-10",
     description: "Edit profile form with default and bare footer variants",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer","@ness/field","@ness/form","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/drawer","@creantly/field","@creantly/form","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-drawer-10.tsx",
       type: "registry:block",
@@ -4565,7 +4565,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-11",
     description: "Mobile menu drawer from the left",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer"],
+    registryDependencies: ["@creantly/button","@creantly/drawer"],
     files: [{
       path: "registry/default/particles/p-drawer-11.tsx",
       type: "registry:block",
@@ -4583,7 +4583,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-12",
     description: "Responsive edit profile: dialog on desktop, drawer on mobile",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/dialog","@ness/drawer","@ness/field","@ness/form","@ness/input","@ness/use-media-query"],
+    registryDependencies: ["@creantly/button","@creantly/dialog","@creantly/drawer","@creantly/field","@creantly/form","@creantly/input","@creantly/use-media-query"],
     files: [{
       path: "registry/default/particles/p-drawer-12.tsx",
       type: "registry:block",
@@ -4601,7 +4601,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-13",
     description: "Responsive actions menu: menu on desktop, drawer on mobile",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer","@ness/menu","@ness/use-media-query"],
+    registryDependencies: ["@creantly/button","@creantly/drawer","@creantly/menu","@creantly/use-media-query"],
     files: [{
       path: "registry/default/particles/p-drawer-13.tsx",
       type: "registry:block",
@@ -4619,7 +4619,7 @@ export const Index: Record<string, any> = {
     name: "p-drawer-14",
     description: "Left drawer with swipe area",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/drawer"],
+    registryDependencies: ["@creantly/button","@creantly/drawer"],
     files: [{
       path: "registry/default/particles/p-drawer-14.tsx",
       type: "registry:block",
@@ -4637,7 +4637,7 @@ export const Index: Record<string, any> = {
     name: "p-empty-1",
     description: "Empty state with icon and actions",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/empty"],
+    registryDependencies: ["@creantly/button","@creantly/empty"],
     files: [{
       path: "registry/default/particles/p-empty-1.tsx",
       type: "registry:block",
@@ -4655,7 +4655,7 @@ export const Index: Record<string, any> = {
     name: "p-field-1",
     description: "Field with description",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/input"],
+    registryDependencies: ["@creantly/field","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-field-1.tsx",
       type: "registry:block",
@@ -4673,7 +4673,7 @@ export const Index: Record<string, any> = {
     name: "p-field-2",
     description: "Field with required indicator",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/input"],
+    registryDependencies: ["@creantly/field","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-field-2.tsx",
       type: "registry:block",
@@ -4691,7 +4691,7 @@ export const Index: Record<string, any> = {
     name: "p-field-3",
     description: "Field in disabled state",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/input"],
+    registryDependencies: ["@creantly/field","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-field-3.tsx",
       type: "registry:block",
@@ -4709,7 +4709,7 @@ export const Index: Record<string, any> = {
     name: "p-field-4",
     description: "Field showing validation error",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/input"],
+    registryDependencies: ["@creantly/field","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-field-4.tsx",
       type: "registry:block",
@@ -4727,7 +4727,7 @@ export const Index: Record<string, any> = {
     name: "p-field-5",
     description: "Show field validity state",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/input"],
+    registryDependencies: ["@creantly/field","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-field-5.tsx",
       type: "registry:block",
@@ -4745,7 +4745,7 @@ export const Index: Record<string, any> = {
     name: "p-field-6",
     description: "Input group with field",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/input-group"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-field-6.tsx",
       type: "registry:block",
@@ -4763,7 +4763,7 @@ export const Index: Record<string, any> = {
     name: "p-field-7",
     description: "Field with autocomplete",
     type: "registry:block",
-    registryDependencies: ["@ness/autocomplete","@ness/field"],
+    registryDependencies: ["@creantly/autocomplete","@creantly/field"],
     files: [{
       path: "registry/default/particles/p-field-7.tsx",
       type: "registry:block",
@@ -4781,7 +4781,7 @@ export const Index: Record<string, any> = {
     name: "p-field-8",
     description: "Field with combobox",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox","@ness/field"],
+    registryDependencies: ["@creantly/combobox","@creantly/field"],
     files: [{
       path: "registry/default/particles/p-field-8.tsx",
       type: "registry:block",
@@ -4799,7 +4799,7 @@ export const Index: Record<string, any> = {
     name: "p-field-9",
     description: "Field with multiple selection combobox",
     type: "registry:block",
-    registryDependencies: ["@ness/combobox","@ness/field"],
+    registryDependencies: ["@creantly/combobox","@creantly/field"],
     files: [{
       path: "registry/default/particles/p-field-9.tsx",
       type: "registry:block",
@@ -4817,7 +4817,7 @@ export const Index: Record<string, any> = {
     name: "p-field-10",
     description: "Field with textarea",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/textarea"],
+    registryDependencies: ["@creantly/field","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-field-10.tsx",
       type: "registry:block",
@@ -4835,7 +4835,7 @@ export const Index: Record<string, any> = {
     name: "p-field-11",
     description: "Field with select",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/select"],
+    registryDependencies: ["@creantly/field","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-field-11.tsx",
       type: "registry:block",
@@ -4853,7 +4853,7 @@ export const Index: Record<string, any> = {
     name: "p-field-12",
     description: "Field with checkbox",
     type: "registry:block",
-    registryDependencies: ["@ness/checkbox","@ness/field"],
+    registryDependencies: ["@creantly/checkbox","@creantly/field"],
     files: [{
       path: "registry/default/particles/p-field-12.tsx",
       type: "registry:block",
@@ -4871,7 +4871,7 @@ export const Index: Record<string, any> = {
     name: "p-field-13",
     description: "Field with checkbox group",
     type: "registry:block",
-    registryDependencies: ["@ness/checkbox","@ness/checkbox-group","@ness/field","@ness/fieldset"],
+    registryDependencies: ["@creantly/checkbox","@creantly/checkbox-group","@creantly/field","@creantly/fieldset"],
     files: [{
       path: "registry/default/particles/p-field-13.tsx",
       type: "registry:block",
@@ -4889,7 +4889,7 @@ export const Index: Record<string, any> = {
     name: "p-field-14",
     description: "Field with radio group",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/fieldset","@ness/radio-group"],
+    registryDependencies: ["@creantly/field","@creantly/fieldset","@creantly/radio-group"],
     files: [{
       path: "registry/default/particles/p-field-14.tsx",
       type: "registry:block",
@@ -4907,7 +4907,7 @@ export const Index: Record<string, any> = {
     name: "p-field-15",
     description: "Field with toggle switch",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/switch"],
+    registryDependencies: ["@creantly/field","@creantly/switch"],
     files: [{
       path: "registry/default/particles/p-field-15.tsx",
       type: "registry:block",
@@ -4925,7 +4925,7 @@ export const Index: Record<string, any> = {
     name: "p-field-16",
     description: "Field with slider",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/slider"],
+    registryDependencies: ["@creantly/field","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-field-16.tsx",
       type: "registry:block",
@@ -4943,7 +4943,7 @@ export const Index: Record<string, any> = {
     name: "p-field-17",
     description: "Field with number field",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/number-field"],
+    registryDependencies: ["@creantly/field","@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-field-17.tsx",
       type: "registry:block",
@@ -4961,7 +4961,7 @@ export const Index: Record<string, any> = {
     name: "p-field-18",
     description: "Complete form built with field",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/checkbox","@ness/field","@ness/form","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/checkbox","@creantly/field","@creantly/form","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-field-18.tsx",
       type: "registry:block",
@@ -4979,7 +4979,7 @@ export const Index: Record<string, any> = {
     name: "p-fieldset-1",
     description: "Fieldset with multiple fields",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/fieldset","@ness/input"],
+    registryDependencies: ["@creantly/field","@creantly/fieldset","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-fieldset-1.tsx",
       type: "registry:block",
@@ -4997,7 +4997,7 @@ export const Index: Record<string, any> = {
     name: "p-form-1",
     description: "Input in a form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/form","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/form","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-form-1.tsx",
       type: "registry:block",
@@ -5015,7 +5015,7 @@ export const Index: Record<string, any> = {
     name: "p-form-2",
     description: "Form with zod validation",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/form","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/form","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-form-2.tsx",
       type: "registry:block",
@@ -5033,7 +5033,7 @@ export const Index: Record<string, any> = {
     name: "p-frame-1",
     description: "Basic frame",
     type: "registry:block",
-    registryDependencies: ["@ness/frame"],
+    registryDependencies: ["@creantly/frame"],
     files: [{
       path: "registry/default/particles/p-frame-1.tsx",
       type: "registry:block",
@@ -5051,7 +5051,7 @@ export const Index: Record<string, any> = {
     name: "p-frame-3",
     description: "Frame with multiple separated panels",
     type: "registry:block",
-    registryDependencies: ["@ness/frame"],
+    registryDependencies: ["@creantly/frame"],
     files: [{
       path: "registry/default/particles/p-frame-3.tsx",
       type: "registry:block",
@@ -5069,7 +5069,7 @@ export const Index: Record<string, any> = {
     name: "p-frame-4",
     description: "Frame with multiple stacked panels",
     type: "registry:block",
-    registryDependencies: ["@ness/frame","@ness/separator"],
+    registryDependencies: ["@creantly/frame","@creantly/separator"],
     files: [{
       path: "registry/default/particles/p-frame-4.tsx",
       type: "registry:block",
@@ -5087,7 +5087,7 @@ export const Index: Record<string, any> = {
     name: "p-frame-2",
     description: "Frame with collapsible content and delete button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/collapsible","@ness/frame"],
+    registryDependencies: ["@creantly/button","@creantly/collapsible","@creantly/frame"],
     files: [{
       path: "registry/default/particles/p-frame-2.tsx",
       type: "registry:block",
@@ -5105,7 +5105,7 @@ export const Index: Record<string, any> = {
     name: "p-kbd-1",
     description: "Keyboard shortcuts display",
     type: "registry:block",
-    registryDependencies: ["@ness/kbd"],
+    registryDependencies: ["@creantly/kbd"],
     files: [{
       path: "registry/default/particles/p-kbd-1.tsx",
       type: "registry:block",
@@ -5123,7 +5123,7 @@ export const Index: Record<string, any> = {
     name: "p-group-1",
     description: "Basic group",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-group-1.tsx",
       type: "registry:block",
@@ -5141,7 +5141,7 @@ export const Index: Record<string, any> = {
     name: "p-group-2",
     description: "Group with input",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/input","@ness/tooltip","@ness/use-copy-to-clipboard"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/input","@creantly/tooltip","@creantly/use-copy-to-clipboard"],
     files: [{
       path: "registry/default/particles/p-group-2.tsx",
       type: "registry:block",
@@ -5159,7 +5159,7 @@ export const Index: Record<string, any> = {
     name: "p-group-3",
     description: "Small group",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-group-3.tsx",
       type: "registry:block",
@@ -5177,7 +5177,7 @@ export const Index: Record<string, any> = {
     name: "p-group-4",
     description: "Large group",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-group-4.tsx",
       type: "registry:block",
@@ -5195,7 +5195,7 @@ export const Index: Record<string, any> = {
     name: "p-group-5",
     description: "Group with disabled button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-group-5.tsx",
       type: "registry:block",
@@ -5213,7 +5213,7 @@ export const Index: Record<string, any> = {
     name: "p-group-6",
     description: "Group with default button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-group-6.tsx",
       type: "registry:block",
@@ -5231,7 +5231,7 @@ export const Index: Record<string, any> = {
     name: "p-group-7",
     description: "Group with start text",
     type: "registry:block",
-    registryDependencies: ["@ness/group","@ness/input","@ness/label"],
+    registryDependencies: ["@creantly/group","@creantly/input","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-group-7.tsx",
       type: "registry:block",
@@ -5249,7 +5249,7 @@ export const Index: Record<string, any> = {
     name: "p-group-8",
     description: "Group with end text",
     type: "registry:block",
-    registryDependencies: ["@ness/group","@ness/input","@ness/label"],
+    registryDependencies: ["@creantly/group","@creantly/input","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-group-8.tsx",
       type: "registry:block",
@@ -5267,7 +5267,7 @@ export const Index: Record<string, any> = {
     name: "p-group-9",
     description: "Vertical group",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group"],
+    registryDependencies: ["@creantly/button","@creantly/group"],
     files: [{
       path: "registry/default/particles/p-group-9.tsx",
       type: "registry:block",
@@ -5285,7 +5285,7 @@ export const Index: Record<string, any> = {
     name: "p-group-10",
     description: "Nested groups",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group"],
+    registryDependencies: ["@creantly/button","@creantly/group"],
     files: [{
       path: "registry/default/particles/p-group-10.tsx",
       type: "registry:block",
@@ -5303,7 +5303,7 @@ export const Index: Record<string, any> = {
     name: "p-group-11",
     description: "Group with popup",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/button","@ness/group","@ness/popover"],
+    registryDependencies: ["@creantly/badge","@creantly/button","@creantly/group","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-group-11.tsx",
       type: "registry:block",
@@ -5321,7 +5321,7 @@ export const Index: Record<string, any> = {
     name: "p-group-12",
     description: "Group with input group",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/input-group","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/input-group","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-group-12.tsx",
       type: "registry:block",
@@ -5339,7 +5339,7 @@ export const Index: Record<string, any> = {
     name: "p-group-13",
     description: "Group with menu",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-group-13.tsx",
       type: "registry:block",
@@ -5357,7 +5357,7 @@ export const Index: Record<string, any> = {
     name: "p-group-14",
     description: "Group with select",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/number-field","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/number-field","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-group-14.tsx",
       type: "registry:block",
@@ -5375,7 +5375,7 @@ export const Index: Record<string, any> = {
     name: "p-group-15",
     description: "Group with search",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-group-15.tsx",
       type: "registry:block",
@@ -5393,7 +5393,7 @@ export const Index: Record<string, any> = {
     name: "p-group-16",
     description: "Group with add button and input",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-group-16.tsx",
       type: "registry:block",
@@ -5411,7 +5411,7 @@ export const Index: Record<string, any> = {
     name: "p-group-17",
     description: "Group with input and currency text",
     type: "registry:block",
-    registryDependencies: ["@ness/group","@ness/input","@ness/label"],
+    registryDependencies: ["@creantly/group","@creantly/input","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-group-17.tsx",
       type: "registry:block",
@@ -5429,7 +5429,7 @@ export const Index: Record<string, any> = {
     name: "p-group-18",
     description: "Group with select and input",
     type: "registry:block",
-    registryDependencies: ["@ness/group","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/group","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-group-18.tsx",
       type: "registry:block",
@@ -5447,7 +5447,7 @@ export const Index: Record<string, any> = {
     name: "p-group-19",
     description: "Group with input and select",
     type: "registry:block",
-    registryDependencies: ["@ness/group","@ness/input","@ness/select"],
+    registryDependencies: ["@creantly/group","@creantly/input","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-group-19.tsx",
       type: "registry:block",
@@ -5465,7 +5465,7 @@ export const Index: Record<string, any> = {
     name: "p-group-20",
     description: "Group with input and text button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-group-20.tsx",
       type: "registry:block",
@@ -5483,7 +5483,7 @@ export const Index: Record<string, any> = {
     name: "p-group-22",
     description: "Group with two number inputs for range",
     type: "registry:block",
-    registryDependencies: ["@ness/group","@ness/label","@ness/number-field"],
+    registryDependencies: ["@creantly/group","@creantly/label","@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-group-22.tsx",
       type: "registry:block",
@@ -5501,7 +5501,7 @@ export const Index: Record<string, any> = {
     name: "p-group-23",
     description: "Group with filter label, combobox multi-select, and remove button",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar","@ness/badge","@ness/button","@ness/combobox","@ness/group"],
+    registryDependencies: ["@creantly/avatar","@creantly/badge","@creantly/button","@creantly/combobox","@creantly/group"],
     files: [{
       path: "registry/default/particles/p-group-23.tsx",
       type: "registry:block",
@@ -5519,7 +5519,7 @@ export const Index: Record<string, any> = {
     name: "p-input-1",
     description: "Basic input",
     type: "registry:block",
-    registryDependencies: ["@ness/input"],
+    registryDependencies: ["@creantly/input"],
     files: [{
       path: "registry/default/particles/p-input-1.tsx",
       type: "registry:block",
@@ -5537,7 +5537,7 @@ export const Index: Record<string, any> = {
     name: "p-input-2",
     description: "Small input",
     type: "registry:block",
-    registryDependencies: ["@ness/input"],
+    registryDependencies: ["@creantly/input"],
     files: [{
       path: "registry/default/particles/p-input-2.tsx",
       type: "registry:block",
@@ -5555,7 +5555,7 @@ export const Index: Record<string, any> = {
     name: "p-input-3",
     description: "Large input",
     type: "registry:block",
-    registryDependencies: ["@ness/input"],
+    registryDependencies: ["@creantly/input"],
     files: [{
       path: "registry/default/particles/p-input-3.tsx",
       type: "registry:block",
@@ -5573,7 +5573,7 @@ export const Index: Record<string, any> = {
     name: "p-input-4",
     description: "Disabled input",
     type: "registry:block",
-    registryDependencies: ["@ness/input"],
+    registryDependencies: ["@creantly/input"],
     files: [{
       path: "registry/default/particles/p-input-4.tsx",
       type: "registry:block",
@@ -5591,7 +5591,7 @@ export const Index: Record<string, any> = {
     name: "p-input-5",
     description: "File input",
     type: "registry:block",
-    registryDependencies: ["@ness/input"],
+    registryDependencies: ["@creantly/input"],
     files: [{
       path: "registry/default/particles/p-input-5.tsx",
       type: "registry:block",
@@ -5609,7 +5609,7 @@ export const Index: Record<string, any> = {
     name: "p-input-6",
     description: "Input with label",
     type: "registry:block",
-    registryDependencies: ["@ness/input","@ness/label"],
+    registryDependencies: ["@creantly/input","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-input-6.tsx",
       type: "registry:block",
@@ -5627,7 +5627,7 @@ export const Index: Record<string, any> = {
     name: "p-input-7",
     description: "Input with button using Group",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/input"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-input-7.tsx",
       type: "registry:block",
@@ -5645,7 +5645,7 @@ export const Index: Record<string, any> = {
     name: "p-input-8",
     description: "Input with start text and end tooltip",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/popover"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-input-8.tsx",
       type: "registry:block",
@@ -5663,7 +5663,7 @@ export const Index: Record<string, any> = {
     name: "p-input-9",
     description: "Password input with toggle visibility",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-input-9.tsx",
       type: "registry:block",
@@ -5681,7 +5681,7 @@ export const Index: Record<string, any> = {
     name: "p-input-10",
     description: "Input group mimicking a URL bar",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/popover"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-input-10.tsx",
       type: "registry:block",
@@ -5699,7 +5699,7 @@ export const Index: Record<string, any> = {
     name: "p-input-11",
     description: "Input group with keyboard shortcut",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group","@ness/kbd"],
+    registryDependencies: ["@creantly/input-group","@creantly/kbd"],
     files: [{
       path: "registry/default/particles/p-input-11.tsx",
       type: "registry:block",
@@ -5717,7 +5717,7 @@ export const Index: Record<string, any> = {
     name: "p-input-12",
     description: "Input group with start loading spinner",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group","@ness/spinner"],
+    registryDependencies: ["@creantly/input-group","@creantly/spinner"],
     files: [{
       path: "registry/default/particles/p-input-12.tsx",
       type: "registry:block",
@@ -5735,7 +5735,7 @@ export const Index: Record<string, any> = {
     name: "p-input-13",
     description: "Input with label and required indicator",
     type: "registry:block",
-    registryDependencies: ["@ness/input","@ness/label"],
+    registryDependencies: ["@creantly/input","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-input-13.tsx",
       type: "registry:block",
@@ -5753,7 +5753,7 @@ export const Index: Record<string, any> = {
     name: "p-input-14",
     description: "Input with optional label",
     type: "registry:block",
-    registryDependencies: ["@ness/input","@ness/label"],
+    registryDependencies: ["@creantly/input","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-input-14.tsx",
       type: "registry:block",
@@ -5771,7 +5771,7 @@ export const Index: Record<string, any> = {
     name: "p-input-15",
     description: "Input with custom border and background",
     type: "registry:block",
-    registryDependencies: ["@ness/input"],
+    registryDependencies: ["@creantly/input"],
     files: [{
       path: "registry/default/particles/p-input-15.tsx",
       type: "registry:block",
@@ -5789,7 +5789,7 @@ export const Index: Record<string, any> = {
     name: "p-input-16",
     description: "Input group with end loading spinner",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group","@ness/spinner"],
+    registryDependencies: ["@creantly/input-group","@creantly/spinner"],
     files: [{
       path: "registry/default/particles/p-input-16.tsx",
       type: "registry:block",
@@ -5807,7 +5807,7 @@ export const Index: Record<string, any> = {
     name: "p-input-17",
     description: "Read-only input",
     type: "registry:block",
-    registryDependencies: ["@ness/input"],
+    registryDependencies: ["@creantly/input"],
     files: [{
       path: "registry/default/particles/p-input-17.tsx",
       type: "registry:block",
@@ -5825,7 +5825,7 @@ export const Index: Record<string, any> = {
     name: "p-input-otp-1",
     description: "Basic OTP input",
     type: "registry:block",
-    registryDependencies: ["@ness/input-otp"],
+    registryDependencies: ["@creantly/input-otp"],
     files: [{
       path: "registry/default/particles/p-input-otp-1.tsx",
       type: "registry:block",
@@ -5843,7 +5843,7 @@ export const Index: Record<string, any> = {
     name: "p-input-otp-2",
     description: "Large OTP input",
     type: "registry:block",
-    registryDependencies: ["@ness/input-otp"],
+    registryDependencies: ["@creantly/input-otp"],
     files: [{
       path: "registry/default/particles/p-input-otp-2.tsx",
       type: "registry:block",
@@ -5861,7 +5861,7 @@ export const Index: Record<string, any> = {
     name: "p-input-otp-3",
     description: "OTP input with separator",
     type: "registry:block",
-    registryDependencies: ["@ness/input-otp"],
+    registryDependencies: ["@creantly/input-otp"],
     files: [{
       path: "registry/default/particles/p-input-otp-3.tsx",
       type: "registry:block",
@@ -5879,7 +5879,7 @@ export const Index: Record<string, any> = {
     name: "p-input-otp-4",
     description: "OTP input with label",
     type: "registry:block",
-    registryDependencies: ["@ness/input-otp","@ness/label"],
+    registryDependencies: ["@creantly/input-otp","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-input-otp-4.tsx",
       type: "registry:block",
@@ -5897,7 +5897,7 @@ export const Index: Record<string, any> = {
     name: "p-input-otp-5",
     description: "Digits-only OTP input",
     type: "registry:block",
-    registryDependencies: ["@ness/input-otp"],
+    registryDependencies: ["@creantly/input-otp"],
     files: [{
       path: "registry/default/particles/p-input-otp-5.tsx",
       type: "registry:block",
@@ -5915,7 +5915,7 @@ export const Index: Record<string, any> = {
     name: "p-input-otp-6",
     description: "Invalid OTP input",
     type: "registry:block",
-    registryDependencies: ["@ness/input-otp"],
+    registryDependencies: ["@creantly/input-otp"],
     files: [{
       path: "registry/default/particles/p-input-otp-6.tsx",
       type: "registry:block",
@@ -5933,7 +5933,7 @@ export const Index: Record<string, any> = {
     name: "p-input-otp-7",
     description: "OTP input with auto validation",
     type: "registry:block",
-    registryDependencies: ["@ness/input-otp","@ness/label"],
+    registryDependencies: ["@creantly/input-otp","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-input-otp-7.tsx",
       type: "registry:block",
@@ -5951,7 +5951,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-1",
     description: "Basic input group",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group"],
+    registryDependencies: ["@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-1.tsx",
       type: "registry:block",
@@ -5969,7 +5969,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-2",
     description: "Input group with end icon",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group"],
+    registryDependencies: ["@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-2.tsx",
       type: "registry:block",
@@ -5987,7 +5987,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-3",
     description: "Input group with start text",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group"],
+    registryDependencies: ["@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-3.tsx",
       type: "registry:block",
@@ -6005,7 +6005,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-4",
     description: "Input group with end text",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group"],
+    registryDependencies: ["@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-4.tsx",
       type: "registry:block",
@@ -6023,7 +6023,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-5",
     description: "Input group with start and end text",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group"],
+    registryDependencies: ["@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-5.tsx",
       type: "registry:block",
@@ -6041,7 +6041,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-6",
     description: "Input group with number field",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group","@ness/number-field"],
+    registryDependencies: ["@creantly/input-group","@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-input-group-6.tsx",
       type: "registry:block",
@@ -6059,7 +6059,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-7",
     description: "Input group with end tooltip",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/popover"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-input-group-7.tsx",
       type: "registry:block",
@@ -6077,7 +6077,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-8",
     description: "Input group with icon button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/tooltip","@ness/use-copy-to-clipboard"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/tooltip","@creantly/use-copy-to-clipboard"],
     files: [{
       path: "registry/default/particles/p-input-group-8.tsx",
       type: "registry:block",
@@ -6095,7 +6095,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-9",
     description: "Input group with button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group"],
+    registryDependencies: ["@creantly/button","@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-9.tsx",
       type: "registry:block",
@@ -6113,7 +6113,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-10",
     description: "Input group with badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/input-group"],
+    registryDependencies: ["@creantly/badge","@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-10.tsx",
       type: "registry:block",
@@ -6131,7 +6131,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-11",
     description: "Input group with keyboard shortcut",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group","@ness/kbd"],
+    registryDependencies: ["@creantly/input-group","@creantly/kbd"],
     files: [{
       path: "registry/default/particles/p-input-group-11.tsx",
       type: "registry:block",
@@ -6149,7 +6149,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-12",
     description: "Input group with inner label",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/label","@ness/popover"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/label","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-input-group-12.tsx",
       type: "registry:block",
@@ -6167,7 +6167,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-13",
     description: "Small input group",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group"],
+    registryDependencies: ["@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-13.tsx",
       type: "registry:block",
@@ -6185,7 +6185,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-14",
     description: "Large input group",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group"],
+    registryDependencies: ["@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-14.tsx",
       type: "registry:block",
@@ -6203,7 +6203,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-15",
     description: "Disabled input group",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group"],
+    registryDependencies: ["@creantly/button","@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-15.tsx",
       type: "registry:block",
@@ -6221,7 +6221,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-16",
     description: "Input group with loading spinner",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group","@ness/spinner"],
+    registryDependencies: ["@creantly/input-group","@creantly/spinner"],
     files: [{
       path: "registry/default/particles/p-input-group-16.tsx",
       type: "registry:block",
@@ -6239,7 +6239,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-17",
     description: "Input group with textarea",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/menu","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/menu","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-input-group-17.tsx",
       type: "registry:block",
@@ -6257,7 +6257,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-18",
     description: "Input group with badge and menu",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/button","@ness/input-group","@ness/menu"],
+    registryDependencies: ["@creantly/badge","@creantly/button","@creantly/input-group","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-input-group-18.tsx",
       type: "registry:block",
@@ -6275,7 +6275,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-19",
     description: "Mini editor built with input group and toggle",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/toggle"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/toggle"],
     files: [{
       path: "registry/default/particles/p-input-group-19.tsx",
       type: "registry:block",
@@ -6293,7 +6293,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-20",
     description: "Input group with search icon",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group"],
+    registryDependencies: ["@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-20.tsx",
       type: "registry:block",
@@ -6311,7 +6311,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-21",
     description: "Input group with start tooltip",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-input-group-21.tsx",
       type: "registry:block",
@@ -6329,7 +6329,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-22",
     description: "Input group with clear button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group"],
+    registryDependencies: ["@creantly/button","@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-22.tsx",
       type: "registry:block",
@@ -6347,7 +6347,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-23",
     description: "Search input group with loader and voice button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-input-group-23.tsx",
       type: "registry:block",
@@ -6365,7 +6365,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-24",
     description: "Input group with character counter",
     type: "registry:block",
-    registryDependencies: ["@ness/input-group"],
+    registryDependencies: ["@creantly/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-24.tsx",
       type: "registry:block",
@@ -6383,7 +6383,7 @@ export const Index: Record<string, any> = {
     name: "p-input-18",
     description: "Input with characters remaining counter",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/input"],
+    registryDependencies: ["@creantly/field","@creantly/input"],
     files: [{
       path: "registry/default/particles/p-input-18.tsx",
       type: "registry:block",
@@ -6401,7 +6401,7 @@ export const Index: Record<string, any> = {
     name: "p-input-19",
     description: "Pill-shaped input",
     type: "registry:block",
-    registryDependencies: ["@ness/input"],
+    registryDependencies: ["@creantly/input"],
     files: [{
       path: "registry/default/particles/p-input-19.tsx",
       type: "registry:block",
@@ -6419,7 +6419,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-26",
     description: "Password input with strength indicator",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/label"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/label"],
     files: [{
       path: "registry/default/particles/p-input-group-26.tsx",
       type: "registry:block",
@@ -6437,7 +6437,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-27",
     description: "Code snippet input with language selector",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/select","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/select","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-input-group-27.tsx",
       type: "registry:block",
@@ -6455,7 +6455,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-28",
     description: "Message composer with attachment buttons",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-input-group-28.tsx",
       type: "registry:block",
@@ -6473,7 +6473,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-29",
     description: "Chat input with voice and send buttons",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-input-group-29.tsx",
       type: "registry:block",
@@ -6491,7 +6491,7 @@ export const Index: Record<string, any> = {
     name: "p-meter-1",
     description: "Basic meter",
     type: "registry:block",
-    registryDependencies: ["@ness/meter"],
+    registryDependencies: ["@creantly/meter"],
     files: [{
       path: "registry/default/particles/p-meter-1.tsx",
       type: "registry:block",
@@ -6509,7 +6509,7 @@ export const Index: Record<string, any> = {
     name: "p-meter-2",
     description: "Simple meter",
     type: "registry:block",
-    registryDependencies: ["@ness/meter"],
+    registryDependencies: ["@creantly/meter"],
     files: [{
       path: "registry/default/particles/p-meter-2.tsx",
       type: "registry:block",
@@ -6527,7 +6527,7 @@ export const Index: Record<string, any> = {
     name: "p-meter-3",
     description: "Meter with formatted value",
     type: "registry:block",
-    registryDependencies: ["@ness/meter"],
+    registryDependencies: ["@creantly/meter"],
     files: [{
       path: "registry/default/particles/p-meter-3.tsx",
       type: "registry:block",
@@ -6545,7 +6545,7 @@ export const Index: Record<string, any> = {
     name: "p-meter-4",
     description: "Meter with range",
     type: "registry:block",
-    registryDependencies: ["@ness/meter"],
+    registryDependencies: ["@creantly/meter"],
     files: [{
       path: "registry/default/particles/p-meter-4.tsx",
       type: "registry:block",
@@ -6563,7 +6563,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-1",
     description: "Basic menu",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-menu-1.tsx",
       type: "registry:block",
@@ -6581,7 +6581,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-2",
     description: "Menu with hover",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-menu-2.tsx",
       type: "registry:block",
@@ -6599,7 +6599,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-3",
     description: "Menu with checkbox",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-menu-3.tsx",
       type: "registry:block",
@@ -6617,7 +6617,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-9",
     description: "Menu with checkbox items as switches",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-menu-9.tsx",
       type: "registry:block",
@@ -6635,7 +6635,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-4",
     description: "Menu with radio group",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-menu-4.tsx",
       type: "registry:block",
@@ -6653,7 +6653,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-5",
     description: "Menu with link",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-menu-5.tsx",
       type: "registry:block",
@@ -6671,7 +6671,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-6",
     description: "Menu with group labels",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-menu-6.tsx",
       type: "registry:block",
@@ -6689,7 +6689,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-7",
     description: "Nested menu",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-menu-7.tsx",
       type: "registry:block",
@@ -6707,7 +6707,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-8",
     description: "Menu close on click",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/menu"],
+    registryDependencies: ["@creantly/button","@creantly/menu"],
     files: [{
       path: "registry/default/particles/p-menu-8.tsx",
       type: "registry:block",
@@ -6725,7 +6725,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-1",
     description: "Basic number field",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field"],
+    registryDependencies: ["@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-1.tsx",
       type: "registry:block",
@@ -6743,7 +6743,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-2",
     description: "Small number field",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field"],
+    registryDependencies: ["@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-2.tsx",
       type: "registry:block",
@@ -6761,7 +6761,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-3",
     description: "Large number field",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field"],
+    registryDependencies: ["@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-3.tsx",
       type: "registry:block",
@@ -6779,7 +6779,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-4",
     description: "Disabled number field",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field"],
+    registryDependencies: ["@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-4.tsx",
       type: "registry:block",
@@ -6797,7 +6797,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-5",
     description: "Number field with label",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/number-field"],
+    registryDependencies: ["@creantly/label","@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-5.tsx",
       type: "registry:block",
@@ -6815,7 +6815,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-6",
     description: "Number field with scrub",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field"],
+    registryDependencies: ["@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-6.tsx",
       type: "registry:block",
@@ -6833,7 +6833,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-7",
     description: "Number field with range",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field"],
+    registryDependencies: ["@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-7.tsx",
       type: "registry:block",
@@ -6851,7 +6851,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-8",
     description: "Number field with formatted value",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field"],
+    registryDependencies: ["@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-8.tsx",
       type: "registry:block",
@@ -6869,7 +6869,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-9",
     description: "Number field with step",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field"],
+    registryDependencies: ["@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-9.tsx",
       type: "registry:block",
@@ -6887,7 +6887,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-10",
     description: "Number field in form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/form","@ness/number-field"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/form","@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-10.tsx",
       type: "registry:block",
@@ -6905,7 +6905,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-11",
     description: "Pill-shaped number field",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field"],
+    registryDependencies: ["@creantly/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-11.tsx",
       type: "registry:block",
@@ -6923,7 +6923,7 @@ export const Index: Record<string, any> = {
     name: "p-pagination-1",
     description: "Pagination example",
     type: "registry:block",
-    registryDependencies: ["@ness/pagination"],
+    registryDependencies: ["@creantly/pagination"],
     files: [{
       path: "registry/default/particles/p-pagination-1.tsx",
       type: "registry:block",
@@ -6941,7 +6941,7 @@ export const Index: Record<string, any> = {
     name: "p-pagination-2",
     description: "Pagination with previous and next buttons only",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/pagination"],
+    registryDependencies: ["@creantly/button","@creantly/pagination"],
     files: [{
       path: "registry/default/particles/p-pagination-2.tsx",
       type: "registry:block",
@@ -6959,7 +6959,7 @@ export const Index: Record<string, any> = {
     name: "p-pagination-3",
     description: "Pagination with select, and previous and next buttons",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/pagination","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/pagination","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-pagination-3.tsx",
       type: "registry:block",
@@ -6977,7 +6977,7 @@ export const Index: Record<string, any> = {
     name: "p-popover-1",
     description: "Popover with a form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/form","@ness/popover","@ness/textarea"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/form","@creantly/popover","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-popover-1.tsx",
       type: "registry:block",
@@ -6995,7 +6995,7 @@ export const Index: Record<string, any> = {
     name: "p-popover-2",
     description: "Popover with close button",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/popover"],
+    registryDependencies: ["@creantly/button","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-popover-2.tsx",
       type: "registry:block",
@@ -7013,7 +7013,7 @@ export const Index: Record<string, any> = {
     name: "p-popover-3",
     description: "Animated popovers",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar","@ness/button","@ness/popover"],
+    registryDependencies: ["@creantly/avatar","@creantly/button","@creantly/popover"],
     files: [{
       path: "registry/default/particles/p-popover-3.tsx",
       type: "registry:block",
@@ -7031,7 +7031,7 @@ export const Index: Record<string, any> = {
     name: "p-preview-card-1",
     description: "Preview card with popup",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/preview-card"],
+    registryDependencies: ["@creantly/button","@creantly/preview-card"],
     files: [{
       path: "registry/default/particles/p-preview-card-1.tsx",
       type: "registry:block",
@@ -7049,7 +7049,7 @@ export const Index: Record<string, any> = {
     name: "p-progress-1",
     description: "Basic progress bar",
     type: "registry:block",
-    registryDependencies: ["@ness/progress"],
+    registryDependencies: ["@creantly/progress"],
     files: [{
       path: "registry/default/particles/p-progress-1.tsx",
       type: "registry:block",
@@ -7067,7 +7067,7 @@ export const Index: Record<string, any> = {
     name: "p-progress-2",
     description: "Progress with label and value",
     type: "registry:block",
-    registryDependencies: ["@ness/progress"],
+    registryDependencies: ["@creantly/progress"],
     files: [{
       path: "registry/default/particles/p-progress-2.tsx",
       type: "registry:block",
@@ -7085,7 +7085,7 @@ export const Index: Record<string, any> = {
     name: "p-progress-3",
     description: "Progress with formatted value",
     type: "registry:block",
-    registryDependencies: ["@ness/progress"],
+    registryDependencies: ["@creantly/progress"],
     files: [{
       path: "registry/default/particles/p-progress-3.tsx",
       type: "registry:block",
@@ -7103,7 +7103,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-1",
     description: "Basic radio group",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/radio-group"],
+    registryDependencies: ["@creantly/label","@creantly/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-1.tsx",
       type: "registry:block",
@@ -7121,7 +7121,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-2",
     description: "Disabled radio group",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/radio-group"],
+    registryDependencies: ["@creantly/label","@creantly/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-2.tsx",
       type: "registry:block",
@@ -7139,7 +7139,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-3",
     description: "Radio group with description",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/radio-group"],
+    registryDependencies: ["@creantly/label","@creantly/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-3.tsx",
       type: "registry:block",
@@ -7157,7 +7157,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-4",
     description: "Radio group card",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/radio-group"],
+    registryDependencies: ["@creantly/label","@creantly/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-4.tsx",
       type: "registry:block",
@@ -7175,7 +7175,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-5",
     description: "Radio group in form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/fieldset","@ness/form","@ness/radio-group"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/fieldset","@creantly/form","@creantly/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-5.tsx",
       type: "registry:block",
@@ -7193,7 +7193,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-6",
     description: "Theme selector with image cards",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/fieldset","@ness/radio-group"],
+    registryDependencies: ["@creantly/field","@creantly/fieldset","@creantly/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-6.tsx",
       type: "registry:block",
@@ -7211,7 +7211,7 @@ export const Index: Record<string, any> = {
     name: "p-scroll-area-1",
     description: "Basic scroll area",
     type: "registry:block",
-    registryDependencies: ["@ness/scroll-area"],
+    registryDependencies: ["@creantly/scroll-area"],
     files: [{
       path: "registry/default/particles/p-scroll-area-1.tsx",
       type: "registry:block",
@@ -7229,7 +7229,7 @@ export const Index: Record<string, any> = {
     name: "p-scroll-area-2",
     description: "Horizontal scroll area",
     type: "registry:block",
-    registryDependencies: ["@ness/scroll-area"],
+    registryDependencies: ["@creantly/scroll-area"],
     files: [{
       path: "registry/default/particles/p-scroll-area-2.tsx",
       type: "registry:block",
@@ -7247,7 +7247,7 @@ export const Index: Record<string, any> = {
     name: "p-scroll-area-3",
     description: "Scroll area with both directions",
     type: "registry:block",
-    registryDependencies: ["@ness/scroll-area"],
+    registryDependencies: ["@creantly/scroll-area"],
     files: [{
       path: "registry/default/particles/p-scroll-area-3.tsx",
       type: "registry:block",
@@ -7265,7 +7265,7 @@ export const Index: Record<string, any> = {
     name: "p-scroll-area-4",
     description: "Scroll area with fading edges",
     type: "registry:block",
-    registryDependencies: ["@ness/scroll-area"],
+    registryDependencies: ["@creantly/scroll-area"],
     files: [{
       path: "registry/default/particles/p-scroll-area-4.tsx",
       type: "registry:block",
@@ -7283,7 +7283,7 @@ export const Index: Record<string, any> = {
     name: "p-scroll-area-5",
     description: "Horizontal scroll area with scrollbar gutter",
     type: "registry:block",
-    registryDependencies: ["@ness/scroll-area"],
+    registryDependencies: ["@creantly/scroll-area"],
     files: [{
       path: "registry/default/particles/p-scroll-area-5.tsx",
       type: "registry:block",
@@ -7301,7 +7301,7 @@ export const Index: Record<string, any> = {
     name: "p-select-1",
     description: "Basic select",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-1.tsx",
       type: "registry:block",
@@ -7319,7 +7319,7 @@ export const Index: Record<string, any> = {
     name: "p-select-2",
     description: "Small select",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-2.tsx",
       type: "registry:block",
@@ -7337,7 +7337,7 @@ export const Index: Record<string, any> = {
     name: "p-select-3",
     description: "Large select",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-3.tsx",
       type: "registry:block",
@@ -7355,7 +7355,7 @@ export const Index: Record<string, any> = {
     name: "p-select-4",
     description: "Disabled select",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-4.tsx",
       type: "registry:block",
@@ -7373,7 +7373,7 @@ export const Index: Record<string, any> = {
     name: "p-select-5",
     description: "Select without item alignment",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-5.tsx",
       type: "registry:block",
@@ -7391,7 +7391,7 @@ export const Index: Record<string, any> = {
     name: "p-select-6",
     description: "Select with groups",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-6.tsx",
       type: "registry:block",
@@ -7409,7 +7409,7 @@ export const Index: Record<string, any> = {
     name: "p-select-7",
     description: "Multiple select",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-7.tsx",
       type: "registry:block",
@@ -7427,7 +7427,7 @@ export const Index: Record<string, any> = {
     name: "p-select-8",
     description: "Select with icon",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-8.tsx",
       type: "registry:block",
@@ -7445,7 +7445,7 @@ export const Index: Record<string, any> = {
     name: "p-select-9",
     description: "Select options with icon",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-9.tsx",
       type: "registry:block",
@@ -7463,7 +7463,7 @@ export const Index: Record<string, any> = {
     name: "p-select-10",
     description: "Select with object values",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-10.tsx",
       type: "registry:block",
@@ -7481,7 +7481,7 @@ export const Index: Record<string, any> = {
     name: "p-select-12",
     description: "Select with disabled items",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-12.tsx",
       type: "registry:block",
@@ -7499,7 +7499,7 @@ export const Index: Record<string, any> = {
     name: "p-select-13",
     description: "Timezone select",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-13.tsx",
       type: "registry:block",
@@ -7517,7 +7517,7 @@ export const Index: Record<string, any> = {
     name: "p-select-14",
     description: "Status select with colored dot",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-14.tsx",
       type: "registry:block",
@@ -7535,7 +7535,7 @@ export const Index: Record<string, any> = {
     name: "p-select-15",
     description: "Pill-shaped select trigger",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-15.tsx",
       type: "registry:block",
@@ -7553,7 +7553,7 @@ export const Index: Record<string, any> = {
     name: "p-select-16",
     description: "Select with left text label",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-16.tsx",
       type: "registry:block",
@@ -7571,7 +7571,7 @@ export const Index: Record<string, any> = {
     name: "p-select-17",
     description: "Select with country flags",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-17.tsx",
       type: "registry:block",
@@ -7589,7 +7589,7 @@ export const Index: Record<string, any> = {
     name: "p-select-18",
     description: "Select with description in options only",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-18.tsx",
       type: "registry:block",
@@ -7607,7 +7607,7 @@ export const Index: Record<string, any> = {
     name: "p-select-19",
     description: "Select with avatars",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar","@ness/select"],
+    registryDependencies: ["@creantly/avatar","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-19.tsx",
       type: "registry:block",
@@ -7625,7 +7625,7 @@ export const Index: Record<string, any> = {
     name: "p-select-20",
     description: "Rich select with avatars and usernames",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar","@ness/select"],
+    registryDependencies: ["@creantly/avatar","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-20.tsx",
       type: "registry:block",
@@ -7643,7 +7643,7 @@ export const Index: Record<string, any> = {
     name: "p-select-21",
     description: "Auto width select",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-21.tsx",
       type: "registry:block",
@@ -7661,7 +7661,7 @@ export const Index: Record<string, any> = {
     name: "p-select-22",
     description: "Select with custom border and background",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-22.tsx",
       type: "registry:block",
@@ -7679,7 +7679,7 @@ export const Index: Record<string, any> = {
     name: "p-select-23",
     description: "Select with label",
     type: "registry:block",
-    registryDependencies: ["@ness/select"],
+    registryDependencies: ["@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-23.tsx",
       type: "registry:block",
@@ -7697,7 +7697,7 @@ export const Index: Record<string, any> = {
     name: "p-select-11",
     description: "Select in form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/form","@ness/select"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/form","@creantly/select"],
     files: [{
       path: "registry/default/particles/p-select-11.tsx",
       type: "registry:block",
@@ -7715,7 +7715,7 @@ export const Index: Record<string, any> = {
     name: "p-separator-1",
     description: "Separator with horizontal and vertical orientations",
     type: "registry:block",
-    registryDependencies: ["@ness/separator"],
+    registryDependencies: ["@creantly/separator"],
     files: [{
       path: "registry/default/particles/p-separator-1.tsx",
       type: "registry:block",
@@ -7733,7 +7733,7 @@ export const Index: Record<string, any> = {
     name: "p-sheet-1",
     description: "Basic sheet",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/form","@ness/input","@ness/sheet"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/form","@creantly/input","@creantly/sheet"],
     files: [{
       path: "registry/default/particles/p-sheet-1.tsx",
       type: "registry:block",
@@ -7751,7 +7751,7 @@ export const Index: Record<string, any> = {
     name: "p-sheet-2",
     description: "Sheet inset",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/form","@ness/input","@ness/sheet"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/form","@creantly/input","@creantly/sheet"],
     files: [{
       path: "registry/default/particles/p-sheet-2.tsx",
       type: "registry:block",
@@ -7769,7 +7769,7 @@ export const Index: Record<string, any> = {
     name: "p-sheet-3",
     description: "Sheet position",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/sheet"],
+    registryDependencies: ["@creantly/button","@creantly/sheet"],
     files: [{
       path: "registry/default/particles/p-sheet-3.tsx",
       type: "registry:block",
@@ -7787,7 +7787,7 @@ export const Index: Record<string, any> = {
     name: "p-skeleton-1",
     description: "Basic skeleton",
     type: "registry:block",
-    registryDependencies: ["@ness/avatar","@ness/button","@ness/skeleton"],
+    registryDependencies: ["@creantly/avatar","@creantly/button","@creantly/skeleton"],
     files: [{
       path: "registry/default/particles/p-skeleton-1.tsx",
       type: "registry:block",
@@ -7805,7 +7805,7 @@ export const Index: Record<string, any> = {
     name: "p-skeleton-2",
     description: "Skeleton only",
     type: "registry:block",
-    registryDependencies: ["@ness/skeleton"],
+    registryDependencies: ["@creantly/skeleton"],
     files: [{
       path: "registry/default/particles/p-skeleton-2.tsx",
       type: "registry:block",
@@ -7823,7 +7823,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-1",
     description: "Basic slider",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-1.tsx",
       type: "registry:block",
@@ -7841,7 +7841,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-2",
     description: "Slider with label and value",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/slider"],
+    registryDependencies: ["@creantly/field","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-2.tsx",
       type: "registry:block",
@@ -7859,7 +7859,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-3",
     description: "Disabled slider",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-3.tsx",
       type: "registry:block",
@@ -7877,7 +7877,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-4",
     description: "Slider with reference labels",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-4.tsx",
       type: "registry:block",
@@ -7895,7 +7895,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-5",
     description: "Slider with ticks",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-5.tsx",
       type: "registry:block",
@@ -7913,7 +7913,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-6",
     description: "Slider with labels above",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-6.tsx",
       type: "registry:block",
@@ -7931,7 +7931,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-7",
     description: "Range slider",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-7.tsx",
       type: "registry:block",
@@ -7949,7 +7949,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-8",
     description: "Slider with 3 thumbs",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-8.tsx",
       type: "registry:block",
@@ -7967,7 +7967,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-9",
     description: "Range slider with collision behavior none",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-9.tsx",
       type: "registry:block",
@@ -7985,7 +7985,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-10",
     description: "Range slider with collision behavior swap",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-10.tsx",
       type: "registry:block",
@@ -8003,7 +8003,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-11",
     description: "Slider with icons",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/slider"],
+    registryDependencies: ["@creantly/field","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-11.tsx",
       type: "registry:block",
@@ -8021,7 +8021,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-12",
     description: "Slider with input",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field","@ness/slider"],
+    registryDependencies: ["@creantly/number-field","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-12.tsx",
       type: "registry:block",
@@ -8039,7 +8039,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-13",
     description: "Range slider with inputs",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field","@ness/slider"],
+    registryDependencies: ["@creantly/number-field","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-13.tsx",
       type: "registry:block",
@@ -8057,7 +8057,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-14",
     description: "Slider with increment and decrement buttons",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/slider"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-14.tsx",
       type: "registry:block",
@@ -8075,7 +8075,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-15",
     description: "Price range slider",
     type: "registry:block",
-    registryDependencies: ["@ness/fieldset","@ness/slider"],
+    registryDependencies: ["@creantly/fieldset","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-15.tsx",
       type: "registry:block",
@@ -8093,7 +8093,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-16",
     description: "Emoji rating slider",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/slider"],
+    registryDependencies: ["@creantly/field","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-16.tsx",
       type: "registry:block",
@@ -8111,7 +8111,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-17",
     description: "Vertical slider",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-17.tsx",
       type: "registry:block",
@@ -8129,7 +8129,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-18",
     description: "Vertical range slider",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-18.tsx",
       type: "registry:block",
@@ -8147,7 +8147,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-19",
     description: "Vertical slider with input",
     type: "registry:block",
-    registryDependencies: ["@ness/number-field","@ness/slider"],
+    registryDependencies: ["@creantly/number-field","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-19.tsx",
       type: "registry:block",
@@ -8165,7 +8165,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-20",
     description: "Equalizer with vertical sliders",
     type: "registry:block",
-    registryDependencies: ["@ness/slider"],
+    registryDependencies: ["@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-20.tsx",
       type: "registry:block",
@@ -8183,7 +8183,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-21",
     description: "Object position sliders with reset",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/fieldset","@ness/label","@ness/number-field","@ness/slider"],
+    registryDependencies: ["@creantly/button","@creantly/fieldset","@creantly/label","@creantly/number-field","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-21.tsx",
       type: "registry:block",
@@ -8201,7 +8201,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-22",
     description: "Price slider with histogram",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/input-group","@ness/number-field","@ness/slider"],
+    registryDependencies: ["@creantly/button","@creantly/input-group","@creantly/number-field","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-22.tsx",
       type: "registry:block",
@@ -8219,7 +8219,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-23",
     description: "Slider in form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/fieldset","@ness/form","@ness/slider"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/fieldset","@creantly/form","@creantly/slider"],
     files: [{
       path: "registry/default/particles/p-slider-23.tsx",
       type: "registry:block",
@@ -8237,7 +8237,7 @@ export const Index: Record<string, any> = {
     name: "p-spinner-1",
     description: "Basic spinner",
     type: "registry:block",
-    registryDependencies: ["@ness/spinner"],
+    registryDependencies: ["@creantly/spinner"],
     files: [{
       path: "registry/default/particles/p-spinner-1.tsx",
       type: "registry:block",
@@ -8255,7 +8255,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-1",
     description: "Basic switch",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/switch"],
+    registryDependencies: ["@creantly/label","@creantly/switch"],
     files: [{
       path: "registry/default/particles/p-switch-1.tsx",
       type: "registry:block",
@@ -8273,7 +8273,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-2",
     description: "Disabled switch",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/switch"],
+    registryDependencies: ["@creantly/label","@creantly/switch"],
     files: [{
       path: "registry/default/particles/p-switch-2.tsx",
       type: "registry:block",
@@ -8291,7 +8291,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-3",
     description: "Switch with description",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/switch"],
+    registryDependencies: ["@creantly/label","@creantly/switch"],
     files: [{
       path: "registry/default/particles/p-switch-3.tsx",
       type: "registry:block",
@@ -8309,7 +8309,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-4",
     description: "Switch card",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/switch"],
+    registryDependencies: ["@creantly/label","@creantly/switch"],
     files: [{
       path: "registry/default/particles/p-switch-4.tsx",
       type: "registry:block",
@@ -8327,7 +8327,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-5",
     description: "Switch in form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/form","@ness/switch"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/form","@creantly/switch"],
     files: [{
       path: "registry/default/particles/p-switch-5.tsx",
       type: "registry:block",
@@ -8345,7 +8345,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-6",
     description: "Custom size switch",
     type: "registry:block",
-    registryDependencies: ["@ness/switch"],
+    registryDependencies: ["@creantly/switch"],
     files: [{
       path: "registry/default/particles/p-switch-6.tsx",
       type: "registry:block",
@@ -8363,7 +8363,7 @@ export const Index: Record<string, any> = {
     name: "p-table-1",
     description: "Basic table",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/table"],
+    registryDependencies: ["@creantly/badge","@creantly/table"],
     files: [{
       path: "registry/default/particles/p-table-1.tsx",
       type: "registry:block",
@@ -8381,7 +8381,7 @@ export const Index: Record<string, any> = {
     name: "p-table-2",
     description: "Framed table",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/frame","@ness/table"],
+    registryDependencies: ["@creantly/badge","@creantly/frame","@creantly/table"],
     files: [{
       path: "registry/default/particles/p-table-2.tsx",
       type: "registry:block",
@@ -8399,7 +8399,7 @@ export const Index: Record<string, any> = {
     name: "p-table-3",
     description: "Table with TanStack Table and checkboxes",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/checkbox","@ness/frame","@ness/table"],
+    registryDependencies: ["@creantly/badge","@creantly/checkbox","@creantly/frame","@creantly/table"],
     files: [{
       path: "registry/default/particles/p-table-3.tsx",
       type: "registry:block",
@@ -8417,7 +8417,7 @@ export const Index: Record<string, any> = {
     name: "p-table-4",
     description: "Table with TanStack Table, sorting, and pagination",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/button","@ness/checkbox","@ness/frame","@ness/pagination","@ness/select","@ness/table"],
+    registryDependencies: ["@creantly/badge","@creantly/button","@creantly/checkbox","@creantly/frame","@creantly/pagination","@creantly/select","@creantly/table"],
     files: [{
       path: "registry/default/particles/p-table-4.tsx",
       type: "registry:block",
@@ -8435,7 +8435,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-1",
     description: "Basic tabs",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs"],
+    registryDependencies: ["@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-1.tsx",
       type: "registry:block",
@@ -8453,7 +8453,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-2",
     description: "Tabs with underline",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs"],
+    registryDependencies: ["@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-2.tsx",
       type: "registry:block",
@@ -8471,7 +8471,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-3",
     description: "Vertical tabs",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs"],
+    registryDependencies: ["@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-3.tsx",
       type: "registry:block",
@@ -8489,7 +8489,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-4",
     description: "Vertical tabs with underline",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs"],
+    registryDependencies: ["@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-4.tsx",
       type: "registry:block",
@@ -8507,7 +8507,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-5",
     description: "Tabs with full rounded triggers",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs"],
+    registryDependencies: ["@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-5.tsx",
       type: "registry:block",
@@ -8525,7 +8525,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-6",
     description: "Tabs with icon before name",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs"],
+    registryDependencies: ["@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-6.tsx",
       type: "registry:block",
@@ -8543,7 +8543,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-7",
     description: "Tabs with icon before name and underline",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs"],
+    registryDependencies: ["@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-7.tsx",
       type: "registry:block",
@@ -8561,7 +8561,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-8",
     description: "Tabs with icon only",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs"],
+    registryDependencies: ["@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-8.tsx",
       type: "registry:block",
@@ -8579,7 +8579,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-9",
     description: "Tabs with underline and icon on top",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs"],
+    registryDependencies: ["@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-9.tsx",
       type: "registry:block",
@@ -8597,7 +8597,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-10",
     description: "Tabs with count badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/tabs"],
+    registryDependencies: ["@creantly/badge","@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-10.tsx",
       type: "registry:block",
@@ -8615,7 +8615,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-11",
     description: "Vertical tabs with underline and icon before name",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs"],
+    registryDependencies: ["@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-11.tsx",
       type: "registry:block",
@@ -8633,7 +8633,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-12",
     description: "Tabs with icon only and count badge",
     type: "registry:block",
-    registryDependencies: ["@ness/badge","@ness/tabs"],
+    registryDependencies: ["@creantly/badge","@creantly/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-12.tsx",
       type: "registry:block",
@@ -8651,7 +8651,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-13",
     description: "Tabs with icon only and grouped tooltips",
     type: "registry:block",
-    registryDependencies: ["@ness/tabs","@ness/tooltip"],
+    registryDependencies: ["@creantly/tabs","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-tabs-13.tsx",
       type: "registry:block",
@@ -8669,7 +8669,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-1",
     description: "Basic textarea",
     type: "registry:block",
-    registryDependencies: ["@ness/textarea"],
+    registryDependencies: ["@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-1.tsx",
       type: "registry:block",
@@ -8687,7 +8687,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-2",
     description: "Small textarea",
     type: "registry:block",
-    registryDependencies: ["@ness/textarea"],
+    registryDependencies: ["@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-2.tsx",
       type: "registry:block",
@@ -8705,7 +8705,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-3",
     description: "Large textarea",
     type: "registry:block",
-    registryDependencies: ["@ness/textarea"],
+    registryDependencies: ["@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-3.tsx",
       type: "registry:block",
@@ -8723,7 +8723,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-4",
     description: "Disabled textarea",
     type: "registry:block",
-    registryDependencies: ["@ness/textarea"],
+    registryDependencies: ["@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-4.tsx",
       type: "registry:block",
@@ -8741,7 +8741,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-5",
     description: "Textarea with label",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/textarea"],
+    registryDependencies: ["@creantly/label","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-5.tsx",
       type: "registry:block",
@@ -8759,7 +8759,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-6",
     description: "Textarea in form",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/field","@ness/form","@ness/textarea"],
+    registryDependencies: ["@creantly/button","@creantly/field","@creantly/form","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-6.tsx",
       type: "registry:block",
@@ -8777,7 +8777,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-7",
     description: "Textarea with label and required indicator",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/textarea"],
+    registryDependencies: ["@creantly/label","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-7.tsx",
       type: "registry:block",
@@ -8795,7 +8795,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-8",
     description: "Textarea with optional label",
     type: "registry:block",
-    registryDependencies: ["@ness/label","@ness/textarea"],
+    registryDependencies: ["@creantly/label","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-8.tsx",
       type: "registry:block",
@@ -8813,7 +8813,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-9",
     description: "Textarea with custom border and background",
     type: "registry:block",
-    registryDependencies: ["@ness/textarea"],
+    registryDependencies: ["@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-9.tsx",
       type: "registry:block",
@@ -8831,7 +8831,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-10",
     description: "Read-only textarea",
     type: "registry:block",
-    registryDependencies: ["@ness/textarea"],
+    registryDependencies: ["@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-10.tsx",
       type: "registry:block",
@@ -8849,7 +8849,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-11",
     description: "Textarea with characters remaining counter",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/textarea"],
+    registryDependencies: ["@creantly/field","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-11.tsx",
       type: "registry:block",
@@ -8867,7 +8867,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-12",
     description: "Textarea field with required indicator",
     type: "registry:block",
-    registryDependencies: ["@ness/field","@ness/textarea"],
+    registryDependencies: ["@creantly/field","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-12.tsx",
       type: "registry:block",
@@ -8885,7 +8885,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-13",
     description: "Shorter textarea with fixed height",
     type: "registry:block",
-    registryDependencies: ["@ness/textarea"],
+    registryDependencies: ["@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-13.tsx",
       type: "registry:block",
@@ -8903,7 +8903,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-14",
     description: "Textarea with button aligned right",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/textarea"],
+    registryDependencies: ["@creantly/button","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-14.tsx",
       type: "registry:block",
@@ -8921,7 +8921,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-15",
     description: "Textarea with button aligned left",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/textarea"],
+    registryDependencies: ["@creantly/button","@creantly/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-15.tsx",
       type: "registry:block",
@@ -8939,7 +8939,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-1",
     description: "Basic toast",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/toast"],
+    registryDependencies: ["@creantly/button","@creantly/toast"],
     files: [{
       path: "registry/default/particles/p-toast-1.tsx",
       type: "registry:block",
@@ -8957,7 +8957,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-2",
     description: "Toast with status",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/toast"],
+    registryDependencies: ["@creantly/button","@creantly/toast"],
     files: [{
       path: "registry/default/particles/p-toast-2.tsx",
       type: "registry:block",
@@ -8975,7 +8975,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-3",
     description: "Loading toast",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/toast"],
+    registryDependencies: ["@creantly/button","@creantly/toast"],
     files: [{
       path: "registry/default/particles/p-toast-3.tsx",
       type: "registry:block",
@@ -8993,7 +8993,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-4",
     description: "Toast with action",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/toast"],
+    registryDependencies: ["@creantly/button","@creantly/toast"],
     files: [{
       path: "registry/default/particles/p-toast-4.tsx",
       type: "registry:block",
@@ -9011,7 +9011,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-5",
     description: "Promise toast",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/toast"],
+    registryDependencies: ["@creantly/button","@creantly/toast"],
     files: [{
       path: "registry/default/particles/p-toast-5.tsx",
       type: "registry:block",
@@ -9029,7 +9029,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-6",
     description: "Toast with varying heights",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/toast"],
+    registryDependencies: ["@creantly/button","@creantly/toast"],
     files: [{
       path: "registry/default/particles/p-toast-6.tsx",
       type: "registry:block",
@@ -9047,7 +9047,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-7",
     description: "Anchored toast with tooltip style",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/toast","@ness/tooltip","@ness/use-copy-to-clipboard"],
+    registryDependencies: ["@creantly/button","@creantly/toast","@creantly/tooltip","@creantly/use-copy-to-clipboard"],
     files: [{
       path: "registry/default/particles/p-toast-7.tsx",
       type: "registry:block",
@@ -9065,7 +9065,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-8",
     description: "Anchored toast",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/spinner","@ness/toast"],
+    registryDependencies: ["@creantly/button","@creantly/spinner","@creantly/toast"],
     files: [{
       path: "registry/default/particles/p-toast-8.tsx",
       type: "registry:block",
@@ -9083,7 +9083,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-9",
     description: "Promise toast with cancel action",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/toast"],
+    registryDependencies: ["@creantly/button","@creantly/toast"],
     files: [{
       path: "registry/default/particles/p-toast-9.tsx",
       type: "registry:block",
@@ -9101,7 +9101,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-1",
     description: "Basic toggle group",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group"],
+    registryDependencies: ["@creantly/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-1.tsx",
       type: "registry:block",
@@ -9119,7 +9119,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-2",
     description: "Small toggle group",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group"],
+    registryDependencies: ["@creantly/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-2.tsx",
       type: "registry:block",
@@ -9137,7 +9137,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-3",
     description: "Large toggle group",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group"],
+    registryDependencies: ["@creantly/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-3.tsx",
       type: "registry:block",
@@ -9155,7 +9155,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-4",
     description: "Toggle group with outline",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group"],
+    registryDependencies: ["@creantly/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-4.tsx",
       type: "registry:block",
@@ -9173,7 +9173,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-5",
     description: "Vertical toggle group with outline",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group"],
+    registryDependencies: ["@creantly/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-5.tsx",
       type: "registry:block",
@@ -9191,7 +9191,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-6",
     description: "Disabled toggle group",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group"],
+    registryDependencies: ["@creantly/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-6.tsx",
       type: "registry:block",
@@ -9209,7 +9209,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-7",
     description: "Toggle group with disabled item",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group"],
+    registryDependencies: ["@creantly/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-7.tsx",
       type: "registry:block",
@@ -9227,7 +9227,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-8",
     description: "Multiple selection toggle group",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group"],
+    registryDependencies: ["@creantly/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-8.tsx",
       type: "registry:block",
@@ -9245,7 +9245,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-9",
     description: "Toggle group with tooltips",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group","@ness/tooltip"],
+    registryDependencies: ["@creantly/toggle-group","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-toggle-group-9.tsx",
       type: "registry:block",
@@ -9263,7 +9263,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-1",
     description: "Basic toggle",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle"],
+    registryDependencies: ["@creantly/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-1.tsx",
       type: "registry:block",
@@ -9281,7 +9281,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-2",
     description: "Toggle with outline",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle"],
+    registryDependencies: ["@creantly/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-2.tsx",
       type: "registry:block",
@@ -9299,7 +9299,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-3",
     description: "Toggle with icon",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle"],
+    registryDependencies: ["@creantly/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-3.tsx",
       type: "registry:block",
@@ -9317,7 +9317,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-4",
     description: "Small toggle",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle"],
+    registryDependencies: ["@creantly/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-4.tsx",
       type: "registry:block",
@@ -9335,7 +9335,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-5",
     description: "Large toggle",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle"],
+    registryDependencies: ["@creantly/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-5.tsx",
       type: "registry:block",
@@ -9353,7 +9353,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-6",
     description: "Disabled toggle",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle"],
+    registryDependencies: ["@creantly/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-6.tsx",
       type: "registry:block",
@@ -9371,7 +9371,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-7",
     description: "Toggle icon group",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle"],
+    registryDependencies: ["@creantly/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-7.tsx",
       type: "registry:block",
@@ -9389,7 +9389,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-8",
     description: "Bookmark toggle with tooltip and success toast",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle","@ness/tooltip","@ness/toast"],
+    registryDependencies: ["@creantly/toggle","@creantly/tooltip","@creantly/toast"],
     files: [{
       path: "registry/default/particles/p-toggle-8.tsx",
       type: "registry:block",
@@ -9407,7 +9407,7 @@ export const Index: Record<string, any> = {
     name: "p-toolbar-1",
     description: "Toolbar with toggles, buttons, and select",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/select","@ness/toggle-group","@ness/toolbar","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/select","@creantly/toggle-group","@creantly/toolbar","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-toolbar-1.tsx",
       type: "registry:block",
@@ -9425,7 +9425,7 @@ export const Index: Record<string, any> = {
     name: "p-tooltip-1",
     description: "Basic tooltip",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-tooltip-1.tsx",
       type: "registry:block",
@@ -9443,7 +9443,7 @@ export const Index: Record<string, any> = {
     name: "p-tooltip-2",
     description: "Grouped tooltips",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group","@ness/tooltip"],
+    registryDependencies: ["@creantly/toggle-group","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-tooltip-2.tsx",
       type: "registry:block",
@@ -9461,7 +9461,7 @@ export const Index: Record<string, any> = {
     name: "p-tooltip-3",
     description: "Toggle group animated tooltip",
     type: "registry:block",
-    registryDependencies: ["@ness/toggle-group","@ness/tooltip"],
+    registryDependencies: ["@creantly/toggle-group","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-tooltip-3.tsx",
       type: "registry:block",
@@ -9479,7 +9479,7 @@ export const Index: Record<string, any> = {
     name: "p-tooltip-4",
     description: "Vertical group with animated tooltip",
     type: "registry:block",
-    registryDependencies: ["@ness/button","@ness/group","@ness/tooltip"],
+    registryDependencies: ["@creantly/button","@creantly/group","@creantly/tooltip"],
     files: [{
       path: "registry/default/particles/p-tooltip-4.tsx",
       type: "registry:block",
@@ -9497,7 +9497,7 @@ export const Index: Record<string, any> = {
     name: "fonts",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@ness/font-sans","@ness/font-heading","@ness/font-mono"],
+    registryDependencies: ["@creantly/font-sans","@creantly/font-heading","@creantly/font-mono"],
     files: [],
     component: null,
     categories: undefined,

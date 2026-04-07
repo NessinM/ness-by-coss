@@ -3,7 +3,7 @@
   "name": "p-meter-2",
   "description": "Simple meter",
   "registryDependencies": [
-    "@ness/meter"
+    "@creantly/meter"
   ],
   "files": [
     {

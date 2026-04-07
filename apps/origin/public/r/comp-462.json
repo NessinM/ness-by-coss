@@ -3,8 +3,8 @@
   "name": "comp-462",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/pagination.json",
-    "https://ness.com/origin/r/select.json"
+    "https://creantly.com/origin/r/pagination.json",
+    "https://creantly.com/origin/r/select.json"
   ],
   "files": [
     {

@@ -3,10 +3,10 @@
   "name": "p-switch-5",
   "description": "Switch in form",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/field",
-    "@ness/form",
-    "@ness/switch"
+    "@creantly/button",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/switch"
   ],
   "files": [
     {

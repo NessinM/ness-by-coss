@@ -5,7 +5,7 @@
     "@base-ui/react"
   ],
   "registryDependencies": [
-    "@ness/autocomplete"
+    "@creantly/autocomplete"
   ],
   "files": [
     {

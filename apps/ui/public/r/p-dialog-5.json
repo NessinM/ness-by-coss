@@ -3,8 +3,8 @@
   "name": "p-dialog-5",
   "description": "Dialog with long content",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/dialog"
+    "@creantly/button",
+    "@creantly/dialog"
   ],
   "files": [
     {

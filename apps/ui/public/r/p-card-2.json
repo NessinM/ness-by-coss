@@ -3,11 +3,11 @@
   "name": "p-card-2",
   "description": "Authentication card with actions",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/card",
-    "@ness/field",
-    "@ness/form",
-    "@ness/input"
+    "@creantly/button",
+    "@creantly/card",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input"
   ],
   "files": [
     {

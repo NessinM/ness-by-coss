@@ -3,9 +3,9 @@
   "name": "p-dialog-2",
   "description": "Dialog opened from menu",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/dialog",
-    "@ness/menu"
+    "@creantly/button",
+    "@creantly/dialog",
+    "@creantly/menu"
   ],
   "files": [
     {

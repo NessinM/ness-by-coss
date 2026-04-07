@@ -3,10 +3,10 @@
   "name": "p-autocomplete-13",
   "description": "Autocomplete form",
   "registryDependencies": [
-    "@ness/autocomplete",
-    "@ness/button",
-    "@ness/field",
-    "@ness/form"
+    "@creantly/autocomplete",
+    "@creantly/button",
+    "@creantly/field",
+    "@creantly/form"
   ],
   "files": [
     {

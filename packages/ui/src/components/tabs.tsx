@@ -2,7 +2,7 @@
 
 import { Tabs as TabsPrimitive } from "@base-ui/react/tabs";
 import type React from "react";
-import { cn } from "@ness/ui/lib/utils";
+import { cn } from "@creantly/ui/lib/utils";
 
 export type TabsVariant = "default" | "underline";
 

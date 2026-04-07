@@ -3,7 +3,7 @@
   "name": "comp-566",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/tree.json"
+    "https://creantly.com/origin/r/tree.json"
   ],
   "files": [
     {

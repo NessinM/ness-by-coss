@@ -3,7 +3,7 @@
   "name": "p-input-otp-1",
   "description": "Basic OTP input",
   "registryDependencies": [
-    "@ness/input-otp"
+    "@creantly/input-otp"
   ],
   "files": [
     {

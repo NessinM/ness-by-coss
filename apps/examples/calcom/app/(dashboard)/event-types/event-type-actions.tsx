@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
-import { Group, GroupSeparator } from "@ness/ui/components/group";
+import { Button } from "@creantly/ui/components/button";
+import { Group, GroupSeparator } from "@creantly/ui/components/group";
 import {
   Menu,
   MenuCheckboxItem,
@@ -10,14 +10,14 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@ness/ui/components/menu";
-import { Skeleton } from "@ness/ui/components/skeleton";
-import { Switch } from "@ness/ui/components/switch";
+} from "@creantly/ui/components/menu";
+import { Skeleton } from "@creantly/ui/components/skeleton";
+import { Switch } from "@creantly/ui/components/switch";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
+} from "@creantly/ui/components/tooltip";
 import {
   CodeIcon,
   CopyIcon,

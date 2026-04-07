@@ -3,8 +3,8 @@
   "name": "p-input-18",
   "description": "Input with characters remaining counter",
   "registryDependencies": [
-    "@ness/field",
-    "@ness/input"
+    "@creantly/field",
+    "@creantly/input"
   ],
   "files": [
     {

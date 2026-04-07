@@ -6,8 +6,8 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/calendar",
-    "@ness/combobox"
+    "@creantly/calendar",
+    "@creantly/combobox"
   ],
   "files": [
     {

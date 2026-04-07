@@ -26,7 +26,7 @@ function calculateRelevanceWeight(
     }
 
     const deps = particle.registryDependencies ?? [];
-    if (deps.some((dep) => dep === `@ness/${normalizedTerm}`)) {
+    if (deps.some((dep) => dep === `@creantly/${normalizedTerm}`)) {
       weight += 20;
     }
 

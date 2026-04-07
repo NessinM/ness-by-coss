@@ -1,4 +1,4 @@
-# ness Alert Dialog
+# creantly Alert Dialog
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/alert-dialog
+npx shadcn@latest add @creantly/alert-dialog
 ```
 
 Manual deps from docs:
@@ -63,7 +63,7 @@ import {
 </AlertDialog>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 - **Section structure invariant**: keep `AlertDialogHeader`, optional `AlertDialogPanel`, and `AlertDialogFooter` as direct sections of `AlertDialogPopup`.
 - **Action composition**: use `AlertDialogClose render={<Button ... />}` for cancel/confirm actions to preserve button semantics and styling.

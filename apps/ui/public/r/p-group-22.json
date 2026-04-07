@@ -3,9 +3,9 @@
   "name": "p-group-22",
   "description": "Group with two number inputs for range",
   "registryDependencies": [
-    "@ness/group",
-    "@ness/label",
-    "@ness/number-field"
+    "@creantly/group",
+    "@creantly/label",
+    "@creantly/number-field"
   ],
   "files": [
     {

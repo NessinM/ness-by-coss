@@ -3,7 +3,7 @@
   "name": "p-select-6",
   "description": "Select with groups",
   "registryDependencies": [
-    "@ness/select"
+    "@creantly/select"
   ],
   "files": [
     {

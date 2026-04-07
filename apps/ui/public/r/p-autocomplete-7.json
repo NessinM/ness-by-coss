@@ -3,7 +3,7 @@
   "name": "p-autocomplete-7",
   "description": "Autocomplete auto highlighting the first option",
   "registryDependencies": [
-    "@ness/autocomplete"
+    "@creantly/autocomplete"
   ],
   "files": [
     {

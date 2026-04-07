@@ -4,10 +4,10 @@ import {
   Collapsible,
   CollapsiblePanel,
   CollapsibleTrigger,
-} from "@ness/ui/components/collapsible";
-import { Field, FieldLabel } from "@ness/ui/components/field";
-import { Input } from "@ness/ui/components/input";
-import { Switch } from "@ness/ui/components/switch";
+} from "@creantly/ui/components/collapsible";
+import { Field, FieldLabel } from "@creantly/ui/components/field";
+import { Input } from "@creantly/ui/components/input";
+import { Switch } from "@creantly/ui/components/switch";
 import { useState } from "react";
 
 export function CustomBrandColorsSection() {

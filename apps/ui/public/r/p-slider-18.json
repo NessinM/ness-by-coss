@@ -3,7 +3,7 @@
   "name": "p-slider-18",
   "description": "Vertical range slider",
   "registryDependencies": [
-    "@ness/slider"
+    "@creantly/slider"
   ],
   "files": [
     {

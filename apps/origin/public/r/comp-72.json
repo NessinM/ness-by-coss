@@ -3,7 +3,7 @@
   "name": "comp-72",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/textarea.json"
+    "https://creantly.com/origin/r/textarea.json"
   ],
   "files": [
     {

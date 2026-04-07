@@ -3,8 +3,8 @@
   "name": "p-slider-19",
   "description": "Vertical slider with input",
   "registryDependencies": [
-    "@ness/number-field",
-    "@ness/slider"
+    "@creantly/number-field",
+    "@creantly/slider"
   ],
   "files": [
     {

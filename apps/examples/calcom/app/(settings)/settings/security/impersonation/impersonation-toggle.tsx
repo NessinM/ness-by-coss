@@ -1,8 +1,12 @@
 "use client";
 
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
-import { Switch } from "@ness/ui/components/switch";
-import { toastManager } from "@ness/ui/components/toast";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@creantly/ui/components/field";
+import { Switch } from "@creantly/ui/components/switch";
+import { toastManager } from "@creantly/ui/components/toast";
 import { useState } from "react";
 
 export function ImpersonationToggle() {

@@ -1,6 +1,6 @@
 /**
- * Type definitions for event types matching creantly.com's structure.
- * These types are based on creantly.com's Prisma schema and tRPC outputs.
+ * Type definitions for event types matching hookra.com's structure.
+ * These types are based on hookra.com's Prisma schema and tRPC outputs.
  */
 
 /**
@@ -17,7 +17,7 @@ export type SchedulingType = "COLLECTIVE" | "ROUND_ROBIN" | "MANAGED";
 export type PeriodType = "UNLIMITED" | "ROLLING" | "RANGE";
 
 /**
- * Location types supported by creantly.com
+ * Location types supported by hookra.com
  */
 export type LocationType =
   | "integrations:daily"

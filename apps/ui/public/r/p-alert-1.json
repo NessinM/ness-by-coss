@@ -3,7 +3,7 @@
   "name": "p-alert-1",
   "description": "Basic alert",
   "registryDependencies": [
-    "@ness/alert"
+    "@creantly/alert"
   ],
   "files": [
     {

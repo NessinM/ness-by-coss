@@ -76,7 +76,7 @@ export default function Component() {
                 <Input
                   aria-label="Share link"
                   className="pe-9"
-                  defaultValue="https://ness.com/origin/Avx8HD"
+                  defaultValue="https://creantly.com/origin/Avx8HD"
                   id={id}
                   readOnly
                   ref={inputRef}

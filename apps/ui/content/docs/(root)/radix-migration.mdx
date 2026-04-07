@@ -1,22 +1,22 @@
 ---
 title: Migrating from Radix
 slug: radix-migration
-description: A practical guide for migrating from Radix-based libraries to ness ui components.
+description: A practical guide for migrating from Radix-based libraries to creantly ui components.
 ---
 
-This guide is for developers who already have applications built on Radix-based libraries — frameworks that wrap Radix primitives — and **want to adopt ness ui**.
+This guide is for developers who already have applications built on Radix-based libraries — frameworks that wrap Radix primitives — and **want to adopt creantly ui**.
 
-**ness ui** is built on top of **[Base UI](https://base-ui.com/)**, using a custom abstraction that stays intentionally close to its mental model. The component API exposed by ness ui is intentionally similar to shadcn/ui, which is why this guide also highlights the main differences between shadcn/ui and ness ui.
+**creantly ui** is built on top of **[Base UI](https://base-ui.com/)**, using a custom abstraction that stays intentionally close to its mental model. The component API exposed by creantly ui is intentionally similar to shadcn/ui, which is why this guide also highlights the main differences between shadcn/ui and creantly ui.
 
 ## Overview
 
-**ness ui** uses **Base UI** internally, not Radix. This means the architecture and API patterns are different by design. However, we've worked to make the migration path as clear as possible by:
+**creantly ui** uses **Base UI** internally, not Radix. This means the architecture and API patterns are different by design. However, we've worked to make the migration path as clear as possible by:
 
 - Providing detailed component-by-component migration guides below
 - Maintaining similar component names and structures where it makes sense
 - Offering clear prop mappings and code examples
 
-**Tip:** This migration guide is structured to be LLM-friendly. You can provide this page to AI coding assistants (like Claude, ChatGPT, etc.) to help automate the conversion of your Radix components to ness ui.
+**Tip:** This migration guide is structured to be LLM-friendly. You can provide this page to AI coding assistants (like Claude, ChatGPT, etc.) to help automate the conversion of your Radix components to creantly ui.
 
 ## General Migration Patterns
 
@@ -33,10 +33,10 @@ One of the most common migration changes is replacing Radix UI's `asChild` prop 
 ```
 </span>
 
-Not every component uses this pattern. Apply it where the ness component supports `render`.
+Not every component uses this pattern. Apply it where the creantly component supports `render`.
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:render]
 <MenuTrigger render={<Button />}>Edit profile</MenuTrigger>
 ```
@@ -85,7 +85,7 @@ Some components have updated names for clarity and consistency:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:multiple={true}]
 // [!code word:\{\["item-1"\]\}]
 <Accordion multiple={true} defaultValue={["item-1"]}>
@@ -159,7 +159,7 @@ Ensure you have the following variables imported in your CSS file:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:render]
 // [!code word:AlertDialogClose]
 // [!code word:<AlertDialogPanel>Content</AlertDialogPanel>]
@@ -208,7 +208,7 @@ Ensure you have the following variables imported in your CSS file:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:render]
 <Avatar render={<Link href="/profile" />}>
   <AvatarImage src="avatar.jpg" alt="User" />
@@ -226,7 +226,7 @@ Ensure you have the following variables imported in your CSS file:
 
 Compared to shadcn/ui, our `Badge` component includes size variants for better density control. shadcn/ui badges have a fixed size, while our component offers flexible sizing with `sm`, `default`, and `lg` options.
 
-So, if you want to preserve the original shadcn/ui badge size, you should use the `lg` size in ness ui.
+So, if you want to preserve the original shadcn/ui badge size, you should use the `lg` size in creantly ui.
 
 **New Variants:**
 
@@ -261,7 +261,7 @@ Ensure you have the following variables imported in your CSS file:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:render]
 <Badge render={<Link href="/new" />}>New</Badge>
 ```
@@ -274,9 +274,9 @@ Ensure you have the following variables imported in your CSS file:
 
 **Size Comparison:**
 
-ness ui button sizes are more compact compared to shadcn/ui, making them better suited for dense applications. We also introduce new sizes (`xs`, `xl`, `icon-sm`, `icon-lg`) for more granular control:
+creantly ui button sizes are more compact compared to shadcn/ui, making them better suited for dense applications. We also introduce new sizes (`xs`, `xl`, `icon-sm`, `icon-lg`) for more granular control:
 
-| Size      | Height (shadcn/ui) | Height (ness ui) |
+| Size      | Height (shadcn/ui) | Height (creantly ui) |
 | --------- | ------------------ | ---------------- |
 | `xs`      | -                  | 24px             |
 | `sm`      | 32px               | 28px             |
@@ -287,7 +287,7 @@ ness ui button sizes are more compact compared to shadcn/ui, making them better 
 | `icon-sm` | -                  | 28px             |
 | `icon-lg` | -                  | 36px             |
 
-So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in ness ui.
+So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in creantly ui.
 
 **New Variants:**
 
@@ -308,7 +308,7 @@ We've added a new `destructive-outline` variant for better UX patterns:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:render]
 <Button render={<Link href="/login" />}>Login</Button>
 ```
@@ -346,7 +346,7 @@ We've added a new `destructive-outline` variant for better UX patterns:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:render]
 // [!code word:CollapsiblePanel]
 <Collapsible>
@@ -401,7 +401,7 @@ The API is significantly different from shadcn/ui (cmdk). Please review both doc
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:render]
 // [!code word:<DialogPanel>Content</DialogPanel>]
 <Dialog>
@@ -433,7 +433,7 @@ The API is significantly different from shadcn/ui (cmdk). Please review both doc
 
 Compared to shadcn/ui, our `Input` component includes size variants for better density control. shadcn/ui inputs have a fixed height of 36px, while our component offers flexible sizing with `sm` (28px), `default` (32px), and `lg` (36px) options.
 
-So, if you want to preserve the original shadcn/ui input height (36px), you should use the `lg` size in ness ui.
+So, if you want to preserve the original shadcn/ui input height (36px), you should use the `lg` size in creantly ui.
 
 ### Input Group
 
@@ -482,7 +482,7 @@ So, if you want to preserve the original shadcn/ui input height (36px), you shou
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:onClick]
 <Menu>
   <MenuTrigger>Open menu</MenuTrigger>
@@ -530,7 +530,7 @@ Base UI introduces `PopoverTitle` and `PopoverDescription` to structure headings
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:PopoverTitle]
 // [!code word:PopoverDescription]
 // [!code word:PopoverClose]
@@ -571,7 +571,7 @@ Base UI introduces `PopoverTitle` and `PopoverDescription` to structure headings
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:render]
 <PreviewCard>
   <PreviewCardTrigger render={<Button variant="outline" />}>
@@ -610,7 +610,7 @@ Base UI introduces separate parts — `ProgressLabel`, `ProgressValue`, `Progres
 
 **Prop Mapping:**
 
-| Component     | Radix UI Prop                                  | ness ui / Base UI Prop                      |
+| Component     | Radix UI Prop                                  | creantly ui / Base UI Prop                      |
 | ------------- | ---------------------------------------------- | ------------------------------------------- |
 | `Select`      | options inferred from `SelectItem` children    | `items` prop (recommended for SSR/hydration) |
 | `SelectValue` | `placeholder`                                  | `placeholder` (supported on `SelectValue`)         |
@@ -624,19 +624,19 @@ Base UI introduces separate parts — `ProgressLabel`, `ProgressValue`, `Progres
 
 **Size Comparison:**
 
-ness ui select sizes are more compact compared to shadcn/ui, making them better suited for dense applications:
+creantly ui select sizes are more compact compared to shadcn/ui, making them better suited for dense applications:
 
-| Size      | Height (shadcn/ui) | Height (ness ui) |
+| Size      | Height (shadcn/ui) | Height (creantly ui) |
 | --------- | ------------------ | ---------------- |
 | `sm`      | 32px               | 28px             |
 | `default` | 36px               | 32px             |
 | `lg`      | -                  | 36px             |
 
-So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in ness ui.
+So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in creantly ui.
 
 **Additional Notes:**
 
-`alignItemWithTrigger` controls whether the popup aligns the selected item with the trigger text. In ness ui this prop is available on `SelectPopup` (legacy alias: `SelectContent`).
+`alignItemWithTrigger` controls whether the popup aligns the selected item with the trigger text. In creantly ui this prop is available on `SelectPopup` (legacy alias: `SelectContent`).
 
 `SelectValue` supports a `placeholder` prop. If you need in-popup clearing, prefer adding a `null` option item instead of relying on placeholder alone.
 
@@ -659,7 +659,7 @@ So, for example, if you were using the `default` size in shadcn/ui and you want 
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:alignItemWithTrigger={false}]
 // [!code word:items:2]
 const items = [
@@ -719,7 +719,7 @@ const items = [
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:render]
 // [!code word:<SheetPanel>Content here</SheetPanel>]
 <Sheet>
@@ -742,7 +742,7 @@ const items = [
 ### Slider
 
 **Quick Checklist:**
-- ness ui `Slider` uses Base UI's multiple value approach
+- creantly ui `Slider` uses Base UI's multiple value approach
 - Always pass values as arrays (e.g., `value={[50]}` instead of `value={50}`)
 - `onValueChange` receives an array of numbers
 - Multiple thumbs are supported natively via array length
@@ -783,7 +783,7 @@ Compared to shadcn/ui, our `TabsList` component adds `variant` prop, which allow
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:TabsPanel]
 <Tabs defaultValue="tab-1">
   <TabsList>
@@ -840,7 +840,7 @@ toast("Event has been created", {
 })
 ```
 
-**ness ui (Base UI)**
+**creantly ui (Base UI)**
 
 ```tsx title="app/layout.tsx"
 import { ToastProvider } from "@/components/ui/toast"
@@ -895,15 +895,15 @@ onClick={() => {
 
 **Size Comparison:**
 
-ness ui toggle group sizes are more compact compared to shadcn/ui, making them better suited for dense applications:
+creantly ui toggle group sizes are more compact compared to shadcn/ui, making them better suited for dense applications:
 
-| Size      | Height (shadcn/ui) | Height (ness ui) |
+| Size      | Height (shadcn/ui) | Height (creantly ui) |
 | --------- | ------------------ | ---------------- |
 | `sm`      | 32px               | 28px             |
 | `default` | 36px               | 32px             |
 | `lg`      | -                  | 36px             |
 
-So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in ness ui.
+So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in creantly ui.
 
 **Comparison Example:**
 
@@ -919,7 +919,7 @@ So, for example, if you were using the `default` size in shadcn/ui and you want 
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:multiple]
 <ToggleGroup multiple defaultValue={["bold"]}>
   <ToggleGroupItem value="bold">B</ToggleGroupItem>
@@ -950,7 +950,7 @@ So, for example, if you were using the `default` size in shadcn/ui and you want 
 </span>
 
 <span data-lib="base-ui">
-```tsx title="ness ui"
+```tsx title="creantly ui"
 // [!code word:render]
 <Tooltip>
   <TooltipTrigger render={<Button variant="outline" />}>

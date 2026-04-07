@@ -3,8 +3,8 @@
   "name": "comp-572",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/tree.json",
-    "https://ness.com/origin/r/input.json"
+    "https://creantly.com/origin/r/tree.json",
+    "https://creantly.com/origin/r/input.json"
   ],
   "files": [
     {

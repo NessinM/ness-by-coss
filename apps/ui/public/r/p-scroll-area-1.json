@@ -3,7 +3,7 @@
   "name": "p-scroll-area-1",
   "description": "Basic scroll area",
   "registryDependencies": [
-    "@ness/scroll-area"
+    "@creantly/scroll-area"
   ],
   "files": [
     {

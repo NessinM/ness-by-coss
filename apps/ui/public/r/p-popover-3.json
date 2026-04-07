@@ -6,9 +6,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/avatar",
-    "@ness/button",
-    "@ness/popover"
+    "@creantly/avatar",
+    "@creantly/button",
+    "@creantly/popover"
   ],
   "files": [
     {

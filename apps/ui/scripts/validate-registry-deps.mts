@@ -20,9 +20,9 @@ const registryParticlesFile = path.join(
 );
 const registryUIFile = path.join(process.cwd(), "registry/registry-ui.ts");
 
-// Map component name to @ness package name
+// Map component name to @creantly package name
 function getRegistryPackageName(componentName: string): string {
-  return `@ness/${componentName}`;
+  return `@creantly/${componentName}`;
 }
 
 // Extract component name from file path
@@ -84,10 +84,10 @@ function parseImports(content: string): {
       continue;
     }
 
-    // Check if it's already a @ness import
-    if (importPath.startsWith("@ness/")) {
-      // Skip @ness/utils as it's a common utility that shouldn't be treated as a dependency
-      if (importPath !== "@ness/utils") {
+    // Check if it's already a @creantly import
+    if (importPath.startsWith("@creantly/")) {
+      // Skip @creantly/utils as it's a common utility that shouldn't be treated as a dependency
+      if (importPath !== "@creantly/utils") {
         registryDeps.add(importPath);
       }
       continue;
@@ -149,8 +149,8 @@ function extractRegistryItemDeps(itemContent: string): {
   if (regDepsMatch) {
     regDepsMatch[1].split(",").forEach((item) => {
       const cleaned = item.trim().replace(/["']/g, "").replace(/\n/g, "");
-      // Skip @ness/utils as it's a common utility that shouldn't be validated
-      if (cleaned && cleaned !== "@ness/utils") {
+      // Skip @creantly/utils as it's a common utility that shouldn't be validated
+      if (cleaned && cleaned !== "@creantly/utils") {
         regDeps.push(cleaned);
       }
     });
@@ -229,8 +229,8 @@ async function isDependencyCoveredByRegistry(
 ): Promise<boolean> {
   // For each registry dependency, check if its component file imports this dependency
   for (const regDep of registryDeps) {
-    // Extract component name from @ness/component-name
-    const componentMatch = regDep.match(/@ness\/(.+)/);
+    // Extract component name from @creantly/component-name
+    const componentMatch = regDep.match(/@creantly\/(.+)/);
     if (!componentMatch) continue;
 
     const componentName = componentMatch[1];

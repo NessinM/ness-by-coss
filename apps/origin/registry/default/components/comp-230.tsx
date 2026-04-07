@@ -22,8 +22,8 @@ import {
 
 const organizations = [
   {
-    label: "ness.com",
-    value: "ness",
+    label: "creantly.com",
+    value: "creantly",
   },
   {
     label: "Cruip",
@@ -34,7 +34,7 @@ const organizations = [
 export default function Component() {
   const id = useId();
   const [open, setOpen] = useState<boolean>(false);
-  const [value, setValue] = useState<string>("ness");
+  const [value, setValue] = useState<string>("creantly");
 
   return (
     <div className="*:not-first:mt-2">

@@ -1,4 +1,4 @@
-# ness Label
+# creantly Label
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/label
+npx shadcn@latest add @creantly/label
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Label } from "@/components/ui/label"
 <Label htmlFor="email">Email</Label>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

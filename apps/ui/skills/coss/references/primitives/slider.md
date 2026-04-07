@@ -1,4 +1,4 @@
-# ness Slider
+# creantly Slider
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/slider
+npx shadcn@latest add @creantly/slider
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Slider, SliderValue } from "@/components/ui/slider"
 <Slider aria-label="Volume" defaultValue={40} max={100} min={0} />
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

@@ -1,21 +1,21 @@
-import { CodeBlock } from "@ness/ui/shared/code-block";
+import { CodeBlock } from "@creantly/ui/shared/code-block";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "ness.com video",
+  title: "creantly.com video",
 };
 
 export default function Page() {
-  const initialization = `import { ness } from '@ness';
+  const initialization = `import { creantly } from '@creantly';
 
-ness.video.init({
-  apiKey: process.env.NESS_KEY,
+creantly.video.init({
+  apiKey: process.env.CREANTLY_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const rooms = `// Create a room
-await ness.video.rooms.create({
+await creantly.video.rooms.create({
   name: 'team-sync-0422',
   privacy: 'private',
   config: {
@@ -26,21 +26,21 @@ await ness.video.rooms.create({
 });
 
 // List rooms
-await ness.video.rooms.list();
+await creantly.video.rooms.list();
 
 // Retrieve room details
-await ness.video.rooms.retrieve('team-sync-0422');
+await creantly.video.rooms.retrieve('team-sync-0422');
 
 // Update room settings
-await ness.video.rooms.update('team-sync-0422', {
+await creantly.video.rooms.update('team-sync-0422', {
   config: { enableRecording: true },
 });
 
 // Delete a room
-await ness.video.rooms.delete('team-sync-0422');`;
+await creantly.video.rooms.delete('team-sync-0422');`;
 
   const tokens = `// Generate a join token
-const token = await ness.video.tokens.create({
+const token = await creantly.video.tokens.create({
   roomName: 'team-sync-0422',
   userId: 'user_abc123',
   role: 'host',
@@ -48,38 +48,38 @@ const token = await ness.video.tokens.create({
 });`;
 
   const participants = `// List participants
-await ness.video.participants.list('team-sync-0422');
+await creantly.video.participants.list('team-sync-0422');
 
 // Kick a participant
-await ness.video.participants.remove('team-sync-0422', 'user_abc123');
+await creantly.video.participants.remove('team-sync-0422', 'user_abc123');
 
 // Get participant history
-await ness.video.participants.history({
+await creantly.video.participants.history({
   roomName: 'team-sync-0422',
   userId: 'user_abc123',
 });`;
 
   const recordings = `// Start recording
-await ness.video.recordings.start('team-sync-0422');
+await creantly.video.recordings.start('team-sync-0422');
 
 // Stop recording
-await ness.video.recordings.stop('team-sync-0422');
+await creantly.video.recordings.stop('team-sync-0422');
 
 // List past recordings
-await ness.video.recordings.list();
+await creantly.video.recordings.list();
 
 // Retrieve a recording
-await ness.video.recordings.retrieve('rec_abc123');
+await creantly.video.recordings.retrieve('rec_abc123');
 
 // Delete a recording
-await ness.video.recordings.delete('rec_abc123');`;
+await creantly.video.recordings.delete('rec_abc123');`;
 
   const webhooks = `// Webhook events
-ness.video.webhooks.on('room.started', (event) => {
+creantly.video.webhooks.on('room.started', (event) => {
   console.log(\`Room started: \${event.data.roomName}\`);
 });
 
-ness.video.webhooks.on('participant.joined', (event) => {
+creantly.video.webhooks.on('participant.joined', (event) => {
   const { userId, roomName } = event.data;
   console.log(\`\${userId} joined \${roomName}\`);
 });
@@ -88,14 +88,14 @@ ness.video.webhooks.on('participant.joined', (event) => {
 // room.ended, participant.left, recording.started, recording.stopped`;
 
   const utilities = `// Validate webhook signature
-const isValid = ness.video.utils.verifySignature({
+const isValid = creantly.video.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['ness-video-signature'],
+  signature: req.headers['creantly-video-signature'],
   secret: 'whsec_video_123',
 });`;
 
   const bonus = `// Generate a meeting URL
-const meetingUrl = ness.video.utils.generateJoinUrl({
+const meetingUrl = creantly.video.utils.generateJoinUrl({
   roomName: 'team-sync-0422',
   token,
 });`;

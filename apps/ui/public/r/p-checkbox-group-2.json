@@ -3,9 +3,9 @@
   "name": "p-checkbox-group-2",
   "description": "Checkbox group with disabled items",
   "registryDependencies": [
-    "@ness/checkbox",
-    "@ness/checkbox-group",
-    "@ness/label"
+    "@creantly/checkbox",
+    "@creantly/checkbox-group",
+    "@creantly/label"
   ],
   "files": [
     {

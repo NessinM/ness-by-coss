@@ -1,4 +1,4 @@
-# ness Input
+# creantly Input
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/input
+npx shadcn@latest add @creantly/input
 ```
 
 Manual deps from docs:
@@ -32,7 +32,7 @@ import { Input } from "@/components/ui/input"
 Always set `type` explicitly on `Input` (`text`, `email`, `password`, `search`, `file`, etc.). Do not rely on browser defaults.
 For form fields, prefer wrapping `Input` with `Field` + `FieldLabel` + `FieldError` instead of standalone usage.
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

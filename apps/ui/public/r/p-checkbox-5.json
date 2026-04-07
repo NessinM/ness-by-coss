@@ -3,10 +3,10 @@
   "name": "p-checkbox-5",
   "description": "Checkbox form",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/checkbox",
-    "@ness/field",
-    "@ness/form"
+    "@creantly/button",
+    "@creantly/checkbox",
+    "@creantly/field",
+    "@creantly/form"
   ],
   "files": [
     {

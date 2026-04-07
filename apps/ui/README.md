@@ -1,10 +1,10 @@
-# ness ui
+# creantly ui
 
-**ness ui** is a collection of beautifully designed, accessible, and composable components for your React apps. Built on top of [Base UI](https://base-ui.com/) and styled with [Tailwind CSS](https://tailwindcss.com/), it's designed for you to copy, paste, and own.
+**creantly ui** is a collection of beautifully designed, accessible, and composable components for your React apps. Built on top of [Base UI](https://base-ui.com/) and styled with [Tailwind CSS](https://tailwindcss.com/), it's designed for you to copy, paste, and own.
 
 We think Base UI is the best foundation for modern web applications. We've taken its powerful, unstyled primitives and given them a design system that's ready to go, right out of the box.
 
-This is the component library we'll be progressively adopting for [creantly.com](https://creantly.com). We're building it in the open for anyone who wants to create beautiful, reliable user interfaces.
+This is the component library we'll be progressively adopting for [hookra.com](https://hookra.com). We're building it in the open for anyone who wants to create beautiful, reliable user interfaces.
 
 ## Contributing
 

@@ -1,16 +1,16 @@
 import "./globals.css";
 
-import { fontHeading, fontMono, fontSans } from "@ness/ui/fonts";
-import { SiteCta } from "@ness/ui/shared/site-cta";
-import { SiteFooter } from "@ness/ui/shared/site-footer";
-import { SiteHeader } from "@ness/ui/shared/site-header";
-import { ThemeProvider } from "@ness/ui/shared/theme-provider";
+import { fontHeading, fontMono, fontSans } from "@creantly/ui/fonts";
+import { SiteCta } from "@creantly/ui/shared/site-cta";
+import { SiteFooter } from "@creantly/ui/shared/site-footer";
+import { SiteHeader } from "@creantly/ui/shared/site-header";
+import { ThemeProvider } from "@creantly/ui/shared/theme-provider";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  description: "ness.com - the everything but AI company",
-  metadataBase: new URL("https://ness.com"),
-  title: "ness.com",
+  description: "creantly.com - the everything but AI company",
+  metadataBase: new URL("https://creantly.com"),
+  title: "creantly.com",
 };
 
 export default function RootLayout({

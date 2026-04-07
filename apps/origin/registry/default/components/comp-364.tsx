@@ -43,8 +43,10 @@ export default function HoverCardDemo() {
           </div>
           <p className="text-muted-foreground text-sm">
             Designer at{" "}
-            <strong className="font-medium text-foreground">@ness.com</strong>.
-            Crafting web experiences with Tailwind CSS.
+            <strong className="font-medium text-foreground">
+              @creantly.com
+            </strong>
+            . Crafting web experiences with Tailwind CSS.
           </p>
           <div className="flex items-center gap-2">
             <div className="flex -space-x-1.5">

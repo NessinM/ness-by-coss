@@ -1,4 +1,4 @@
-# ness Sheet
+# creantly Sheet
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/sheet
+npx shadcn@latest add @creantly/sheet
 ```
 
 Manual deps from docs:
@@ -60,7 +60,7 @@ import {
 </Sheet>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

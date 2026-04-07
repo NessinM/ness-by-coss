@@ -6,12 +6,12 @@
     "@tanstack/react-table"
   ],
   "registryDependencies": [
-    "https://ness.com/origin/r/badge.json",
-    "https://ness.com/origin/r/button.json",
-    "https://ness.com/origin/r/checkbox.json",
-    "https://ness.com/origin/r/pagination.json",
-    "https://ness.com/origin/r/select.json",
-    "https://ness.com/origin/r/table.json"
+    "https://creantly.com/origin/r/badge.json",
+    "https://creantly.com/origin/r/button.json",
+    "https://creantly.com/origin/r/checkbox.json",
+    "https://creantly.com/origin/r/pagination.json",
+    "https://creantly.com/origin/r/select.json",
+    "https://creantly.com/origin/r/table.json"
   ],
   "files": [
     {

@@ -3,7 +3,7 @@
   "name": "p-badge-8",
   "description": "Error badge",
   "registryDependencies": [
-    "@ness/badge"
+    "@creantly/badge"
   ],
   "files": [
     {

@@ -1,4 +1,4 @@
-# ness Preview Card
+# creantly Preview Card
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/preview-card
+npx shadcn@latest add @creantly/preview-card
 ```
 
 Manual deps from docs:
@@ -37,7 +37,7 @@ import {
 </PreviewCard>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

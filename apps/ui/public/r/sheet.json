@@ -5,8 +5,8 @@
     "@base-ui/react"
   ],
   "registryDependencies": [
-    "@ness/button",
-    "@ness/scroll-area"
+    "@creantly/button",
+    "@creantly/scroll-area"
   ],
   "files": [
     {

@@ -4,9 +4,9 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@ness/ui/components/avatar";
-import { Badge } from "@ness/ui/components/badge";
-import { Button, buttonVariants } from "@ness/ui/components/button";
+} from "@creantly/ui/components/avatar";
+import { Badge } from "@creantly/ui/components/badge";
+import { Button, buttonVariants } from "@creantly/ui/components/button";
 import {
   Combobox,
   ComboboxEmpty,
@@ -15,8 +15,12 @@ import {
   ComboboxList,
   ComboboxPopup,
   ComboboxTrigger,
-} from "@ness/ui/components/combobox";
-import { Group, GroupSeparator, GroupText } from "@ness/ui/components/group";
+} from "@creantly/ui/components/combobox";
+import {
+  Group,
+  GroupSeparator,
+  GroupText,
+} from "@creantly/ui/components/group";
 import {
   Menu,
   MenuGroup,
@@ -25,9 +29,9 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@ness/ui/components/menu";
-import { Separator } from "@ness/ui/components/separator";
-import { cn } from "@ness/ui/lib/utils";
+} from "@creantly/ui/components/menu";
+import { Separator } from "@creantly/ui/components/separator";
+import { cn } from "@creantly/ui/lib/utils";
 import {
   ChevronsUpDownIcon,
   CopyIcon,

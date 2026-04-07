@@ -3,8 +3,8 @@
   "name": "p-switch-2",
   "description": "Disabled switch",
   "registryDependencies": [
-    "@ness/label",
-    "@ness/switch"
+    "@creantly/label",
+    "@creantly/switch"
   ],
   "files": [
     {

@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Card,
   CardFrame,
@@ -9,15 +9,19 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
+} from "@creantly/ui/components/card";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@creantly/ui/components/field";
 import {
   Select,
   SelectItem,
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@ness/ui/components/select";
+} from "@creantly/ui/components/select";
 import { useState } from "react";
 import {
   AppHeader,

@@ -3,10 +3,10 @@
   "name": "comp-504",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/button.json",
-    "https://ness.com/origin/r/calendar.json",
-    "https://ness.com/origin/r/collapsible.json",
-    "https://ness.com/origin/r/scroll-area.json"
+    "https://creantly.com/origin/r/button.json",
+    "https://creantly.com/origin/r/calendar.json",
+    "https://creantly.com/origin/r/collapsible.json",
+    "https://creantly.com/origin/r/scroll-area.json"
   ],
   "files": [
     {

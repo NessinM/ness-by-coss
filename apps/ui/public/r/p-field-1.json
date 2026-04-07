@@ -3,8 +3,8 @@
   "name": "p-field-1",
   "description": "Field with description",
   "registryDependencies": [
-    "@ness/field",
-    "@ness/input"
+    "@creantly/field",
+    "@creantly/input"
   ],
   "files": [
     {

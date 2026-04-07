@@ -1,6 +1,6 @@
 import { Loader2Icon } from "lucide-react";
 import type React from "react";
-import { cn } from "@ness/ui/lib/utils";
+import { cn } from "@creantly/ui/lib/utils";
 
 export function Spinner({
   className,

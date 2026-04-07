@@ -1,12 +1,12 @@
 "use client";
 
-import { Card, CardFrame, CardPanel } from "@ness/ui/components/card";
-import { toastManager } from "@ness/ui/components/toast";
+import { Card, CardFrame, CardPanel } from "@creantly/ui/components/card";
+import { toastManager } from "@creantly/ui/components/toast";
 import {
   ToggleGroup,
   ToggleGroupItem,
   ToggleGroupSeparator,
-} from "@ness/ui/components/toggle-group";
+} from "@creantly/ui/components/toggle-group";
 import { useState } from "react";
 import {
   AppHeader,

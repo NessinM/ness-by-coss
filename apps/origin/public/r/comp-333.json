@@ -3,7 +3,7 @@
   "name": "comp-333",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/command.json"
+    "https://creantly.com/origin/r/command.json"
   ],
   "files": [
     {

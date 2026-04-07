@@ -3,7 +3,7 @@
   "name": "p-combobox-7",
   "description": "Combobox with clear button",
   "registryDependencies": [
-    "@ness/combobox"
+    "@creantly/combobox"
   ],
   "files": [
     {

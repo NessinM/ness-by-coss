@@ -1,22 +1,22 @@
 "use client";
 
-import { Field } from "@ness/ui/components/field";
-import { Fieldset } from "@ness/ui/components/fieldset";
+import { Field } from "@creantly/ui/components/field";
+import { Fieldset } from "@creantly/ui/components/fieldset";
 import { ImageRadioOption } from "@/components/particles";
 
 const themeItems = [
   {
-    imageSrc: "https://app.creantly.com/theme-system.svg",
+    imageSrc: "https://app.hookra.com/theme-system.svg",
     label: "System default",
     value: "system",
   },
   {
-    imageSrc: "https://app.creantly.com/theme-light.svg",
+    imageSrc: "https://app.hookra.com/theme-light.svg",
     label: "Light",
     value: "light",
   },
   {
-    imageSrc: "https://app.creantly.com/theme-dark.svg",
+    imageSrc: "https://app.hookra.com/theme-dark.svg",
     label: "Dark",
     value: "dark",
   },

@@ -3,9 +3,9 @@
   "name": "p-fieldset-1",
   "description": "Fieldset with multiple fields",
   "registryDependencies": [
-    "@ness/field",
-    "@ness/fieldset",
-    "@ness/input"
+    "@creantly/field",
+    "@creantly/fieldset",
+    "@creantly/input"
   ],
   "files": [
     {

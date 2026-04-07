@@ -3,8 +3,8 @@
   "name": "p-tooltip-2",
   "description": "Grouped tooltips",
   "registryDependencies": [
-    "@ness/toggle-group",
-    "@ness/tooltip"
+    "@creantly/toggle-group",
+    "@creantly/tooltip"
   ],
   "files": [
     {

@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import { ChevronDownIcon } from "lucide-react";
 import { useState } from "react";
 import type { WebhookItem } from "./webhooks-list-content";
@@ -25,7 +25,7 @@ export function WebhooksPageContent({ webhooks }: WebhooksPageContentProps) {
         <AppHeaderContent title="Webhooks">
           <AppHeaderDescription>
             Receive meeting data in real-time when something happens in
-            creantly.com.
+            hookra.com.
           </AppHeaderDescription>
         </AppHeaderContent>
         <AppHeaderActions>

@@ -20,7 +20,7 @@ export default function Particle() {
     <Group aria-label="Url input">
       <Input
         aria-label="Url"
-        defaultValue="https://ness.com"
+        defaultValue="https://creantly.com"
         ref={inputRef}
         type="text"
       />

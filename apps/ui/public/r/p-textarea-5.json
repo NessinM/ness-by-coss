@@ -3,8 +3,8 @@
   "name": "p-textarea-5",
   "description": "Textarea with label",
   "registryDependencies": [
-    "@ness/label",
-    "@ness/textarea"
+    "@creantly/label",
+    "@creantly/textarea"
   ],
   "files": [
     {

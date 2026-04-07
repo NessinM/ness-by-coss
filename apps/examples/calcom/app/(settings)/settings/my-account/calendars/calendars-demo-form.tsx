@@ -1,6 +1,10 @@
 "use client";
 
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@creantly/ui/components/field";
 import {
   Select,
   SelectGroup,
@@ -9,24 +13,24 @@ import {
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@ness/ui/components/select";
+} from "@creantly/ui/components/select";
 import { FieldGrid } from "@/components/particles/field-grid";
 
 const addEventsToGroups = [
   {
     items: [
       {
-        label: "example@creantly.com",
-        triggerLabel: "example@creantly.com (Google - example@creantly.com)",
+        label: "example@hookra.com",
+        triggerLabel: "example@hookra.com (Google - example@hookra.com)",
         value: "google-example",
       },
       {
         label: "Team",
-        triggerLabel: "Team (Google - example@creantly.com)",
+        triggerLabel: "Team (Google - example@hookra.com)",
         value: "google-team",
       },
     ],
-    label: "Google (example@creantly.com)",
+    label: "Google (example@hookra.com)",
   },
 ];
 

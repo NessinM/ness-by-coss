@@ -3,7 +3,7 @@
   "name": "comp-514",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/stepper.json"
+    "https://creantly.com/origin/r/stepper.json"
   ],
   "files": [
     {

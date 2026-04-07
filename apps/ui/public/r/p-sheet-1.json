@@ -3,11 +3,11 @@
   "name": "p-sheet-1",
   "description": "Basic sheet",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/field",
-    "@ness/form",
-    "@ness/input",
-    "@ness/sheet"
+    "@creantly/button",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input",
+    "@creantly/sheet"
   ],
   "files": [
     {

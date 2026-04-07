@@ -3,7 +3,7 @@
   "name": "p-toggle-group-5",
   "description": "Vertical toggle group with outline",
   "registryDependencies": [
-    "@ness/toggle-group"
+    "@creantly/toggle-group"
   ],
   "files": [
     {

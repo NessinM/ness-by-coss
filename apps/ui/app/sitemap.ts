@@ -5,10 +5,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages = source.getPages();
 
   return [
-    { url: "https://ness.com/ui" },
-    { url: "https://ness.com/ui/particles" },
+    { url: "https://creantly.com/ui" },
+    { url: "https://creantly.com/ui/particles" },
     ...pages.map((page) => ({
-      url: `https://ness.com/ui${page.url}`,
+      url: `https://creantly.com/ui${page.url}`,
     })),
   ];
 }

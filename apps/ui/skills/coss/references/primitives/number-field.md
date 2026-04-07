@@ -1,4 +1,4 @@
-# ness Number Field
+# creantly Number Field
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/number-field
+npx shadcn@latest add @creantly/number-field
 ```
 
 Manual deps from docs:
@@ -45,7 +45,7 @@ import {
 
 For form-bound numeric inputs, prefer wrapping `NumberField` with `Field` + `FieldLabel` + `FieldError` instead of standalone usage.
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

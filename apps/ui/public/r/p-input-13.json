@@ -3,8 +3,8 @@
   "name": "p-input-13",
   "description": "Input with label and required indicator",
   "registryDependencies": [
-    "@ness/input",
-    "@ness/label"
+    "@creantly/input",
+    "@creantly/label"
   ],
   "files": [
     {

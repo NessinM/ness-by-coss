@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 ness.com
+Copyright (c) 2025 creantly.com
 Originally Copyright (c) 2025 Origin UI
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

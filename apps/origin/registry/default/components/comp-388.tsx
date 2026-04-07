@@ -19,7 +19,7 @@ export default function Component() {
             <Textarea
               aria-label="Send feedback"
               id="feedback"
-              placeholder="How can we improve ness ui?"
+              placeholder="How can we improve creantly ui?"
             />
             <div className="flex flex-col sm:flex-row sm:justify-end">
               <Button size="sm">Send feedback</Button>

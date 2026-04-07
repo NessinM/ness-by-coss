@@ -28,7 +28,7 @@ mock.module("@base-ui/react/separator", () => ({
   Separator: SeparatorPrimitiveMock,
 }));
 
-mock.module("@ness/ui/lib/utils", () => ({
+mock.module("@creantly/ui/lib/utils", () => ({
   cn: cnMock,
 }));
 

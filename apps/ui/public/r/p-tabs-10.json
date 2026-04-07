@@ -3,8 +3,8 @@
   "name": "p-tabs-10",
   "description": "Tabs with count badge",
   "registryDependencies": [
-    "@ness/badge",
-    "@ness/tabs"
+    "@creantly/badge",
+    "@creantly/tabs"
   ],
   "files": [
     {

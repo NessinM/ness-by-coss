@@ -1,4 +1,4 @@
-# ness Form
+# creantly Form
 
 ## When to use
 
@@ -9,7 +9,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/form
+npx shadcn@latest add @creantly/form
 ```
 
 Manual deps:
@@ -44,18 +44,18 @@ import { Input } from "@/components/ui/input"
 </Form>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 - `Form` usage in particles is intentionally lightweight; use the Base UI forms handbook patterns below for deeper validation/library integrations.
 
-## Patterns from ness/Base UI forms
+## Patterns from creantly/Base UI forms
 
 - **Submission mode**: use `onSubmit` for native `FormData` handling; use `onFormSubmit` when you want parsed form values object from Base UI Form.
 - **Field naming**: set `name` on each field/control flow so values are included in submission.
 - **Accessible names**: prefer visible labels (`FieldLabel`, `SelectLabel`, etc.); use `aria-label` only when no visible label exists.
 - **Grouped controls**: for radio/checkbox groups or multi-control sections, use fieldset-style grouping (`Fieldset` + `Field.Item`) instead of ad-hoc wrappers.
 - **Validation rendering**: pair constraints/custom validation with `FieldError`; keep error output semantically tied to the same field.
-- **Textarea integration**: use ness `Textarea` directly inside `Field`; it already integrates with Base UI field control semantics, so `FieldControl render={...}` is not required for standard textarea usage.
+- **Textarea integration**: use creantly `Textarea` directly inside `Field`; it already integrates with Base UI field control semantics, so `FieldControl render={...}` is not required for standard textarea usage.
 - **External library integration**: when using RHF/TanStack, forward refs/input refs to the underlying control and map invalid/touched/dirty state into `Field`.
 
 ## Common pitfalls

@@ -3,7 +3,7 @@
   "name": "p-badge-14",
   "description": "Full rounded badge (pill)",
   "registryDependencies": [
-    "@ness/badge"
+    "@creantly/badge"
   ],
   "files": [
     {

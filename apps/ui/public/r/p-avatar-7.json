@@ -3,7 +3,7 @@
   "name": "p-avatar-7",
   "description": "Avatar with emerald status dot",
   "registryDependencies": [
-    "@ness/avatar"
+    "@creantly/avatar"
   ],
   "files": [
     {

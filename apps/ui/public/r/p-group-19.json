@@ -3,9 +3,9 @@
   "name": "p-group-19",
   "description": "Group with input and select",
   "registryDependencies": [
-    "@ness/group",
-    "@ness/input",
-    "@ness/select"
+    "@creantly/group",
+    "@creantly/input",
+    "@creantly/select"
   ],
   "files": [
     {

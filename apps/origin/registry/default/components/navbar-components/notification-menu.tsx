@@ -53,7 +53,7 @@ const initialNotifications = [
   {
     action: "mentioned you in",
     id: 6,
-    target: "ness.com open graph image",
+    target: "creantly.com open graph image",
     timestamp: "2 weeks ago",
     unread: false,
     user: "Miky Derya",

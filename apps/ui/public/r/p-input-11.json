@@ -3,8 +3,8 @@
   "name": "p-input-11",
   "description": "Input group with keyboard shortcut",
   "registryDependencies": [
-    "@ness/input-group",
-    "@ness/kbd"
+    "@creantly/input-group",
+    "@creantly/kbd"
   ],
   "files": [
     {

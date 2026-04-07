@@ -3,7 +3,7 @@
   "name": "p-tabs-4",
   "description": "Vertical tabs with underline",
   "registryDependencies": [
-    "@ness/tabs"
+    "@creantly/tabs"
   ],
   "files": [
     {

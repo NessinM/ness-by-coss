@@ -11,7 +11,7 @@ import { useConfig } from "@/hooks/use-config";
 
 export default function CliCommands({ name }: { name: string }) {
   const originUrl =
-    process.env.NEXT_PUBLIC_APP_URL || "https://ness.com/origin";
+    process.env.NEXT_PUBLIC_APP_URL || "https://creantly.com/origin";
   const [config, setConfig] = useConfig();
   const packageManager = config.packageManager || "pnpm";
 

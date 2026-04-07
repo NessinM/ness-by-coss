@@ -1,4 +1,4 @@
-import { Card, CardFrame, CardPanel } from "@ness/ui/components/card";
+import { Card, CardFrame, CardPanel } from "@creantly/ui/components/card";
 import { CopyLink } from "./copy-link";
 import {
   AppHeader,
@@ -22,14 +22,14 @@ export default function TeamProfileNoPermissionsPage() {
             <div className="flex flex-col gap-6">
               <div>
                 <p className="font-semibold text-sm">Organization name</p>
-                <p className="text-muted-foreground text-sm">creantly.com</p>
+                <p className="text-muted-foreground text-sm">hookra.com</p>
               </div>
 
               <div>
                 <p className="font-semibold text-sm">Organization URL</p>
                 <div className="flex items-center gap-1">
                   <p className="text-muted-foreground text-sm">
-                    https://creantly.com/org/cal-com
+                    https://hookra.com/org/cal-com
                   </p>
                   <CopyLink />
                 </div>

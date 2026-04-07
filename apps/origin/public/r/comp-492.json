@@ -3,7 +3,7 @@
   "name": "comp-492",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/calendar.json"
+    "https://creantly.com/origin/r/calendar.json"
   ],
   "files": [
     {

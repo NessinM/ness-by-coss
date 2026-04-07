@@ -1,8 +1,8 @@
 "use client";
 
-import { Alert, AlertDescription } from "@ness/ui/components/alert";
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+import { Alert, AlertDescription } from "@creantly/ui/components/alert";
+import { Badge } from "@creantly/ui/components/badge";
+import { Button } from "@creantly/ui/components/button";
 import {
   Dialog,
   DialogClose,
@@ -12,10 +12,10 @@ import {
   DialogPanel,
   DialogPopup,
   DialogTitle,
-} from "@ness/ui/components/dialog";
-import { Field, FieldLabel } from "@ness/ui/components/field";
-import { Form } from "@ness/ui/components/form";
-import { Input } from "@ness/ui/components/input";
+} from "@creantly/ui/components/dialog";
+import { Field, FieldLabel } from "@creantly/ui/components/field";
+import { Form } from "@creantly/ui/components/form";
+import { Input } from "@creantly/ui/components/input";
 import { TriangleAlertIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import { CopyableField } from "./copyable-field";
@@ -74,7 +74,7 @@ function NewOAuthClientDialogRoot({
               <DialogTitle>Create OAuth client</DialogTitle>
               <DialogDescription>
                 Create a new OAuth client to allow third-party applications to
-                access creantly.com on behalf of your users.
+                access hookra.com on behalf of your users.
               </DialogDescription>
             </DialogHeader>
             <DialogPanel className="grid gap-6">

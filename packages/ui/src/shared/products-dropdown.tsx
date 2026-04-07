@@ -1,13 +1,13 @@
 "use client";
 
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+import { Badge } from "@creantly/ui/components/badge";
+import { Button } from "@creantly/ui/components/button";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
+} from "@creantly/ui/components/menu";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 
@@ -16,8 +16,8 @@ interface ProductsDropdownProps {
 }
 
 export function ProductsDropdown({ items }: ProductsDropdownProps) {
-  const gatewayOrigin = process.env.NEXT_PUBLIC_NESS_URL || "";
-  const uiGatewayOrigin = process.env.NEXT_PUBLIC_NESS_UI_URL || "";
+  const gatewayOrigin = process.env.NEXT_PUBLIC_CREANTLYURL || "";
+  const uiGatewayOrigin = process.env.NEXT_PUBLIC_CREANTLYUI_URL || "";
 
   const getLinkProps = (item: {
     href: string;

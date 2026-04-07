@@ -4,24 +4,28 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@ness/ui/components/avatar";
-import { Button } from "@ness/ui/components/button";
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
+} from "@creantly/ui/components/avatar";
+import { Button } from "@creantly/ui/components/button";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@creantly/ui/components/field";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
   InputGroupText,
   InputGroupTextarea,
-} from "@ness/ui/components/input-group";
-import { Label } from "@ness/ui/components/label";
-import { Toggle } from "@ness/ui/components/toggle";
+} from "@creantly/ui/components/input-group";
+import { Label } from "@creantly/ui/components/label";
+import { Toggle } from "@creantly/ui/components/toggle";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
-import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
+} from "@creantly/ui/components/tooltip";
+import { useCopyToClipboard } from "@creantly/ui/hooks/use-copy-to-clipboard";
 import {
   BoldIcon,
   CheckIcon,

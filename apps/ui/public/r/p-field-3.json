@@ -3,8 +3,8 @@
   "name": "p-field-3",
   "description": "Field in disabled state",
   "registryDependencies": [
-    "@ness/field",
-    "@ness/input"
+    "@creantly/field",
+    "@creantly/input"
   ],
   "files": [
     {

@@ -1,21 +1,21 @@
-import { CodeBlock } from "@ness/ui/shared/code-block";
+import { CodeBlock } from "@creantly/ui/shared/code-block";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "ness.com email",
+  title: "creantly.com email",
 };
 
 export default function Page() {
-  const initialization = `import { ness } from '@ness';
+  const initialization = `import { creantly } from '@creantly';
 
-ness.email.init({
-  apiKey: process.env.NESS_KEY,
+creantly.email.init({
+  apiKey: process.env.CREANTLY_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const sendingEmails = `// Send a transactional email
-await ness.email.send({
+await creantly.email.send({
   from: 'noreply@yourapp.com',
   to: 'user@example.com',
   subject: 'Welcome to Our App!',
@@ -24,47 +24,47 @@ await ness.email.send({
 });`;
 
   const domains = `// Create and verify a sending domain
-await ness.email.domains.create({
+await creantly.email.domains.create({
   domain: 'yourapp.com',
 });
 
 // List verified domains
-await ness.email.domains.list();
+await creantly.email.domains.list();
 
 // Delete a domain
-await ness.email.domains.delete('domain_abc123');`;
+await creantly.email.domains.delete('domain_abc123');`;
 
   const templates = `// Create an email template
-await ness.email.templates.create({
+await creantly.email.templates.create({
   name: 'Welcome Template',
   subject: 'Welcome!',
   html: '<h1>Welcome {{name}}</h1>',
 });
 
 // Retrieve a template
-await ness.email.templates.retrieve('tmpl_abc123');
+await creantly.email.templates.retrieve('tmpl_abc123');
 
 // Update a template
-await ness.email.templates.update('tmpl_abc123', {
+await creantly.email.templates.update('tmpl_abc123', {
   html: '<h1>Hello {{name}}!</h1>',
 });
 
 // Delete a template
-await ness.email.templates.delete('tmpl_abc123');`;
+await creantly.email.templates.delete('tmpl_abc123');`;
 
   const webhooks = `// Webhook events
-ness.email.webhooks.on('email.delivered', (event) => {
+creantly.email.webhooks.on('email.delivered', (event) => {
   console.log('Email delivered:', event.data);
 });
 
-ness.email.webhooks.on('email.bounced', (event) => {
+creantly.email.webhooks.on('email.bounced', (event) => {
   console.log('Email bounced:', event.data);
 });`;
 
   const utilities = `// Validate webhook signature
-const isValid = ness.email.utils.verifySignature({
+const isValid = creantly.email.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['ness-email-infra-signature'],
+  signature: req.headers['creantly-email-infra-signature'],
   secret: 'whsec_email_123',
 });`;
 

@@ -6,9 +6,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/field",
-    "@ness/fieldset",
-    "@ness/radio-group"
+    "@creantly/field",
+    "@creantly/fieldset",
+    "@creantly/radio-group"
   ],
   "files": [
     {

@@ -1,12 +1,16 @@
 "use client";
 
-import { Alert, AlertDescription, AlertTitle } from "@ness/ui/components/alert";
-import { Button } from "@ness/ui/components/button";
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "@creantly/ui/components/alert";
+import { Button } from "@creantly/ui/components/button";
 import {
   Collapsible,
   CollapsiblePanel,
   CollapsibleTrigger,
-} from "@ness/ui/components/collapsible";
+} from "@creantly/ui/components/collapsible";
 import {
   Dialog,
   DialogClose,
@@ -16,18 +20,22 @@ import {
   DialogPanel,
   DialogPopup,
   DialogTitle,
-} from "@ness/ui/components/dialog";
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
-import { Form } from "@ness/ui/components/form";
-import { Input } from "@ness/ui/components/input";
+} from "@creantly/ui/components/dialog";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@creantly/ui/components/field";
+import { Form } from "@creantly/ui/components/form";
+import { Input } from "@creantly/ui/components/input";
 import {
   Select,
   SelectItem,
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@ness/ui/components/select";
-import { Switch } from "@ness/ui/components/switch";
+} from "@creantly/ui/components/select";
+import { Switch } from "@creantly/ui/components/switch";
 import { InfoIcon, TriangleAlertIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import { CopyableField } from "../oauth/copyable-field";

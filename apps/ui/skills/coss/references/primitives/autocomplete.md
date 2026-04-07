@@ -1,4 +1,4 @@
-# ness Autocomplete
+# creantly Autocomplete
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/autocomplete
+npx shadcn@latest add @creantly/autocomplete
 ```
 
 Manual deps from docs:
@@ -67,7 +67,7 @@ const items = [
 
 For form-bound autocomplete controls, prefer `Field` wrappers so label, required state, and error output remain tied to the same control.
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

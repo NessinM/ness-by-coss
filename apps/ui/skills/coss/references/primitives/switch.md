@@ -1,4 +1,4 @@
-# ness Switch
+# creantly Switch
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/switch
+npx shadcn@latest add @creantly/switch
 ```
 
 Manual deps from docs:
@@ -38,7 +38,7 @@ import { Switch } from "@/components/ui/switch"
 </Label>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

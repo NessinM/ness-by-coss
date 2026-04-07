@@ -3,8 +3,8 @@
   "name": "p-textarea-7",
   "description": "Textarea with label and required indicator",
   "registryDependencies": [
-    "@ness/label",
-    "@ness/textarea"
+    "@creantly/label",
+    "@creantly/textarea"
   ],
   "files": [
     {

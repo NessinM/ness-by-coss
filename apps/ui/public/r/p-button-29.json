@@ -3,7 +3,7 @@
   "name": "p-button-29",
   "description": "Pill-shaped button with rounded-full styling",
   "registryDependencies": [
-    "@ness/button"
+    "@creantly/button"
   ],
   "files": [
     {

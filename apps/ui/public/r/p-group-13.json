@@ -3,9 +3,9 @@
   "name": "p-group-13",
   "description": "Group with menu",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/group",
-    "@ness/menu"
+    "@creantly/button",
+    "@creantly/group",
+    "@creantly/menu"
   ],
   "files": [
     {

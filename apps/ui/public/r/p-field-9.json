@@ -3,8 +3,8 @@
   "name": "p-field-9",
   "description": "Field with multiple selection combobox",
   "registryDependencies": [
-    "@ness/combobox",
-    "@ness/field"
+    "@creantly/combobox",
+    "@creantly/field"
   ],
   "files": [
     {

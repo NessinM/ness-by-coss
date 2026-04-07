@@ -3,7 +3,7 @@
   "name": "p-breadcrumb-2",
   "description": "Breadcrumb with custom separator",
   "registryDependencies": [
-    "@ness/breadcrumb"
+    "@creantly/breadcrumb"
   ],
   "files": [
     {

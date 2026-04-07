@@ -9,8 +9,8 @@
     "@types/react-payment-inputs"
   ],
   "registryDependencies": [
-    "https://ness.com/origin/r/input.json",
-    "https://ness.com/origin/r/label.json"
+    "https://creantly.com/origin/r/input.json",
+    "https://creantly.com/origin/r/label.json"
   ],
   "files": [
     {

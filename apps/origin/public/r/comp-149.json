@@ -3,7 +3,7 @@
   "name": "comp-149",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/checkbox.json"
+    "https://creantly.com/origin/r/checkbox.json"
   ],
   "files": [
     {

@@ -3,8 +3,8 @@
   "name": "p-slider-15",
   "description": "Price range slider",
   "registryDependencies": [
-    "@ness/fieldset",
-    "@ness/slider"
+    "@creantly/fieldset",
+    "@creantly/slider"
   ],
   "files": [
     {

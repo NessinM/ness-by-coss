@@ -3,9 +3,9 @@
   "name": "p-table-2",
   "description": "Framed table",
   "registryDependencies": [
-    "@ness/badge",
-    "@ness/frame",
-    "@ness/table"
+    "@creantly/badge",
+    "@creantly/frame",
+    "@creantly/table"
   ],
   "files": [
     {

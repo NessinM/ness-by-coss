@@ -3,7 +3,7 @@
   "name": "p-combobox-4",
   "description": "Large combobox",
   "registryDependencies": [
-    "@ness/combobox"
+    "@creantly/combobox"
   ],
   "files": [
     {

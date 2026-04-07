@@ -1,4 +1,4 @@
-# Particle Component Development Guide for @ness/ui
+# Particle Component Development Guide for @creantly/ui
 
 This guide provides comprehensive instructions for creating new particle components that match the existing library's patterns and best practices. Use this when creating equivalents of origin components or building new particles from scratch.
 
@@ -115,7 +115,7 @@ import {
 } from "@/registry/default/ui/dialog";
 ```
 
-**Important:** Always use the `@/registry/default/ui/` path, never `@ness/ui/components/` in particles.
+**Important:** Always use the `@/registry/default/ui/` path, never `@creantly/ui/components/` in particles.
 
 ### React
 
@@ -789,7 +789,7 @@ export default function Particle() {
 
 ---
 
-## 10. Migration from Origin (shadcn/Radix) to ness (Base UI)
+## 10. Migration from Origin (shadcn/Radix) to creantly (Base UI)
 
 ### Understanding the Migration
 
@@ -799,7 +799,7 @@ When creating a particle equivalent to an origin component:
 2. **Check the migration guide** (`apps/ui/content/docs/(root)/radix-shadcn-migration.mdx`)
 3. **Compare the primitives:**
    - Origin uses Radix UI primitives
-   - ness uses Base UI primitives
+   - creantly uses Base UI primitives
    - Understand why certain classes were used in origin
 4. **Look at existing particles** in the same category for consistency
 5. **Understand the differences:**
@@ -807,7 +807,7 @@ When creating a particle equivalent to an origin component:
    - `*Content` → `*Popup` or `*Panel`
    - `onSelect` → `onClick` (Menu)
    - `type="multiple"` → `multiple={true}`
-   - Size differences (ness is more compact)
+   - Size differences (creantly is more compact)
 
 ### Key Migration Patterns
 
@@ -819,7 +819,7 @@ When creating a particle equivalent to an origin component:
   <Button>Open</Button>
 </DropdownMenuTrigger>
 
-// ness (Base UI)
+// creantly (Base UI)
 <MenuTrigger render={<Button />}>Open</MenuTrigger>
 ```
 
@@ -831,7 +831,7 @@ When creating a particle equivalent to an origin component:
   <DialogHeader>...</DialogHeader>
 </DialogContent>
 
-// ness
+// creantly
 <DialogPopup>
   <DialogHeader>...</DialogHeader>
   <DialogPanel>Content</DialogPanel>
@@ -846,7 +846,7 @@ When creating a particle equivalent to an origin component:
   Item
 </DropdownMenuItem>
 
-// ness
+// creantly
 <MenuItem onClick={() => console.log("clicked")}>
   Item
 </MenuItem>
@@ -865,7 +865,7 @@ When creating a particle equivalent to an origin component:
   </SelectContent>
 </Select>
 
-// ness
+// creantly
 <Select items={[
   { label: "Select...", value: null },
   { label: "Next.js", value: "next" },
@@ -887,7 +887,7 @@ When creating a particle equivalent to an origin component:
 
 **When migrating, map sizes to preserve visual appearance:**
 
-| Component | shadcn/ui Size | ness ui Size |
+| Component | shadcn/ui Size | creantly ui Size |
 |-----------|----------------|--------------|
 | Button    | `default` (36px) | `lg` (36px) |
 | Button    | `sm` (32px) | `default` (32px) |
@@ -896,7 +896,7 @@ When creating a particle equivalent to an origin component:
 | Select    | `default` (36px) | `lg` (36px) |
 | Select    | `sm` (32px) | `default` (32px) |
 
-**ness ui is more compact by default, so use larger sizes to match shadcn/ui appearance.**
+**creantly ui is more compact by default, so use larger sizes to match shadcn/ui appearance.**
 
 ### Understanding Class Overrides
 
@@ -905,7 +905,7 @@ When creating a particle equivalent to an origin component:
 1. **Check what the class overrides** - look at the default styles in both libraries
 2. **Understand why it was needed** - was it a Radix limitation? A design choice?
 3. **Check if Base UI needs the same override** - Base UI might handle it differently
-4. **Look at existing ness particles** - see if similar patterns exist
+4. **Look at existing creantly particles** - see if similar patterns exist
 
 **Example:**
 
@@ -913,7 +913,7 @@ When creating a particle equivalent to an origin component:
 // Origin might have:
 className="[&_svg]:size-4 [&_svg]:pointer-events-none"
 
-// ness might handle this automatically, or need:
+// creantly might handle this automatically, or need:
 className="[&_svg:not([class*='size-'])]:size-4"
 ```
 
@@ -930,7 +930,7 @@ className="[&_svg:not([class*='size-'])]:size-4"
   type: "registry:block",
   categories: categories("button", "loading"),
   dependencies: ["lucide-react"],  // only if using icons
-  registryDependencies: ["@ness/button", "@ness/spinner"],
+  registryDependencies: ["@creantly/button", "@creantly/spinner"],
   files: [{ path: "particles/p-button-25.tsx", type: "registry:block" }],
   meta: {
     className: "**:data-[slot=preview]:w-full **:data-[slot=preview]:max-w-64",
@@ -943,7 +943,7 @@ className="[&_svg:not([class*='size-'])]:size-4"
 - `description`: Brief description (≤ 15 words), focus on what it does, not implementation
 - `type`: Always `"registry:block"`
 - `categories`: Use `categories()` helper with valid categories from `registry-categories.ts`
-- `registryDependencies`: Array of `@ness/{component}` package names
+- `registryDependencies`: Array of `@creantly/{component}` package names
 - `files`: Array with `path` and `type: "registry:block"`
 
 **Optional fields:**
@@ -1149,7 +1149,7 @@ When creating a new particle:
 - [ ] Followed composition patterns from similar particles
 - [ ] Added entry to `apps/ui/registry/registry-particles.ts`
 - [ ] Used `categories()` helper with valid category names
-- [ ] Included all `@ness/*` dependencies in `registryDependencies`
+- [ ] Included all `@creantly/*` dependencies in `registryDependencies`
 - [ ] Added `dependencies: ["lucide-react"]` if using icons
 - [ ] Set appropriate `meta.className` if needed
 - [ ] Formatted code: `bun run format:all`
@@ -1180,9 +1180,9 @@ When asked to create an equivalent of an origin component:
 
 4. **Compare primitives:**
    - Check what Radix primitive the origin uses
-   - Check what Base UI primitive ness uses
+   - Check what Base UI primitive creantly uses
    - Understand why classes were overridden in origin
-   - Determine if the same override is needed in ness
+   - Determine if the same override is needed in creantly
 
 5. **Create the particle:**
    - Follow all patterns from this guide
@@ -1194,7 +1194,7 @@ When asked to create an equivalent of an origin component:
    - Ensure it renders correctly
    - Check accessibility
    - Verify it matches the origin component's functionality
-   - Ensure it follows ness patterns
+   - Ensure it follows creantly patterns
 
 ---
 
@@ -1346,7 +1346,7 @@ const items = [
 
 **Issue: Styling doesn't match**
 - Check if using semantic tokens
-- Verify size mapping (shadcn → ness)
+- Verify size mapping (shadcn → creantly)
 - Compare with similar particles
 
 **Issue: Accessibility warnings**
@@ -1356,7 +1356,7 @@ const items = [
 
 **Issue: Registry build fails**
 - Check category names match `registry-categories.ts` exactly
-- Verify `registryDependencies` use `@ness/*` format
+- Verify `registryDependencies` use `@creantly/*` format
 - Ensure `name` matches filename without `.tsx`
 
 ---

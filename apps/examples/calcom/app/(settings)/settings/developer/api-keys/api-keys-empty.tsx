@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Empty,
   EmptyContent,
@@ -8,7 +8,7 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@ness/ui/components/empty";
+} from "@creantly/ui/components/empty";
 import { KeyIcon, PlusIcon } from "lucide-react";
 
 interface ApiKeysEmptyProps {
@@ -24,7 +24,7 @@ export function ApiKeysEmpty({ onNewClick }: ApiKeysEmptyProps) {
         </EmptyMedia>
         <EmptyTitle>Create your first API key</EmptyTitle>
         <EmptyDescription>
-          API keys allow other apps to communicate with creantly.com
+          API keys allow other apps to communicate with hookra.com
         </EmptyDescription>
       </EmptyHeader>
       <EmptyContent>

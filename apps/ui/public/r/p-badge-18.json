@@ -3,7 +3,7 @@
   "name": "p-badge-18",
   "description": "Status badge - Failed",
   "registryDependencies": [
-    "@ness/badge"
+    "@creantly/badge"
   ],
   "files": [
     {

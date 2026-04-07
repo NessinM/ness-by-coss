@@ -3,8 +3,8 @@
   "name": "p-menu-2",
   "description": "Menu with hover",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/menu"
+    "@creantly/button",
+    "@creantly/menu"
   ],
   "files": [
     {

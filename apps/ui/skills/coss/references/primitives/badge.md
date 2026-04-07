@@ -1,4 +1,4 @@
-# ness Badge
+# creantly Badge
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/badge
+npx shadcn@latest add @creantly/badge
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Badge } from "@/components/ui/badge"
 <Badge>Badge</Badge>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

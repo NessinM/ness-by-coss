@@ -3,8 +3,8 @@
 import { OTPInput, OTPInputContext } from "input-otp";
 import type * as React from "react";
 import { useContext } from "react";
-import { cn } from "@ness/ui/lib/utils";
-import { Separator } from "@ness/ui/components/separator";
+import { cn } from "@creantly/ui/lib/utils";
+import { Separator } from "@creantly/ui/components/separator";
 
 type InputOTPSize = "default" | "lg";
 type DistributiveOmit<T, K extends PropertyKey> = T extends unknown

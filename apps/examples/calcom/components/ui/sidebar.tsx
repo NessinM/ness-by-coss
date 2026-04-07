@@ -1,19 +1,19 @@
 "use client";
 
-import { mergeProps } from "@ness/ui/base-ui/merge-props";
-import { useRender } from "@ness/ui/base-ui/use-render";
-import { ScrollArea } from "@ness/ui/components/scroll-area";
-import { Separator } from "@ness/ui/components/separator";
-import { Skeleton } from "@ness/ui/components/skeleton";
+import { mergeProps } from "@creantly/ui/base-ui/merge-props";
+import { useRender } from "@creantly/ui/base-ui/use-render";
+import { ScrollArea } from "@creantly/ui/components/scroll-area";
+import { Separator } from "@creantly/ui/components/separator";
+import { Skeleton } from "@creantly/ui/components/skeleton";
 import {
   Tooltip,
   TooltipCreateHandle,
   TooltipPopup,
   TooltipProvider,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
-import { useMediaQuery } from "@ness/ui/hooks/use-media-query";
-import { cn } from "@ness/ui/lib/utils";
+} from "@creantly/ui/components/tooltip";
+import { useMediaQuery } from "@creantly/ui/hooks/use-media-query";
+import { cn } from "@creantly/ui/lib/utils";
 import * as React from "react";
 
 type SidebarTooltipHandle = ReturnType<

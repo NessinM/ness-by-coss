@@ -6,9 +6,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/button",
-    "@ness/collapsible",
-    "@ness/frame"
+    "@creantly/button",
+    "@creantly/collapsible",
+    "@creantly/frame"
   ],
   "files": [
     {

@@ -1,4 +1,4 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Card,
   CardFrame,
@@ -7,7 +7,7 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
+} from "@creantly/ui/components/card";
 import { BookingThemeSection } from "@/app/(settings)/settings/my-account/appearance/appearance-form";
 import { CustomBrandColorsSection } from "@/app/(settings)/settings/my-account/appearance/custom-brand-colors-section";
 import {
@@ -67,8 +67,8 @@ export default function TeamAppearancePage() {
         </CardFrame>
 
         <SettingsToggle
-          description="Removes any creantly.com related brandings, i.e. 'Powered by creantly.com.'"
-          title="Disable creantly.com branding"
+          description="Removes any hookra.com related brandings, i.e. 'Powered by hookra.com.'"
+          title="Disable hookra.com branding"
         />
 
         <SettingsToggle

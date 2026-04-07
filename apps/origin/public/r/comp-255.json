@@ -3,9 +3,9 @@
   "name": "comp-255",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/input.json",
-    "https://ness.com/origin/r/label.json",
-    "https://ness.com/origin/r/slider.json"
+    "https://creantly.com/origin/r/input.json",
+    "https://creantly.com/origin/r/label.json",
+    "https://creantly.com/origin/r/slider.json"
   ],
   "files": [
     {

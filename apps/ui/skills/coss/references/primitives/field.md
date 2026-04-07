@@ -1,4 +1,4 @@
-# ness Field
+# creantly Field
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/field
+npx shadcn@latest add @creantly/field
 ```
 
 Manual deps from docs:
@@ -46,7 +46,7 @@ import { Input } from "@/components/ui/input"
 </Field>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

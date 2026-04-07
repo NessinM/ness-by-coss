@@ -3,8 +3,8 @@
   "name": "p-alert-dialog-1",
   "description": "Alert dialog",
   "registryDependencies": [
-    "@ness/alert-dialog",
-    "@ness/button"
+    "@creantly/alert-dialog",
+    "@creantly/button"
   ],
   "files": [
     {

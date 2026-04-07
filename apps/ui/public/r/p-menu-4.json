@@ -3,8 +3,8 @@
   "name": "p-menu-4",
   "description": "Menu with radio group",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/menu"
+    "@creantly/button",
+    "@creantly/menu"
   ],
   "files": [
     {

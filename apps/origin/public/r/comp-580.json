@@ -3,10 +3,10 @@
   "name": "comp-580",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/button.json",
-    "https://ness.com/origin/r/navigation-menu.json",
-    "https://ness.com/origin/r/popover.json",
-    "https://ness.com/origin/r/input.json"
+    "https://creantly.com/origin/r/button.json",
+    "https://creantly.com/origin/r/navigation-menu.json",
+    "https://creantly.com/origin/r/popover.json",
+    "https://creantly.com/origin/r/input.json"
   ],
   "files": [
     {

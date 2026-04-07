@@ -3,9 +3,9 @@
   "name": "p-checkbox-group-4",
   "description": "Nested checkbox group with parent",
   "registryDependencies": [
-    "@ness/checkbox",
-    "@ness/checkbox-group",
-    "@ness/label"
+    "@creantly/checkbox",
+    "@creantly/checkbox-group",
+    "@creantly/label"
   ],
   "files": [
     {

@@ -3,8 +3,8 @@
   "name": "p-slider-2",
   "description": "Slider with label and value",
   "registryDependencies": [
-    "@ness/field",
-    "@ness/slider"
+    "@creantly/field",
+    "@creantly/slider"
   ],
   "files": [
     {

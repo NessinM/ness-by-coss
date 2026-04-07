@@ -5,8 +5,8 @@
     "@base-ui/react"
   ],
   "registryDependencies": [
-    "@ness/separator",
-    "@ness/toggle"
+    "@creantly/separator",
+    "@creantly/toggle"
   ],
   "files": [
     {

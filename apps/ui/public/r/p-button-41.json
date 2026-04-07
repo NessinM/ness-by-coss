@@ -3,7 +3,7 @@
   "name": "p-button-41",
   "description": "Button using the built-in loading prop",
   "registryDependencies": [
-    "@ness/button"
+    "@creantly/button"
   ],
   "files": [
     {

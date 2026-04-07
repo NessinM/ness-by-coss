@@ -1,17 +1,17 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
-import { anchoredToastManager } from "@ness/ui/components/toast";
+import { Button } from "@creantly/ui/components/button";
+import { anchoredToastManager } from "@creantly/ui/components/toast";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
-import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
+} from "@creantly/ui/components/tooltip";
+import { useCopyToClipboard } from "@creantly/ui/hooks/use-copy-to-clipboard";
 import { CopyIcon } from "lucide-react";
 import { useRef } from "react";
 
-const linkUrl = "https://creantly.com/org/cal-com";
+const linkUrl = "https://hookra.com/org/cal-com";
 const toastTimeout = 2000;
 
 export function CopyLink() {

@@ -1,6 +1,6 @@
-# ness Component Registry Index
+# creantly Component Registry Index
 
-Use this file to quickly identify the right ness primitive for a UI task. Each entry includes the component name, a one-line purpose, and the path to its reference guide (relative to the skill root `apps/ui/skills/ness/`).
+Use this file to quickly identify the right creantly primitive for a UI task. Each entry includes the component name, a one-line purpose, and the path to its reference guide (relative to the skill root `apps/ui/skills/creantly/`).
 
 ## Overlays & Popups
 - **Dialog** — Centered modal requiring user focus. `./references/primitives/dialog.md`

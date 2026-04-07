@@ -1,4 +1,4 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import Link from "next/link";
 
 export function SiteCta() {
@@ -9,7 +9,7 @@ export function SiteCta() {
           render={
             // biome-ignore lint(a11y/useAnchorContent): knwon
             <a
-              href="https://i.creantly.com/forms/0129f2a8-7b15-4850-b3fb-07944dfacb3c"
+              href="https://i.hookra.com/forms/0129f2a8-7b15-4850-b3fb-07944dfacb3c"
               rel="noreferrer"
               target="_blank"
             />
@@ -18,7 +18,7 @@ export function SiteCta() {
           Join the waitlist
         </Button>
         <Button
-          render={<Link href="https://creantly.com/jobs" />}
+          render={<Link href="https://hookra.com/jobs" />}
           variant="outline"
         >
           Join the company

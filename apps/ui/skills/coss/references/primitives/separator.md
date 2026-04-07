@@ -1,4 +1,4 @@
-# ness Separator
+# creantly Separator
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/separator
+npx shadcn@latest add @creantly/separator
 ```
 
 Manual deps from docs:
@@ -33,7 +33,7 @@ import { Separator } from "@/components/ui/separator"
 </div>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

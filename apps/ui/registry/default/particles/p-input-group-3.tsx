@@ -11,11 +11,11 @@ export default function Particle() {
       <InputGroupInput
         aria-label="Set your URL"
         className="*:[input]:ps-0!"
-        placeholder="ness"
+        placeholder="creantly"
         type="search"
       />
       <InputGroupAddon>
-        <InputGroupText>i.creantly.com/</InputGroupText>
+        <InputGroupText>i.hookra.com/</InputGroupText>
       </InputGroupAddon>
     </InputGroup>
   );

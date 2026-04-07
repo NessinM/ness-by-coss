@@ -3,7 +3,7 @@
   "name": "comp-104",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/button.json"
+    "https://creantly.com/origin/r/button.json"
   ],
   "files": [
     {

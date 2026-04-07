@@ -3,9 +3,9 @@
   "name": "p-field-14",
   "description": "Field with radio group",
   "registryDependencies": [
-    "@ness/field",
-    "@ness/fieldset",
-    "@ness/radio-group"
+    "@creantly/field",
+    "@creantly/fieldset",
+    "@creantly/radio-group"
   ],
   "files": [
     {

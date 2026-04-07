@@ -1,21 +1,21 @@
-import { CodeBlock } from "@ness/ui/shared/code-block";
+import { CodeBlock } from "@creantly/ui/shared/code-block";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "ness.com notifications",
+  title: "creantly.com notifications",
 };
 
 export default function Page() {
-  const initialization = `import { ness } from '@ness';
+  const initialization = `import { creantly } from '@creantly';
 
-ness.notifications.init({
-  apiKey: process.env.NESS_KEY,
+creantly.notifications.init({
+  apiKey: process.env.CREANTLY_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const subscribers = `// Create a subscriber
-await ness.notifications.subscribers.create({
+await creantly.notifications.subscribers.create({
   subscriberId: 'user_abc123',
   email: 'jane@example.com',
   phone: '+15551234567',
@@ -24,10 +24,10 @@ await ness.notifications.subscribers.create({
 });
 
 // Retrieve a subscriber
-await ness.notifications.subscribers.retrieve('user_abc123');`;
+await creantly.notifications.subscribers.retrieve('user_abc123');`;
 
   const workflows = `// Trigger a notification workflow
-await ness.notifications.workflows.trigger({
+await creantly.notifications.workflows.trigger({
   name: 'welcome_message',
   to: {
     subscriberId: 'user_abc123',
@@ -38,9 +38,9 @@ await ness.notifications.workflows.trigger({
 });`;
 
   const webhookVerification = `// Validate webhook signature
-const isValid = ness.notifications.utils.verifySignature({
+const isValid = creantly.notifications.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['x-ness-signature'],
+  signature: req.headers['x-creantly-signature'],
   secret: 'whsec_notifications_123',
 });`;
 

@@ -3,10 +3,10 @@
   "name": "p-group-12",
   "description": "Group with input group",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/group",
-    "@ness/input-group",
-    "@ness/tooltip"
+    "@creantly/button",
+    "@creantly/group",
+    "@creantly/input-group",
+    "@creantly/tooltip"
   ],
   "files": [
     {

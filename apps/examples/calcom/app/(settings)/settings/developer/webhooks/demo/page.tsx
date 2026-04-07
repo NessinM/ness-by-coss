@@ -45,7 +45,7 @@ const demoWebhooks: WebhookItem[] = [
     enabled: false,
     events: ["Meeting started", "Meeting ended"],
     id: "wh_3",
-    url: "https://hooks.myapp.com/creantly",
+    url: "https://hooks.myapp.com/hookra",
     userId: "user_2",
     userInitials: "JS",
     userName: "Jane Smith",

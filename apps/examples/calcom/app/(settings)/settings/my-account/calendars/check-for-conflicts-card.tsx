@@ -8,8 +8,8 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@ness/ui/components/alert-dialog";
-import { Button } from "@ness/ui/components/button";
+} from "@creantly/ui/components/alert-dialog";
+import { Button } from "@creantly/ui/components/button";
 import {
   Card,
   CardFrame,
@@ -18,15 +18,15 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
-import { Field, FieldLabel } from "@ness/ui/components/field";
+} from "@creantly/ui/components/card";
+import { Field, FieldLabel } from "@creantly/ui/components/field";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
-import { Switch } from "@ness/ui/components/switch";
+} from "@creantly/ui/components/menu";
+import { Switch } from "@creantly/ui/components/switch";
 import { EllipsisIcon, PlusIcon, Trash2Icon } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
@@ -40,7 +40,7 @@ import {
 } from "@/components/list-item";
 
 const GOOGLE_CALENDAR_ICON =
-  "https://app.creantly.com/app-store/googlecalendar/icon.svg";
+  "https://app.hookra.com/app-store/googlecalendar/icon.svg";
 
 const CONFLICT_INSTRUCTION =
   "Toggle the calendars you want to check for conflicts to prevent double bookings.";
@@ -48,10 +48,10 @@ const CONFLICT_INSTRUCTION =
 const calendarAccounts = [
   {
     calendars: [
-      { label: "example@creantly.com", value: "example" },
+      { label: "example@hookra.com", value: "example" },
       { label: "Team", value: "team" },
     ],
-    email: "example@creantly.com",
+    email: "example@hookra.com",
     showMenu: false,
   },
   {

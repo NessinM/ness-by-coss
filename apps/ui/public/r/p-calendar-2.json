@@ -3,7 +3,7 @@
   "name": "p-calendar-2",
   "description": "Calendar with custom cell size",
   "registryDependencies": [
-    "@ness/calendar"
+    "@creantly/calendar"
   ],
   "files": [
     {

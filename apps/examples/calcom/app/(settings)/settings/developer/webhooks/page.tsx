@@ -14,7 +14,7 @@ export default function WebhooksSettingsPage() {
         <AppHeaderContent title="Webhooks">
           <AppHeaderDescription>
             Receive meeting data in real-time when something happens in
-            creantly.com.
+            hookra.com.
           </AppHeaderDescription>
         </AppHeaderContent>
       </AppHeader>

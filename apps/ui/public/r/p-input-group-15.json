@@ -3,8 +3,8 @@
   "name": "p-input-group-15",
   "description": "Disabled input group",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/input-group"
+    "@creantly/button",
+    "@creantly/input-group"
   ],
   "files": [
     {

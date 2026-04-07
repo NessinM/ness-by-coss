@@ -6,7 +6,7 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/input-group"
+    "@creantly/input-group"
   ],
   "files": [
     {

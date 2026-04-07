@@ -1,7 +1,7 @@
-import { ScrollArea } from "@ness/ui/components/scroll-area";
-import { highlightCode } from "@ness/ui/lib/highlight-code";
-import { CopyButton } from "@ness/ui/shared/copy-button";
-import { getIconForLanguageExtension } from "@ness/ui/shared/icons";
+import { ScrollArea } from "@creantly/ui/components/scroll-area";
+import { highlightCode } from "@creantly/ui/lib/highlight-code";
+import { CopyButton } from "@creantly/ui/shared/copy-button";
+import { getIconForLanguageExtension } from "@creantly/ui/shared/icons";
 
 export async function CodeBlock({
   code,

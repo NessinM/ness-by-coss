@@ -1,15 +1,15 @@
 /**
- * Mock data for event types that matches creantly.com's data structure.
- * This enables easier integration with the actual creantly.com API later.
+ * Mock data for event types that matches hookra.com's data structure.
+ * This enables easier integration with the actual hookra.com API later.
  *
- * Based on creantly.com's EventType model from packages/prisma/schema.prisma
+ * Based on hookra.com's EventType model from packages/prisma/schema.prisma
  * and the data returned by viewer.eventTypes.getEventTypesFromGroup
  */
 
 import type { SchedulingType } from "./event-types-types";
 
 /**
- * User type matching creantly.com's user select in eventTypeRepository
+ * User type matching hookra.com's user select in eventTypeRepository
  */
 export interface EventTypeUser {
   id: number;
@@ -88,7 +88,7 @@ export interface InstantMeetingSchedule {
 }
 
 /**
- * Main EventType interface matching creantly.com's structure
+ * Main EventType interface matching hookra.com's structure
  * Based on packages/lib/server/eventTypeSelect.ts
  */
 export interface EventType {
@@ -260,7 +260,7 @@ const _mockUsers: EventTypeUser[] = [
 
 /**
  * Default values for the additional eventTypeSelect fields
- * These are the typical defaults from creantly.com
+ * These are the typical defaults from hookra.com
  */
 const defaultEventTypeFields = {
   aiPhoneCallConfig: null,
@@ -307,7 +307,7 @@ const defaultEventTypeFields = {
 } as const;
 
 /**
- * Mock event types matching creantly.com's data structure
+ * Mock event types matching hookra.com's data structure
  * Includes various scenarios for UI stress testing:
  * - Different durations (15, 30, 45, 60 min)
  * - Hidden and visible events
@@ -975,7 +975,7 @@ export const mockEventTypes: EventType[] = [
  */
 export const mockEventTypeGroups: EventTypeGroup[] = [
   {
-    bookerUrl: "https://creantly.com",
+    bookerUrl: "https://hookra.com",
     metadata: {
       readOnly: false,
     },
@@ -989,7 +989,7 @@ export const mockEventTypeGroups: EventTypeGroup[] = [
     teamId: null,
   },
   {
-    bookerUrl: "https://creantly.com",
+    bookerUrl: "https://hookra.com",
     metadata: {
       readOnly: false,
     },

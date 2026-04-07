@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Menu,
   MenuGroup,
@@ -9,13 +9,13 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@ness/ui/components/menu";
-import { Skeleton } from "@ness/ui/components/skeleton";
+} from "@creantly/ui/components/menu";
+import { Skeleton } from "@creantly/ui/components/skeleton";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
+} from "@creantly/ui/components/tooltip";
 import {
   CalendarClockIcon,
   EllipsisIcon,

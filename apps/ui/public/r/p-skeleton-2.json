@@ -3,7 +3,7 @@
   "name": "p-skeleton-2",
   "description": "Skeleton only",
   "registryDependencies": [
-    "@ness/skeleton"
+    "@creantly/skeleton"
   ],
   "files": [
     {

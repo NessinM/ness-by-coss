@@ -3,8 +3,8 @@
   "name": "p-checkbox-4",
   "description": "Card-style checkbox",
   "registryDependencies": [
-    "@ness/checkbox",
-    "@ness/label"
+    "@creantly/checkbox",
+    "@creantly/label"
   ],
   "files": [
     {

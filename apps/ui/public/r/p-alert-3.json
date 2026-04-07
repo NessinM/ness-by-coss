@@ -6,8 +6,8 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/alert",
-    "@ness/button"
+    "@creantly/alert",
+    "@creantly/button"
   ],
   "files": [
     {

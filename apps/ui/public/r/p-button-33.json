@@ -3,7 +3,7 @@
   "name": "p-button-33",
   "description": "Paired buttons (Cancel/Save)",
   "registryDependencies": [
-    "@ness/button"
+    "@creantly/button"
   ],
   "files": [
     {

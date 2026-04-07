@@ -1,19 +1,19 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
-import { Field, FieldDescription } from "@ness/ui/components/field";
-import { Group } from "@ness/ui/components/group";
+} from "@creantly/ui/components/card";
+import { Field, FieldDescription } from "@creantly/ui/components/field";
+import { Group } from "@creantly/ui/components/group";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
   InputGroupText,
-} from "@ness/ui/components/input-group";
+} from "@creantly/ui/components/input-group";
 import {
   AppHeader,
   AppHeaderContent,

@@ -3,7 +3,7 @@
   "name": "p-combobox-2",
   "description": "Disabled combobox",
   "registryDependencies": [
-    "@ness/combobox"
+    "@creantly/combobox"
   ],
   "files": [
     {

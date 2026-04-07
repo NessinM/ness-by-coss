@@ -3,7 +3,7 @@
   "name": "p-button-12",
   "description": "Disabled button",
   "registryDependencies": [
-    "@ness/button"
+    "@creantly/button"
   ],
   "files": [
     {

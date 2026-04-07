@@ -3,8 +3,8 @@
   "name": "p-menu-7",
   "description": "Nested menu",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/menu"
+    "@creantly/button",
+    "@creantly/menu"
   ],
   "files": [
     {

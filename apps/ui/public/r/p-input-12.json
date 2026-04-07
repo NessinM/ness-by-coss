@@ -3,8 +3,8 @@
   "name": "p-input-12",
   "description": "Input group with start loading spinner",
   "registryDependencies": [
-    "@ness/input-group",
-    "@ness/spinner"
+    "@creantly/input-group",
+    "@creantly/spinner"
   ],
   "files": [
     {

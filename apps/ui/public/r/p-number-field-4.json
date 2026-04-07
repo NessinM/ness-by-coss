@@ -3,7 +3,7 @@
   "name": "p-number-field-4",
   "description": "Disabled number field",
   "registryDependencies": [
-    "@ness/number-field"
+    "@creantly/number-field"
   ],
   "files": [
     {

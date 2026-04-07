@@ -3,8 +3,8 @@
   "name": "p-sheet-3",
   "description": "Sheet position",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/sheet"
+    "@creantly/button",
+    "@creantly/sheet"
   ],
   "files": [
     {

@@ -1,4 +1,4 @@
-# ness Drawer
+# creantly Drawer
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/drawer
+npx shadcn@latest add @creantly/drawer
 ```
 
 Manual deps from docs:
@@ -68,7 +68,7 @@ import {
 </Drawer>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Dialog,
   DialogClose,
@@ -11,21 +11,21 @@ import {
   DialogPopup,
   DialogTitle,
   DialogTrigger,
-} from "@ness/ui/components/dialog";
-import { Field, FieldLabel } from "@ness/ui/components/field";
-import { Form } from "@ness/ui/components/form";
-import { Input } from "@ness/ui/components/input";
+} from "@creantly/ui/components/dialog";
+import { Field, FieldLabel } from "@creantly/ui/components/field";
+import { Form } from "@creantly/ui/components/form";
+import { Input } from "@creantly/ui/components/input";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupText,
   InputGroupTextarea,
-} from "@ness/ui/components/input-group";
+} from "@creantly/ui/components/input-group";
 import {
   NumberField,
   NumberFieldInput,
-} from "@ness/ui/components/number-field";
-import { Toggle } from "@ness/ui/components/toggle";
+} from "@creantly/ui/components/number-field";
+import { Toggle } from "@creantly/ui/components/toggle";
 import { BoldIcon, ItalicIcon } from "lucide-react";
 
 export function AddEventTypeDialog({
@@ -56,7 +56,7 @@ export function AddEventTypeDialog({
             <Field>
               <FieldLabel>URL</FieldLabel>
               <Input
-                defaultValue="https://i.creantly.com/pasquale/"
+                defaultValue="https://i.hookra.com/pasquale/"
                 type="text"
               />
             </Field>

@@ -3,10 +3,10 @@
   "name": "p-select-11",
   "description": "Select in form",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/field",
-    "@ness/form",
-    "@ness/select"
+    "@creantly/button",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/select"
   ],
   "files": [
     {

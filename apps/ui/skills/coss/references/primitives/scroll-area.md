@@ -1,4 +1,4 @@
-# ness Scroll Area
+# creantly Scroll Area
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/scroll-area
+npx shadcn@latest add @creantly/scroll-area
 ```
 
 Manual deps from docs:
@@ -40,7 +40,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 </ScrollArea>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

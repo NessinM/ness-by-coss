@@ -3,8 +3,8 @@
   "name": "p-textarea-15",
   "description": "Textarea with button aligned left",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/textarea"
+    "@creantly/button",
+    "@creantly/textarea"
   ],
   "files": [
     {

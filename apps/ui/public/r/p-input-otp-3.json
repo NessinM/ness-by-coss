@@ -3,7 +3,7 @@
   "name": "p-input-otp-3",
   "description": "OTP input with separator",
   "registryDependencies": [
-    "@ness/input-otp"
+    "@creantly/input-otp"
   ],
   "files": [
     {

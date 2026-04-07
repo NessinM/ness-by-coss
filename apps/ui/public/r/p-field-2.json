@@ -3,8 +3,8 @@
   "name": "p-field-2",
   "description": "Field with required indicator",
   "registryDependencies": [
-    "@ness/field",
-    "@ness/input"
+    "@creantly/field",
+    "@creantly/input"
   ],
   "files": [
     {

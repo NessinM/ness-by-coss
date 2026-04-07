@@ -22,7 +22,7 @@ export default function Component() {
     {
       description:
         "Discover a powerful collection of components designed to enhance your development workflow.",
-      title: "Welcome to ness.com",
+      title: "Welcome to creantly.com",
     },
     {
       description:
@@ -36,7 +36,7 @@ export default function Component() {
     },
     {
       description:
-        "Access our extensive documentation and community resources to make the most of ness.com.",
+        "Access our extensive documentation and community resources to make the most of creantly.com.",
       title: "Get Support",
     },
   ];

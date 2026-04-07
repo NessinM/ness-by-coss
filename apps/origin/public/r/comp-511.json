@@ -3,10 +3,10 @@
   "name": "comp-511",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/button.json",
-    "https://ness.com/origin/r/calendar.json",
-    "https://ness.com/origin/r/label.json",
-    "https://ness.com/origin/r/popover.json"
+    "https://creantly.com/origin/r/button.json",
+    "https://creantly.com/origin/r/calendar.json",
+    "https://creantly.com/origin/r/label.json",
+    "https://creantly.com/origin/r/popover.json"
   ],
   "files": [
     {

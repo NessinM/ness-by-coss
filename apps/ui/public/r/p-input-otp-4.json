@@ -3,8 +3,8 @@
   "name": "p-input-otp-4",
   "description": "OTP input with label",
   "registryDependencies": [
-    "@ness/input-otp",
-    "@ness/label"
+    "@creantly/input-otp",
+    "@creantly/label"
   ],
   "files": [
     {

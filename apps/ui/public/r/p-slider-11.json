@@ -6,8 +6,8 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/field",
-    "@ness/slider"
+    "@creantly/field",
+    "@creantly/slider"
   ],
   "files": [
     {

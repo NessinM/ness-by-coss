@@ -3,7 +3,7 @@
   "name": "p-badge-13",
   "description": "Badge with count",
   "registryDependencies": [
-    "@ness/badge"
+    "@creantly/badge"
   ],
   "files": [
     {

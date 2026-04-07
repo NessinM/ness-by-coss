@@ -3,7 +3,7 @@
   "name": "p-autocomplete-10",
   "description": "Autocomplete with grouped items",
   "registryDependencies": [
-    "@ness/autocomplete"
+    "@creantly/autocomplete"
   ],
   "files": [
     {

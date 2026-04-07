@@ -6,9 +6,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/button",
-    "@ness/card",
-    "@ness/empty"
+    "@creantly/button",
+    "@creantly/card",
+    "@creantly/empty"
   ],
   "files": [
     {

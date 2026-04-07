@@ -1,4 +1,4 @@
-# ness Menu
+# creantly Menu
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/menu
+npx shadcn@latest add @creantly/menu
 ```
 
 Manual deps and theme var from docs:
@@ -23,7 +23,7 @@ Manual deps and theme var from docs:
 npm install @base-ui/react
 ```
 
-Also include the destructive foreground CSS variable snippet from the ness menu docs when doing manual setup.
+Also include the destructive foreground CSS variable snippet from the creantly menu docs when doing manual setup.
 
 ## Canonical imports
 
@@ -61,7 +61,7 @@ import {
 
 Use popup positioning props like `align` / `sideOffset` only when a layout needs explicit tuning.
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 - Use `MenuTrigger render={<Button ... />}` as the default trigger composition.
 - Use `openOnHover` on `MenuTrigger` only for explicit hover-driven UX.

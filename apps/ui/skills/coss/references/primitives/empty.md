@@ -1,4 +1,4 @@
-# ness Empty
+# creantly Empty
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/empty
+npx shadcn@latest add @creantly/empty
 ```
 
 Manual deps from docs:
@@ -47,7 +47,7 @@ import {
 </Empty>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

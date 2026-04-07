@@ -8,7 +8,7 @@ import { styles } from "@/registry/registry-styles";
 import { ui } from "@/registry/registry-ui";
 
 export const registry = {
-  homepage: "https://ness.com",
+  homepage: "https://creantly.com",
   items: [
     ...ui,
     ...(particles as Registry["items"]),
@@ -18,5 +18,5 @@ export const registry = {
     ...baseUi,
     ...hooks,
   ],
-  name: "ness ui",
+  name: "creantly ui",
 } satisfies Registry;

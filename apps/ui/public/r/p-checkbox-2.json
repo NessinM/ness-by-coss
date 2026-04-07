@@ -3,8 +3,8 @@
   "name": "p-checkbox-2",
   "description": "Disabled checkbox",
   "registryDependencies": [
-    "@ness/checkbox",
-    "@ness/label"
+    "@creantly/checkbox",
+    "@creantly/label"
   ],
   "files": [
     {

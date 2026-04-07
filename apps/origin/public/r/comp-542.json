@@ -10,18 +10,18 @@
     "@remixicon/react"
   ],
   "registryDependencies": [
-    "https://ness.com/origin/r/button.json",
-    "https://ness.com/origin/r/calendar.json",
-    "https://ness.com/origin/r/checkbox.json",
-    "https://ness.com/origin/r/dropdown-menu.json",
-    "https://ness.com/origin/r/dialog.json",
-    "https://ness.com/origin/r/input.json",
-    "https://ness.com/origin/r/textarea.json",
-    "https://ness.com/origin/r/label.json",
-    "https://ness.com/origin/r/popover.json",
-    "https://ness.com/origin/r/radio-group.json",
-    "https://ness.com/origin/r/select.json",
-    "https://ness.com/origin/r/sonner.json"
+    "https://creantly.com/origin/r/button.json",
+    "https://creantly.com/origin/r/calendar.json",
+    "https://creantly.com/origin/r/checkbox.json",
+    "https://creantly.com/origin/r/dropdown-menu.json",
+    "https://creantly.com/origin/r/dialog.json",
+    "https://creantly.com/origin/r/input.json",
+    "https://creantly.com/origin/r/textarea.json",
+    "https://creantly.com/origin/r/label.json",
+    "https://creantly.com/origin/r/popover.json",
+    "https://creantly.com/origin/r/radio-group.json",
+    "https://creantly.com/origin/r/select.json",
+    "https://creantly.com/origin/r/sonner.json"
   ],
   "files": [
     {

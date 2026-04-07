@@ -3,9 +3,9 @@
   "name": "p-input-7",
   "description": "Input with button using Group",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/group",
-    "@ness/input"
+    "@creantly/button",
+    "@creantly/group",
+    "@creantly/input"
   ],
   "files": [
     {

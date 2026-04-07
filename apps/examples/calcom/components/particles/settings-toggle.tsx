@@ -6,9 +6,9 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
-import { Skeleton } from "@ness/ui/components/skeleton";
-import { Switch } from "@ness/ui/components/switch";
+} from "@creantly/ui/components/card";
+import { Skeleton } from "@creantly/ui/components/skeleton";
+import { Switch } from "@creantly/ui/components/switch";
 import type * as React from "react";
 
 interface SettingsToggleProps {

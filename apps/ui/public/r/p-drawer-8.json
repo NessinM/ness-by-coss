@@ -3,10 +3,10 @@
   "name": "p-drawer-8",
   "description": "Nested right drawers with inset variant",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/drawer",
-    "@ness/field",
-    "@ness/input"
+    "@creantly/button",
+    "@creantly/drawer",
+    "@creantly/field",
+    "@creantly/input"
   ],
   "files": [
     {

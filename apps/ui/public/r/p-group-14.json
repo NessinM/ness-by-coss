@@ -3,10 +3,10 @@
   "name": "p-group-14",
   "description": "Group with select",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/group",
-    "@ness/number-field",
-    "@ness/select"
+    "@creantly/button",
+    "@creantly/group",
+    "@creantly/number-field",
+    "@creantly/select"
   ],
   "files": [
     {

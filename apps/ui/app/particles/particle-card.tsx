@@ -1,6 +1,6 @@
+import { Icons } from "@creantly/ui/shared/icons";
 import { InformationCircleIcon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
-import { Icons } from "@ness/ui/shared/icons";
 import { cache } from "react";
 import { Index } from "@/registry/__index__";
 import { Button } from "@/registry/default/ui/button";
@@ -44,7 +44,8 @@ export async function ParticleCard({
   className?: string;
   colSpan?: number;
 }) {
-  const nessuiUrl = process.env.NEXT_PUBLIC_APP_URL || "https://ness.com/ui";
+  const nessuiUrl =
+    process.env.NEXT_PUBLIC_APP_URL || "https://creantly.com/ui";
 
   const particle = await getCachedRegistryItem(name);
 
@@ -103,10 +104,10 @@ export async function ParticleCard({
                     </h2>
                     <figure data-rehype-pretty-code-figure>
                       <CodeBlockCommand
-                        __bun__={`bunx --bun shadcn@latest add @ness/${name}`}
-                        __npm__={`npx shadcn@latest add @ness/${name}`}
-                        __pnpm__={`pnpm dlx shadcn@latest add @ness/${name}`}
-                        __yarn__={`yarn dlx shadcn@latest add @ness/${name}`}
+                        __bun__={`bunx --bun shadcn@latest add @creantly/${name}`}
+                        __npm__={`npx shadcn@latest add @creantly/${name}`}
+                        __pnpm__={`pnpm dlx shadcn@latest add @creantly/${name}`}
+                        __yarn__={`yarn dlx shadcn@latest add @creantly/${name}`}
                       />
                     </figure>
                   </div>

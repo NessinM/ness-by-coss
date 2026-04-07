@@ -3,8 +3,8 @@
   "name": "p-checkbox-1",
   "description": "Basic checkbox",
   "registryDependencies": [
-    "@ness/checkbox",
-    "@ness/label"
+    "@creantly/checkbox",
+    "@creantly/label"
   ],
   "files": [
     {

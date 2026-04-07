@@ -3,14 +3,14 @@
   "name": "p-group-7",
   "description": "Group with start text",
   "registryDependencies": [
-    "@ness/group",
-    "@ness/input",
-    "@ness/label"
+    "@creantly/group",
+    "@creantly/input",
+    "@creantly/label"
   ],
   "files": [
     {
       "path": "registry/default/particles/p-group-7.tsx",
-      "content": "import { Group, GroupSeparator, GroupText } from \"@/registry/default/ui/group\";\nimport { Input } from \"@/registry/default/ui/input\";\nimport { Label } from \"@/registry/default/ui/label\";\n\nexport default function Particle() {\n  return (\n    <Group aria-label=\"Domain input\">\n      <GroupText render={<Label aria-label=\"Domain\" htmlFor=\"domain\" />}>\n        https://\n      </GroupText>\n      <GroupSeparator />\n      <Input\n        aria-label=\"Domain\"\n        defaultValue=\"ness.com\"\n        id=\"domain\"\n        type=\"text\"\n      />\n    </Group>\n  );\n}\n",
+      "content": "import { Group, GroupSeparator, GroupText } from \"@/registry/default/ui/group\";\nimport { Input } from \"@/registry/default/ui/input\";\nimport { Label } from \"@/registry/default/ui/label\";\n\nexport default function Particle() {\n  return (\n    <Group aria-label=\"Domain input\">\n      <GroupText render={<Label aria-label=\"Domain\" htmlFor=\"domain\" />}>\n        https://\n      </GroupText>\n      <GroupSeparator />\n      <Input\n        aria-label=\"Domain\"\n        defaultValue=\"creantly.com\"\n        id=\"domain\"\n        type=\"text\"\n      />\n    </Group>\n  );\n}\n",
       "type": "registry:block"
     }
   ],

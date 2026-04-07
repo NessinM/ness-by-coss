@@ -3,7 +3,7 @@
   "name": "p-select-23",
   "description": "Select with label",
   "registryDependencies": [
-    "@ness/select"
+    "@creantly/select"
   ],
   "files": [
     {

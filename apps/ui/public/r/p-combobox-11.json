@@ -3,10 +3,10 @@
   "name": "p-combobox-11",
   "description": "Combobox form",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/combobox",
-    "@ness/field",
-    "@ness/form"
+    "@creantly/button",
+    "@creantly/combobox",
+    "@creantly/field",
+    "@creantly/form"
   ],
   "files": [
     {

@@ -3,11 +3,11 @@
   "name": "p-dialog-6",
   "description": "Dialog with bare footer",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/dialog",
-    "@ness/field",
-    "@ness/form",
-    "@ness/input"
+    "@creantly/button",
+    "@creantly/dialog",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input"
   ],
   "files": [
     {

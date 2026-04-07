@@ -6,11 +6,11 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/button",
-    "@ness/fieldset",
-    "@ness/label",
-    "@ness/number-field",
-    "@ness/slider"
+    "@creantly/button",
+    "@creantly/fieldset",
+    "@creantly/label",
+    "@creantly/number-field",
+    "@creantly/slider"
   ],
   "files": [
     {

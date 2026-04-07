@@ -3,8 +3,8 @@
   "name": "p-input-14",
   "description": "Input with optional label",
   "registryDependencies": [
-    "@ness/input",
-    "@ness/label"
+    "@creantly/input",
+    "@creantly/label"
   ],
   "files": [
     {

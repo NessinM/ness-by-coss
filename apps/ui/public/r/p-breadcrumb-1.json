@@ -3,9 +3,9 @@
   "name": "p-breadcrumb-1",
   "description": "Breadcrumb with menu example",
   "registryDependencies": [
-    "@ness/breadcrumb",
-    "@ness/button",
-    "@ness/menu"
+    "@creantly/breadcrumb",
+    "@creantly/button",
+    "@creantly/menu"
   ],
   "files": [
     {

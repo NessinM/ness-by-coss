@@ -22,7 +22,7 @@ export default function Component() {
           <div className="flex grow flex-col justify-between gap-3 md:flex-row md:items-center">
             <div className="space-y-0.5">
               <p className="font-medium text-sm">
-                Boost your experience with ness.com
+                Boost your experience with creantly.com
               </p>
               <p className="text-muted-foreground text-sm">
                 The new feature is live! Try it out and let us know what you

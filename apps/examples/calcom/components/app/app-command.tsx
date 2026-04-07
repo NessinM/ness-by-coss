@@ -1,7 +1,7 @@
 "use client";
 
-import { useAutocompleteFilter } from "@ness/ui/components/autocomplete";
-import { Button } from "@ness/ui/components/button";
+import { useAutocompleteFilter } from "@creantly/ui/components/autocomplete";
+import { Button } from "@creantly/ui/components/button";
 import {
   Command,
   CommandCollection,
@@ -18,13 +18,13 @@ import {
   CommandPanel,
   CommandSeparator,
   CommandShortcut,
-} from "@ness/ui/components/command";
-import { EmptyMedia } from "@ness/ui/components/empty";
-import { Input } from "@ness/ui/components/input";
-import { Kbd, KbdGroup } from "@ness/ui/components/kbd";
-import { ScrollArea } from "@ness/ui/components/scroll-area";
-import { Skeleton } from "@ness/ui/components/skeleton";
-import { Spinner } from "@ness/ui/components/spinner";
+} from "@creantly/ui/components/command";
+import { EmptyMedia } from "@creantly/ui/components/empty";
+import { Input } from "@creantly/ui/components/input";
+import { Kbd, KbdGroup } from "@creantly/ui/components/kbd";
+import { ScrollArea } from "@creantly/ui/components/scroll-area";
+import { Skeleton } from "@creantly/ui/components/skeleton";
+import { Spinner } from "@creantly/ui/components/spinner";
 import {
   ArrowDownIcon,
   ArrowLeftIcon,

@@ -3,7 +3,7 @@
   "name": "p-spinner-1",
   "description": "Basic spinner",
   "registryDependencies": [
-    "@ness/spinner"
+    "@creantly/spinner"
   ],
   "files": [
     {

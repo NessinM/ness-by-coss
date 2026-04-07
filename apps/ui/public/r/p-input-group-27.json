@@ -6,10 +6,10 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/button",
-    "@ness/input-group",
-    "@ness/select",
-    "@ness/tooltip"
+    "@creantly/button",
+    "@creantly/input-group",
+    "@creantly/select",
+    "@creantly/tooltip"
   ],
   "files": [
     {

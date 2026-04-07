@@ -1,8 +1,8 @@
-import { siteConfig } from "@ness/ui/lib/config";
-import { GitHubLink } from "@ness/ui/shared/github-link";
-import { ModeSwitcher } from "@ness/ui/shared/mode-switcher";
-import { ProductLabel } from "@ness/ui/shared/product-label";
-import { ProductsDropdown } from "@ness/ui/shared/products-dropdown";
+import { siteConfig } from "@creantly/ui/lib/config";
+import { GitHubLink } from "@creantly/ui/shared/github-link";
+import { ModeSwitcher } from "@creantly/ui/shared/mode-switcher";
+import { ProductLabel } from "@creantly/ui/shared/product-label";
+import { ProductsDropdown } from "@creantly/ui/shared/products-dropdown";
 import Link from "next/link";
 
 export function SiteHeader({
@@ -14,7 +14,7 @@ export function SiteHeader({
   children?: React.ReactNode;
   currentProduct?: string;
 }) {
-  const gatewayOrigin = process.env.NEXT_PUBLIC_NESS_URL || "";
+  const gatewayOrigin = process.env.NEXT_PUBLIC_CREANTLYURL || "";
   const gatewayHome = gatewayOrigin ? `${gatewayOrigin}/` : "/";
   const isExternal = !!gatewayOrigin;
 
@@ -25,11 +25,11 @@ export function SiteHeader({
         <div className="-mt-0.5 flex shrink-0 items-center gap-1.5 font-heading text-2xl sm:text-[1.625em]">
           {isExternal ? (
             <a aria-label="Home" href={gatewayHome}>
-              ness.com
+              creantly.com
             </a>
           ) : (
             <Link aria-label="Home" href={gatewayHome}>
-              ness.com
+              creantly.com
             </Link>
           )}
           <ProductLabel

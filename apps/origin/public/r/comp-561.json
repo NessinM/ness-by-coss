@@ -3,8 +3,8 @@
   "name": "comp-561",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/cropper.json",
-    "https://ness.com/origin/r/select.json"
+    "https://creantly.com/origin/r/cropper.json",
+    "https://creantly.com/origin/r/select.json"
   ],
   "files": [
     {

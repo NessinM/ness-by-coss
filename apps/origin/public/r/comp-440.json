@@ -3,9 +3,9 @@
   "name": "comp-440",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/badge.json",
-    "https://ness.com/origin/r/tabs.json",
-    "https://ness.com/origin/r/tooltip.json"
+    "https://creantly.com/origin/r/badge.json",
+    "https://creantly.com/origin/r/tabs.json",
+    "https://creantly.com/origin/r/tooltip.json"
   ],
   "files": [
     {

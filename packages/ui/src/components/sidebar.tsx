@@ -5,25 +5,25 @@ import { useRender } from "@base-ui/react/use-render";
 import { cva, type VariantProps } from "class-variance-authority";
 import { PanelLeftIcon } from "lucide-react";
 import * as React from "react";
-import { useMediaQuery } from "@ness/ui/hooks/use-media-query";
-import { cn } from "@ness/ui/lib/utils";
-import { Button } from "@ness/ui/components/button";
-import { Input } from "@ness/ui/components/input";
-import { ScrollArea } from "@ness/ui/components/scroll-area";
-import { Separator } from "@ness/ui/components/separator";
+import { useMediaQuery } from "@creantly/ui/hooks/use-media-query";
+import { cn } from "@creantly/ui/lib/utils";
+import { Button } from "@creantly/ui/components/button";
+import { Input } from "@creantly/ui/components/input";
+import { ScrollArea } from "@creantly/ui/components/scroll-area";
+import { Separator } from "@creantly/ui/components/separator";
 import {
   Sheet,
   SheetDescription,
   SheetHeader,
   SheetPopup,
   SheetTitle,
-} from "@ness/ui/components/sheet";
-import { Skeleton } from "@ness/ui/components/skeleton";
+} from "@creantly/ui/components/sheet";
+import { Skeleton } from "@creantly/ui/components/skeleton";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
+} from "@creantly/ui/components/tooltip";
 
 const SIDEBAR_COOKIE_NAME: string = "sidebar_state";
 const SIDEBAR_COOKIE_MAX_AGE: number = 60 * 60 * 24 * 7;

@@ -16,7 +16,7 @@ import {
 import { Input } from "@/registry/default/ui/input";
 import { Label } from "@/registry/default/ui/label";
 
-const PROJECT_NAME = "ness-ui";
+const PROJECT_NAME = "creantly-ui";
 
 export default function Component() {
   const id = useId();
@@ -41,7 +41,7 @@ export default function Component() {
             </DialogTitle>
             <DialogDescription className="sm:text-center">
               This action cannot be undone. To confirm, please enter the project
-              name <span className="text-foreground">ness-ui</span>.
+              name <span className="text-foreground">creantly-ui</span>.
             </DialogDescription>
           </DialogHeader>
         </div>
@@ -52,7 +52,7 @@ export default function Component() {
             <Input
               id={id}
               onChange={(e) => setInputValue(e.target.value)}
-              placeholder="Type ness-ui to confirm"
+              placeholder="Type creantly-ui to confirm"
               type="text"
               value={inputValue}
             />

@@ -1,4 +1,4 @@
-# ness Accordion
+# creantly Accordion
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/accordion
+npx shadcn@latest add @creantly/accordion
 ```
 
 Manual deps from docs:
@@ -41,7 +41,7 @@ import {
 </Accordion>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 
@@ -80,7 +80,7 @@ See `p-accordion-1` through `p-accordion-4` for mapped items, single-open, multi
 
 - Placing `AccordionTrigger`/`AccordionPanel` outside `AccordionItem`.
 - Omitting `value` on `AccordionItem`, which breaks item identity and controlled behavior.
-- Applying Radix mental models like `type="single" | "multiple"` instead of ness `multiple` + array values.
+- Applying Radix mental models like `type="single" | "multiple"` instead of creantly `multiple` + array values.
 - Treating controlled `value` as scalar instead of `string[]`.
 
 ## Useful particle references

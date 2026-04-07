@@ -1,22 +1,22 @@
-![ness.com](./apps/www/app/twitter-image.png)
+![creantly.com](./apps/www/app/twitter-image.png)
 
-<h3 align="center">ness.com (formerly Origin UI)</h3>
+<h3 align="center">creantly.com (formerly Origin UI)</h3>
 <p align="center">The <strong>everything but AI</strong> company.</p>
 
 ## About the Project
 
-ness.com is the new holding company of [creantly.com](https://creantly.com), the pioneers of open source scheduling infrastructure. Our mission is to build a home for amazing open source projects, giving them the support they need to grow and succeed.
+creantly.com is the new holding company of [hookra.com](https://hookra.com), the pioneers of open source scheduling infrastructure. Our mission is to build a home for amazing open source projects, giving them the support they need to grow and succeed.
 
-We're building the ness stack, a one line `npm install @ness` package that includes everything you need to build your application, from email, SMS, calendar APIs, scheduling, video conferencing, notifications and more.
+We're building the creantly stack, a one line `npm install @creantly` package that includes everything you need to build your application, from email, SMS, calendar APIs, scheduling, video conferencing, notifications and more.
 
 ## Repository Overview
 
-This repository contains multiple products and applications that make up the ness.com ecosystem:
+This repository contains multiple products and applications that make up the creantly.com ecosystem:
 
 ### Apps and Packages
 
-- **`apps/www/`** - Main ness.com website
-- **`apps/ui/`** - ness ui component library and documentation
+- **`apps/www/`** - Main creantly.com website
+- **`apps/ui/`** - creantly ui component library and documentation
 - **`apps/origin/`** - Legacy Origin UI components (pre-acquisition)
 - **`packages/ui/`** - Shared UI components package
 - **`packages/typescript-config/`** - TypeScript configurations
@@ -39,7 +39,7 @@ For local development, create a `.env.local` file in each of the app directories
     ```sh
     # apps/www/.env.local
     NEXT_PUBLIC_APP_URL=http://localhost:3000
-    NEXT_PUBLIC_NESS_UI_URL=http://localhost:4000/ui
+    NEXT_PUBLIC_CREANTLYUI_URL=http://localhost:4000/ui
     ```
 
 2.  **`ui` app**
@@ -49,7 +49,7 @@ For local development, create a `.env.local` file in each of the app directories
     ```sh
     # apps/ui/.env.local
     NEXT_PUBLIC_APP_URL=http://localhost:4000/ui
-    NEXT_PUBLIC_NESS_URL=http://localhost:3000
+    NEXT_PUBLIC_CREANTLYURL=http://localhost:3000
     NEXT_PUBLIC_ORIGIN_URL=http://localhost:4001
     ```
 
@@ -60,8 +60,8 @@ For local development, create a `.env.local` file in each of the app directories
     ```sh
     # apps/origin/.env.local
     NEXT_PUBLIC_APP_URL=http://localhost:4001/origin
-    NEXT_PUBLIC_NESS_URL=http://localhost:3000
-    NEXT_PUBLIC_NESS_UI_URL=http://localhost:4000/ui
+    NEXT_PUBLIC_CREANTLYURL=http://localhost:3000
+    NEXT_PUBLIC_CREANTLYUI_URL=http://localhost:4000/ui
     ```
 
 > [!NOTE]
@@ -106,19 +106,19 @@ bun run dev --filter=ui
 bun run dev --filter=origin
 ```
 
-## ness ui
+## creantly ui
 
-**ness ui** is a collection of beautifully designed, accessible, and composable components for your React apps. Built on top of [Base UI](https://base-ui.com/) and styled with [Tailwind CSS](https://tailwindcss.com/), it's designed for you to copy, paste, and own.
+**creantly ui** is a collection of beautifully designed, accessible, and composable components for your React apps. Built on top of [Base UI](https://base-ui.com/) and styled with [Tailwind CSS](https://tailwindcss.com/), it's designed for you to copy, paste, and own.
 
 We think Base UI is the best foundation for modern web applications. We've taken its powerful, unstyled primitives and given them a design system that's ready to go, right out of the box.
 
-This is the component library we'll be progressively adopting for [creantly.com](https://creantly.com). We're building it in the open for anyone who wants to create beautiful, reliable user interfaces.
+This is the component library we'll be progressively adopting for [hookra.com](https://hookra.com). We're building it in the open for anyone who wants to create beautiful, reliable user interfaces.
 
 ### Origin UI Acquisition
 
-This repository also includes the **Origin UI** components as a legacy snapshot. Origin UI was a pre-acquisition collection of Radix-based, shadcn-style components that remains available for use, but with limited support and maintenance. Active development now focuses on the new [Particles](https://ness.com/ui/particles) components built on the ness ui primitives.
+This repository also includes the **Origin UI** components as a legacy snapshot. Origin UI was a pre-acquisition collection of Radix-based, shadcn-style components that remains available for use, but with limited support and maintenance. Active development now focuses on the new [Particles](https://creantly.com/ui/particles) components built on the creantly ui primitives.
 
-### Contributing to ness ui
+### Contributing to creantly ui
 
 We're always looking for contributors to help improve our UI components. Whether it's a bug report, a new feature, or a documentation update, we appreciate your help.
 

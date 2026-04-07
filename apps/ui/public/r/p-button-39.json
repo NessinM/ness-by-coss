@@ -3,7 +3,7 @@
   "name": "p-button-39",
   "description": "Hamburger menu button with animated icon",
   "registryDependencies": [
-    "@ness/button"
+    "@creantly/button"
   ],
   "files": [
     {

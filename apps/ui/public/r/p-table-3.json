@@ -6,10 +6,10 @@
     "@tanstack/react-table"
   ],
   "registryDependencies": [
-    "@ness/badge",
-    "@ness/checkbox",
-    "@ness/frame",
-    "@ness/table"
+    "@creantly/badge",
+    "@creantly/checkbox",
+    "@creantly/frame",
+    "@creantly/table"
   ],
   "files": [
     {

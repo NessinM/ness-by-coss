@@ -23,7 +23,7 @@ import {
   PopoverTrigger,
 } from "@/registry/default/ui/popover";
 
-const _teams = ["Acme Inc.", "ness.com", "Junon"];
+const _teams = ["Acme Inc.", "creantly.com", "Junon"];
 
 // Navigation links array to be used in both desktop and mobile menus
 const navigationLinks = [

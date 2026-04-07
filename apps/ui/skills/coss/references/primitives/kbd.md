@@ -1,4 +1,4 @@
-# ness Kbd
+# creantly Kbd
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/kbd
+npx shadcn@latest add @creantly/kbd
 ```
 
 Manual deps from docs:
@@ -29,7 +29,7 @@ import { Kbd, KbdGroup } from "@/components/ui/kbd"
 <Kbd>K</Kbd>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

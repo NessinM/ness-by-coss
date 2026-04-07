@@ -34,7 +34,7 @@ export default function Particle() {
   });
 
   function handleCopy() {
-    const url = "https://ness.com";
+    const url = "https://creantly.com";
     copyToClipboard(url);
   }
 

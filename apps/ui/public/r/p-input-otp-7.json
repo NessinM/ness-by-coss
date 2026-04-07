@@ -3,8 +3,8 @@
   "name": "p-input-otp-7",
   "description": "OTP input with auto validation",
   "registryDependencies": [
-    "@ness/input-otp",
-    "@ness/label"
+    "@creantly/input-otp",
+    "@creantly/label"
   ],
   "files": [
     {

@@ -3,7 +3,7 @@
   "name": "comp-340",
   "type": "registry:component",
   "registryDependencies": [
-    "https://ness.com/origin/r/accordion.json"
+    "https://creantly.com/origin/r/accordion.json"
   ],
   "files": [
     {

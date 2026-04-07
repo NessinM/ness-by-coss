@@ -3,8 +3,8 @@
   "name": "p-autocomplete-12",
   "description": "Autocomplete with async items loading",
   "registryDependencies": [
-    "@ness/autocomplete",
-    "@ness/spinner"
+    "@creantly/autocomplete",
+    "@creantly/spinner"
   ],
   "files": [
     {

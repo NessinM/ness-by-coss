@@ -3,10 +3,10 @@
   "name": "p-form-1",
   "description": "Input in a form",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/field",
-    "@ness/form",
-    "@ness/input"
+    "@creantly/button",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input"
   ],
   "files": [
     {

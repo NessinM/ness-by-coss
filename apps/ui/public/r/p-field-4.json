@@ -3,8 +3,8 @@
   "name": "p-field-4",
   "description": "Field showing validation error",
   "registryDependencies": [
-    "@ness/field",
-    "@ness/input"
+    "@creantly/field",
+    "@creantly/input"
   ],
   "files": [
     {

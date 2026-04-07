@@ -1,4 +1,4 @@
-# Forms and Inputs Rules (ness)
+# Forms and Inputs Rules (creantly)
 
 Use this when implementing fields, input groups, validation states, and form examples.
 
@@ -22,7 +22,7 @@ Use this when implementing fields, input groups, validation states, and form exa
 
 ## Textarea Rule
 
-- ness `Textarea` already uses Base UI field control semantics internally; in normal form flows, use `Textarea` directly inside `Field` and avoid manual `FieldControl` render wiring unless a custom control implementation is truly needed.
+- creantly `Textarea` already uses Base UI field control semantics internally; in normal form flows, use `Textarea` directly inside `Field` and avoid manual `FieldControl` render wiring unless a custom control implementation is truly needed.
 
 ## Do / Don't
 

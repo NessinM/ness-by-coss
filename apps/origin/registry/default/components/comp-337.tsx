@@ -9,9 +9,9 @@ import {
 const items = [
   {
     content:
-      "ness ui focuses on developer experience and performance. Built with TypeScript, it offers excellent type safety, follows accessibility standards, and provides comprehensive documentation with regular updates.",
+      "creantly ui focuses on developer experience and performance. Built with TypeScript, it offers excellent type safety, follows accessibility standards, and provides comprehensive documentation with regular updates.",
     id: "1",
-    title: "What makes ness ui different?",
+    title: "What makes creantly ui different?",
   },
   {
     content:
@@ -23,7 +23,7 @@ const items = [
     content:
       "Yes, with tree-shaking, code splitting, and minimal runtime overhead. Most components are under 5KB gzipped.",
     id: "3",
-    title: "Is ness ui optimized for performance?",
+    title: "Is creantly ui optimized for performance?",
   },
   {
     content:

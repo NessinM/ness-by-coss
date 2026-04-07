@@ -3,7 +3,7 @@
   "name": "p-avatar-8",
   "description": "Avatar with muted status dot",
   "registryDependencies": [
-    "@ness/avatar"
+    "@creantly/avatar"
   ],
   "files": [
     {

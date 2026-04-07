@@ -11,7 +11,7 @@ export function SiteFooter() {
         <p>
           © {new Date().getFullYear()}{" "}
           <Link className="font-heading text-foreground text-lg" href="/">
-            ness.com
+            creantly.com
           </Link>{" "}
           – open source, open heart, open mind.
         </p>

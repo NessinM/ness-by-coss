@@ -3,7 +3,7 @@
   "name": "p-calendar-1",
   "description": "Basic calendar",
   "registryDependencies": [
-    "@ness/calendar"
+    "@creantly/calendar"
   ],
   "files": [
     {

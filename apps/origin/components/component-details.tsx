@@ -31,7 +31,7 @@ export default function ComponentDetails({
   component: RegistryItem;
 }) {
   const originUrl =
-    process.env.NEXT_PUBLIC_APP_URL || "https://ness.com/origin";
+    process.env.NEXT_PUBLIC_APP_URL || "https://creantly.com/origin";
   const [code, setCode] = useState<string | null>(null);
   const [highlightedCode, setHighlightedCode] = useState<JSX.Element | null>(
     null,
@@ -115,7 +115,7 @@ export default function ComponentDetails({
                     No code available. If you think this is an error, please{" "}
                     <a
                       className="font-medium text-foreground underline underline-offset-4 hover:no-underline"
-                      href="https://github.com/nesscom/ness/issues"
+                      href="https://github.com/NessinM/creantly/issues"
                       rel="noopener noreferrer"
                       target="_blank"
                     >

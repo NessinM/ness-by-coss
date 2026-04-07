@@ -6,10 +6,10 @@
     "date-fns"
   ],
   "registryDependencies": [
-    "@ness/calendar",
-    "@ness/scroll-area",
-    "@ness/toggle",
-    "@ness/toggle-group"
+    "@creantly/calendar",
+    "@creantly/scroll-area",
+    "@creantly/toggle",
+    "@creantly/toggle-group"
   ],
   "files": [
     {

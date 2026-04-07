@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Empty,
   EmptyContent,
@@ -8,13 +8,13 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@ness/ui/components/empty";
+} from "@creantly/ui/components/empty";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
+} from "@creantly/ui/components/menu";
 import { EllipsisIcon, WebhookIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import type { CreateForOption } from "./new-webhook-button";
@@ -43,7 +43,7 @@ export function WebhooksEmpty({
           <EmptyTitle>Create your first webhook</EmptyTitle>
           <EmptyDescription>
             With webhooks you can receive meeting data in real-time when
-            something happens in creantly.com.
+            something happens in hookra.com.
           </EmptyDescription>
         </EmptyHeader>
         <EmptyContent>

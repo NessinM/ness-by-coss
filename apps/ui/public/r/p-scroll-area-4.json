@@ -3,7 +3,7 @@
   "name": "p-scroll-area-4",
   "description": "Scroll area with fading edges",
   "registryDependencies": [
-    "@ness/scroll-area"
+    "@creantly/scroll-area"
   ],
   "files": [
     {

@@ -3,7 +3,7 @@
   "name": "p-select-10",
   "description": "Select with object values",
   "registryDependencies": [
-    "@ness/select"
+    "@creantly/select"
   ],
   "files": [
     {

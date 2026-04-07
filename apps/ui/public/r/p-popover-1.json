@@ -3,11 +3,11 @@
   "name": "p-popover-1",
   "description": "Popover with a form",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/field",
-    "@ness/form",
-    "@ness/popover",
-    "@ness/textarea"
+    "@creantly/button",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/popover",
+    "@creantly/textarea"
   ],
   "files": [
     {

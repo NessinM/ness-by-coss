@@ -8,7 +8,7 @@
           "options": {
             "groups": [
               [":PACKAGE_WITH_PROTOCOL:", ":PACKAGE:"],
-              ["@/registry/**", "@ness/**", "@creantly/**"],
+              ["@/registry/**", "@creantly/**", "@hookra/**"],
               ["@lib/**", "@components/**", "@server/**", "@trpc/**"],
               ":PATH:"
             ]
@@ -108,7 +108,7 @@
         "apps/ui/registry/default/hooks/**",
         "apps/ui/registry/default/lib/**",
         "apps/ui/registry/default/ui/**",
-        "apps/examples/creantly/components/**"
+        "apps/examples/hookra/components/**"
       ],
       "linter": {
         "rules": {

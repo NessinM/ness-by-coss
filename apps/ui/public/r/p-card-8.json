@@ -3,13 +3,13 @@
   "name": "p-card-8",
   "description": "Card within a frame and footer",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/card",
-    "@ness/field",
-    "@ness/form",
-    "@ness/frame",
-    "@ness/input",
-    "@ness/select"
+    "@creantly/button",
+    "@creantly/card",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/frame",
+    "@creantly/input",
+    "@creantly/select"
   ],
   "files": [
     {

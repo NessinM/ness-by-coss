@@ -1,18 +1,18 @@
 "use client";
 
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+import { Badge } from "@creantly/ui/components/badge";
+import { Button } from "@creantly/ui/components/button";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
+} from "@creantly/ui/components/menu";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
+} from "@creantly/ui/components/tooltip";
 import { EllipsisIcon, PencilIcon, Trash2Icon } from "lucide-react";
 import {
   ListItem,

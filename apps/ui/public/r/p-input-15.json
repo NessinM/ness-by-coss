@@ -3,7 +3,7 @@
   "name": "p-input-15",
   "description": "Input with custom border and background",
   "registryDependencies": [
-    "@ness/input"
+    "@creantly/input"
   ],
   "files": [
     {

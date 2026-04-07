@@ -1,4 +1,4 @@
-# ness Alert
+# creantly Alert
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @ness/alert
+npx shadcn@latest add @creantly/alert
 ```
 
 Manual deps from docs:
@@ -40,7 +40,7 @@ import { Alert, AlertAction, AlertDescription, AlertTitle } from "@/components/u
 </Alert>
 ```
 
-## Patterns from ness particles
+## Patterns from creantly particles
 
 ### Key patterns
 

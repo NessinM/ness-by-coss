@@ -8,9 +8,9 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@ness/ui/components/alert-dialog";
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+} from "@creantly/ui/components/alert-dialog";
+import { Badge } from "@creantly/ui/components/badge";
+import { Button } from "@creantly/ui/components/button";
 import {
   Empty,
   EmptyContent,
@@ -18,18 +18,18 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@ness/ui/components/empty";
+} from "@creantly/ui/components/empty";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
+} from "@creantly/ui/components/menu";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
+} from "@creantly/ui/components/tooltip";
 import { EllipsisIcon, PencilIcon, Trash2Icon, VideoIcon } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
@@ -58,7 +58,7 @@ export const initialConferencingApps: ConferencingApp[] = [
       "Cal Video is the in-house web-based video conferencing platform powered by Daily.co, which is minimalistic and lightweight, but has most of the features you need.",
     id: "cal-video",
     isDefault: true,
-    logo: "https://app.creantly.com/app-store/dailyvideo/icon.svg",
+    logo: "https://app.hookra.com/app-store/dailyvideo/icon.svg",
     name: "Cal Video",
   },
   {
@@ -66,7 +66,7 @@ export const initialConferencingApps: ConferencingApp[] = [
     description:
       "Google Meet is Google's web-based video conferencing platform, designed to compete with major conferencing platforms.",
     id: "google-meet",
-    logo: "https://app.creantly.com/app-store/googlevideo/logo.webp",
+    logo: "https://app.hookra.com/app-store/googlevideo/logo.webp",
     name: "Google Meet",
   },
 ];

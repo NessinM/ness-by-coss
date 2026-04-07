@@ -1,11 +1,11 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
   "aliases": {
-    "components": "@ness/ui/components",
-    "hooks": "@ness/ui/hooks",
-    "lib": "@ness/ui/lib",
-    "ui": "@ness/ui/components",
-    "utils": "@ness/ui/lib/utils"
+    "components": "@creantly/ui/components",
+    "hooks": "@creantly/ui/hooks",
+    "lib": "@creantly/ui/lib",
+    "ui": "@creantly/ui/components",
+    "utils": "@creantly/ui/lib/utils"
   },
   "iconLibrary": "lucide",
   "rsc": true,

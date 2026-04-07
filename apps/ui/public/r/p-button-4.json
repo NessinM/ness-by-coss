@@ -3,7 +3,7 @@
   "name": "p-button-4",
   "description": "Destructive button",
   "registryDependencies": [
-    "@ness/button"
+    "@creantly/button"
   ],
   "files": [
     {

@@ -3,17 +3,17 @@ import "./globals.css";
 import {
   AnchoredToastProvider,
   ToastProvider,
-} from "@ness/ui/components/toast";
-import { fontHeading, fontMono, fontSans } from "@ness/ui/fonts";
-import { ThemeProvider } from "@ness/ui/shared/theme-provider";
+} from "@creantly/ui/components/toast";
+import { fontHeading, fontMono, fontSans } from "@creantly/ui/fonts";
+import { ThemeProvider } from "@creantly/ui/shared/theme-provider";
 import type { Metadata } from "next";
 import { AppCommand } from "@/components/app/app-command";
 import { DebugProvider } from "@/components/debug-context";
 
 export const metadata: Metadata = {
-  description: "ness.com - the everything but AI company",
-  metadataBase: new URL("https://ness.com"),
-  title: "ness.com",
+  description: "creantly.com - the everything but AI company",
+  metadataBase: new URL("https://creantly.com"),
+  title: "creantly.com",
 };
 
 export default function RootLayout({

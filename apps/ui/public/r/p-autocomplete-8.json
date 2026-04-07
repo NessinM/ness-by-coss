@@ -3,7 +3,7 @@
   "name": "p-autocomplete-8",
   "description": "Autocomplete with clear button",
   "registryDependencies": [
-    "@ness/autocomplete"
+    "@creantly/autocomplete"
   ],
   "files": [
     {

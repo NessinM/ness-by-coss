@@ -3,8 +3,8 @@
   "name": "p-select-19",
   "description": "Select with avatars",
   "registryDependencies": [
-    "@ness/avatar",
-    "@ness/select"
+    "@creantly/avatar",
+    "@creantly/select"
   ],
   "files": [
     {

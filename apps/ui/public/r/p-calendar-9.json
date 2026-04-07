@@ -3,7 +3,7 @@
   "name": "p-calendar-9",
   "description": "Calendar with rounded day buttons",
   "registryDependencies": [
-    "@ness/calendar"
+    "@creantly/calendar"
   ],
   "files": [
     {

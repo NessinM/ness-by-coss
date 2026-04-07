@@ -3,7 +3,7 @@
   "name": "p-autocomplete-15",
   "description": "Pill-shaped autocomplete",
   "registryDependencies": [
-    "@ness/autocomplete"
+    "@creantly/autocomplete"
   ],
   "files": [
     {

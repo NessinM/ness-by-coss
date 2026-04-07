@@ -4,13 +4,13 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "app.creantly.com",
+        hostname: "app.hookra.com",
         pathname: "/**",
         protocol: "https",
       },
     ],
   },
-  transpilePackages: ["@ness/ui"],
+  transpilePackages: ["@creantly/ui"],
 };
 
 export default nextConfig;

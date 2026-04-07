@@ -6,9 +6,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/button",
-    "@ness/input-group",
-    "@ness/toggle"
+    "@creantly/button",
+    "@creantly/input-group",
+    "@creantly/toggle"
   ],
   "files": [
     {

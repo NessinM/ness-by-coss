@@ -3,7 +3,7 @@
   "name": "p-toggle-group-1",
   "description": "Basic toggle group",
   "registryDependencies": [
-    "@ness/toggle-group"
+    "@creantly/toggle-group"
   ],
   "files": [
     {

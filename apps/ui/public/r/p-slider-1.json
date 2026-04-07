@@ -3,7 +3,7 @@
   "name": "p-slider-1",
   "description": "Basic slider",
   "registryDependencies": [
-    "@ness/slider"
+    "@creantly/slider"
   ],
   "files": [
     {

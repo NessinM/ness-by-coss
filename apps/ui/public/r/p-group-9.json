@@ -3,8 +3,8 @@
   "name": "p-group-9",
   "description": "Vertical group",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/group"
+    "@creantly/button",
+    "@creantly/group"
   ],
   "files": [
     {

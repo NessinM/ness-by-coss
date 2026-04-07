@@ -2,7 +2,7 @@ import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@ness/ui/shared/page-header";
+} from "@creantly/ui/shared/page-header";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { isValidRegistryCategory } from "@/registry/registry-categories";
@@ -16,7 +16,7 @@ const description = `Discover ${particleCount} ready-to-use particles, the build
 
 export const metadata: Metadata = {
   description,
-  title: "Browse Particles - ness ui",
+  title: "Browse Particles - creantly ui",
 };
 
 async function ParticlesDisplayServer({

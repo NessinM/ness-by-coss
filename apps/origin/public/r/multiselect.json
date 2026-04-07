@@ -3,7 +3,7 @@
   "name": "multiselect",
   "type": "registry:ui",
   "registryDependencies": [
-    "https://ness.com/origin/r/command.json"
+    "https://creantly.com/origin/r/command.json"
   ],
   "files": [
     {

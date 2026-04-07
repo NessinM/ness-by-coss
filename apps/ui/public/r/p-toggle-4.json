@@ -3,7 +3,7 @@
   "name": "p-toggle-4",
   "description": "Small toggle",
   "registryDependencies": [
-    "@ness/toggle"
+    "@creantly/toggle"
   ],
   "files": [
     {

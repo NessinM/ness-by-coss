@@ -2,8 +2,8 @@ import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@ness/ui/shared/page-header";
-import { SiteFooter } from "@ness/ui/shared/site-footer";
+} from "@creantly/ui/shared/page-header";
+import { SiteFooter } from "@creantly/ui/shared/site-footer";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Badge } from "@/registry/default/ui/badge";
@@ -26,7 +26,8 @@ const particleCount = particles.length;
 
 export const metadata: Metadata = {
   description,
-  title: "A new, modern UI component library built on top of Base UI - ness ui",
+  title:
+    "A new, modern UI component library built on top of Base UI - creantly ui",
 };
 
 export default function Page() {

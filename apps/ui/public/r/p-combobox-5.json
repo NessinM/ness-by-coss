@@ -3,8 +3,8 @@
   "name": "p-combobox-5",
   "description": "Combobox with label",
   "registryDependencies": [
-    "@ness/combobox",
-    "@ness/label"
+    "@creantly/combobox",
+    "@creantly/label"
   ],
   "files": [
     {

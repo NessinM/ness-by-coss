@@ -2,15 +2,15 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sidebar",
   "registryDependencies": [
-    "@ness/button",
-    "@ness/input",
-    "@ness/scroll-area",
-    "@ness/separator",
-    "@ness/sheet",
-    "@ness/skeleton",
-    "@ness/tooltip",
-    "@ness/use-media-query",
-    "@ness/utils"
+    "@creantly/button",
+    "@creantly/input",
+    "@creantly/scroll-area",
+    "@creantly/separator",
+    "@creantly/sheet",
+    "@creantly/skeleton",
+    "@creantly/tooltip",
+    "@creantly/use-media-query",
+    "@creantly/utils"
   ],
   "files": [
     {

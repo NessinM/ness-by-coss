@@ -7,9 +7,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@ness/calendar",
-    "@ness/field",
-    "@ness/input-group"
+    "@creantly/calendar",
+    "@creantly/field",
+    "@creantly/input-group"
   ],
   "files": [
     {

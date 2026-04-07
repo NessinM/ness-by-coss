@@ -16,8 +16,8 @@ interface ProductsDropdownProps {
 }
 
 export function ProductsDropdown({ items }: ProductsDropdownProps) {
-  const gatewayOrigin = process.env.NEXT_PUBLIC_ness_URL || "";
-  const uiGatewayOrigin = process.env.NEXT_PUBLIC_ness_UI_URL || "";
+  const gatewayOrigin = process.env.NEXT_PUBLIC_NESS_URL || "";
+  const uiGatewayOrigin = process.env.NEXT_PUBLIC_NESS_UI_URL || "";
 
   const getLinkProps = (item: {
     href: string;

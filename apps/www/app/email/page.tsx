@@ -10,7 +10,7 @@ export default function Page() {
   const initialization = `import { ness } from '@ness';
 
 ness.email.init({
-  apiKey: process.env.ness_KEY,
+  apiKey: process.env.NESS_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 

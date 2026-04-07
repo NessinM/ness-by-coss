@@ -2,7 +2,7 @@ export const siteConfig = {
 	description: "ness.com - the everything but AI company.",
 	links: {
 		github: "https://github.com/nesscom/ness",
-		twitter: "https://x.com/ness_com",
+		twitter: "https://x.com/NESS_com",
 	},
 	name: "ness.com",
 	ogImage: "https://ness.com/og.jpg",

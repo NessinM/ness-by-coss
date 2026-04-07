@@ -87,7 +87,7 @@ export default async function Page() {
           </code>{" "}
           environment key:{" "}
           <code className="relative z-10 px-[0.3rem] py-[0.2rem] font-mono text-primary-foreground text-sm outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-primary">
-            ness_KEY=ITSTIMETOBUILD
+            NESS_KEY=ITSTIMETOBUILD
           </code>
         </p>
         <p className="not-first:mt-6 leading-relaxed">

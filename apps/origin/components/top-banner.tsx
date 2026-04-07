@@ -1,7 +1,7 @@
 import { ArrowUpRightIcon } from "lucide-react";
 
 export default function TopBanner() {
-  const gatewayOrigin = process.env.NEXT_PUBLIC_ness_UI_URL || "";
+  const gatewayOrigin = process.env.NEXT_PUBLIC_NESS_UI_URL || "";
   const gatewayHome = gatewayOrigin ? `${gatewayOrigin}/` : "/";
 
   return (

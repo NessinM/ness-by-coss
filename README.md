@@ -39,7 +39,7 @@ For local development, create a `.env.local` file in each of the app directories
     ```sh
     # apps/www/.env.local
     NEXT_PUBLIC_APP_URL=http://localhost:3000
-    NEXT_PUBLIC_ness_UI_URL=http://localhost:4000/ui
+    NEXT_PUBLIC_NESS_UI_URL=http://localhost:4000/ui
     ```
 
 2.  **`ui` app**
@@ -49,7 +49,7 @@ For local development, create a `.env.local` file in each of the app directories
     ```sh
     # apps/ui/.env.local
     NEXT_PUBLIC_APP_URL=http://localhost:4000/ui
-    NEXT_PUBLIC_ness_URL=http://localhost:3000
+    NEXT_PUBLIC_NESS_URL=http://localhost:3000
     NEXT_PUBLIC_ORIGIN_URL=http://localhost:4001
     ```
 
@@ -60,8 +60,8 @@ For local development, create a `.env.local` file in each of the app directories
     ```sh
     # apps/origin/.env.local
     NEXT_PUBLIC_APP_URL=http://localhost:4001/origin
-    NEXT_PUBLIC_ness_URL=http://localhost:3000
-    NEXT_PUBLIC_ness_UI_URL=http://localhost:4000/ui
+    NEXT_PUBLIC_NESS_URL=http://localhost:3000
+    NEXT_PUBLIC_NESS_UI_URL=http://localhost:4000/ui
     ```
 
 > [!NOTE]

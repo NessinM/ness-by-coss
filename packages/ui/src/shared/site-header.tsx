@@ -14,7 +14,7 @@ export function SiteHeader({
   children?: React.ReactNode;
   currentProduct?: string;
 }) {
-  const gatewayOrigin = process.env.NEXT_PUBLIC_ness_URL || "";
+  const gatewayOrigin = process.env.NEXT_PUBLIC_NESS_URL || "";
   const gatewayHome = gatewayOrigin ? `${gatewayOrigin}/` : "/";
   const isExternal = !!gatewayOrigin;
 

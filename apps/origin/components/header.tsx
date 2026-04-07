@@ -10,7 +10,7 @@ const links = [{ href: "/easings", text: "Easing Classes" }];
 
 export default function Header() {
   const isMobile = useIsMobile();
-  const nessHomeUrl = process.env.NEXT_PUBLIC_ness_URL || "";
+  const nessHomeUrl = process.env.NEXT_PUBLIC_NESS_URL || "";
 
   return (
     <header className="relative mb-14 before:absolute before:-inset-x-32 before:bottom-0 before:h-px before:bg-[linear-gradient(to_right,--theme(--color-border/.3),--theme(--color-border)_200px,--theme(--color-border)_calc(100%-200px),--theme(--color-border/.3))]">
@@ -52,7 +52,7 @@ export default function Header() {
           <div className="flex items-center gap-1">
             <a
               className="inline-flex size-9 items-center justify-center rounded text-muted-foreground outline-none hover:text-foreground/80 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
-              href="https://x.com/ness_com"
+              href="https://x.com/NESS_com"
               rel="noopener noreferrer"
               target="_blank"
             >

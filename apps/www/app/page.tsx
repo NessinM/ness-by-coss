@@ -126,7 +126,7 @@ export default async function Page() {
           .
         </p>
         <p className="not-first:mt-6 leading-relaxed">best,</p>
-        <p className="not-first:mt-6 leading-relaxed">bailey & peer</p>
+        <p className="not-first:mt-6 leading-relaxed">Nessín Alvarado</p>
       </div>
     </main>
   );

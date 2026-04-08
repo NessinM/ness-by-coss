@@ -12,17 +12,17 @@ import { ImageCheckboxOption } from "@/components/particles";
 
 const layoutItems = [
   {
-    imageSrc: "https://app.hookra.com/theme-light.svg",
+    imageSrc: "https://app.cal.com/theme-light.svg",
     label: "Month",
     value: "month",
   },
   {
-    imageSrc: "https://app.hookra.com/theme-light.svg",
+    imageSrc: "https://app.cal.com/theme-light.svg",
     label: "Weekly",
     value: "weekly",
   },
   {
-    imageSrc: "https://app.hookra.com/theme-light.svg",
+    imageSrc: "https://app.cal.com/theme-light.svg",
     label: "Column",
     value: "column",
   },

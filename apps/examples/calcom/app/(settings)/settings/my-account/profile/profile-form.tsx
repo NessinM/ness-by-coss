@@ -95,7 +95,7 @@ interface EmailItem {
 }
 
 const emails: EmailItem[] = [
-  { email: "pasquale@hookra.com", isPrimary: true, isVerified: true },
+  { email: "nalvarado@hookra.com", isPrimary: true, isVerified: true },
   { email: "test@sfsfd.com", isPrimary: false, isVerified: false },
 ];
 
@@ -136,7 +136,7 @@ export function ProfileFields() {
               <InputGroupInput
                 aria-label="Set your URL"
                 className="*:[input]:ps-0! has-disabled:*:[input]:cursor-not-allowed"
-                defaultValue="pasquale"
+                defaultValue="nalvarado"
                 disabled
               />
               <InputGroupAddon align="inline-end">
@@ -146,7 +146,7 @@ export function ProfileFields() {
                       <Button
                         aria-label="Copy URL"
                         onClick={() =>
-                          copyToClipboard("https://i.hookra.com/pasquale")
+                          copyToClipboard("https://i.hookra.com/nalvarado")
                         }
                         size="icon-xs"
                         variant="ghost"
@@ -169,7 +169,7 @@ export function ProfileFields() {
 
           <Field>
             <FieldLabel>Full name</FieldLabel>
-            <Input defaultValue="Pasquale Vitiello" />
+            <Input defaultValue="Nessín Alvarado" />
           </Field>
         </FieldGrid>
       </FieldGridRow>

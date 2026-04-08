@@ -58,7 +58,7 @@ export const initialConferencingApps: ConferencingApp[] = [
       "Cal Video is the in-house web-based video conferencing platform powered by Daily.co, which is minimalistic and lightweight, but has most of the features you need.",
     id: "cal-video",
     isDefault: true,
-    logo: "https://app.hookra.com/app-store/dailyvideo/icon.svg",
+    logo: "https://app.cal.com/app-store/dailyvideo/icon.svg",
     name: "Cal Video",
   },
   {
@@ -66,7 +66,7 @@ export const initialConferencingApps: ConferencingApp[] = [
     description:
       "Google Meet is Google's web-based video conferencing platform, designed to compete with major conferencing platforms.",
     id: "google-meet",
-    logo: "https://app.hookra.com/app-store/googlevideo/logo.webp",
+    logo: "https://app.cal.com/app-store/googlevideo/logo.webp",
     name: "Google Meet",
   },
 ];

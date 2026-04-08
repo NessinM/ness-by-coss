@@ -56,7 +56,7 @@ export function AddEventTypeDialog({
             <Field>
               <FieldLabel>URL</FieldLabel>
               <Input
-                defaultValue="https://i.hookra.com/pasquale/"
+                defaultValue="https://i.hookra.com/nalvarado/"
                 type="text"
               />
             </Field>

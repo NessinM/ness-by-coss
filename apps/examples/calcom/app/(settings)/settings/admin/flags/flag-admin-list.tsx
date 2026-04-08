@@ -207,9 +207,9 @@ const USERS: AssignableUser[] = [
   {
     avatarUrl:
       "https://pbs.twimg.com/profile_images/1994776674391457792/7utKOMi6_400x400.jpg",
-    email: "pasquale@hookra.com",
+    email: "nalvarado@hookra.com",
     id: "usr_pasquale",
-    name: "Pasquale Vitiello",
+    name: "Nessín Alvarado",
   },
   {
     email: "margaret@hookra.com",

@@ -119,5 +119,5 @@ export const navFooterItems: NavItem[] = [
 export const user: User = {
   avatar: "",
   email: "pasqua@example.com",
-  name: "Pasquale",
+  name: "nalvarado",
 };

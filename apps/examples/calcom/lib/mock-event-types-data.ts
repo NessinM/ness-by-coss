@@ -222,9 +222,9 @@ export interface EventTypeGroup {
 const userPasquale: EventTypeUser = {
   avatarUrl: null,
   id: 1,
-  name: "Pasquale Vitiello",
+  name: "Nessín Alvarado",
   timeZone: "Europe/Rome",
-  username: "pasquale",
+  username: "nalvarado",
 };
 
 const userAlex: EventTypeUser = {
@@ -983,8 +983,8 @@ export const mockEventTypeGroups: EventTypeGroup[] = [
     profile: {
       eventTypesLockedByOrg: false,
       image: null,
-      name: "Pasquale Vitiello",
-      slug: "pasquale",
+      name: "Nessín Alvarado",
+      slug: "nalvarado",
     },
     teamId: null,
   },

@@ -40,7 +40,7 @@ import {
 } from "@/components/list-item";
 
 const GOOGLE_CALENDAR_ICON =
-  "https://app.hookra.com/app-store/googlecalendar/icon.svg";
+  "https://app.cal.com/app-store/googlecalendar/icon.svg";
 
 const CONFLICT_INSTRUCTION =
   "Toggle the calendars you want to check for conflicts to prevent double bookings.";

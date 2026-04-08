@@ -173,11 +173,11 @@ export interface Booking {
 const userPasquale: BookingUser = {
   avatarUrl:
     "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=72&h=72&dpr=2&q=80",
-  email: "pasquale@hookra.com",
+  email: "nalvarado@hookra.com",
   id: 1,
-  name: "Pasquale Vitiello",
+  name: "Nessín Alvarado",
   timeZone: "Europe/Rome",
-  username: "pasquale",
+  username: "nalvarado",
 };
 
 const userKeith: BookingUser = {
@@ -300,10 +300,10 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 1,
-        email: "pasquale@hookra.com",
+        email: "nalvarado@hookra.com",
         id: 2,
         locale: "en",
-        name: "Pasquale Vitiello",
+        name: "Nessín Alvarado",
         noShow: false,
         timeZone: "Europe/Rome",
       },
@@ -324,11 +324,11 @@ export const mockPastBookings: Booking[] = [
     rescheduled: true,
     startTime: new Date("2025-11-25T14:40:00"),
     status: "ACCEPTED",
-    title: "Engineering Chat between Keith Williams and Pasquale Vitiello",
+    title: "Engineering Chat between Keith Williams and Nessín Alvarado",
     uid: "abc123-booking-1",
     updatedAt: new Date("2025-11-24T09:30:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -353,10 +353,10 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 2,
-        email: "pasquale@hookra.com",
+        email: "nalvarado@hookra.com",
         id: 5,
         locale: "en",
-        name: "Pasquale Vitiello",
+        name: "Nessín Alvarado",
         noShow: false,
         timeZone: "Europe/Rome",
       },
@@ -384,7 +384,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-2",
     updatedAt: new Date("2025-11-01T14:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -400,10 +400,10 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 3,
-        email: "pasquale@hookra.com",
+        email: "nalvarado@hookra.com",
         id: 7,
         locale: "en",
-        name: "Pasquale Vitiello",
+        name: "Nessín Alvarado",
         noShow: false,
         timeZone: "Europe/Rome",
       },
@@ -423,11 +423,11 @@ export const mockPastBookings: Booking[] = [
     rescheduled: false,
     startTime: new Date("2025-11-06T15:00:00"),
     status: "ACCEPTED",
-    title: "Engineering Chat between Keith Williams and Pasquale Vitiello",
+    title: "Engineering Chat between Keith Williams and Nessín Alvarado",
     uid: "abc123-booking-3",
     updatedAt: new Date("2025-11-01T09:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -443,10 +443,10 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 4,
-        email: "pasquale@hookra.com",
+        email: "nalvarado@hookra.com",
         id: 9,
         locale: "en",
-        name: "Pasquale Vitiello",
+        name: "Nessín Alvarado",
         noShow: false,
         timeZone: "Europe/Rome",
       },
@@ -460,21 +460,21 @@ export const mockPastBookings: Booking[] = [
     rescheduled: false,
     startTime: new Date("2025-11-03T15:00:00"),
     status: "ACCEPTED",
-    title: "30 Min Meeting between Susan Moeller and Pasquale Vitiello",
+    title: "30 Min Meeting between Susan Moeller and Nessín Alvarado",
     uid: "abc123-booking-4",
     updatedAt: new Date("2025-10-28T11:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
     attendees: [
       {
         bookingId: 5,
-        email: "pasquale@hookra.com",
+        email: "nalvarado@hookra.com",
         id: 10,
         locale: "en",
-        name: "Pasquale Vitiello",
+        name: "Nessín Alvarado",
         noShow: false,
         timeZone: "Europe/Rome",
       },
@@ -497,11 +497,11 @@ export const mockPastBookings: Booking[] = [
     rescheduled: true,
     startTime: new Date("2025-10-13T15:30:00"),
     status: "ACCEPTED",
-    title: "30 Min Meeting between Pasquale Vitiello and David Borenius",
+    title: "30 Min Meeting between Nessín Alvarado and David Borenius",
     uid: "abc123-booking-5",
     updatedAt: new Date("2025-10-12T14:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -526,10 +526,10 @@ export const mockPastBookings: Booking[] = [
       },
       {
         bookingId: 6,
-        email: "pasquale@hookra.com",
+        email: "nalvarado@hookra.com",
         id: 14,
         locale: "en",
-        name: "Pasquale Vitiello",
+        name: "Nessín Alvarado",
         noShow: false,
         timeZone: "Europe/Rome",
       },
@@ -560,7 +560,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-6",
     updatedAt: new Date("2025-10-05T10:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -610,7 +610,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-7",
     updatedAt: new Date("2025-10-01T09:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -645,7 +645,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-8",
     updatedAt: new Date("2025-10-04T08:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -684,7 +684,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-9",
     updatedAt: new Date("2025-09-01T10:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -719,7 +719,7 @@ export const mockPastBookings: Booking[] = [
       },
       hosts: [
         {
-          user: { email: "pasquale@hookra.com", id: 1 },
+          user: { email: "nalvarado@hookra.com", id: 1 },
           userId: 1,
         },
         {
@@ -747,7 +747,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-10",
     updatedAt: new Date("2025-09-20T11:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -799,7 +799,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-11",
     updatedAt: new Date("2025-09-10T10:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -833,7 +833,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-12",
     updatedAt: new Date("2025-09-20T11:30:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -906,7 +906,7 @@ export const mockPastBookings: Booking[] = [
     uid: "abc123-booking-13",
     updatedAt: new Date("2025-09-05T14:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
 ];
 
@@ -959,7 +959,7 @@ export const mockUpcomingBookings: Booking[] = [
     uid: "upcoming-booking-1",
     updatedAt: new Date("2026-01-10T10:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
@@ -1001,17 +1001,17 @@ export const mockUpcomingBookings: Booking[] = [
     uid: "upcoming-booking-2",
     updatedAt: new Date("2026-01-12T09:00:00"),
     user: userPasquale,
-    userPrimaryEmail: "pasquale@hookra.com",
+    userPrimaryEmail: "nalvarado@hookra.com",
   },
   {
     ...defaultBookingFields,
     attendees: [
       {
         bookingId: 102,
-        email: "pasquale@hookra.com",
+        email: "nalvarado@hookra.com",
         id: 103,
         locale: "en",
-        name: "Pasquale Vitiello",
+        name: "Nessín Alvarado",
         noShow: null,
         timeZone: "Europe/Rome",
       },

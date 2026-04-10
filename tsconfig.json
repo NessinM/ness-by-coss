@@ -8,6 +8,7 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "noEmit": true,
+    "baseUrl": "./",
     "paths": {
       "@creantly/ui/*": ["packages/ui/src/*"]
     },

@@ -60,6 +60,7 @@ Rule references (read on demand when the task touches these areas):
 - `./references/rules/forms.md` — Field composition, validation, input patterns
 - `./references/rules/composition.md` — Trigger/popup hierarchies, grouped controls
 - `./references/rules/migration.md` — shadcn/Radix to creantly/Base UI migration patterns
+- `./references/portal-props.md` — optional `portalProps` on composed popups (`keepMounted`, `container`, which wrappers support it)
 
 ## Component discovery
 
@@ -113,4 +114,3 @@ Before returning code:
 - composition structure is valid for selected primitive(s)
 - accessibility and explicit control types (`button`, `input`, etc.) are present
 - migration-sensitive flows are verified (type/lint, keyboard/a11y behavior, and SSR-sensitive primitives like Select/Command)
-

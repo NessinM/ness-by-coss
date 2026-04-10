@@ -3,6 +3,8 @@ import { cn } from "@creantly/ui/lib/utils";
 
 export type TableVariant = "default" | "boxed";
 
+export type TableVariant = "default" | "boxed";
+
 export function Table({
   className,
   variant = "default",

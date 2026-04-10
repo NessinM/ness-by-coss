@@ -6,10 +6,17 @@
     "@tanstack/react-table"
   ],
   "registryDependencies": [
+<<<<<<< HEAD
     "@creantly/badge",
     "@creantly/card",
     "@creantly/checkbox",
     "@creantly/table"
+=======
+    "@coss/badge",
+    "@coss/card",
+    "@coss/checkbox",
+    "@coss/table"
+>>>>>>> ebca844e741be3da58c0fb6cf2ba0930fc0c4909
   ],
   "files": [
     {

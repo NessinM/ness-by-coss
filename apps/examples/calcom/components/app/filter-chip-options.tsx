@@ -4,9 +4,9 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@coss/ui/components/avatar";
-import { Badge } from "@coss/ui/components/badge";
-import { Button } from "@coss/ui/components/button";
+} from "@creantly/ui/components/avatar";
+import { Badge } from "@creantly/ui/components/badge";
+import { Button } from "@creantly/ui/components/button";
 import {
   Combobox,
   ComboboxEmpty,
@@ -15,8 +15,8 @@ import {
   ComboboxList,
   ComboboxPopup,
   ComboboxTrigger,
-} from "@coss/ui/components/combobox";
-import { cn } from "@coss/ui/lib/utils";
+} from "@creantly/ui/components/combobox";
+import { cn } from "@creantly/ui/lib/utils";
 import { ChevronsUpDownIcon, SearchIcon } from "lucide-react";
 import type * as React from "react";
 import { useEffect, useRef, useState } from "react";

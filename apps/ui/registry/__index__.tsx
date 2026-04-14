@@ -8379,7 +8379,7 @@ export const Index: Record<string, any> = {
   },
   "p-table-2": {
     name: "p-table-2",
-    description: "Frame with boxed table",
+    description: "Frame with card-style table",
     type: "registry:block",
     registryDependencies: ["@creantly/badge","@creantly/frame","@creantly/table"],
     files: [{
@@ -8433,9 +8433,9 @@ export const Index: Record<string, any> = {
   },
   "p-table-5": {
     name: "p-table-5",
-    description: "Boxed table variant",
+    description: "Card-style table variant",
     type: "registry:block",
-    registryDependencies: ["@coss/badge","@coss/table"],
+    registryDependencies: ["@creantly/badge","@creantly/table"],
     files: [{
       path: "registry/default/particles/p-table-5.tsx",
       type: "registry:block",
@@ -8449,11 +8449,29 @@ export const Index: Record<string, any> = {
     categories: ["table"],
     meta: {"className":"**:data-[slot=preview]:w-full sm:**:data-[slot=preview]:max-w-4xl","colSpan":2},
   },
+  "p-table-7": {
+    name: "p-table-7",
+    description: "CardFrame with card-style table",
+    type: "registry:block",
+    registryDependencies: ["@creantly/badge","@creantly/card","@creantly/table"],
+    files: [{
+      path: "registry/default/particles/p-table-7.tsx",
+      type: "registry:block",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/particles/p-table-7.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["card","table"],
+    meta: {"className":"**:data-[slot=preview]:w-full sm:**:data-[slot=preview]:max-w-4xl","colSpan":2},
+  },
   "p-table-6": {
     name: "p-table-6",
     description: "CardFrame with TanStack Table and checkboxes",
     type: "registry:block",
-    registryDependencies: ["@coss/badge","@coss/card","@coss/checkbox","@coss/table"],
+    registryDependencies: ["@creantly/badge","@creantly/card","@creantly/checkbox","@creantly/table"],
     files: [{
       path: "registry/default/particles/p-table-6.tsx",
       type: "registry:block",
@@ -8464,7 +8482,25 @@ export const Index: Record<string, any> = {
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
-    categories: ["card","checkbox","frame","table","tanstack"],
+    categories: ["card","checkbox","table","tanstack"],
+    meta: {"className":"**:data-[slot=preview]:w-full sm:**:data-[slot=preview]:max-w-4xl","colSpan":2},
+  },
+  "p-table-8": {
+    name: "p-table-8",
+    description: "CardFrame with TanStack Table, sorting, and pagination",
+    type: "registry:block",
+    registryDependencies: ["@creantly/badge","@creantly/button","@creantly/card","@creantly/checkbox","@creantly/pagination","@creantly/select","@creantly/table"],
+    files: [{
+      path: "registry/default/particles/p-table-8.tsx",
+      type: "registry:block",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/particles/p-table-8.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["card","checkbox","pagination","select","table","tanstack"],
     meta: {"className":"**:data-[slot=preview]:w-full sm:**:data-[slot=preview]:max-w-4xl","colSpan":2},
   },
   "p-tabs-1": {

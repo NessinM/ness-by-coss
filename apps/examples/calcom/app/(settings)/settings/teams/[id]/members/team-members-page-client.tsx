@@ -522,7 +522,7 @@ export function TeamMembersPageClient() {
         </div>
 
         <CardFrame className="w-full">
-          <Table variant="boxed" className="table-fixed">
+          <Table variant="card" className="table-fixed">
             <TableHeader>
               {table.getHeaderGroups().map((headerGroup) => (
                 <TableRow key={headerGroup.id}>
@@ -589,7 +589,6 @@ export function TeamMembersPageClient() {
               {table.getRowModel().rows.length ? (
                 table.getRowModel().rows.map((row) => (
                   <TableRow
-                    className="relative"
                     data-state={row.getIsSelected() ? "selected" : undefined}
                     key={row.id}
                   >

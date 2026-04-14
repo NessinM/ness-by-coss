@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
-import { cn } from "@coss/ui/lib/utils";
+import { Button } from "@creantly/ui/components/button";
+import { cn } from "@creantly/ui/lib/utils";
 import type * as React from "react";
 
 export function FilterBarActions({

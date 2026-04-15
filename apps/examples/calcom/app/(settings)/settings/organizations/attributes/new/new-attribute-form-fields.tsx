@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@creantly/ui/components/button";
 import {
   Combobox,
   ComboboxEmpty,
@@ -10,17 +10,21 @@ import {
   ComboboxPopup,
   ComboboxTrigger,
   ComboboxValue,
-} from "@coss/ui/components/combobox";
-import { Field, FieldDescription, FieldLabel } from "@coss/ui/components/field";
-import { Fieldset, FieldsetLegend } from "@coss/ui/components/fieldset";
-import { Group } from "@coss/ui/components/group";
-import { Input } from "@coss/ui/components/input";
-import { Label } from "@coss/ui/components/label";
+} from "@creantly/ui/components/combobox";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@creantly/ui/components/field";
+import { Fieldset, FieldsetLegend } from "@creantly/ui/components/fieldset";
+import { Group } from "@creantly/ui/components/group";
+import { Input } from "@creantly/ui/components/input";
+import { Label } from "@creantly/ui/components/label";
 import {
   Popover,
   PopoverPopup,
   PopoverTrigger,
-} from "@coss/ui/components/popover";
+} from "@creantly/ui/components/popover";
 import {
   Select,
   SelectButton,
@@ -28,8 +32,8 @@ import {
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@coss/ui/components/select";
-import { Switch } from "@coss/ui/components/switch";
+} from "@creantly/ui/components/select";
+import { Switch } from "@creantly/ui/components/switch";
 import { InfoIcon, PlusIcon, SearchIcon, XIcon } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
 

@@ -16,6 +16,13 @@ import { useMediaQuery } from "@creantly/ui/hooks/use-media-query";
 import { cn } from "@creantly/ui/lib/utils";
 import * as React from "react";
 
+const SIDEBAR_COOKIE_NAME = "sidebar:state";
+const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;
+const SIDEBAR_WIDTH = "16rem";
+const SIDEBAR_WIDTH_MOBILE = "18rem";
+const SIDEBAR_WIDTH_ICON = "3rem";
+const SIDEBAR_KEYBOARD_SHORTCUT = "b";
+
 type SidebarTooltipHandle = ReturnType<
   typeof TooltipCreateHandle<React.ComponentType>
 >;
@@ -35,12 +42,34 @@ export const sidebarTooltipHandle: SidebarTooltipHandle =
   TooltipCreateHandle<React.ComponentType>();
 
 export function SidebarProvider({
+  defaultOpen = true,
+  open: openProp,
+  onOpenChange: setOpenProp,
   className,
   style,
   children,
   ...props
-}: React.ComponentProps<"div">): React.ReactElement {
+}: React.ComponentProps<"div"> & {
+  defaultOpen?: boolean;
+  open?: boolean;
+  onOpenChange?: (open: boolean) => void;
+}): React.ReactElement {
   const [openMenuCount, setOpenMenuCount] = React.useState(0);
+  const [_open, _setOpen] = React.useState(defaultOpen);
+  const open = openProp ?? _open;
+  const setOpen = React.useCallback(
+    (value: boolean | ((value: boolean) => boolean)) => {
+      const openState = typeof value === "function" ? value(open) : value;
+      if (setOpenProp) {
+        setOpenProp(openState);
+      } else {
+        _setOpen(openState);
+      }
+
+      document.cookie = `${SIDEBAR_COOKIE_NAME}=${openState}; path=/; max-age=${SIDEBAR_COOKIE_MAX_AGE}`;
+    },
+    [setOpenProp, open],
+  );
 
   const registerMenu = React.useCallback((): (() => void) => {
     setOpenMenuCount((prev) => prev + 1);

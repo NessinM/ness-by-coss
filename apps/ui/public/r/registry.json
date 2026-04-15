@@ -4,59 +4,59 @@
     {
       "name": "ui",
       "registryDependencies": [
-        "@creantly/accordion",
-        "@creantly/alert",
-        "@creantly/alert-dialog",
-        "@creantly/autocomplete",
-        "@creantly/avatar",
-        "@creantly/badge",
-        "@creantly/breadcrumb",
-        "@creantly/button",
-        "@creantly/calendar",
-        "@creantly/card",
-        "@creantly/checkbox",
-        "@creantly/checkbox-group",
-        "@creantly/collapsible",
-        "@creantly/combobox",
-        "@creantly/command",
-        "@creantly/dialog",
-        "@creantly/drawer",
-        "@creantly/empty",
-        "@creantly/field",
-        "@creantly/fieldset",
-        "@creantly/form",
-        "@creantly/frame",
-        "@creantly/group",
-        "@creantly/input",
-        "@creantly/input-otp",
-        "@creantly/input-group",
-        "@creantly/kbd",
-        "@creantly/label",
-        "@creantly/menu",
-        "@creantly/meter",
-        "@creantly/number-field",
-        "@creantly/pagination",
-        "@creantly/popover",
-        "@creantly/preview-card",
-        "@creantly/progress",
-        "@creantly/radio-group",
-        "@creantly/scroll-area",
-        "@creantly/select",
-        "@creantly/separator",
-        "@creantly/sheet",
-        "@creantly/sidebar",
-        "@creantly/skeleton",
-        "@creantly/slider",
-        "@creantly/spinner",
-        "@creantly/switch",
-        "@creantly/table",
-        "@creantly/tabs",
-        "@creantly/textarea",
-        "@creantly/toast",
-        "@creantly/toggle",
-        "@creantly/toggle-group",
-        "@creantly/toolbar",
-        "@creantly/tooltip"
+        "@coss/accordion",
+        "@coss/alert",
+        "@coss/alert-dialog",
+        "@coss/autocomplete",
+        "@coss/avatar",
+        "@coss/badge",
+        "@coss/breadcrumb",
+        "@coss/button",
+        "@coss/calendar",
+        "@coss/card",
+        "@coss/checkbox",
+        "@coss/checkbox-group",
+        "@coss/collapsible",
+        "@coss/combobox",
+        "@coss/command",
+        "@coss/dialog",
+        "@coss/drawer",
+        "@coss/empty",
+        "@coss/field",
+        "@coss/fieldset",
+        "@coss/form",
+        "@coss/frame",
+        "@coss/group",
+        "@coss/input",
+        "@coss/otp-field",
+        "@coss/input-group",
+        "@coss/kbd",
+        "@coss/label",
+        "@coss/menu",
+        "@coss/meter",
+        "@coss/number-field",
+        "@coss/pagination",
+        "@coss/popover",
+        "@coss/preview-card",
+        "@coss/progress",
+        "@coss/radio-group",
+        "@coss/scroll-area",
+        "@coss/select",
+        "@coss/separator",
+        "@coss/sheet",
+        "@coss/sidebar",
+        "@coss/skeleton",
+        "@coss/slider",
+        "@coss/spinner",
+        "@coss/switch",
+        "@coss/table",
+        "@coss/tabs",
+        "@coss/textarea",
+        "@coss/toast",
+        "@coss/toggle",
+        "@coss/toggle-group",
+        "@coss/toolbar",
+        "@coss/tooltip"
       ],
       "type": "registry:ui"
     },
@@ -463,15 +463,15 @@
         }
       },
       "dependencies": [
-        "input-otp"
+        "@base-ui/react"
       ],
       "files": [
         {
-          "path": "registry/default/ui/input-otp.tsx",
+          "path": "registry/default/ui/otp-field.tsx",
           "type": "registry:ui"
         }
       ],
-      "name": "input-otp",
+      "name": "otp-field",
       "registryDependencies": [
         "@creantly/separator"
       ],
@@ -6660,132 +6660,176 @@
     },
     {
       "categories": [
-        "input otp",
+        "otp field",
         "input"
       ],
-      "description": "Basic OTP input",
+      "description": "Basic OTP field",
       "files": [
         {
-          "path": "registry/default/particles/p-input-otp-1.tsx",
+          "path": "registry/default/particles/p-otp-field-1.tsx",
           "type": "registry:block"
         }
       ],
-      "name": "p-input-otp-1",
+      "name": "p-otp-field-1",
       "registryDependencies": [
-        "@creantly/input-otp"
+        "@coss/otp-field"
       ],
       "type": "registry:block"
     },
     {
       "categories": [
-        "input otp",
+        "otp field",
         "input"
       ],
-      "description": "Large OTP input",
+      "description": "Large OTP field",
       "files": [
         {
-          "path": "registry/default/particles/p-input-otp-2.tsx",
+          "path": "registry/default/particles/p-otp-field-2.tsx",
           "type": "registry:block"
         }
       ],
-      "name": "p-input-otp-2",
+      "name": "p-otp-field-2",
       "registryDependencies": [
-        "@creantly/input-otp"
+        "@coss/otp-field"
       ],
       "type": "registry:block"
     },
     {
       "categories": [
-        "input otp",
+        "otp field",
         "input"
       ],
-      "description": "OTP input with separator",
+      "description": "OTP field with separator",
       "files": [
         {
-          "path": "registry/default/particles/p-input-otp-3.tsx",
+          "path": "registry/default/particles/p-otp-field-3.tsx",
           "type": "registry:block"
         }
       ],
-      "name": "p-input-otp-3",
+      "name": "p-otp-field-3",
       "registryDependencies": [
-        "@creantly/input-otp"
+        "@coss/otp-field"
       ],
       "type": "registry:block"
     },
     {
       "categories": [
-        "input otp",
+        "otp field",
         "input",
-        "label"
+        "field"
       ],
-      "description": "OTP input with label",
+      "description": "OTP field with label",
       "files": [
         {
-          "path": "registry/default/particles/p-input-otp-4.tsx",
+          "path": "registry/default/particles/p-otp-field-4.tsx",
           "type": "registry:block"
         }
       ],
-      "name": "p-input-otp-4",
+      "name": "p-otp-field-4",
       "registryDependencies": [
-        "@creantly/input-otp",
-        "@creantly/label"
+        "@coss/otp-field",
+        "@coss/field"
       ],
       "type": "registry:block"
     },
     {
       "categories": [
-        "input otp",
-        "input"
+        "otp field",
+        "input",
+        "field",
+        "validation"
       ],
-      "description": "Digits-only OTP input",
+      "description": "OTP field with custom sanitization",
       "files": [
         {
-          "path": "registry/default/particles/p-input-otp-5.tsx",
+          "path": "registry/default/particles/p-otp-field-6.tsx",
           "type": "registry:block"
         }
       ],
-      "name": "p-input-otp-5",
+      "name": "p-otp-field-6",
       "registryDependencies": [
-        "@creantly/input-otp"
+        "@coss/otp-field",
+        "@coss/field"
       ],
       "type": "registry:block"
     },
     {
       "categories": [
-        "input otp",
+        "otp field",
         "input",
         "validation"
       ],
-      "description": "Invalid OTP input",
+      "description": "OTP field with auto validation",
       "files": [
         {
-          "path": "registry/default/particles/p-input-otp-6.tsx",
+          "path": "registry/default/particles/p-otp-field-7.tsx",
           "type": "registry:block"
         }
       ],
-      "name": "p-input-otp-6",
+      "name": "p-otp-field-7",
       "registryDependencies": [
-        "@creantly/input-otp"
+        "@coss/otp-field",
+        "@coss/field"
       ],
       "type": "registry:block"
     },
     {
       "categories": [
-        "input otp",
+        "otp field",
         "input",
-        "validation"
+        "field"
       ],
-      "description": "OTP input with auto validation",
+      "description": "Alphanumeric OTP field",
       "files": [
         {
-          "path": "registry/default/particles/p-input-otp-7.tsx",
+          "path": "registry/default/particles/p-otp-field-8.tsx",
           "type": "registry:block"
         }
       ],
-      "name": "p-input-otp-7",
+      "name": "p-otp-field-8",
       "registryDependencies": [
-        "@creantly/input-otp",
-        "@creantly/label"
+        "@coss/otp-field",
+        "@coss/field"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "categories": [
+        "otp field",
+        "input",
+        "field"
+      ],
+      "description": "OTP field with placeholder hints",
+      "files": [
+        {
+          "path": "registry/default/particles/p-otp-field-9.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "p-otp-field-9",
+      "registryDependencies": [
+        "@coss/otp-field",
+        "@coss/field"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "categories": [
+        "otp field",
+        "input",
+        "field"
+      ],
+      "description": "Masked OTP field",
+      "files": [
+        {
+          "path": "registry/default/particles/p-otp-field-10.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "p-otp-field-10",
+      "registryDependencies": [
+        "@coss/otp-field",
+        "@coss/field"
       ],
       "type": "registry:block"
     },

@@ -433,12 +433,14 @@ export function AnalyticsAppsContent() {
             <Field>
               <FieldLabel>client_id</FieldLabel>
               <Input
-                onChange={(e) =>
+                onChange={(e) => {
+                  const value = (e.target as HTMLInputElement)?.value ?? "";
+
                   setEditKeys((prev) => ({
                     ...prev,
-                    client_id: e.currentTarget.value,
-                  }))
-                }
+                    client_id: value,
+                  }));
+                }}
                 type="text"
                 value={editKeys.client_id}
               />
@@ -446,12 +448,14 @@ export function AnalyticsAppsContent() {
             <Field>
               <FieldLabel>client_secret</FieldLabel>
               <Input
-                onChange={(e) =>
+                onChange={(e) => {
+                  const value = (e.target as HTMLInputElement)?.value ?? "";
+
                   setEditKeys((prev) => ({
                     ...prev,
-                    client_secret: e.currentTarget.value,
-                  }))
-                }
+                    client_id: value,
+                  }));
+                }}
                 type="text"
                 value={editKeys.client_secret}
               />
@@ -498,7 +502,10 @@ export function AnalyticsAppsContent() {
             <InputGroup className="w-full">
               <InputGroupInput
                 aria-label="Search analytics apps"
-                onChange={(e) => setSearchQuery(e.currentTarget.value)}
+                onChange={(e) => {
+                  const value = (e.target as HTMLInputElement)?.value ?? "";
+                  setSearchQuery(value);
+                }}
                 placeholder="Search apps…"
                 type="search"
                 value={searchQuery}

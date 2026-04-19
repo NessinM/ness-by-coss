@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "app.hookra.com",
+        hostname: "app.cal.com",
         pathname: "/**",
         protocol: "https",
       },

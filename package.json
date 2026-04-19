@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@tanstack/react-virtual": "^3.13.24",
     "react-day-picker": "^9.13.0"
   },
   "devDependencies": {

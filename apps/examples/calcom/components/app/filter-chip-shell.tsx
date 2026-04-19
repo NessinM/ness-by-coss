@@ -41,7 +41,7 @@ export function FilterChipShell({
         size="icon-xs"
         variant="outline"
       >
-        <XIcon />
+        <XIcon aria-hidden="true" />
       </Button>
     </Group>
   );
